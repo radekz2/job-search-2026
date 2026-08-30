@@ -17,9 +17,15 @@ Director of Technology / Enterprise Applications. Excludes hands-on development-
 |---|---|
 | **LinkedIn** | public guest jobs API |
 | **Government of Canada Job Bank** | public HTML search |
-| **Targeted employers** | Greenhouse / Lever / Ashby public JSON boards |
+| **Targeted tech employers** | Greenhouse / Lever / Ashby public JSON boards |
+| **Banks / insurers / pensions** | Workday public JSON boards |
 
-Targeted-employer boards (16 Toronto / tech employers):
+### Workday boards (8 institutions)
+
+TD Bank, BMO, CIBC, Manulife, Sun Life, OMERS, CPP Investments, OTPP (Ontario Teachers').
+
+### Greenhouse/Lever/Ashby boards (16 tech employers)
+
 1Password, Achievers, BenchSci, Cohere, Float, Geotab, Koho, Lightspeed, Loopio,
 Mozilla, PagerDuty, PointClickCare, Ritual, Tulip Retail, Wattpad, Wave.
 
