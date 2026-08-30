@@ -9,7 +9,6 @@ Director of Technology / Enterprise Applications. Excludes hands-on development-
 
 - [`docs/index.html`](docs/index.html) — styled HTML report
 - [`docs/job-search-2026-08-30.html`](docs/job-search-2026-08-30.html) — dated HTML snapshot
-- [`docs/job-search-2026-08-30.txt`](docs/job-search-2026-08-30.txt) — plain-text version
 
 ## Sources
 
