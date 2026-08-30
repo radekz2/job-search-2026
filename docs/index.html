@@ -56,6 +56,11 @@
   .dd-note { color:var(--muted); font-size:13px; margin:0 0 14px; }
   .dd-line { color:var(--muted); font-size:12.5px; margin:2px 0 2px 32px; }
   .dd-line.warn { color:#9a3b3b; }
+  .llm-summary { color:var(--ink); font-size:13px; margin:4px 0 4px 32px; }
+  .badge.rec-apply { background:#e6f4ea; color:#0b6e4f; border-color:#bfe3cd; font-weight:600; }
+  .badge.rec-review { background:#fdf3e3; color:#9a5b06; border-color:#f3ddb3; font-weight:600; }
+  .badge.rec-skip { background:#fbe9e9; color:#9a3b3b; border-color:#f0c5c5; font-weight:600; }
+  .section.llm { border-top-color:#0a66c2; }
   .section.deep { border-top-color:#0a66c2; }
   details.collapsible { margin:12px 0 0 0; border:1px dashed var(--line); border-radius:10px;
                           padding:10px 14px; background:#fafbfc; }
@@ -84,18 +89,245 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>Job Search Results — Skill-Match + Deep-Dive Scoring</h1>
+    <h1>Job Search Results — LLM-Evaluated + Skill-Match Scoring</h1>
     <div class="sub">Radek Zajkowski &mdash; Toronto, ON, Canada &middot; Generated 2026-08-30</div>
     <div class="stats">
       <div class="stat"><b>1111</b> scored roles</div>
+      <div class="stat"><b>24</b> LLM-evaluated</div>
       <div class="stat"><b>1057</b> IT / Tech / Enterprise Apps</div>
-      <div class="stat"><b>54</b> Software/Engineering (review)</div>
     </div>
-    <div class="sub" style="margin-top:8px;">Scoring: 0&ndash;10 vs. aggregate resume profile &mdash;
-      8.0+ <b>Strong</b> &middot; 6.5&ndash;7.9 <b>Good</b> &middot; 5.0&ndash;6.4 <b>Moderate</b> &middot; &lt;5.0 <b>Weak</b></div>
+    <div class="sub" style="margin-top:8px;">LLM evaluation is the <b>primary</b> ranking (top). Deterministic keyword scoring is a secondary pre-filter.</div>
   </header>
 
-  <nav class="toc" style="--accent:#0a66c2;" aria-label="Table of contents"><h2>Contents</h2><ol><li><a href="#deep-dive">Deep-Dive — Top Matches <span class="count">24</span></a></li><li><a href="#mgr-it">Manager — IT / Technology / Enterprise Applications <span class="count">732</span></a></li><li><a href="#mgr-sw">Manager — Software / Engineering (review fit) <span class="count">29</span></a></li><li><a href="#dir-it">Director — IT / Technology / Enterprise Applications <span class="count">325</span></a></li><li><a href="#dir-sw">Director — Software / Engineering (review fit) <span class="count">25</span></a></li></ol></nav>
+  <nav class="toc" style="--accent:#0a66c2;" aria-label="Table of contents"><h2>Contents</h2><ol><li><a href="#llm-mgr">LLM Evaluation — Manager Roles (primary) <span class="count">5</span></a></li><li><a href="#llm-dir">LLM Evaluation — Director / Senior Roles (primary) <span class="count">19</span></a></li><li><a href="#deep-dive">Deep-Dive — Top Matches <span class="count">24</span></a></li><li><a href="#mgr-it">Manager — IT / Technology / Enterprise Applications <span class="count">732</span></a></li><li><a href="#mgr-sw">Manager — Software / Engineering (review fit) <span class="count">29</span></a></li><li><a href="#dir-it">Director — IT / Technology / Enterprise Applications <span class="count">325</span></a></li><li><a href="#dir-sw">Director — Software / Engineering (review fit) <span class="count">25</span></a></li></ol></nav>
+
+  
+    <section class="section llm" id="llm-mgr" style="--accent:#0a66c2;">
+      <h2>LLM Evaluation — Manager Roles (primary) <span class="count">5</span></h2>
+      <p class="dd-note">Evaluated by an LLM reading each job description against the candidate's full resume profile &mdash; semantic fit, not keyword matching. Manager roles are listed first.</p>
+      <ol class="jobs">
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">1</span>
+          <a class="job-title" href="https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Toronto-Ontario/Senior-Manager--Digital-Strategy---Transformation_R_1504208" target="_blank" rel="noopener">Senior Manager, Digital Strategy &amp; Transformation</a>
+        </div>
+        <div class="job-meta">TD Bank &middot; Toronto, Ontario</div>
+        <div class="job-badges"><span class="score good">7.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge rec-apply">Apply</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Digital strategy, multi-year roadmap and transformation leadership reporting to the Head of Digital — a strong match for Radek&#x27;s strategy/roadmap, executive-materials and change/transformation strengths, in Toronto at the right seniority.</div><div class="dd-line"><b>Strengths:</b> Strategy, vision and multi-year roadmap, Executive narratives and stakeholder alignment, Transformation and change leadership, Toronto location at manager level</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">2</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-confluence-4437086004" target="_blank" rel="noopener">IT Infrastructure Manager, Cloud Platform</a>
+        </div>
+        <div class="job-meta">Confluence &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge rec-review">Review</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line llm-summary">Cloud-platform operations leadership with AWS/Azure, cost governance, change management and team leadership — but the role expects hands-on Terraform/IaC implementation and CI/CD pipeline integration, which Radek avoids.</div><div class="dd-line"><b>Strengths:</b> AWS/Azure cloud and migration strategy, Change management and operational handover, Cost governance and platform standards, Team leadership and engineering standards</div><div class="dd-line warn"><b>Concerns:</b> Hands-on Terraform/IaC implementation expected, CI/CD pipeline integration work, Infrastructure-engineering (not enterprise-apps portfolio) scope</div><div class="dd-line warn"><b>Hands-on development signal</b> &mdash; likely excluded role.</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">3</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-style-analytics-4450094914" target="_blank" rel="noopener">IT Infrastructure Manager, Cloud Platform</a>
+        </div>
+        <div class="job-meta">Style Analytics &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge rec-review">Review</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line llm-summary">Duplicate of the Confluence cloud-platform posting: solid cloud-migration and operational leadership overlap, but requires hands-on Terraform/IaC and CI/CD work that conflicts with Radek&#x27;s no-hands-on-coding preference.</div><div class="dd-line"><b>Strengths:</b> AWS/Azure cloud and migration strategy, Change management and operational handover, Cost governance and platform standards, Team leadership and engineering standards</div><div class="dd-line warn"><b>Concerns:</b> Hands-on Terraform/IaC implementation expected, CI/CD pipeline integration work, Infrastructure-engineering (not enterprise-apps portfolio) scope</div><div class="dd-line warn"><b>Hands-on development signal</b> &mdash; likely excluded role.</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">4</span>
+          <a class="job-title" href="https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Manager--Responsible-AI-Governance--Global-Operations-AI-_JR26060020-1" target="_blank" rel="noopener">Senior Manager, Global Operations AI</a>
+        </div>
+        <div class="job-meta">Manulife &middot; Toronto, Ontario</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge rec-review">Review</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Responsible AI governance and Model Risk Management enablement role that aligns with Radek&#x27;s authored GenAI policy and governance work, but demands 6+ years of financial-services MRM/OSFI compliance and reads as a coordination/IC role supporting an AVP/Director.</div><div class="dd-line"><b>Strengths:</b> Direct overlap with authored GenAI use policy / responsible-AI governance, Change management, governance reviews and regulatory navigation, AI tooling adoption and reporting (Power BI background), Toronto location; financial-services enterprise</div><div class="dd-line warn"><b>Concerns:</b> Requires 6+ years in model risk management / OSFI compliance within regulated financial services (not Radek&#x27;s background), Reads as a support/coordination role under AVP/Director rather than people management</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">5</span>
+          <a class="job-title" href="https://jobs.ashbyhq.com/cohere/8ac3ed85-e315-443b-bc13-e7a0b900b922" target="_blank" rel="noopener">Global Public Policy Manager, Compute, Infrastructure &amp; Sovereign AI</a>
+        </div>
+        <div class="job-meta">Cohere &middot; United States</div>
+        <div class="job-badges"><span class="score low">4.0<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge rec-skip">Skip</span><span class="badge ats">Ashby</span></div>
+        <div class="dd-line llm-summary">Public-policy role on export controls, semiconductors and sovereign AI — no enterprise-apps portfolio, service management, budget or people-leadership scope. Non-technology function and US-remote rather than Canada/GTA.</div><div class="dd-line"><b>Strengths:</b> Adjacent AI-governance subject matter, Stakeholder engagement and policy analysis</div><div class="dd-line warn"><b>Concerns:</b> Non-technology function (public policy), US-based remote, not Canada/GTA, No enterprise-apps/IT-management scope</div>
+      </li></ol>
+    </section>
+    <section class="section llm" id="llm-dir" style="--accent:#0a66c2;">
+      <h2>LLM Evaluation — Director / Senior Roles (primary) <span class="count">19</span></h2>
+      <p class="dd-note">Evaluated by an LLM reading each job description against the candidate's full resume profile &mdash; semantic fit, not keyword matching. Manager roles are listed first.</p>
+      <ol class="jobs">
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">1</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-enterprise-technology-products-at-brock-university-4454740799" target="_blank" rel="noopener">Director, Enterprise Technology &amp; Products</a>
+        </div>
+        <div class="job-meta">Brock University &middot; St. Catharines, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">9.0<i>/10</i></span><span class="badge scoretag">Strong</span><span class="badge rec-apply">Apply</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line llm-summary">Director-level enterprise application and technology-platform portfolio leadership that mirrors his TVO role: 20+ enterprise apps, SaaS/vendor governance, data &amp; analytics platforms, and ITIL/COBIT service management are all directly relevant. Higher-ed ERP/SIS/HRIS/CRM and shared-platform scope extends beyond his media-sector experience, and St. Catharines sits outside the GTA.</div><div class="dd-line"><b>Strengths:</b> Enterprise application portfolio management (SIS/ERP/HRIS/CRM), Vendor/SaaS/contract/licensing management, Data &amp; analytics platform leadership (mirrors Power BI/Fabric), ITIL/COBIT service management and change coordination, People leadership, strategy and multi-year roadmap, Cloud/integration/API platform oversight</div><div class="dd-line warn"><b>Concerns:</b> St. Catharines location (outside GTA) with on-campus presence required, Scope adds database administration and an application development practice beyond his core</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">2</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-it-data-transformation-at-nutrition-international-4440960060" target="_blank" rel="noopener">Director, IT &amp; Data Transformation</a>
+        </div>
+        <div class="job-meta">Nutrition International &middot; Ottawa, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.0<i>/10</i></span><span class="badge scoretag">Strong</span><span class="badge rec-apply">Apply</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line llm-summary">Broad senior-most IT leader mandate (infrastructure, M365/Azure/SaaS, security, MSP/vendor governance, data architecture, AI adoption framework) maps cleanly to his TVO enterprise-apps and IT-service-management leadership. It additionally asks for end-user computing/device management and hands-on AI-tooling familiarity, which are minor stretches.</div><div class="dd-line"><b>Strengths:</b> IT Director scope: infrastructure, cloud migration, SaaS, Vendor/MSP, software asset &amp; licensing governance, Data architecture/governance and AI adoption framework (GenAI policy overlap), Security framework, DR/BC and service management, People leadership across a multi-site global org</div><div class="dd-line warn"><b>Concerns:</b> End-user computing/IT equipment lifecycle (laptops, printers) adds help-desk-adjacent scope, &quot;Hands-on familiarity with LLMs and vibe-coding/low-code AI tools&quot; is a coding-adjacent signal, Ottawa hybrid location (2 days/week in office) is outside the GTA</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">3</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/technical-director-is-business-enablement-products-innovation-at-fidelity-canada-4434583955" target="_blank" rel="noopener">Technical Director IS Business Enablement, Products &amp; Innovation</a>
+        </div>
+        <div class="job-meta">Fidelity Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.7<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge rec-apply">Apply</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line llm-summary">Strong fit for Radek&#x27;s Director-of-Enterprise-Applications target: technology strategy/delivery, business partnership and vendor/relationship ownership across the Products &amp; Innovation portfolio in Toronto.</div><div class="dd-line"><b>Strengths:</b> Enterprise applications / business-systems ownership, Technology strategy &amp; delivery aligned to business objectives, Vendor, relationship and IS-business partnership leadership, AI enablement partnership (works with VP of AI), Toronto location; Director level; people/team leadership</div><div class="dd-line warn"><b>Concerns:</b> Financial services / mutual fund / asset-management industry experience not explicit, &#x27;Technical architecture and delivery&#x27; and dev-quality oversight expectations lean technical</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">4</span>
+          <a class="job-title" href="https://omers.wd3.myworkdayjobs.com/en-US/OMERS_External/job/Toronto-Ontario/Associate-Director--Technology-Strategy-and-Innovation_JR-8004" target="_blank" rel="noopener">Associate Director, Technology Strategy and Innovation</a>
+        </div>
+        <div class="job-meta">OMERS &middot; Toronto, Ontario</div>
+        <div class="job-badges"><span class="score good">6.8<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge rec-review">Review</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Strong overlap on AI/data strategy, build-vs-buy advisory, vendor landscape and stakeholder partnering, all core to Radek&#x27;s TVO AI-governance and data-platform work; main gap is a stated &#x27;advanced working knowledge of SQL and Python&#x27; he does not emphasize.</div><div class="dd-line"><b>Strengths:</b> AI adoption strategy and governance (mirrors authored GenAI policy), Data &amp; analytics platform advisory, People leadership and stakeholder influence, Toronto location</div><div class="dd-line warn"><b>Concerns:</b> &#x27;Advanced working knowledge of SQL and Python&#x27; required, Customer-success framing under a VP of Customer Success</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">5</span>
+          <a class="job-title" href="https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Hong-Kong/Senior-Director---Director-AI---Data-Strategy---Transformation-Lead_JR26071432" target="_blank" rel="noopener">Senior Director / Director AI &amp; Data Strategy &amp; Transformation Lead</a>
+        </div>
+        <div class="job-meta">Manulife &middot; Hong Kong</div>
+        <div class="job-badges"><span class="score good">6.8<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge rec-review">Review</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Strong content match — AI/data strategy, portfolio governance, investment prioritization, executive materials and adoption — mirroring Radek&#x27;s GenAI policy, Power BI/Fabric and transformation work. Held back only by the Hong Kong location versus his Toronto/Canada preference.</div><div class="dd-line"><b>Strengths:</b> AI &amp; data strategy and roadmap, Portfolio governance and investment prioritization, Executive narratives and change/adoption support, Data &amp; analytics transformation alignment</div><div class="dd-line warn"><b>Concerns:</b> Hong Kong location, not Toronto/GTA or Canada-remote</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">6</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/directeur-trice-technologie-et-transformation-num%C3%A9rique-at-linen-chest-4437092509" target="_blank" rel="noopener">Directeur(trice), Technologie et Transformation numérique</a>
+        </div>
+        <div class="job-meta">Linen Chest &middot; Laval, Quebec, Canada</div>
+        <div class="job-badges"><span class="score mid">6.4<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge rec-review">Review</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line llm-summary">Classic Director of Technology / ERP-transformation scope (Dynamics 365 Business Central migration, Power BI/BI, vendor management, IT ops, governance) closely matches Radek&#x27;s enterprise-apps portfolio work, but it is French-primary and requires French-English fluency in a Quebec location.</div><div class="dd-line"><b>Strengths:</b> Major ERP/enterprise-systems transformation leadership, Power BI / business intelligence and data capability, IT operations, vendor and governance ownership, Remote-friendly</div><div class="dd-line warn"><b>Concerns:</b> French-primary posting; French-English fluency required, Quebec (Laval) location outside Toronto/GTA preference</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">7</span>
+          <a class="job-title" href="https://cibc.wd3.myworkdayjobs.com/en-US/search/job/Toronto-ON/Director--Data-Platform-Governance_2616666" target="_blank" rel="noopener">Director, Data Platform Governance</a>
+        </div>
+        <div class="job-meta">CIBC &middot; Toronto, ON</div>
+        <div class="job-badges"><span class="score mid">5.8<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge rec-review">Review</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Data-governance and people-leadership aspects align with his Power BI/Fabric and service-management strengths, but the role centers on direct application delivery services and production support, plus technical architecture/solutions design — edging toward technical delivery rather than enterprise-apps portfolio leadership.</div><div class="dd-line"><b>Strengths:</b> Data platform governance and data governance, People leadership and coaching, Application portfolio operations and production support, Stakeholder and relationship management</div><div class="dd-line warn"><b>Concerns:</b> Application delivery + production support and technical architecture/solutions design expectations, &quot;Application Development&quot; listed among core skills; leads fully experienced technical specialists</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">8</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/directeur-technologie-et-transformation-num%C3%A9rique-at-foliot-furniture-meubles-4456202996" target="_blank" rel="noopener">Directeur - Technologie et transformation numérique</a>
+        </div>
+        <div class="job-meta">Foliot Furniture / Meubles &middot; St-Jérôme, Quebec, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge rec-review">Review</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line llm-summary">IT Director mandate (~$7M budget, ~10-person team, AI/automation and data governance) fits Radek&#x27;s IT-leadership profile well, but it is French-primary, Quebec-based, and heavily manufacturing/SAP-oriented with no demonstrated manufacturing or SAP background.</div><div class="dd-line"><b>Strengths:</b> Director of Technology / IT leadership with $7M budget, AI, automation and data-governance roadmap, People leadership and vendor/governance scope</div><div class="dd-line warn"><b>Concerns:</b> French-primary posting; bilingual French-English required, Quebec (St-Jérôme) location, Manufacturing environment with SAP/MES experience strongly desired</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">9</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-ai-native-sdlc-at-scotiabank-4438371090" target="_blank" rel="noopener">Director, AI Native SDLC</a>
+        </div>
+        <div class="job-meta">Scotiabank &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge rec-skip">Skip</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line llm-summary">Heavy hands-on engineering role requiring daily coding (TypeScript/Python), building RAG systems, MCP servers and GitHub Actions; SDLC policy/governance ownership overlaps with Radek&#x27;s GenAI-policy and standards work, but the role is fundamentally a hands-on dev-team leader.</div><div class="dd-line"><b>Strengths:</b> Enterprise SDLC policy/standards/governance ownership, AI governance and responsible-use alignment, Toronto-based Director-level scope</div><div class="dd-line warn"><b>Concerns:</b> Requires hands-on coding in TypeScript/JavaScript/Python, Code reviews and building production-grade RAG/MCP systems, 10+ years hands-on software engineering expected</div><div class="dd-line warn"><b>Hands-on development signal</b> &mdash; likely excluded role.</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">10</span>
+          <a class="job-title" href="https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Director--AI-Research---Ecosystems_R260019583" target="_blank" rel="noopener">Director, AI Research &amp; Ecosystems</a>
+        </div>
+        <div class="job-meta">BMO &middot; Toronto, ON, CAN</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge rec-review">Review</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Director-level AI strategy/research role focused on publications, academia/startup partnerships and thought leadership; overlaps Radek&#x27;s AI-governance and strategy strengths but requires a PhD and 10+ years of AI research leadership he does not have.</div><div class="dd-line"><b>Strengths:</b> Responsible AI governance alignment, Strategy, partnerships and executive advisory, Toronto location; Director level, People leadership and enterprise stakeholder management</div><div class="dd-line warn"><b>Concerns:</b> Requires Master&#x27;s/PhD in AI and 10+ years as an AI research leader with publications, Core scope is industry research/thought leadership, not enterprise applications or service management</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">11</span>
+          <a class="job-title" href="https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Toronto-Ontario/Director--Data-Platform-Engineering_R_1506230" target="_blank" rel="noopener">Director, Data Platform Engineering</a>
+        </div>
+        <div class="job-meta">TD Bank &middot; Toronto, Ontario</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge rec-skip">Skip</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Strategy/budget/vendor/governance and data-platform vision map to Radek&#x27;s data and portfolio leadership, but the role centers on managing engineering teams building Databricks/Spark systems and demands deep hands-on expertise in Java/Python and distributed systems he does not have.</div><div class="dd-line"><b>Strengths:</b> Data platform strategy and analytics modernization, Budget, vendor and governance ownership, People leadership at enterprise scale</div><div class="dd-line warn"><b>Concerns:</b> Leads multiple engineering teams (excluded dev-team leadership), Deep Databricks/Spark/Delta Lake expertise required, Strong Java/Python and CI/CD/Kubernetes engineering depth expected</div><div class="dd-line warn"><b>Hands-on development signal</b> &mdash; likely excluded role.</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">12</span>
+          <a class="job-title" href="https://sunlife.wd3.myworkdayjobs.com/en-US/Experienced-Jobs/job/Waterloo-Ontario/Director--Domain-Enterprise-Architect--AI-_JR00126513" target="_blank" rel="noopener">Director, Domain Enterprise Architect (AI)</a>
+        </div>
+        <div class="job-meta">Sun Life &middot; 2 Locations</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge rec-review">Review</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Director-level enterprise AI architecture authority role; Radek&#x27;s AI-governance and roadmap strengths overlap, but the role requires deep GenAI/Agentic AI/LLM and orchestration architecture expertise he lacks as an applications/service leader.</div><div class="dd-line"><b>Strengths:</b> Responsible AI governance and standards/roadmap leadership, Enterprise strategy, executive engagement and governance, Regulated industry (insurance) and data/analytics themes, Director-level architecture leadership with a community to mentor</div><div class="dd-line warn"><b>Concerns:</b> Requires 10+ years architecture leadership and deep GenAI/LLM/orchestration technical architecture (not Radek&#x27;s profile), Enterprise-architecture domain focus vs. applications/service management, Located in Waterloo / 2 locations, not core Toronto</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">13</span>
+          <a class="job-title" href="https://otppb.wd3.myworkdayjobs.com/en-US/OntarioTeachers_Careers/job/Toronto-Canada/Director--Enterprise-Architect--Portfolio-Lead_7218" target="_blank" rel="noopener">Director, Enterprise Architect, Portfolio Lead</a>
+        </div>
+        <div class="job-meta">OTPP (Ontario Teachers) &middot; Toronto, Canada</div>
+        <div class="job-badges"><span class="score low">4.5<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge rec-skip">Skip</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">This is an individual-contributor enterprise architecture role that &quot;leads through expertise, influence and governance&quot; with no direct reports, conflicting with his people-leadership target. It also requires 10+ years of dedicated architecture practice, TOGAF/SAFe certification, and solution-architecture oversight.</div><div class="dd-line"><b>Strengths:</b> Architecture governance and modernization/technical-debt agenda, AI adoption and agent-ready platform sequencing, Multi-year roadmaps and build-vs-buy/vendor decisions</div><div class="dd-line warn"><b>Concerns:</b> Individual-contributor architect role (no direct reports) — matches the architect-without-reports exclusion, Requires 10+ years of dedicated enterprise architecture practice and TOGAF/SAFe certification</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">14</span>
+          <a class="job-title" href="https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Chicago-IL-USA/Director-AI-Platform-Engineering_R260025294" target="_blank" rel="noopener">Director AI Platform Engineering</a>
+        </div>
+        <div class="job-meta">BMO &middot; 5 Locations</div>
+        <div class="job-badges"><span class="score low">4.0<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge rec-skip">Skip</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Heavy hands-on platform-engineering leadership (AI Gateway, policy-as-code, Kubernetes, CI/CD) demanding deep coding/infra credibility, which conflicts with Radek&#x27;s enterprise-applications/service-management profile; also based in Chicago (US), not Toronto/GTA.</div><div class="dd-line"><b>Strengths:</b> Responsible AI &amp; governance (authored GenAI policy), Multi-cloud (AWS) and platform strategy exposure, Enterprise-scale vendor/governance/budget leadership, Executive presence and people leadership</div><div class="dd-line warn"><b>Concerns:</b> Requires hands-on platform engineering (Kubernetes, OpenTelemetry, SPIFFE/SPIRE, policy-as-code) and CI/CD delivery - dev-team leadership, Manages a team of engineers building core infrastructure (Engineering Manager scope), Located in Chicago, IL (US), not Toronto/Canada</div><div class="dd-line warn"><b>Hands-on development signal</b> &mdash; likely excluded role.</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">15</span>
+          <a class="job-title" href="https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Singapore/Director-GHNW-Strategy---Transformation_JR26070591" target="_blank" rel="noopener">Director GHNW Strategy &amp; Transformation</a>
+        </div>
+        <div class="job-meta">Manulife &middot; 2 Locations</div>
+        <div class="job-badges"><span class="score low">4.0<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge rec-skip">Skip</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Business strategy and transformation program-delivery role for a Global High Net Worth segment - a non-technology function centered in Asia/Middle East markets (Singapore), not aligned with Radek&#x27;s IT/enterprise-applications management target.</div><div class="dd-line"><b>Strengths:</b> Strategy, transformation and program delivery, Governance (SteerCo) and KPI/benefits tracking, Working knowledge of IT/data/AI is valued</div><div class="dd-line warn"><b>Concerns:</b> Non-technology strategy &amp; transformation function (business/wealth segment, not IT/enterprise apps), Requires life-insurance/wealth/financial-services strategy background, Located in Singapore / Asia-Middle East markets, not Canada</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">16</span>
+          <a class="job-title" href="https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Director--AI-Platform-Engineering_R260019184" target="_blank" rel="noopener">Director, AI Platform Engineering</a>
+        </div>
+        <div class="job-meta">BMO &middot; Toronto, ON, CAN</div>
+        <div class="job-badges"><span class="score low">4.0<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge rec-skip">Skip</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Explicitly a hands-on, build-and-run engineering leadership role (policy-as-code Cedar/OPA, GitOps, SPIFFE/SPIRE workload identity, Kubernetes, CI/CD) that manages and scales engineering teams — squarely the Software Development/Engineering Manager exclusion, despite the responsible-AI governance overlap.</div><div class="dd-line"><b>Strengths:</b> Responsible-AI governance and guardrails (overlaps his GenAI policy work), Budgeting, roadmap and vendor engagement, People leadership and team building</div><div class="dd-line warn"><b>Concerns:</b> Hands-on technical leader managing engineering teams (4+ yrs leading engineers required), Deep platform-engineering requirements: Cedar/OPA, GitOps, SPIFFE/SPIRE, K8s, CI/CD/MLOps, Matches the Development/Engineering Manager hard exclusion</div><div class="dd-line warn"><b>Hands-on development signal</b> &mdash; likely excluded role.</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">17</span>
+          <a class="job-title" href="https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Managing-Director---Head--Technology---Innovation-Group--Commercial-Banking-_R260021552" target="_blank" rel="noopener">Managing Director &amp; Head, Commercial Banking (Technology &amp; Innovation Group)</a>
+        </div>
+        <div class="job-meta">BMO &middot; Toronto, ON, CAN</div>
+        <div class="job-badges"><span class="score low">4.0<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge rec-skip">Skip</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Commercial-banking role centered on lending, credit structuring and sales revenue — the &#x27;Technology &amp; Innovation&#x27; label refers to the client sector, not a technology leadership function. Non-tech function manager.</div><div class="dd-line"><b>Strengths:</b> People leadership of a specialized team</div><div class="dd-line warn"><b>Concerns:</b> Non-technology function (commercial banking/sales), Lending, credit and revenue-generation focus, No enterprise-apps/IT-management scope</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">18</span>
+          <a class="job-title" href="https://sunlife.wd3.myworkdayjobs.com/en-US/Experienced-Jobs/job/Hunghom-Kowloon-Hong-Kong/Associate-Director--Agency-Transformation-and-Strategy_JR00124495-1" target="_blank" rel="noopener">Associate Director, Agency Transformation and Strategy</a>
+        </div>
+        <div class="job-meta">Sun Life &middot; Hunghom, Kowloon, Hong Kong</div>
+        <div class="job-badges"><span class="score low">3.5<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge rec-skip">Skip</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Insurance agency distribution and sales-transformation role (recruitment, compensation, sales KPIs) with no technology mandate; also based in Hong Kong, not Toronto/Canada.</div><div class="dd-line"><b>Strengths:</b> Transformation and KPI/performance-management overlap, Stakeholder leadership</div><div class="dd-line warn"><b>Concerns:</b> Non-technology sales/distribution function (excluded), Hong Kong location outside target geography, 8+ years insurance-agency experience required</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">19</span>
+          <a class="job-title" href="https://sunlife.wd3.myworkdayjobs.com/en-US/Experienced-Jobs/job/Toronto-Ontario/Vice-President--Enterprise-Data-and-AI-Platforms_JR00127544-1" target="_blank" rel="noopener">Vice President, Enterprise Data and AI Platforms</a>
+        </div>
+        <div class="job-meta">Sun Life &middot; 2 Locations</div>
+        <div class="job-badges"><span class="score good">7.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge rec-review">Review</span><span class="badge workday">Workday</span></div>
+        <div class="dd-line llm-summary">Strategy, governance, budget and people-leadership core (data &amp; AI platforms, responsible-AI guardrails, data governance) overlaps his Power BI/Fabric and authored GenAI-policy background. However, the role demands deep agentic-AI/data-platform engineering depth (agentic control plane, model registries, inference pipelines, data mesh) beyond his enterprise-apps profile.</div><div class="dd-line"><b>Strengths:</b> Enterprise data &amp; analytics platform strategy, Responsible-AI governance and data governance (he authored a GenAI policy), Budget/resource management and cost optimization, People leadership and cross-functional stakeholder influence, Cloud platform familiarity (AWS/Azure)</div><div class="dd-line warn"><b>Concerns:</b> Requires deep agentic-AI/data-platform engineering (control planes, orchestration, inference pipelines) he has not demonstrated, &quot;Lead the engineering and delivery&quot; leans toward platform-engineering leadership, VP level is a step above his director target; location listed ambiguously as &#x27;2 Locations&#x27;</div>
+      </li></ol>
+    </section>
 
   
     <section class="section deep" id="deep-dive" style="--accent:#0a66c2;">
@@ -10367,15 +10599,15 @@
     </section>
 
   <div class="notes" style="background:#fffaf0;border:1px solid #f0e2bd;">
-    <h2>How scores are derived</h2>
+    <h2>How evaluation works</h2>
     <ul>
-      <li><b>Seniority (0&ndash;3)</b> + <b>Domain fit (0.5&ndash;3)</b> + <b>Location (0&ndash;2)</b> + <b>Differentiators (0&ndash;2)</b>.</li>
-      <li>Domain rewards IT leadership, enterprise apps, SaaS/cloud, AI, collaboration, vendor/governance,
-          service management, data &amp; platform. Penalizes security-only, ERP-config, and help-desk roles.</li>
-      <li>"Software/Engineering" titles are capped (dev-lean) and listed separately for review.</li>
-      <li><b>Two passes:</b> every role gets a <b>title-score</b> (title + company + location);
-          the top matches also get a <b>deep-score</b> re-scored against the full job description
-          (requirement-theme coverage, penalized for hands-on-dev / help-desk / below-seniority signals).</li>
+      <li><b>LLM evaluation (primary):</b> an LLM reads each fetched job description against the
+          candidate's full resume profile and scores semantic fit 0&ndash;10, with a
+          recommendation (Apply / Review / Skip), strengths, and concerns. This is the ranking to trust.</li>
+      <li><b>Deterministic pre-filter (secondary):</b> title-based keyword scoring
+          (Seniority + Domain fit + Location + Differentiators, minus a dev-lean penalty)
+          is used to decide <i>which</i> ~25 roles get fetched and LLM-evaluated, and remains
+          as a reference below.</li>
       <li>Excluded per instruction: "Software Development Manager", "Development Manager", and hands-on
           dev-team leadership. US-only "remote" postings were dropped.</li>
     </ul>
