@@ -9,31 +9,45 @@ Sources   : LinkedIn (public jobs) + Government of Canada Job Bank
 Scope     : Toronto / GTA (on-site & hybrid) + Canada remote
 
 SUMMARY
-  Total unique roles reviewed : 205
-  Management roles scored     : 152
-    - IT / Tech / Enterprise Apps (strong fit) : 117
-    - Software/Engineering (leans dev — review) : 35
+  Total unique roles reviewed : 201
+  Management roles scored     : 143
+    - IT / Tech / Enterprise Apps (strong fit) : 102
+    - Software/Engineering (leans dev — review) : 41
 
 ==============================================================================
 DEEP-DIVE — TOP MATCHES (scored against full job descriptions)
 ==============================================================================
 Top matches re-scored using actual job-description text, not just the title.
 
-1. Director, IT & Data Transformation   [ 8.6/10 Strong ]
-   Nutrition International | Ottawa, Ontario, Canada | Remote
-   https://ca.linkedin.com/jobs/view/director-it-data-transformation-at-nutrition-international-4440960060
-   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
+1. Director, Enterprise Technology & Products   [ 9.1/10 Strong ]
+   Brock University | St. Catharines, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-enterprise-technology-products-at-brock-university-4454740799
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
    Also mentions: Security/compliance, ERP/CRM platforms
-   (title-score 8.2 -> description-adjusted 8.6)
+   (title-score 8.1 -> description-adjusted 9.1)
 
-2. IT Senior Manager, Enterprise Architecture   [ 8.4/10 Strong ]
+2. Director, Enterprise Business Applications   [ 8.9/10 Strong ]
+   Hammond Power Solutions | Guelph, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-enterprise-business-applications-at-hammond-power-solutions-4413345016
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
+   Also mentions: Security/compliance, ERP/CRM platforms
+   (title-score 7.6 -> description-adjusted 8.9)
+
+3. Director, Information Technology   [ 8.7/10 Strong ]
+   International Business University | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-information-technology-at-international-business-university-4447008839
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
+   Also mentions: Security/compliance, ERP/CRM platforms
+   (title-score 7.0 -> description-adjusted 8.7)
+
+4. IT Senior Manager, Enterprise Architecture   [ 8.4/10 Strong ]
    Saputo Inc. | Georgetown, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-senior-manager-enterprise-architecture-at-saputo-inc-4441672169
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
    Also mentions: Security/compliance, ERP/CRM platforms
    (title-score 7.6 -> description-adjusted 8.4)
 
-3. Director, Virtual Care Technology Applications   [ 8.3/10 Strong ]
+5. Director, Virtual Care Technology Applications   [ 8.3/10 Strong ]
    Loblaw Companies Limited | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-virtual-care-technology-applications-at-loblaw-companies-limited-4448143121
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
@@ -41,28 +55,21 @@ Top matches re-scored using actual job-description text, not just the title.
    NOTE: French/bilingual description — verify fit manually.
    (title-score 7.5 -> description-adjusted 8.3)
 
-4. Managing Director, Technology Architecture & Governance   [ 8.3/10 Strong ]
-   CPP Investments | Investissements RPC | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/managing-director-technology-architecture-governance-at-cpp-investments-investissements-rpc-4411549338
-   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
-   Also mentions: Security/compliance, ERP/CRM platforms
-   (title-score 7.5 -> description-adjusted 8.3)
-
-5. Sr. Manager, Enterprise System   [ 8.3/10 Strong ]
+6. Sr. Manager, Enterprise System   [ 8.3/10 Strong ]
    Allied Gold Corporation | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/sr-manager-enterprise-system-at-allied-gold-corporation-4458282141
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
    Also mentions: Security/compliance, ERP/CRM platforms
    (title-score 7.5 -> description-adjusted 8.3)
 
-6. Manager, Platform Technology   [ 8.2/10 Strong ]
-   goeasy Ltd. | Pickering, Ontario, Canada
+7. Manager, Platform Technology   [ 8.2/10 Strong ]
+   goeasy Ltd. | Pickering, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-platform-technology-at-goeasy-ltd-4429874128
    Matched: Enterprise/business applications, SaaS/cloud & modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
    Also mentions: ERP/CRM platforms
-   (title-score 7.3 -> description-adjusted 8.2)
+   (title-score 7.2 -> description-adjusted 8.2)
 
-7. Sr. Manager, Enterprise Applications   [ 8.1/10 Strong ]
+8. Sr. Manager, Enterprise Applications   [ 8.1/10 Strong ]
    OpenText | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/sr-manager-enterprise-applications-at-opentext-4456961315
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
@@ -70,19 +77,12 @@ Top matches re-scored using actual job-description text, not just the title.
    Watch: manages development/engineering team
    (title-score 7.1 -> description-adjusted 8.1)
 
-8. Director, Derivatives Post Trade Technology   [ 8.1/10 Strong ]
-   Scotiabank | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/director-derivatives-post-trade-technology-at-scotiabank-4416323503
-   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
+9. Director, Business Technology and AI   [ 8.0/10 Strong ]
+   The North West Company | Winnipeg, Manitoba, Canada | Remote
+   https://ca.linkedin.com/jobs/view/director-business-technology-and-ai-at-the-north-west-company-4450335353
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
    Also mentions: Security/compliance
-   (title-score 7.0 -> description-adjusted 8.1)
-
-9. Manager IT Production Operations   [ 8.1/10 Strong ]
-   Fidelity Canada | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-it-production-operations-at-fidelity-canada-4448048565
-   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
-   Also mentions: Security/compliance
-   (title-score 7.0 -> description-adjusted 8.1)
+   (title-score 8.0 -> description-adjusted 8.0)
 
 10. Technical Director IS Business Enablement, Products & Innovation   [ 7.9/10 Good ]
    Fidelity Canada | Toronto, Ontario, Canada
@@ -91,12 +91,12 @@ Top matches re-scored using actual job-description text, not just the title.
    Also mentions: Security/compliance
    (title-score 9.0 -> description-adjusted 7.9)
 
-11. Manager, Enterprise Technology & Service Delivery   [ 7.7/10 Good ]
-   Parkinson Canada | Greater Toronto Area, Canada
-   https://ca.linkedin.com/jobs/view/manager-enterprise-technology-service-delivery-at-parkinson-canada-4450757466
-   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership
-   Also mentions: Security/compliance
-   (title-score 8.5 -> description-adjusted 7.7)
+11. Director, Platform Systems   [ 7.7/10 Good ]
+   OpenText | Richmond Hill, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-platform-systems-at-opentext-4442877059
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Agile/Scrum, Strategy & transformation
+   Also mentions: Security/compliance, ERP/CRM platforms
+   (title-score 7.3 -> description-adjusted 7.7)
 
 12. Technology Director   [ 7.6/10 Good ]
    Qu Data Centres | Toronto, Ontario, Canada
@@ -105,14 +105,45 @@ Top matches re-scored using actual job-description text, not just the title.
    Also mentions: Security/compliance
    (title-score 7.0 -> description-adjusted 7.6)
 
-13. Head of Advisor Technology - Americas   [ 7.0/10 Good ]
-   Vanguard | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/head-of-advisor-technology-americas-at-vanguard-4435119854
-   Matched: Enterprise/business applications, SaaS/cloud & modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Strategy & transformation
+13. Senior Manager, IT - Global Procure to Pay   [ 7.2/10 Good ]
+   Kraft Heinz | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/senior-manager-it-global-procure-to-pay-at-kraft-heinz-4454404099
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
    Also mentions: Security/compliance, ERP/CRM platforms
+   Watch: manages development/engineering team
+   (title-score 7.5 -> description-adjusted 7.2)
+
+14. IT Infrastructure Manager, Cloud Platform   [ 7.1/10 Good ]
+   Confluence | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-confluence-4437086004
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
+   Also mentions: Security/compliance
+   Watch: hands-on coding expected
+   (title-score 8.2 -> description-adjusted 7.1)
+
+15. IT Infrastructure Manager, Cloud Platform   [ 7.1/10 Good ]
+   Style Analytics | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-style-analytics-4450094914
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
+   Also mentions: Security/compliance
+   Watch: hands-on coding expected
+   (title-score 8.2 -> description-adjusted 7.1)
+
+16. MIG Director of IT   [ 7.0/10 Good ]
+   McDougall Insurance & Financial | Greater Toronto Area, Canada
+   https://ca.linkedin.com/jobs/view/mig-director-of-it-at-mcdougall-insurance-financial-4453711671
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Data & analytics, Strategy & transformation
+   Also mentions: Security/compliance
    (title-score 7.0 -> description-adjusted 7.0)
 
-14. Manager, Engineering and Data Platform   [ 6.6/10 Good ]
+17. IT Senior Manager, Data Governance   [ 6.9/10 Good ]
+   Saputo Inc. | Georgetown, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/it-senior-manager-data-governance-at-saputo-inc-4441653975
+   Matched: Enterprise/business applications, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Data & analytics, Strategy & transformation
+   Also mentions: Security/compliance, ERP/CRM platforms
+   (title-score 6.8 -> description-adjusted 6.9)
+
+18. Manager, Engineering and Data Platform   [ 6.6/10 Good ]
    Minto Group | Ottawa, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-engineering-and-data-platform-at-minto-group-4437604595
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
@@ -120,43 +151,13 @@ Top matches re-scored using actual job-description text, not just the title.
    Watch: hands-on coding expected
    (title-score 7.0 -> description-adjusted 6.6)
 
-15. Paradigm Salesforce Technical Director, Global Deloitte Technology   [ 6.6/10 Good ]
-   Deloitte | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/paradigm-salesforce-technical-director-global-deloitte-technology-at-deloitte-4460396523
-   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
-   Also mentions: Security/compliance, ERP/CRM platforms
-   Watch: hands-on coding expected
-   NOTE: French/bilingual description — verify fit manually.
-   (title-score 7.0 -> description-adjusted 6.6)
-
-16. BES Business Group Technology Director   [ 6.5/10 Good ]
-   HDR | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/bes-business-group-technology-director-at-hdr-4272473572
-   Matched: Enterprise/business applications, AI & automation, Collaboration tools (Atlassian/M365), People leadership, Data & analytics, Strategy & transformation
-   (title-score 7.0 -> description-adjusted 6.5)
-
-17. Manager, Global Supply Chain Process & Systems   [ 6.5/10 Good ]
-   SSR Mining Inc. | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-global-supply-chain-process-systems-at-ssr-mining-inc-4428410371
-   Matched: Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
-   Also mentions: Security/compliance, ERP/CRM platforms
-   (title-score 7.0 -> description-adjusted 6.5)
-
-18. Technology Development and Innovation Manager   [ 6.0/10 Moderate ]
+19. Technology Development and Innovation Manager   [ 6.0/10 Moderate ]
    BMO | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/technology-development-and-innovation-manager-at-bmo-4401551599
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Strategy & transformation
    Also mentions: ERP/CRM platforms
    Watch: hands-on coding expected
    (title-score 8.0 -> description-adjusted 6.0)
-
-19. Director, Platform Engineering   [ 5.9/10 Moderate ]
-   RBC | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/director-platform-engineering-at-rbc-4454051093
-   Matched: Enterprise/business applications, SaaS/cloud & modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Strategy & transformation
-   Also mentions: Security/compliance, ERP/CRM platforms
-   Watch: hands-on coding expected
-   (title-score 7.8 -> description-adjusted 5.9)
 
 20. Director, Platform Engineering   [ 5.9/10 Moderate ]
    Maple | Toronto, Ontario, Canada
@@ -166,44 +167,44 @@ Top matches re-scored using actual job-description text, not just the title.
    Watch: hands-on coding expected, manages development/engineering team
    (title-score 7.8 -> description-adjusted 5.9)
 
-21. Information Technology (It) Director   [ 5.9/10 Moderate ]
+21. Director, Platform Engineering   [ 5.9/10 Moderate ]
+   RBC | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-platform-engineering-at-rbc-4454051093
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Strategy & transformation
+   Also mentions: Security/compliance, ERP/CRM platforms
+   Watch: hands-on coding expected
+   (title-score 7.8 -> description-adjusted 5.9)
+
+22. Information Technology (It) Director   [ 5.9/10 Moderate ]
    University of Toronto | Toronto (ON)
    https://www.jobbank.gc.ca/jobsearch/jobposting/50028579
    Matched: Enterprise/business applications, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Strategy & transformation
    Also mentions: Security/compliance
    (title-score 7.0 -> description-adjusted 5.9)
 
-22. Directeur(trice), Technologie et Transformation numérique   [ 5.2/10 Moderate ]
-   Linen Chest | Laval, Quebec, Canada | Remote
-   https://ca.linkedin.com/jobs/view/directeur-trice-technologie-et-transformation-num%C3%A9rique-at-linen-chest-4437092509
-   Matched: Collaboration tools (Atlassian/M365), Data & analytics, Strategy & transformation
-   Also mentions: ERP/CRM platforms
-   NOTE: French/bilingual description — verify fit manually.
-   (title-score 8.0 -> description-adjusted 5.2)
+23. Application/Platform Director   [ 4.9/10 Weak ]
+   Amphenol Communications Solutions | Markham, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/application-platform-director-at-amphenol-communications-solutions-4451197731
+   Matched: Enterprise/business applications, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
+   Also mentions: Security/compliance, ERP/CRM platforms
+   Watch: hands-on coding expected, help-desk/deskside scope
+   (title-score 7.8 -> description-adjusted 4.9)
 
-23. Director, Developer Platform & Experience   [ 5.1/10 Moderate ]
-   Motive | Vancouver, British Columbia, Canada | Remote
-   https://ca.linkedin.com/jobs/view/director-developer-platform-experience-at-motive-4450813601
-   Matched: SaaS/cloud & modernization, AI & automation, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
-   Also mentions: Security/compliance
-   Watch: hands-on coding expected, manages development/engineering team
-   (title-score 7.2 -> description-adjusted 5.1)
-
-24. Directeur - Technologie et transformation numérique   [ 4.7/10 Weak ]
-   Foliot Furniture / Meubles | St-Jérôme, Quebec, Canada | Remote
-   https://ca.linkedin.com/jobs/view/directeur-technologie-et-transformation-num%C3%A9rique-at-foliot-furniture-meubles-4456202996
-   Matched: Vendor/governance/budget, Strategy & transformation
-   Also mentions: ERP/CRM platforms
-   NOTE: French/bilingual description — verify fit manually.
-   (title-score 8.0 -> description-adjusted 4.7)
-
-25. Manager, Technical Solutions, Cloud Applied AI   [ 4.7/10 Weak ]
+24. Manager, Technical Solutions, Cloud Applied AI   [ 4.7/10 Weak ]
    Google | Waterloo, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-technical-solutions-cloud-applied-ai-at-google-4458645582
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Vendor/governance/budget, People leadership, Strategy & transformation
    Also mentions: Security/compliance, ERP/CRM platforms
    Watch: hands-on coding expected, manages development/engineering team
    (title-score 7.5 -> description-adjusted 4.7)
+
+25. Director, IT Infrastructure   [ 4.1/10 Weak ]
+   Beanfield | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-it-infrastructure-at-beanfield-4439472250
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
+   Also mentions: Security/compliance
+   Watch: hands-on coding expected, manages development/engineering team, help-desk/deskside scope
+   (title-score 7.0 -> description-adjusted 4.1)
 
 ==============================================================================
 SECTION 1 — DIRECTOR: IT / TECHNOLOGY / ENTERPRISE APPS
@@ -214,422 +215,392 @@ SECTION 1 — DIRECTOR: IT / TECHNOLOGY / ENTERPRISE APPS
    https://ca.linkedin.com/jobs/view/technical-director-is-business-enablement-products-innovation-at-fidelity-canada-4434583955
    Why: matches: AI/innovation
 
-2. Director, IT & Data Transformation   [ 8.2/10 Strong ]
-   Nutrition International | Ottawa, Ontario, Canada | Remote
-   https://ca.linkedin.com/jobs/view/director-it-data-transformation-at-nutrition-international-4440960060
-   Why: matches: AI/innovation, data/analytics
+2. Director, Enterprise Technology & Products   [ 8.1/10 Strong ]
+   Brock University | St. Catharines, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-enterprise-technology-products-at-brock-university-4454740799
+   Why: matches: enterprise applications
 
-3. Directeur - Technologie et transformation numérique   [ 8.0/10 Strong ]
-   Foliot Furniture / Meubles | St-Jérôme, Quebec, Canada | Remote
-   https://ca.linkedin.com/jobs/view/directeur-technologie-et-transformation-num%C3%A9rique-at-foliot-furniture-meubles-4456202996
+3. Director, Business Technology and AI   [ 8.0/10 Strong ]
+   The North West Company | Winnipeg, Manitoba, Canada | Remote
+   https://ca.linkedin.com/jobs/view/director-business-technology-and-ai-at-the-north-west-company-4450335353
    Why: matches: AI/innovation
 
-4. Directeur(trice), Technologie et Transformation numérique   [ 8.0/10 Strong ]
-   Linen Chest | Laval, Quebec, Canada | Remote
-   https://ca.linkedin.com/jobs/view/directeur-trice-technologie-et-transformation-num%C3%A9rique-at-linen-chest-4437092509
-   Why: matches: AI/innovation
+4. Application/Platform Director   [ 7.8/10 Good ]
+   Amphenol Communications Solutions | Markham, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/application-platform-director-at-amphenol-communications-solutions-4451197731
+   Why: matches: enterprise applications
 
 5. Director, Platform Engineering   [ 7.8/10 Good ]
-   RBC | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/director-platform-engineering-at-rbc-4454051093
-   Why: general technology leadership
-
-6. Director, Platform Engineering   [ 7.8/10 Good ]
    Maple | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-platform-engineering-at-maple-4443057408
    Why: general technology leadership
 
-7. Director, Virtual Care Technology Applications   [ 7.5/10 Good ]
+6. Director, Platform Engineering   [ 7.8/10 Good ]
+   RBC | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-platform-engineering-at-rbc-4454051093
+   Why: general technology leadership
+
+7. Director, Enterprise Business Applications   [ 7.6/10 Good ]
+   Hammond Power Solutions | Guelph, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-enterprise-business-applications-at-hammond-power-solutions-4413345016
+   Why: matches: enterprise applications
+
+8. Director, Virtual Care Technology Applications   [ 7.5/10 Good ]
    Loblaw Companies Limited | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-virtual-care-technology-applications-at-loblaw-companies-limited-4448143121
    Why: matches: enterprise applications
 
-8. Managing Director, Technology Architecture & Governance   [ 7.5/10 Good ]
-   CPP Investments | Investissements RPC | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/managing-director-technology-architecture-governance-at-cpp-investments-investissements-rpc-4411549338
-   Why: matches: vendor/governance
-
-9. Director, Developer Platform & Experience   [ 7.2/10 Good ]
-   Motive | Vancouver, British Columbia, Canada | Remote
-   https://ca.linkedin.com/jobs/view/director-developer-platform-experience-at-motive-4450813601
+9. Director, Platform Systems   [ 7.3/10 Good ]
+   OpenText | Richmond Hill, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-platform-systems-at-opentext-4442877059
    Why: general technology leadership
 
-10. BES Business Group Technology Director   [ 7.0/10 Good ]
-   HDR | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/bes-business-group-technology-director-at-hdr-4272473572
+10. Director, Information Technology   [ 7.0/10 Good ]
+   International Business University | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-information-technology-at-international-business-university-4447008839
    Why: matches: IT leadership
 
-11. Director, Derivatives Post Trade Technology   [ 7.0/10 Good ]
-   Scotiabank | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/director-derivatives-post-trade-technology-at-scotiabank-4416323503
-   Why: matches: IT leadership
+11. Director, IT Infrastructure   [ 7.0/10 Good ]
+   Beanfield | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-it-infrastructure-at-beanfield-4439472250
+   Why: matches: IT leadership; caveats: infrastructure-focused
 
-12. Head of Advisor Technology - Americas   [ 7.0/10 Good ]
-   Vanguard | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/head-of-advisor-technology-americas-at-vanguard-4435119854
-   Why: matches: IT leadership
-
-13. Information Technology (It) Director   [ 7.0/10 Good ]
+12. Information Technology (It) Director   [ 7.0/10 Good ]
    University of Toronto | Toronto (ON) | $145,219.00 to $242,032.00 annually (to be negotiated) | Posted August 07, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50028579
    Why: matches: IT leadership
 
-14. Paradigm Salesforce Technical Director, Global Deloitte Technology   [ 7.0/10 Good ]
-   Deloitte | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/paradigm-salesforce-technical-director-global-deloitte-technology-at-deloitte-4460396523
-   Why: matches: IT leadership; caveats: specialist ERP/config
+13. MIG Director of IT   [ 7.0/10 Good ]
+   McDougall Insurance & Financial | Greater Toronto Area, Canada
+   https://ca.linkedin.com/jobs/view/mig-director-of-it-at-mcdougall-insurance-financial-4453711671
+   Why: matches: IT leadership
 
-15. Technology Director   [ 7.0/10 Good ]
+14. Technology Director   [ 7.0/10 Good ]
    Qu Data Centres | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/technology-director-at-qu-data-centres-4446101864
    Why: matches: IT leadership
 
-16. Technology Director - Developer Excellence   [ 6.8/10 Good ]
+15. Technology Director - Developer Excellence   [ 6.8/10 Good ]
    lululemon | Vancouver, British Columbia, Canada | Remote
    https://ca.linkedin.com/jobs/view/technology-director-developer-excellence-at-lululemon-4458420929
    Why: matches: IT leadership
 
-17. Director of Information Technology   [ 6.6/10 Good ]
-   OSL Retail Services | Mississauga, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/director-of-information-technology-at-osl-retail-services-4459842449
-   Why: matches: IT leadership
-
-18. Director Of Technology   [ 6.6/10 Good ]
+16. Director Of Technology   [ 6.6/10 Good ]
    Hexaware Technologies Canada Ltd. | Mississauga (ON) | $250,000.00 annually | Posted August 17, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50096312
    Why: matches: IT leadership
 
-19. Director, Technology Delivery and Enablement   [ 6.6/10 Good ]
+17. Director, Technology Delivery and Enablement   [ 6.6/10 Good ]
    Lifemark Health Group | Brampton, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-technology-delivery-and-enablement-at-lifemark-health-group-4458454000
    Why: matches: IT leadership
 
-20. IT Director   [ 6.6/10 Good ]
-   OTI Lumionics | Mississauga, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/it-director-at-oti-lumionics-4439385412
+18. Division IT Manager (Director Level)   [ 6.6/10 Good ]
+   Parker Hannifin | Milton, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/division-it-manager-director-level-at-parker-hannifin-4452867448
    Why: matches: IT leadership
 
-21. Senior Director, Store Front End Technology   [ 6.6/10 Good ]
-   Loblaw Companies Limited | Brampton, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/senior-director-store-front-end-technology-at-loblaw-companies-limited-4439344806
+19. IT Director, Warehouse and Inventory Management   [ 6.6/10 Good ]
+   Saputo Inc. | Georgetown, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/it-director-warehouse-and-inventory-management-at-saputo-inc-4441668500
    Why: matches: IT leadership
 
-22. Director IS Transfer Agency and Workflow Systems Development   [ 6.5/10 Good ]
-   Fidelity Canada | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/director-is-transfer-agency-and-workflow-systems-development-at-fidelity-canada-4438769088
-   Why: general technology leadership
-
-23. Director, Information Technology   [ 6.5/10 Good ]
-   United Way Centraide Canada | Ottawa, Ontario, Canada | Remote
-   https://ca.linkedin.com/jobs/view/director-information-technology-at-united-way-centraide-canada-4449185518
-   Why: matches: IT leadership
-
-24. Director, Information Technology and Security   [ 6.5/10 Good ]
-   Holland Bloorview Kids Rehabilitation Hospital | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/director-information-technology-and-security-at-holland-bloorview-kids-rehabilitation-hospital-4457496770
-   Why: matches: IT leadership; caveats: security-heavy
-
-25. Director, Technology   [ 6.5/10 Good ]
+20. Director, Technology   [ 6.5/10 Good ]
    Oliver Insurance Software | Greater Vancouver Metropolitan Area | Remote
    https://ca.linkedin.com/jobs/view/director-technology-at-oliver-insurance-software-4453255307
    Why: matches: IT leadership
 
-26. Director, Virtual Workspace Engineering   [ 6.5/10 Good ]
+21. Director, Virtual Workspace Engineering   [ 6.5/10 Good ]
    Scotiabank | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-virtual-workspace-engineering-at-scotiabank-4403968740
    Why: caveats: infrastructure-focused
 
-27. Director, WMS Product Design and Engineering   [ 6.5/10 Good ]
+22. Director, WMS Product Design and Engineering   [ 6.5/10 Good ]
    HelloFresh | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-wms-product-design-and-engineering-at-hellofresh-4457366872
    Why: general technology leadership
 
-28. Directrice, Directeur TI - Technologies des applications d'entreprise   [ 6.5/10 Good ]
-   La Maison Simons | Québec, Quebec, Canada | Remote
-   https://ca.linkedin.com/jobs/view/directrice-directeur-ti-technologies-des-applications-d-entreprise-at-la-maison-simons-4434164499
-   Why: matches: enterprise applications
-
-29. Technical Director IS Business Enablement, Client Experience   [ 6.5/10 Good ]
-   Fidelity Canada | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/technical-director-is-business-enablement-client-experience-at-fidelity-canada-4434590797
-   Why: general technology leadership
-
-30. Director, Deposits Engineering (Banking)   [ 6.1/10 Moderate ]
+23. Director, Deposits Engineering (Banking)   [ 6.1/10 Moderate ]
    Questrade Financial Group | North York, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-deposits-engineering-banking-at-questrade-financial-group-4456516905
    Why: general technology leadership
 
-31. Directeur technologies de l'information/Directrice technologies de l'information   [ 6.0/10 Moderate ]
-   Hera Ressources Humaines | Boucherville, Quebec, Canada | Remote
-   https://ca.linkedin.com/jobs/view/directeur-technologies-de-l-information-directrice-technologies-de-l-information-at-hera-ressources-humaines-4448024744
+24. Directeur·trice du développement logiciel, plateforme   [ 6.0/10 Moderate ]
+   MaintainX | Montreal, Quebec, Canada | Remote
+   https://ca.linkedin.com/jobs/view/directeur%C2%B7trice-du-d%C3%A9veloppement-logiciel-plateforme-at-maintainx-4434183166
    Why: general technology leadership
 
-32. Directeur technologies de l'information/Directrice technologies de l'information   [ 6.0/10 Moderate ]
-   Barrette Structural | Trois-Rivières, Quebec, Canada | Remote
-   https://ca.linkedin.com/jobs/view/directeur-technologies-de-l-information-directrice-technologies-de-l-information-at-barrette-structural-4460118031
-   Why: general technology leadership
-
-33. Director Of Technology Management   [ 6.0/10 Moderate ]
+25. Director Of Technology Management   [ 6.0/10 Moderate ]
    Medavie | Moncton (NB) | $43.75 to $103.37 hourly | Posted August 20, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50116644
    Why: matches: IT leadership
+
+26. Director, Rapid Execution Delivery (RED)   [ 6.0/10 Moderate ]
+   Government of Alberta | Edmonton, Alberta, Canada | Remote
+   https://ca.linkedin.com/jobs/view/director-rapid-execution-delivery-red-at-government-of-alberta-4450638248
+   Why: general technology leadership
+
+27. Technical Director II, Player and Quality Insights   [ 6.0/10 Moderate ]
+   Electronic Arts (EA) | Vancouver, British Columbia, Canada | Remote
+   https://ca.linkedin.com/jobs/view/technical-director-ii-player-and-quality-insights-at-electronic-arts-ea-4411533314
+   Why: general technology leadership
 ==============================================================================
 SECTION 2 — MANAGER: IT / TECHNOLOGY / ENTERPRISE APPLICATIONS
 ==============================================================================
 
-1. Manager, Enterprise Technology & Service Delivery   [ 8.5/10 Strong ]
-   Parkinson Canada | Greater Toronto Area, Canada
-   https://ca.linkedin.com/jobs/view/manager-enterprise-technology-service-delivery-at-parkinson-canada-4450757466
-   Why: matches: enterprise applications, service management
+1. IT Infrastructure Manager, Cloud Platform   [ 8.2/10 Strong ]
+   Confluence | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-confluence-4437086004
+   Why: matches: SaaS/cloud; caveats: infrastructure-focused
 
-2. Technology Development and Innovation Manager   [ 8.0/10 Strong ]
+2. IT Infrastructure Manager, Cloud Platform   [ 8.2/10 Strong ]
+   Style Analytics | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-style-analytics-4450094914
+   Why: matches: SaaS/cloud; caveats: infrastructure-focused
+
+3. Technology Development and Innovation Manager   [ 8.0/10 Strong ]
    BMO | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/technology-development-and-innovation-manager-at-bmo-4401551599
    Why: matches: AI/innovation
 
-3. IT Senior Manager, Enterprise Architecture   [ 7.6/10 Good ]
+4. IT Senior Manager, Enterprise Architecture   [ 7.6/10 Good ]
    Saputo Inc. | Georgetown, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-senior-manager-enterprise-architecture-at-saputo-inc-4441672169
    Why: matches: enterprise applications
 
-4. Manager, Technical Solutions, Cloud Applied AI   [ 7.5/10 Good ]
+5. Manager, Technical Solutions, Cloud Applied AI   [ 7.5/10 Good ]
    Google | Waterloo, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-technical-solutions-cloud-applied-ai-at-google-4458645582
    Why: matches: AI/innovation, SaaS/cloud
 
-5. Sr. Manager, Enterprise System   [ 7.5/10 Good ]
+6. Senior Manager, IT - Global Procure to Pay   [ 7.5/10 Good ]
+   Kraft Heinz | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/senior-manager-it-global-procure-to-pay-at-kraft-heinz-4454404099
+   Why: matches: IT leadership
+
+7. Sr. Manager, Enterprise System   [ 7.5/10 Good ]
    Allied Gold Corporation | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/sr-manager-enterprise-system-at-allied-gold-corporation-4458282141
    Why: matches: enterprise applications
 
-6. Manager, Platform Technology   [ 7.3/10 Good ]
-   goeasy Ltd. | Pickering, Ontario, Canada
+8. Manager, Platform Technology   [ 7.2/10 Good ]
+   goeasy Ltd. | Pickering, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-platform-technology-at-goeasy-ltd-4429874128
    Why: matches: IT leadership
 
-7. Sr. Manager, Enterprise Applications   [ 7.1/10 Good ]
+9. Sr. Manager, Enterprise Applications   [ 7.1/10 Good ]
    OpenText | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/sr-manager-enterprise-applications-at-opentext-4456961315
    Why: matches: enterprise applications
 
-8. Manager IT Production Operations   [ 7.0/10 Good ]
-   Fidelity Canada | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-it-production-operations-at-fidelity-canada-4448048565
-   Why: matches: service management
-
-9. Manager, Engineering and Data Platform   [ 7.0/10 Good ]
+10. Manager, Engineering and Data Platform   [ 7.0/10 Good ]
    Minto Group | Ottawa, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-engineering-and-data-platform-at-minto-group-4437604595
    Why: matches: data/analytics
 
-10. Manager, Global Supply Chain Process & Systems   [ 7.0/10 Good ]
-   SSR Mining Inc. | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-global-supply-chain-process-systems-at-ssr-mining-inc-4428410371
-   Why: general technology leadership
+11. IT Senior Manager, Data Governance   [ 6.8/10 Good ]
+   Saputo Inc. | Georgetown, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/it-senior-manager-data-governance-at-saputo-inc-4441653975
+   Why: matches: vendor/governance, data/analytics
 
-11. Manager, EPM & Analytics Applications   [ 6.8/10 Good ]
-   Metrolinx | Greater Toronto Area, Canada
-   https://ca.linkedin.com/jobs/view/manager-epm-analytics-applications-at-metrolinx-4451959043
+12. Senior Manager, IT Business Systems & Analytics   [ 6.8/10 Good ]
+   Fusion Homes | Guelph, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/senior-manager-it-business-systems-analytics-at-fusion-homes-4458640026
    Why: matches: enterprise applications, data/analytics
 
-12. information technology (IT) service delivery manager   [ 6.6/10 Good ]
-   TechVest Global Solutions Inc. | Mississauga, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/information-technology-it-service-delivery-manager-at-techvest-global-solutions-inc-4419159514
+13. Information Technology (It) Service Delivery Manager   [ 6.6/10 Good ]
+   TechVest Global Solutions Inc. | Mississauga (ON) | $175,000.00 annually | Posted May 25, 2026
+   https://www.jobbank.gc.ca/jobsearch/jobposting/49584538
    Why: matches: service management
 
-13. IT & Business Systems Manager   [ 6.6/10 Good ]
+14. IT & Business Systems Manager   [ 6.6/10 Good ]
    Atlantic Industries Limited | Cambridge, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-business-systems-manager-at-atlantic-industries-limited-4448996835
    Why: matches: enterprise applications
 
-14. IT Business Operations Manager   [ 6.6/10 Good ]
+15. IT Business Operations Manager   [ 6.6/10 Good ]
    JELD-WEN of Canada | Woodbridge, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-business-operations-manager-at-jeld-wen-of-canada-4456940958
    Why: matches: service management
 
-15. Manager, IT Business Systems   [ 6.6/10 Good ]
-   East Penn Canada | Courtice, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-it-business-systems-at-east-penn-canada-4445731280
-   Why: matches: enterprise applications
+16. IT Manager - Service Delivery   [ 6.6/10 Good ]
+   Pathway Communications | Markham, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/it-manager-service-delivery-at-pathway-communications-4454652247
+   Why: matches: service management
 
-16. Information Technology Manager   [ 6.5/10 Good ]
+17. Financial Connections TechOps Manager   [ 6.5/10 Good ]
+   Stripe | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/financial-connections-techops-manager-at-stripe-4454549325
+   Why: matches: service management
+
+18. Information Technology Manager   [ 6.5/10 Good ]
    ESBE Scientific | Greater Toronto Area, Canada
    https://ca.linkedin.com/jobs/view/information-technology-manager-at-esbe-scientific-4457168733
    Why: matches: IT leadership
 
-17. IT Manager   [ 6.5/10 Good ]
+19. IT and Compliance Manager   [ 6.5/10 Good ]
+   Jonas Software | Halifax, Nova Scotia, Canada | Remote
+   https://ca.linkedin.com/jobs/view/it-and-compliance-manager-at-jonas-software-4454346327
+   Why: matches: vendor/governance
+
+20. IT Manager   [ 6.5/10 Good ]
    exacare ai | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-manager-at-exacare-ai-4457626952
    Why: matches: IT leadership
 
-18. IT Manager   [ 6.5/10 Good ]
+21. IT Manager   [ 6.5/10 Good ]
    The HIDI Group | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-manager-at-the-hidi-group-4447142114
    Why: matches: IT leadership
 
-19. IT Manager   [ 6.5/10 Good ]
+22. IT Manager   [ 6.5/10 Good ]
    BYD Canada | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-manager-at-byd-canada-4458627409
    Why: matches: IT leadership
 
-20. IT Operations Manager   [ 6.5/10 Good ]
-   Rival Technologies | Vancouver, British Columbia, Canada | Remote
-   https://ca.linkedin.com/jobs/view/it-operations-manager-at-rival-technologies-4432436800
-   Why: matches: service management
-
-21. Manager, Computer Applications   [ 6.5/10 Good ]
+23. Manager, Computer Applications   [ 6.5/10 Good ]
    CommerceBear | Toronto (ON) | Hybrid | $40.00 to $92.00 hourly | Posted August 09, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50048614
    Why: matches: enterprise applications
 
-22. Manager, It (Information Technology) Implementation   [ 6.5/10 Good ]
+24. Manager, Information Technology   [ 6.5/10 Good ]
+   SPE - Serruya Private Equity | Greater Toronto Area, Canada
+   https://ca.linkedin.com/jobs/view/manager-information-technology-at-spe-serruya-private-equity-4453144123
+   Why: matches: IT leadership
+
+25. Manager, It (Information Technology) Implementation   [ 6.5/10 Good ]
    AndrosEnterprise | Toronto (ON) | Hybrid | $75,000.00 to $120,000.00 annually | Posted August 13, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50068231
    Why: matches: IT leadership
 
-23. Manager, It (Information Technology) Implementation   [ 6.5/10 Good ]
+26. Manager, It (Information Technology) Implementation   [ 6.5/10 Good ]
    Kablamo Pty Ltd | Toronto (ON) | $43.75 to $103.37 hourly | Posted August 13, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50068238
    Why: matches: IT leadership
 
-24. Manager, IT Financial Systems   [ 6.5/10 Good ]
-   Element Fleet Management | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-it-financial-systems-at-element-fleet-management-4427114083
-   Why: matches: IT leadership
+27. Manager, IT Business Systems   [ 6.5/10 Good ]
+   East Penn Canada | Courtice, Ontario, Canada | Remote
+   https://ca.linkedin.com/jobs/view/manager-it-business-systems-at-east-penn-canada-4445731280
+   Why: matches: enterprise applications
 
-25. Manager, IT Systems   [ 6.5/10 Good ]
+28. Manager, IT Systems   [ 6.5/10 Good ]
    Clio | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-it-systems-at-clio-4417173872
    Why: matches: IT leadership
 
-26. Manager, Technology Workplace Services   [ 6.5/10 Good ]
-   EQ Bank | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-technology-workplace-services-at-eq-bank-4449680123
+29. Manager, Technology Infrastructure   [ 6.5/10 Good ]
+   Toronto Catholic District School Board | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/manager-technology-infrastructure-at-toronto-catholic-district-school-board-4458259822
+   Why: matches: IT leadership; caveats: infrastructure-focused
+
+30. Senior Manager, IT Business Partner   [ 6.5/10 Good ]
+   Celestica | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/senior-manager-it-business-partner-at-celestica-4447983220
    Why: matches: IT leadership
 
-27. Senior Technology Manager   [ 6.5/10 Good ]
-   BMO | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/senior-technology-manager-at-bmo-4434031650
-   Why: matches: IT leadership
-
-28. Technical Delivery Manager - Information Technology (It)   [ 6.5/10 Good ]
+31. Technical Delivery Manager - Information Technology (It)   [ 6.5/10 Good ]
    Telna | Toronto (ON) | $200,000.00 to $210,000.00 annually (to be negotiated) | Posted July 03, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/49834193
    Why: matches: IT leadership
 
-29. Senior Manager - Data Platforms   [ 6.2/10 Moderate ]
+32. Senior Manager - Data Platforms   [ 6.2/10 Moderate ]
    Scotiabank | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-manager-data-platforms-at-scotiabank-4390758233
    Why: matches: data/analytics
 
-30. Senior Technology Manager, Data Delivery   [ 6.2/10 Moderate ]
+33. Senior Technology Manager, Data Delivery   [ 6.2/10 Moderate ]
    Equitable | Waterloo, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/senior-technology-manager-data-delivery-at-equitable-4442871751
    Why: matches: data/analytics
 
-31. Business Systems Manager - Logistics   [ 6.1/10 Moderate ]
-   Charger Logistics Inc. | Brampton, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/business-systems-manager-logistics-at-charger-logistics-inc-4449505801
-   Why: matches: enterprise applications
-
-32. IT Associate Manager   [ 6.1/10 Moderate ]
+34. IT Associate Manager   [ 6.1/10 Moderate ]
    Huawei Canada | Markham, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-associate-manager-at-huawei-canada-4440326645
    Why: matches: IT leadership
 
-33. IT Manager   [ 6.1/10 Moderate ]
+35. IT Manager   [ 6.1/10 Moderate ]
    MGI Construction Corp. | Etobicoke, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-manager-at-mgi-construction-corp-4415808921
    Why: matches: IT leadership
 
-34. Manager, Computer Applications   [ 6.1/10 Moderate ]
+36. Manager, Computer Applications   [ 6.1/10 Moderate ]
    Plum | Waterloo (ON) | Hybrid | $40.00 to $92.00 hourly | Posted August 09, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50048082
    Why: matches: enterprise applications
 
-35. Manager, It (Information Technology) Implementation   [ 6.1/10 Moderate ]
+37. Manager, It (Information Technology) Implementation   [ 6.1/10 Moderate ]
    Powerhouse Controls Limited | Cambridge (ON) | Hybrid | $40.00 to $92.00 hourly | Posted August 09, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50047699
    Why: matches: IT leadership
 
-36. Sr.Manager - Microsoft Platforms   [ 6.1/10 Moderate ]
-   IKO North America | Mississauga, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/sr-manager-microsoft-platforms-at-iko-north-america-4411187891
-   Why: matches: collaboration tools
+38. Manager, IT Endpoint Engineering & Operations   [ 6.1/10 Moderate ]
+   Toromont Cat | Vaughan, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/manager-it-endpoint-engineering-operations-at-toromont-cat-4459070334
+   Why: matches: service management; caveats: infrastructure-focused
 
-37. Enterprise Resource Planning (Erp) Manager   [ 6.0/10 Moderate ]
+39. Enterprise Resource Planning (Erp) Manager   [ 6.0/10 Moderate ]
    Muskoka Roastery Coffee Co | Huntsville (ON) | $82,500.00 annually | Posted August 25, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50153331
    Why: matches: enterprise applications; caveats: specialist ERP/config
 
-38. Information Technology (IT) Manager   [ 6.0/10 Moderate ]
+40. Information Technology (IT) Manager   [ 6.0/10 Moderate ]
    Hospitality Newfoundland and Labrador | Paradise, Newfoundland and Labrador, Canada | Remote
    https://ca.linkedin.com/jobs/view/information-technology-it-manager-at-hospitality-newfoundland-and-labrador-4455777443
    Why: matches: IT leadership
 
-39. Information Technology (It) Service Delivery Manager   [ 6.0/10 Moderate ]
+41. Information Technology (It) Service Delivery Manager   [ 6.0/10 Moderate ]
    Raymond Chabot Grant Thornton | Montréal (QC) | Hybrid | $111,300.00 annually | Posted August 28, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50175215
    Why: matches: service management
 
-40. Information Technology Infrastructure Manager   [ 6.0/10 Moderate ]
-   Resonaite | Belleville, Ontario, Canada | Remote
-   https://ca.linkedin.com/jobs/view/information-technology-infrastructure-manager-at-resonaite-4453219426
-   Why: matches: IT leadership; caveats: infrastructure-focused
-
-41. Information Technology Manager   [ 6.0/10 Moderate ]
-   Reesink Canada | Saskatoon, Saskatchewan, Canada | Remote
-   https://ca.linkedin.com/jobs/view/information-technology-manager-at-reesink-canada-4455566103
+42. Information Technology Manager   [ 6.0/10 Moderate ]
+   PrecisionERP / PrecisionIT | Montreal, Quebec, Canada | Remote
+   https://ca.linkedin.com/jobs/view/information-technology-manager-at-precisionerp-precisionit-4455359333
    Why: matches: IT leadership
 
-42. IT Manager   [ 6.0/10 Moderate ]
+43. IT Manager   [ 6.0/10 Moderate ]
+   Techo-Bloc | Saint-Hubert, Quebec, Canada | Remote
+   https://ca.linkedin.com/jobs/view/it-manager-at-techo-bloc-4451227162
+   Why: matches: IT leadership
+
+44. IT Manager   [ 6.0/10 Moderate ]
+   Nakisa | Montreal, Quebec, Canada | Remote
+   https://ca.linkedin.com/jobs/view/it-manager-at-nakisa-4417154989
+   Why: matches: IT leadership
+
+45. IT Manager   [ 6.0/10 Moderate ]
    Safe Fleet | Montreal, Quebec, Canada | Remote
    https://ca.linkedin.com/jobs/view/it-manager-at-safe-fleet-4433098674
    Why: matches: IT leadership
 
-43. Manager Digital Products - SAP Manager Financial Accounting and Controlling (FICO) (13563)   [ 6.0/10 Moderate ]
-   Toronto Transit Commission (TTC) | Greater Toronto Area, Canada
-   https://ca.linkedin.com/jobs/view/manager-digital-products-sap-manager-financial-accounting-and-controlling-fico-13563-at-toronto-transit-commission-ttc-4459406575
-   Why: caveats: specialist ERP/config
-
-44. Manager Product Engineering & Development   [ 6.0/10 Moderate ]
+46. Manager Product Engineering & Development   [ 6.0/10 Moderate ]
    Deloitte | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-product-engineering-development-at-deloitte-4460506197
    Why: general technology leadership
 
-45. Manager, Dynamics 365 Finance & Operations   [ 6.0/10 Moderate ]
-   Deloitte | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-dynamics-365-finance-operations-at-deloitte-4460505265
-   Why: matches: collaboration tools, service management; caveats: specialist ERP/config
+47. Manager, IT Financial Systems   [ 6.0/10 Moderate ]
+   Element Fleet Management | Toronto, Ontario, Canada | Remote
+   https://ca.linkedin.com/jobs/view/manager-it-financial-systems-at-element-fleet-management-4427114083
+   Why: matches: IT leadership
 
-46. Manager, Finance Systems and Processes   [ 6.0/10 Moderate ]
-   Viral Nation | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-finance-systems-and-processes-at-viral-nation-4460359561
-   Why: general technology leadership
-
-47. Manager, IT Infrastructure and Security   [ 6.0/10 Moderate ]
+48. Manager, IT Infrastructure and Security   [ 6.0/10 Moderate ]
    University of Toronto | Greater Toronto Area, Canada
    https://ca.linkedin.com/jobs/view/manager-it-infrastructure-and-security-at-university-of-toronto-4454998872
    Why: matches: IT leadership; caveats: security-heavy, infrastructure-focused
 
-48. Manager, Learning Systems   [ 6.0/10 Moderate ]
-   Doane Grant Thornton LLP | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-learning-systems-at-doane-grant-thornton-llp-4404310971
-   Why: general technology leadership
-
-49. Manager, P&C Systems   [ 6.0/10 Moderate ]
-   Ontario Teachers' Pension Plan | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-p-c-systems-at-ontario-teachers-%E2%80%8B-pension-plan-4430754106
-   Why: general technology leadership
-
-50. Manager, Technology Infrastructure   [ 6.0/10 Moderate ]
-   Toronto Catholic District School Board | Toronto, Ontario, Canada | Remote
-   https://ca.linkedin.com/jobs/view/manager-technology-infrastructure-at-toronto-catholic-district-school-board-4458259822
-   Why: matches: IT leadership; caveats: infrastructure-focused
-
-51. Manager, Workplace Technology Management   [ 6.0/10 Moderate ]
+49. Manager, Workplace Technology Management   [ 6.0/10 Moderate ]
    GreenShield | Windsor, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-workplace-technology-management-at-greenshield-4455364554
+   Why: matches: IT leadership
+
+50. OpenText Lead/Manager   [ 6.0/10 Moderate ]
+   Deloitte | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/opentext-lead-manager-at-deloitte-4460508229
+   Why: general technology leadership
+
+51. Responsable informatique   [ 6.0/10 Moderate ]
+   Planiform | Terrebonne, Quebec, Canada | Remote
+   https://ca.linkedin.com/jobs/view/responsable-informatique-at-planiform-4450763334
    Why: matches: IT leadership
 
 52. Senior Application Manager   [ 6.0/10 Moderate ]
@@ -642,160 +613,115 @@ SECTION 2 — MANAGER: IT / TECHNOLOGY / ENTERPRISE APPLICATIONS
    https://ca.linkedin.com/jobs/view/senior-manager-product-engineering-development-at-deloitte-4460510195
    Why: general technology leadership
 
-54. Senior Manager, Engineering   [ 6.0/10 Moderate ]
-   TD | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/senior-manager-engineering-at-td-4437463758
-   Why: general technology leadership
-
-55. Senior Manager, Financial Systems - Operate   [ 6.0/10 Moderate ]
-   Deloitte | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/senior-manager-financial-systems-operate-at-deloitte-4460397518
-   Why: general technology leadership
-
-56. Systems Manager - Financial Systems Functional Analysis   [ 6.0/10 Moderate ]
+54. Systems Manager - Financial Systems Functional Analysis   [ 6.0/10 Moderate ]
    Spotify | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/systems-manager-financial-systems-functional-analysis-at-spotify-4418040057
    Why: general technology leadership
 
-57. Business Systems Manager   [ 5.8/10 Moderate ]
-   Federal Signal Corporation | Innisfil, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/business-systems-manager-at-federal-signal-corporation-4450675493
-   Why: matches: enterprise applications
+55. Manager, Data Engineering   [ 5.8/10 Moderate ]
+   Staples Canada | Richmond Hill, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/manager-data-engineering-at-staples-canada-4393951115
+   Why: matches: data/analytics
 
-58. Senior IT Manager, ERP, Data and Systems   [ 5.8/10 Moderate ]
+56. Senior IT Manager, ERP, Data and Systems   [ 5.8/10 Moderate ]
    Chatters Limited Partnership | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-it-manager-erp-data-and-systems-at-chatters-limited-partnership-4448027944
    Why: matches: data/analytics; caveats: specialist ERP/config
 
-59. Digital Solutions Manager   [ 5.6/10 Moderate ]
+57. Cyber Engineering and Technology Manager   [ 5.6/10 Moderate ]
+   Maple Leaf Foods Inc | Mississauga, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/cyber-engineering-and-technology-manager-at-maple-leaf-foods-inc-4454405868
+   Why: matches: IT leadership; caveats: security-heavy
+
+58. Digital Solutions Manager   [ 5.6/10 Moderate ]
    Plan Group Inc. | Vaughan, Ontario, Canada
    https://ca.linkedin.com/jobs/view/digital-solutions-manager-at-plan-group-inc-4444600537
    Why: general technology leadership
 
-60. YYZ - Manager, HRIS - FT   [ 5.6/10 Moderate ]
-   Cargojet | Mississauga, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/yyz-manager-hris-ft-at-cargojet-4455311472
+59. ITS Assistant Manager   [ 5.6/10 Moderate ]
+   Pacific Smoke International Inc. | Markham, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/its-assistant-manager-at-pacific-smoke-international-inc-4418492048
    Why: general technology leadership
 
-61. Gestionnaire, Technologies de l'information   [ 5.5/10 Moderate ]
-   LG2 | Montreal, Quebec, Canada | Remote
-   https://ca.linkedin.com/jobs/view/gestionnaire-technologies-de-l-information-at-lg2-4457039089
-   Why: general technology leadership
+60. Regional IT License Manager   [ 5.6/10 Moderate ]
+   Giesecke+Devrient | Markham, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/regional-it-license-manager-at-giesecke%2Bdevrient-4442926059
+   Why: matches: IT leadership
 
-62. Information Technology (It) Implementation Manager   [ 5.5/10 Moderate ]
+61. Information Technology (It) Implementation Manager   [ 5.5/10 Moderate ]
    Surrey Police Service | Surrey (BC) | $59.84 hourly | Posted August 28, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50179577
    Why: matches: IT leadership
 
-63. Information Technology (It) Implementation Manager   [ 5.5/10 Moderate ]
+62. Information Technology (It) Implementation Manager   [ 5.5/10 Moderate ]
    City of Vancouver | Vancouver (BC) | $62.53 hourly | Posted August 26, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50162545
    Why: matches: IT leadership
 
-64. Manager - Oracle Cloud Financials   [ 5.5/10 Moderate ]
-   EY | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-oracle-cloud-financials-at-ey-4444178204
-   Why: matches: SaaS/cloud; caveats: specialist ERP/config
+63. IT Asset Manager   [ 5.5/10 Moderate ]
+   BNP Paribas | Montreal, Quebec, Canada | Remote
+   https://ca.linkedin.com/jobs/view/it-asset-manager-at-bnp-paribas-4434599466
+   Why: matches: IT leadership
 
-65. Manager, It (Information Technology) Implementation   [ 5.5/10 Moderate ]
+64. Manager, It (Information Technology) Implementation   [ 5.5/10 Moderate ]
    Mariner | Moncton (NB) | $43.75 to $103.37 hourly | Posted August 19, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50108045
    Why: matches: IT leadership
 
-66. Manager, SAP Finance Public Cloud   [ 5.5/10 Moderate ]
-   KPMG Canada | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-sap-finance-public-cloud-at-kpmg-canada-4452146500
-   Why: matches: SaaS/cloud; caveats: specialist ERP/config
-
-67. Manager, SAP MM Public Cloud   [ 5.5/10 Moderate ]
-   KPMG Canada | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-sap-mm-public-cloud-at-kpmg-canada-4452131668
-   Why: matches: SaaS/cloud; caveats: specialist ERP/config
-
-68. Manager, SAP SD Public Cloud   [ 5.5/10 Moderate ]
-   KPMG Canada | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-sap-sd-public-cloud-at-kpmg-canada-4452136577
-   Why: matches: SaaS/cloud; caveats: specialist ERP/config
-
-69. Manager, Workday Talent Acquisition Technology   [ 5.5/10 Moderate ]
-   RBC | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-workday-talent-acquisition-technology-at-rbc-4455531879
-   Why: matches: IT leadership; caveats: specialist ERP/config
-
-70. Senior Manager, ERP Systems   [ 5.5/10 Moderate ]
+65. Senior Manager, ERP Systems   [ 5.5/10 Moderate ]
    SearchLabs | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-manager-erp-systems-at-searchlabs-4457055247
    Why: caveats: specialist ERP/config
 
-71. Sr. Manager IT Delivery, Supply Chain Technology (SAP & Warehouse Systems)   [ 5.1/10 Moderate ]
-   McKesson | Mississauga, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/sr-manager-it-delivery-supply-chain-technology-sap-warehouse-systems-at-mckesson-4440584614
-   Why: matches: IT leadership; caveats: specialist ERP/config
+66. Manager, Information Security   [ 5.1/10 Moderate ]
+   FirstOntario Credit Union | Hamilton, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/manager-information-security-at-firstontario-credit-union-4457095057
+   Why: caveats: security-heavy
 
-72. Digital Consulting Manager - Workday Adaptive Planning (Canada)   [ 5.0/10 Moderate ]
-   Huron | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/digital-consulting-manager-workday-adaptive-planning-canada-at-huron-4357990846
-   Why: caveats: specialist ERP/config
-
-73. ERP Manager   [ 5.0/10 Moderate ]
+67. ERP Manager   [ 5.0/10 Moderate ]
    Aplin | Kingsville, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/erp-manager-at-aplin-4460390697
    Why: caveats: specialist ERP/config
 
-74. Help Desk Manager - Information Technology (It)   [ 5.0/10 Moderate ]
+68. Help Desk Manager - Information Technology (It)   [ 5.0/10 Moderate ]
    Micromart | Toronto (ON) | Hybrid | $40.00 to $92.00 hourly | Posted August 09, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50048148
    Why: matches: IT leadership; caveats: below seniority (help desk)
 
-75. IT End User Support Manager   [ 5.0/10 Moderate ]
-   KPMG Canada | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/it-end-user-support-manager-at-kpmg-canada-4450678831
-   Why: matches: IT leadership; caveats: below seniority (help desk)
+69. Manager, SAP SD Public Cloud   [ 5.0/10 Moderate ]
+   KPMG Canada | Toronto, Ontario, Canada | Remote
+   https://ca.linkedin.com/jobs/view/manager-sap-sd-public-cloud-at-kpmg-canada-4452136577
+   Why: matches: SaaS/cloud; caveats: specialist ERP/config
 
-76. Manager, Workday & HCM   [ 5.0/10 Moderate ]
-   Canadian Tire Corporation | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-workday-hcm-at-canadian-tire-corporation-4404816585
-   Why: caveats: specialist ERP/config
+70. Manager, Workday Talent Acquisition Technology   [ 5.0/10 Moderate ]
+   RBC | Toronto, Ontario, Canada | Remote
+   https://ca.linkedin.com/jobs/view/manager-workday-talent-acquisition-technology-at-rbc-4455531879
+   Why: matches: IT leadership; caveats: specialist ERP/config
 
-77. Responsable, axe de travail Oracle HCM   [ 5.0/10 Moderate ]
-   Accenture | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/responsable-axe-de-travail-oracle-hcm-at-accenture-4447188950
-   Why: caveats: specialist ERP/config, narrow function
-
-78. SAP Project Systems (PS) and EPPM Manager   [ 5.0/10 Moderate ]
-   PwC Canada | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/sap-project-systems-ps-and-eppm-manager-at-pwc-canada-4459693287
-   Why: caveats: specialist ERP/config
-
-79. Senior Manager - SAP Finance Lead   [ 5.0/10 Moderate ]
-   EY | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/senior-manager-sap-finance-lead-at-ey-4457701985
-   Why: caveats: specialist ERP/config
-
-80. Senior SAP Manager   [ 5.0/10 Moderate ]
-   Mohawk Medbuy Corporation | Greater Toronto Area, Canada
-   https://ca.linkedin.com/jobs/view/senior-sap-manager-at-mohawk-medbuy-corporation-4438226549
-   Why: caveats: specialist ERP/config
-
-81. Manager, Business Analyst – D365 F&O / CRM   [ 4.6/10 Weak ]
-   EllisDon | Mississauga, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-business-analyst-%E2%80%93-d365-f-o-crm-at-ellisdon-4440861837
-   Why: caveats: specialist ERP/config
-
-82. CAD / PLM Manager   [ 4.5/10 Weak ]
+71. CAD / PLM Manager   [ 4.5/10 Weak ]
    Horizon Aircraft | Lindsay, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/cad-plm-manager-at-horizon-aircraft-4439051452
    Why: caveats: specialist ERP/config
 
-83. SAP SuccessFactors Performance Management & Learning, Manager   [ 4.5/10 Weak ]
+72. IT Support Manager   [ 4.5/10 Weak ]
+   People Can Fly Studio | Montreal, Quebec, Canada | Remote
+   https://ca.linkedin.com/jobs/view/it-support-manager-at-people-can-fly-studio-4459853685
+   Why: matches: IT leadership; caveats: below seniority (help desk)
+
+73. Manager, Business Analyst – D365 F&O / CRM   [ 4.5/10 Weak ]
+   EllisDon | Mississauga, Ontario, Canada | Remote
+   https://ca.linkedin.com/jobs/view/manager-business-analyst-%E2%80%93-d365-f-o-crm-at-ellisdon-4440861837
+   Why: caveats: specialist ERP/config
+
+74. Manager, Workday & HCM   [ 4.5/10 Weak ]
+   Canadian Tire Corporation | Toronto, Ontario, Canada | Remote
+   https://ca.linkedin.com/jobs/view/manager-workday-hcm-at-canadian-tire-corporation-4404816585
+   Why: caveats: specialist ERP/config
+
+75. SAP SuccessFactors Performance Management & Learning, Manager   [ 4.5/10 Weak ]
    PwC Canada | Calgary, Alberta, Canada | Remote
    https://ca.linkedin.com/jobs/view/sap-successfactors-performance-management-learning-manager-at-pwc-canada-4454562252
    Why: caveats: specialist ERP/config
-
-84. Manager, Service Desk   [ 4.1/10 Weak ]
-   Mackenzie Health | Richmond Hill, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-service-desk-at-mackenzie-health-4422657089
-   Why: caveats: below seniority (help desk)
 ==============================================================================
 SECTION 3 — DIRECTOR: SOFTWARE / ENGINEERING (review fit)
 ==============================================================================
@@ -820,87 +746,102 @@ SECTION 3 — DIRECTOR: SOFTWARE / ENGINEERING (review fit)
    https://ca.linkedin.com/jobs/view/director-engineering-operations-automation-at-manulife-4451950753
    Why: matches: AI/innovation, service management; caveats: leans hands-on dev
 
-5. Engineering Director, Agentic Platform   [ 6.0/10 Moderate ]
-   IFS | Vancouver, British Columbia, Canada | Remote
-   https://ca.linkedin.com/jobs/view/engineering-director-agentic-platform-at-ifs-4455757995
-   Why: caveats: leans hands-on dev
+5. Director, Software Engineering & AI   [ 6.0/10 Moderate ]
+   Andar Software | Ontario, Canada | Remote
+   https://ca.linkedin.com/jobs/view/director-software-engineering-ai-at-andar-software-4440258601
+   Why: matches: AI/innovation; caveats: leans hands-on dev
 
-6. Director of Engineering   [ 5.5/10 Moderate ]
+6. Director, Software Engineering & Innovation   [ 6.0/10 Moderate ]
+   Sherweb | Québec, Quebec, Canada | Remote
+   https://ca.linkedin.com/jobs/view/director-software-engineering-innovation-at-sherweb-4441662450
+   Why: matches: AI/innovation; caveats: leans hands-on dev
+
+7. Director of Engineering   [ 5.5/10 Moderate ]
    Relay | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-of-engineering-at-relay-4322430738
    Why: caveats: leans hands-on dev
 
-7. Director of Engineering   [ 5.5/10 Moderate ]
+8. Director of Engineering   [ 5.5/10 Moderate ]
+   TTEC Digital | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-of-engineering-at-ttec-digital-4449905722
+   Why: caveats: leans hands-on dev
+
+9. Director of Engineering   [ 5.5/10 Moderate ]
    TechBlocks | Greater Toronto Area, Canada
    https://ca.linkedin.com/jobs/view/director-of-engineering-at-techblocks-4451197299
    Why: caveats: leans hands-on dev
 
-8. Director of Engineering, Developer Infrastructure   [ 5.5/10 Moderate ]
+10. Director of Engineering, Developer Infrastructure   [ 5.5/10 Moderate ]
    Fullscript | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-of-engineering-developer-infrastructure-at-fullscript-4407896427
    Why: caveats: leans hands-on dev, infrastructure-focused
 
-9. Director of Engineering, Operations Planning   [ 5.5/10 Moderate ]
+11. Director of Engineering, Operations Planning   [ 5.5/10 Moderate ]
    HelloFresh | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-of-engineering-operations-planning-at-hellofresh-4455783600
    Why: matches: service management; caveats: leans hands-on dev
 
-10. Director of Software Engineering, Canada   [ 5.5/10 Moderate ]
+12. Director of Engineering, Trading   [ 5.5/10 Moderate ]
+   Alpaca | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-of-engineering-trading-at-alpaca-4421215532
+   Why: caveats: leans hands-on dev
+
+13. Director of Software Engineering, Canada   [ 5.5/10 Moderate ]
    Cognichip | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-of-software-engineering-canada-at-cognichip-4397776072
    Why: caveats: leans hands-on dev
 
-11. Director, Software Engineering   [ 5.5/10 Moderate ]
+14. Director, Engineering   [ 5.5/10 Moderate ]
+   Scotiabank | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-engineering-at-scotiabank-4435484464
+   Why: caveats: leans hands-on dev
+
+15. Director, Engineering (Commercial Lending)   [ 5.5/10 Moderate ]
+   Scotiabank | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/director-engineering-commercial-lending-at-scotiabank-4289594087
+   Why: caveats: leans hands-on dev
+
+16. Director, Software Engineering   [ 5.5/10 Moderate ]
    Loblaw Digital | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-software-engineering-at-loblaw-digital-4415392306
    Why: caveats: leans hands-on dev
 
-12. Director, Software Engineering   [ 5.5/10 Moderate ]
+17. Director, Software Engineering   [ 5.5/10 Moderate ]
    Broadridge | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-software-engineering-at-broadridge-4423069100
    Why: caveats: leans hands-on dev
 
-13. Head of Engineering   [ 5.5/10 Moderate ]
+18. Head of Engineering   [ 5.5/10 Moderate ]
    Parallelz | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/head-of-engineering-at-parallelz-4419443430
    Why: caveats: leans hands-on dev
 
-14. Senior Director, Engineering - Corporates, Financial Institutions & Sovereigns   [ 5.5/10 Moderate ]
+19. Senior Director, Engineering - Corporates, Financial Institutions & Sovereigns   [ 5.5/10 Moderate ]
    Fitch Ratings | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-director-engineering-corporates-financial-institutions-sovereigns-at-fitch-ratings-4454780359
    Why: caveats: leans hands-on dev
 
-15. Vice President of Software Engineering   [ 5.5/10 Moderate ]
-   TekRek | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/vice-president-of-software-engineering-at-tekrek-4449743983
-   Why: caveats: leans hands-on dev
-
-16. VP of Software Engineering   [ 5.5/10 Moderate ]
+20. VP of Software Engineering   [ 5.5/10 Moderate ]
    CoLab | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/vp-of-software-engineering-at-colab-4361659347
    Why: caveats: leans hands-on dev
 
-17. Director or VP of Engineering   [ 5.1/10 Moderate ]
+21. Director or VP of Engineering   [ 5.1/10 Moderate ]
    Birdseye Security Solutions | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-or-vp-of-engineering-at-birdseye-security-solutions-4427364727
    Why: caveats: leans hands-on dev
 
-18. Director, Software Engineering   [ 5.1/10 Moderate ]
+22. Director, Software Engineering   [ 5.1/10 Moderate ]
    PointClickCare | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-software-engineering-at-pointclickcare-4451454031
    Why: caveats: leans hands-on dev
 
-19. Director - Software Engineering   [ 5.0/10 Moderate ]
-   Homewood Health Centre | Calgary, Alberta, Canada | Remote
-   https://ca.linkedin.com/jobs/view/director-software-engineering-at-homewood-health-centre-4454456206
+23. Director of Engineering   [ 5.0/10 Moderate ]
+   Internet Archive Canada | Vancouver, British Columbia, Canada | Remote
+   https://ca.linkedin.com/jobs/view/director-of-engineering-at-internet-archive-canada-4447071827
    Why: caveats: leans hands-on dev
 
-20. Head of Software Engineering   [ 5.0/10 Moderate ]
-   OnX | Edmonton, Alberta, Canada | Remote
-   https://ca.linkedin.com/jobs/view/head-of-software-engineering-at-onx-4450342347
-   Why: caveats: leans hands-on dev
-
-21. Director Of Software Engineering   [ 4.5/10 Weak ]
+24. Director Of Software Engineering   [ 4.5/10 Weak ]
    Nord Quantique | Sherbrooke (QC) | $200,000.00 to $245,000.00 annually (to be negotiated) | Posted August 28, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50175627
    Why: caveats: leans hands-on dev
@@ -908,75 +849,90 @@ SECTION 3 — DIRECTOR: SOFTWARE / ENGINEERING (review fit)
 SECTION 4 — MANAGER: SOFTWARE / ENGINEERING (review fit)
 ==============================================================================
 
-1. Manager, Software Engineering - Platform Services   [ 5.5/10 Moderate ]
+1. Engineering Manager - Partner Platform   [ 6.0/10 Moderate ]
+   OpenTable | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/engineering-manager-partner-platform-at-opentable-4452999286
+   Why: caveats: leans hands-on dev
+
+2. Manager, Software Engineering - Platform Services   [ 5.5/10 Moderate ]
    ClearGov | Calgary, Alberta, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-software-engineering-platform-services-at-cleargov-4459868030
    Why: caveats: leans hands-on dev
 
-2. [Wattpad] Engineering Manager   [ 5.0/10 Moderate ]
-   Wattpad | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/wattpad-engineering-manager-at-wattpad-4453463436
+3. Engineering Manager, Ads   [ 5.0/10 Moderate ]
+   Mozilla | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/engineering-manager-ads-at-mozilla-4441314982
    Why: caveats: leans hands-on dev
 
-3. Manager, Software Engineering   [ 5.0/10 Moderate ]
+4. Engineering Manager, Billing Configuration   [ 5.0/10 Moderate ]
+   Stripe | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/engineering-manager-billing-configuration-at-stripe-4460856176
+   Why: caveats: leans hands-on dev
+
+5. Engineering Manager, Metronome (Billing)   [ 5.0/10 Moderate ]
+   Stripe | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/engineering-manager-metronome-billing-at-stripe-4454537421
+   Why: caveats: leans hands-on dev
+
+6. Engineering Manager, New User Experience   [ 5.0/10 Moderate ]
+   DoorDash | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/engineering-manager-new-user-experience-at-doordash-4447180583
+   Why: caveats: leans hands-on dev
+
+7. Manager, Software Engineering   [ 5.0/10 Moderate ]
    Emburse | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-software-engineering-at-emburse-4443434072
    Why: caveats: leans hands-on dev
 
-4. Manager, Software Engineering   [ 5.0/10 Moderate ]
-   Ripple | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-software-engineering-at-ripple-4373054345
+8. Software Engineering Manager   [ 5.0/10 Moderate ]
+   Thornhill Medical | Toronto, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/software-engineering-manager-at-thornhill-medical-4439878541
    Why: caveats: leans hands-on dev
 
-5. Manager, Software Engineering   [ 5.0/10 Moderate ]
-   KEV Group | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-software-engineering-at-kev-group-4449322459
-   Why: caveats: leans hands-on dev
-
-6. Manager, Software Engineering, General   [ 5.0/10 Moderate ]
-   Jobber | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-software-engineering-general-at-jobber-4456538184
-   Why: caveats: leans hands-on dev
-
-7. IT Engineering Manager   [ 4.6/10 Weak ]
+9. IT Engineering Manager   [ 4.6/10 Weak ]
    TJX Canada – Winners, Marshalls, HomeSense | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-engineering-manager-at-tjx-canada-%E2%80%93-winners-marshalls-homesense-4457050145
    Why: matches: IT leadership; caveats: leans hands-on dev
 
-8. Manager Software Engineering   [ 4.6/10 Weak ]
+10. Manager Software Engineering   [ 4.6/10 Weak ]
    PointClickCare | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-software-engineering-at-pointclickcare-4437076599
    Why: caveats: leans hands-on dev
 
-9. Manager, Software Engineering (Developer Environments)   [ 4.6/10 Weak ]
-   Affirm | Hamilton, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/manager-software-engineering-developer-environments-at-affirm-4413844699
+11. Manager, Software Engineering   [ 4.6/10 Weak ]
+   Mastercard | North York, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/manager-software-engineering-at-mastercard-4454673272
    Why: caveats: leans hands-on dev
 
-10. Software Engineering Manager   [ 4.6/10 Weak ]
+12. Manager, Software Engineering (Resilience Engineering)   [ 4.6/10 Weak ]
+   Affirm | Hamilton, Ontario, Canada
+   https://ca.linkedin.com/jobs/view/manager-software-engineering-resilience-engineering-at-affirm-4409033978
+   Why: caveats: leans hands-on dev
+
+13. Software Engineering Manager   [ 4.6/10 Weak ]
+   Randstad Digital | Greater Guelph Metropolitan Area
+   https://ca.linkedin.com/jobs/view/software-engineering-manager-at-randstad-digital-4457964710
+   Why: caveats: leans hands-on dev
+
+14. Software Engineering Manager   [ 4.6/10 Weak ]
    Technology Force Company Ltd. | Concord (ON) | $68.00 hourly | Posted August 18, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50101210
    Why: caveats: leans hands-on dev
 
-11. Manager Software Engineering   [ 4.5/10 Weak ]
+15. Manager Software Engineering   [ 4.5/10 Weak ]
    Ultra Maritime | Dartmouth, Nova Scotia, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-software-engineering-at-ultra-maritime-4411258026
    Why: caveats: leans hands-on dev
 
-12. Manager, Software Engineering   [ 4.5/10 Weak ]
+16. Manager, Software Engineering   [ 4.5/10 Weak ]
    AltaML | Calgary, Alberta, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-software-engineering-at-altaml-4458216955
    Why: caveats: leans hands-on dev
 
-13. Software Engineering Manager   [ 4.5/10 Weak ]
+17. Software Engineering Manager   [ 4.5/10 Weak ]
    Helcim | Calgary, Alberta, Canada | Remote
    https://ca.linkedin.com/jobs/view/software-engineering-manager-at-helcim-4450288387
    Why: caveats: leans hands-on dev
-
-14. Senior Engineering Manager - ERP   [ 4.1/10 Weak ]
-   Xplore Inc. | Markham, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/senior-engineering-manager-erp-at-xplore-inc-4441559323
-   Why: caveats: leans hands-on dev, specialist ERP/config
 
 ==============================================================================
 HOW SCORES ARE DERIVED
