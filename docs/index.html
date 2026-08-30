@@ -55,6 +55,15 @@
   .dd-line { color:var(--muted); font-size:12.5px; margin:2px 0 2px 32px; }
   .dd-line.warn { color:#9a3b3b; }
   .section.deep { border-top-color:#0a66c2; }
+  details.collapsible { margin:12px 0 0 0; border:1px dashed var(--line); border-radius:10px;
+                          padding:10px 14px; background:#fafbfc; }
+  details.collapsible > summary { cursor:pointer; font-weight:600; font-size:13.5px; color:var(--muted);
+                                   user-select:none; list-style:none; }
+  details.collapsible > summary::-webkit-details-marker { display:none; }
+  details.collapsible > summary::before { content:"\25B8\00a0\00a0"; color:var(--brand); font-weight:700; }
+  details.collapsible[open] > summary::before { content:"\25BE\00a0\00a0"; }
+  details.collapsible > ol.jobs { margin-top:8px; }
+  .shown-note { color:var(--muted); font-size:12px; font-weight:400; }
   .notes { background:#fffaf0; border:1px solid #f0e2bd; border-radius:12px; padding:18px 22px;
             font-size:13px; color:#5c4a1e; margin-top:8px; }
   .notes h2 { margin:0 0 10px; font-size:15px; color:#7a5c12; }
@@ -78,7 +87,7 @@
 
   
     <section class="section deep" style="--accent:#0a66c2;">
-      <h2>Deep-Dive — Top Matches (scored against full descriptions) <span class="count">25</span></h2>
+      <h2>Deep-Dive — Top Matches (scored against full descriptions) <span class="count">25</span> <span class="shown-note">9 shown &middot; 16 hidden</span></h2>
       <p class="dd-note">These top matches were re-scored using the actual job-description text (not just the title).
       &ldquo;Deep&rdquo; = title-based score blended with the posting&rsquo;s requirements &mdash; a more accurate fit signal.</p>
       <ol class="jobs">
@@ -162,7 +171,11 @@
         <div class="job-meta">The North West Company &middot; Winnipeg, Manitoba, Canada</div>
         <div class="job-badges"><span class="score high">8.0<i>/10</i></span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
         <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div>
-      </li>
+      </li></ol>
+      
+    <details class="collapsible">
+      <summary>Show 16 more matches (scored below 8.0)</summary>
+      <ol class="jobs">
       <li class="job">
         <div class="job-head">
           <span class="job-num">10</span>
@@ -307,11 +320,12 @@
         <div class="job-badges"><span class="score low">4.1<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
         <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div><div class="dd-line warn"><b>Watch:</b> hands-on coding expected, manages development/engineering team, help-desk/deskside scope</div>
       </li></ol>
+    </details>
     </section>
 
   
     <section class="section" style="--accent:#0a66c2;">
-      <h2>Director — IT / Technology / Enterprise Applications <span class="count">27</span></h2>
+      <h2>Director — IT / Technology / Enterprise Applications <span class="count">27</span> <span class="shown-note">3 shown &middot; 24 hidden</span></h2>
       <ol class="jobs">
       <li class="job">
         <div class="job-head">
@@ -339,7 +353,11 @@
         <div class="job-meta">The North West Company &middot; Winnipeg, Manitoba, Canada</div>
         <div class="job-badges"><span class="score high">8.0<i>/10</i></span><span class="badge scoretag">Strong</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
         <div class="job-why">matches: AI/innovation</div>
-      </li>
+      </li></ol>
+      
+    <details class="collapsible">
+      <summary>Show 24 more matches (scored below 8.0)</summary>
+      <ol class="jobs">
       <li class="job">
         <div class="job-head">
           <span class="job-num">4</span>
@@ -556,10 +574,11 @@
         <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
         <div class="job-why">general technology leadership</div>
       </li></ol>
+    </details>
     </section>
   
     <section class="section" style="--accent:#0b6e4f;">
-      <h2>Manager — IT / Technology / Enterprise Applications <span class="count">75</span></h2>
+      <h2>Manager — IT / Technology / Enterprise Applications <span class="count">75</span> <span class="shown-note">3 shown &middot; 72 hidden</span></h2>
       <ol class="jobs">
       <li class="job">
         <div class="job-head">
@@ -587,7 +606,11 @@
         <div class="job-meta">BMO &middot; Toronto, Ontario, Canada</div>
         <div class="job-badges"><span class="score high">8.0<i>/10</i></span><span class="badge scoretag">Strong</span><span class="badge linkedin">LinkedIn</span></div>
         <div class="job-why">matches: AI/innovation</div>
-      </li>
+      </li></ol>
+      
+    <details class="collapsible">
+      <summary>Show 72 more matches (scored below 8.0)</summary>
+      <ol class="jobs">
       <li class="job">
         <div class="job-head">
           <span class="job-num">4</span>
@@ -1236,10 +1259,15 @@
         <div class="job-badges"><span class="score low">4.5<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
         <div class="job-why">caveats: specialist ERP/config</div>
       </li></ol>
+    </details>
     </section>
   
     <section class="section" style="--accent:#b45309;">
-      <h2>Director — Software / Engineering (review fit) <span class="count">24</span></h2>
+      <h2>Director — Software / Engineering (review fit) <span class="count">24</span> <span class="shown-note">0 shown &middot; 24 hidden</span></h2>
+      <ol class="jobs"></ol>
+      
+    <details class="collapsible">
+      <summary>Show 24 more matches (scored below 8.0)</summary>
       <ol class="jobs">
       <li class="job">
         <div class="job-head">
@@ -1457,10 +1485,15 @@
         <div class="job-badges"><span class="score low">4.5<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge salary">$200,000.00 to $245,000.00 annually (to be negotiated)</span><span class="badge date">Posted August 28, 2026</span><span class="badge jobbank">Job Bank</span></div>
         <div class="job-why">caveats: leans hands-on dev</div>
       </li></ol>
+    </details>
     </section>
   
     <section class="section" style="--accent:#b45309;">
-      <h2>Manager — Software / Engineering (review fit) <span class="count">17</span></h2>
+      <h2>Manager — Software / Engineering (review fit) <span class="count">17</span> <span class="shown-note">0 shown &middot; 17 hidden</span></h2>
+      <ol class="jobs"></ol>
+      
+    <details class="collapsible">
+      <summary>Show 17 more matches (scored below 8.0)</summary>
       <ol class="jobs">
       <li class="job">
         <div class="job-head">
@@ -1615,6 +1648,7 @@
         <div class="job-badges"><span class="score low">4.5<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
         <div class="job-why">caveats: leans hands-on dev</div>
       </li></ol>
+    </details>
     </section>
 
   <div class="notes" style="background:#fffaf0;border:1px solid #f0e2bd;">
