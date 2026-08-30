@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Search Results — Radek Zajkowski (scored)</title>
+<style>
+  :root {
+    --bg:#f6f7f9; --card:#ffffff; --ink:#1a1d23; --muted:#5b6472;
+    --line:#e6e8ec; --brand:#0a66c2;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         background:var(--bg); color:var(--ink); line-height:1.5; }
+  .wrap { max-width:920px; margin:0 auto; padding:24px 20px 60px; }
+  header { background:linear-gradient(135deg,#0a66c2,#0b5aa8); color:#fff; border-radius:14px;
+            padding:26px 28px 22px; margin-bottom:22px; }
+  header h1 { margin:0 0 6px; font-size:23px; letter-spacing:-.02em; }
+  header .sub { opacity:.92; font-size:13.5px; }
+  .stats { display:flex; flex-wrap:wrap; gap:10px; margin:16px 0 4px; }
+  .stat { background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.25);
+           border-radius:10px; padding:8px 14px; font-size:13px; }
+  .stat b { display:block; font-size:20px; }
+  .section { background:var(--card); border:1px solid var(--line); border-top:4px solid var(--accent);
+              border-radius:12px; padding:20px 22px; margin:20px 0; }
+  .section h2 { margin:0 0 14px; font-size:17px; display:flex; align-items:center; gap:10px; }
+  .count { background:var(--accent); color:#fff; border-radius:999px; font-size:12px;
+            padding:2px 10px; font-weight:600; }
+  ol.jobs { list-style:none; margin:0; padding:0; }
+  .job { padding:13px 0; border-bottom:1px solid var(--line); }
+  .job:last-child { border-bottom:0; }
+  .job-head { display:flex; gap:10px; align-items:baseline; }
+  .job-num { color:var(--muted); font-size:12px; min-width:22px; font-variant-numeric:tabular-nums; }
+  a.job-title { color:var(--brand); font-weight:600; text-decoration:none; }
+  a.job-title:hover { text-decoration:underline; }
+  .job-meta { color:var(--muted); font-size:13px; margin:3px 0 7px 32px; }
+  .job-badges { display:flex; flex-wrap:wrap; gap:6px; margin:0 0 6px 32px; align-items:center; }
+  .job-why { color:var(--muted); font-size:12.5px; margin-left:32px; }
+  .badge { font-size:11px; padding:2px 8px; border-radius:6px; background:#eef1f5; color:#3a4350;
+            border:1px solid var(--line); white-space:nowrap; }
+  .badge.remote { background:#e6f4ea; color:#0b6e4f; border-color:#bfe3cd; }
+  .badge.hybrid { background:#e8f1fb; color:#0a66c2; border-color:#c4dcf5; }
+  .badge.salary { background:#fdf3e3; color:#9a5b06; border-color:#f3ddb3; }
+  .badge.date { background:#f1f0fb; color:#5b4bbf; border-color:#ddd8f5; }
+  .badge.linkedin { background:#e8f1fb; color:#0a66c2; border-color:#c4dcf5; }
+  .badge.jobbank { background:#eef6f0; color:#1a7a3a; border-color:#c8e6d1; }
+  .score { display:inline-block; font-weight:700; font-size:15px; border-radius:7px; padding:2px 8px;
+           color:#fff; margin-right:2px; }
+  .score i { font-style:normal; font-weight:500; font-size:10px; opacity:.85; }
+  .score.high { background:#0b6e4f; } .score.good { background:#0a66c2; }
+  .score.mid  { background:#b45309; } .score.low  { background:#9a3b3b; }
+  .scoretag { font-weight:600; }
+  .scoretag.high {} .scoretag.good {} .scoretag.mid {} .scoretag.low {}
+  .dd-note { color:var(--muted); font-size:13px; margin:0 0 14px; }
+  .dd-line { color:var(--muted); font-size:12.5px; margin:2px 0 2px 32px; }
+  .dd-line.warn { color:#9a3b3b; }
+  .section.deep { border-top-color:#0a66c2; }
+  .notes { background:#fffaf0; border:1px solid #f0e2bd; border-radius:12px; padding:18px 22px;
+            font-size:13px; color:#5c4a1e; margin-top:8px; }
+  .notes h2 { margin:0 0 10px; font-size:15px; color:#7a5c12; }
+  .notes ul { margin:0; padding-left:18px; } .notes li { margin:4px 0; }
+  @media (max-width:560px) { .job-meta,.job-badges,.job-why { margin-left:0; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Job Search Results — Skill-Match + Deep-Dive Scoring</h1>
+    <div class="sub">Radek Zajkowski &mdash; Toronto, ON, Canada &middot; Generated 2026-08-30</div>
+    <div class="stats">
+      <div class="stat"><b>152</b> scored roles</div>
+      <div class="stat"><b>117</b> IT / Tech / Enterprise Apps</div>
+      <div class="stat"><b>35</b> Software/Engineering (review)</div>
+    </div>
+    <div class="sub" style="margin-top:8px;">Scoring: 0&ndash;10 vs. aggregate resume profile &mdash;
+      8.0+ <b>Strong</b> &middot; 6.5&ndash;7.9 <b>Good</b> &middot; 5.0&ndash;6.4 <b>Moderate</b> &middot; &lt;5.0 <b>Weak</b></div>
+  </header>
+
+  
+    <section class="section deep" style="--accent:#0a66c2;">
+      <h2>Deep-Dive — Top Matches (scored against full descriptions) <span class="count">25</span></h2>
+      <p class="dd-note">These top matches were re-scored using the actual job-description text (not just the title).
+      &ldquo;Deep&rdquo; = title-based score blended with the posting&rsquo;s requirements &mdash; a more accurate fit signal.</p>
+      <ol class="jobs">
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">1</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-it-data-transformation-at-nutrition-international-4440960060" target="_blank" rel="noopener">Director, IT &amp; Data Transformation</a>
+        </div>
+        <div class="job-meta">Nutrition International &middot; Ottawa, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.6<i>/10</i></span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Agile/Scrum, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance, ERP/CRM platforms</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">2</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-senior-manager-enterprise-architecture-at-saputo-inc-4441672169" target="_blank" rel="noopener">IT Senior Manager, Enterprise Architecture</a>
+        </div>
+        <div class="job-meta">Saputo Inc. &middot; Georgetown, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.4<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Agile/Scrum, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance, ERP/CRM platforms</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">3</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-virtual-care-technology-applications-at-loblaw-companies-limited-4448143121" target="_blank" rel="noopener">Director, Virtual Care Technology Applications</a>
+        </div>
+        <div class="job-meta">Loblaw Companies Limited &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.3<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div><div class="dd-line warn"><b>French/bilingual description</b> — verify fit manually.</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">4</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/managing-director-technology-architecture-governance-at-cpp-investments-investissements-rpc-4411549338" target="_blank" rel="noopener">Managing Director, Technology Architecture &amp; Governance</a>
+        </div>
+        <div class="job-meta">CPP Investments | Investissements RPC &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.3<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Agile/Scrum, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance, ERP/CRM platforms</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">5</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/sr-manager-enterprise-system-at-allied-gold-corporation-4458282141" target="_blank" rel="noopener">Sr. Manager, Enterprise System</a>
+        </div>
+        <div class="job-meta">Allied Gold Corporation &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.3<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance, ERP/CRM platforms</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">6</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-platform-technology-at-goeasy-ltd-4429874128" target="_blank" rel="noopener">Manager, Platform Technology</a>
+        </div>
+        <div class="job-meta">goeasy Ltd. &middot; Pickering, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.2<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Agile/Scrum, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> ERP/CRM platforms</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">7</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/sr-manager-enterprise-applications-at-opentext-4456961315" target="_blank" rel="noopener">Sr. Manager, Enterprise Applications</a>
+        </div>
+        <div class="job-meta">OpenText &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.1<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance, ERP/CRM platforms</div><div class="dd-line warn"><b>Watch:</b> manages development/engineering team</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">8</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-derivatives-post-trade-technology-at-scotiabank-4416323503" target="_blank" rel="noopener">Director, Derivatives Post Trade Technology</a>
+        </div>
+        <div class="job-meta">Scotiabank &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.1<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Agile/Scrum, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">9</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-it-production-operations-at-fidelity-canada-4448048565" target="_blank" rel="noopener">Manager IT Production Operations</a>
+        </div>
+        <div class="job-meta">Fidelity Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.1<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">10</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/technical-director-is-business-enablement-products-innovation-at-fidelity-canada-4434583955" target="_blank" rel="noopener">Technical Director IS Business Enablement, Products &amp; Innovation</a>
+        </div>
+        <div class="job-meta">Fidelity Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.9<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">11</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-enterprise-technology-service-delivery-at-parkinson-canada-4450757466" target="_blank" rel="noopener">Manager, Enterprise Technology &amp; Service Delivery</a>
+        </div>
+        <div class="job-meta">Parkinson Canada &middot; Greater Toronto Area, Canada</div>
+        <div class="job-badges"><span class="score good">7.7<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">12</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/technology-director-at-qu-data-centres-4446101864" target="_blank" rel="noopener">Technology Director</a>
+        </div>
+        <div class="job-meta">Qu Data Centres &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.6<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">13</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/head-of-advisor-technology-americas-at-vanguard-4435119854" target="_blank" rel="noopener">Head of Advisor Technology - Americas</a>
+        </div>
+        <div class="job-meta">Vanguard &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.0<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance, ERP/CRM platforms</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">14</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-engineering-and-data-platform-at-minto-group-4437604595" target="_blank" rel="noopener">Manager, Engineering and Data Platform</a>
+        </div>
+        <div class="job-meta">Minto Group &middot; Ottawa, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.6<i>/10</i></span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Agile/Scrum, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div><div class="dd-line warn"><b>Watch:</b> hands-on coding expected</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">15</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/paradigm-salesforce-technical-director-global-deloitte-technology-at-deloitte-4460396523" target="_blank" rel="noopener">Paradigm Salesforce Technical Director, Global Deloitte Technology</a>
+        </div>
+        <div class="job-meta">Deloitte &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.6<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Agile/Scrum, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance, ERP/CRM platforms</div><div class="dd-line warn"><b>Watch:</b> hands-on coding expected</div><div class="dd-line warn"><b>French/bilingual description</b> — verify fit manually.</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">16</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/bes-business-group-technology-director-at-hdr-4272473572" target="_blank" rel="noopener">BES Business Group Technology Director</a>
+        </div>
+        <div class="job-meta">HDR &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, AI &amp; automation, Collaboration tools (Atlassian/M365), People leadership, Data &amp; analytics, Strategy &amp; transformation</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">17</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-global-supply-chain-process-systems-at-ssr-mining-inc-4428410371" target="_blank" rel="noopener">Manager, Global Supply Chain Process &amp; Systems</a>
+        </div>
+        <div class="job-meta">SSR Mining Inc. &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance, ERP/CRM platforms</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">18</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/technology-development-and-innovation-manager-at-bmo-4401551599" target="_blank" rel="noopener">Technology Development and Innovation Manager</a>
+        </div>
+        <div class="job-meta">BMO &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> ERP/CRM platforms</div><div class="dd-line warn"><b>Watch:</b> hands-on coding expected</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">19</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-platform-engineering-at-rbc-4454051093" target="_blank" rel="noopener">Director, Platform Engineering</a>
+        </div>
+        <div class="job-meta">RBC &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.9<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance, ERP/CRM platforms</div><div class="dd-line warn"><b>Watch:</b> hands-on coding expected</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">20</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-platform-engineering-at-maple-4443057408" target="_blank" rel="noopener">Director, Platform Engineering</a>
+        </div>
+        <div class="job-meta">Maple &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.9<i>/10</i></span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> SaaS/cloud &amp; modernization, AI &amp; automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div><div class="dd-line warn"><b>Watch:</b> hands-on coding expected, manages development/engineering team</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">21</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50028579" target="_blank" rel="noopener">Information Technology (It) Director</a>
+        </div>
+        <div class="job-meta">University of Toronto &middot; Toronto (ON)</div>
+        <div class="job-badges"><span class="score mid">5.9<i>/10</i></span><span class="badge jobbank">Job Bank</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">22</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/directeur-trice-technologie-et-transformation-num%C3%A9rique-at-linen-chest-4437092509" target="_blank" rel="noopener">Directeur(trice), Technologie et Transformation numérique</a>
+        </div>
+        <div class="job-meta">Linen Chest &middot; Laval, Quebec, Canada</div>
+        <div class="job-badges"><span class="score mid">5.2<i>/10</i></span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Collaboration tools (Atlassian/M365), Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> ERP/CRM platforms</div><div class="dd-line warn"><b>French/bilingual description</b> — verify fit manually.</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">23</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-developer-platform-experience-at-motive-4450813601" target="_blank" rel="noopener">Director, Developer Platform &amp; Experience</a>
+        </div>
+        <div class="job-meta">Motive &middot; Vancouver, British Columbia, Canada</div>
+        <div class="job-badges"><span class="score mid">5.1<i>/10</i></span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> SaaS/cloud &amp; modernization, AI &amp; automation, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data &amp; analytics, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance</div><div class="dd-line warn"><b>Watch:</b> hands-on coding expected, manages development/engineering team</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">24</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/directeur-technologie-et-transformation-num%C3%A9rique-at-foliot-furniture-meubles-4456202996" target="_blank" rel="noopener">Directeur - Technologie et transformation numérique</a>
+        </div>
+        <div class="job-meta">Foliot Furniture / Meubles &middot; St-Jérôme, Quebec, Canada</div>
+        <div class="job-badges"><span class="score low">4.7<i>/10</i></span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Vendor/governance/budget, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> ERP/CRM platforms</div><div class="dd-line warn"><b>French/bilingual description</b> — verify fit manually.</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">25</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-technical-solutions-cloud-applied-ai-at-google-4458645582" target="_blank" rel="noopener">Manager, Technical Solutions, Cloud Applied AI</a>
+        </div>
+        <div class="job-meta">Google &middot; Waterloo, Ontario, Canada</div>
+        <div class="job-badges"><span class="score low">4.7<i>/10</i></span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="dd-line"><b>Matched:</b> Enterprise/business applications, SaaS/cloud &amp; modernization, AI &amp; automation, Vendor/governance/budget, People leadership, Strategy &amp; transformation</div><div class="dd-line"><b>Also mentions:</b> Security/compliance, ERP/CRM platforms</div><div class="dd-line warn"><b>Watch:</b> hands-on coding expected, manages development/engineering team</div>
+      </li></ol>
+    </section>
+
+  
+    <section class="section" style="--accent:#0a66c2;">
+      <h2>Director — IT / Technology / Enterprise Applications <span class="count">33</span></h2>
+      <ol class="jobs">
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">1</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/technical-director-is-business-enablement-products-innovation-at-fidelity-canada-4434583955" target="_blank" rel="noopener">Technical Director IS Business Enablement, Products &amp; Innovation</a>
+        </div>
+        <div class="job-meta">Fidelity Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">9.0<i>/10</i></span><span class="badge scoretag">Strong</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: AI/innovation</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">2</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-it-data-transformation-at-nutrition-international-4440960060" target="_blank" rel="noopener">Director, IT &amp; Data Transformation</a>
+        </div>
+        <div class="job-meta">Nutrition International &middot; Ottawa, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.2<i>/10</i></span><span class="badge scoretag">Strong</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: AI/innovation, data/analytics</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">3</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/directeur-technologie-et-transformation-num%C3%A9rique-at-foliot-furniture-meubles-4456202996" target="_blank" rel="noopener">Directeur - Technologie et transformation numérique</a>
+        </div>
+        <div class="job-meta">Foliot Furniture / Meubles &middot; St-Jérôme, Quebec, Canada</div>
+        <div class="job-badges"><span class="score high">8.0<i>/10</i></span><span class="badge scoretag">Strong</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: AI/innovation</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">4</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/directeur-trice-technologie-et-transformation-num%C3%A9rique-at-linen-chest-4437092509" target="_blank" rel="noopener">Directeur(trice), Technologie et Transformation numérique</a>
+        </div>
+        <div class="job-meta">Linen Chest &middot; Laval, Quebec, Canada</div>
+        <div class="job-badges"><span class="score high">8.0<i>/10</i></span><span class="badge scoretag">Strong</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: AI/innovation</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">5</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-platform-engineering-at-rbc-4454051093" target="_blank" rel="noopener">Director, Platform Engineering</a>
+        </div>
+        <div class="job-meta">RBC &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.8<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">6</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-platform-engineering-at-maple-4443057408" target="_blank" rel="noopener">Director, Platform Engineering</a>
+        </div>
+        <div class="job-meta">Maple &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.8<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">7</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-virtual-care-technology-applications-at-loblaw-companies-limited-4448143121" target="_blank" rel="noopener">Director, Virtual Care Technology Applications</a>
+        </div>
+        <div class="job-meta">Loblaw Companies Limited &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">8</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/managing-director-technology-architecture-governance-at-cpp-investments-investissements-rpc-4411549338" target="_blank" rel="noopener">Managing Director, Technology Architecture &amp; Governance</a>
+        </div>
+        <div class="job-meta">CPP Investments | Investissements RPC &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: vendor/governance</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">9</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-developer-platform-experience-at-motive-4450813601" target="_blank" rel="noopener">Director, Developer Platform &amp; Experience</a>
+        </div>
+        <div class="job-meta">Motive &middot; Vancouver, British Columbia, Canada</div>
+        <div class="job-badges"><span class="score good">7.2<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">10</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/bes-business-group-technology-director-at-hdr-4272473572" target="_blank" rel="noopener">BES Business Group Technology Director</a>
+        </div>
+        <div class="job-meta">HDR &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.0<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">11</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-derivatives-post-trade-technology-at-scotiabank-4416323503" target="_blank" rel="noopener">Director, Derivatives Post Trade Technology</a>
+        </div>
+        <div class="job-meta">Scotiabank &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.0<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">12</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/head-of-advisor-technology-americas-at-vanguard-4435119854" target="_blank" rel="noopener">Head of Advisor Technology - Americas</a>
+        </div>
+        <div class="job-meta">Vanguard &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.0<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">13</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50028579" target="_blank" rel="noopener">Information Technology (It) Director</a>
+        </div>
+        <div class="job-meta">University of Toronto &middot; Toronto (ON)</div>
+        <div class="job-badges"><span class="score good">7.0<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge salary">$145,219.00 to $242,032.00 annually (to be negotiated)</span><span class="badge date">Posted August 07, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">14</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/paradigm-salesforce-technical-director-global-deloitte-technology-at-deloitte-4460396523" target="_blank" rel="noopener">Paradigm Salesforce Technical Director, Global Deloitte Technology</a>
+        </div>
+        <div class="job-meta">Deloitte &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.0<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership; caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">15</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/technology-director-at-qu-data-centres-4446101864" target="_blank" rel="noopener">Technology Director</a>
+        </div>
+        <div class="job-meta">Qu Data Centres &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.0<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">16</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/technology-director-developer-excellence-at-lululemon-4458420929" target="_blank" rel="noopener">Technology Director - Developer Excellence</a>
+        </div>
+        <div class="job-meta">lululemon &middot; Vancouver, British Columbia, Canada</div>
+        <div class="job-badges"><span class="score good">6.8<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">17</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-of-information-technology-at-osl-retail-services-4459842449" target="_blank" rel="noopener">Director of Information Technology</a>
+        </div>
+        <div class="job-meta">OSL Retail Services &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.6<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">18</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50096312" target="_blank" rel="noopener">Director Of Technology</a>
+        </div>
+        <div class="job-meta">Hexaware Technologies Canada Ltd. &middot; Mississauga (ON)</div>
+        <div class="job-badges"><span class="score good">6.6<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge salary">$250,000.00 annually</span><span class="badge date">Posted August 17, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">19</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-technology-delivery-and-enablement-at-lifemark-health-group-4458454000" target="_blank" rel="noopener">Director, Technology Delivery and Enablement</a>
+        </div>
+        <div class="job-meta">Lifemark Health Group &middot; Brampton, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.6<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">20</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-director-at-oti-lumionics-4439385412" target="_blank" rel="noopener">IT Director</a>
+        </div>
+        <div class="job-meta">OTI Lumionics &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.6<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">21</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-director-store-front-end-technology-at-loblaw-companies-limited-4439344806" target="_blank" rel="noopener">Senior Director, Store Front End Technology</a>
+        </div>
+        <div class="job-meta">Loblaw Companies Limited &middot; Brampton, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.6<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">22</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-is-transfer-agency-and-workflow-systems-development-at-fidelity-canada-4438769088" target="_blank" rel="noopener">Director IS Transfer Agency and Workflow Systems Development</a>
+        </div>
+        <div class="job-meta">Fidelity Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">23</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-information-technology-at-united-way-centraide-canada-4449185518" target="_blank" rel="noopener">Director, Information Technology</a>
+        </div>
+        <div class="job-meta">United Way Centraide Canada &middot; Ottawa, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">24</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-information-technology-and-security-at-holland-bloorview-kids-rehabilitation-hospital-4457496770" target="_blank" rel="noopener">Director, Information Technology and Security</a>
+        </div>
+        <div class="job-meta">Holland Bloorview Kids Rehabilitation Hospital &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership; caveats: security-heavy</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">25</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-technology-at-oliver-insurance-software-4453255307" target="_blank" rel="noopener">Director, Technology</a>
+        </div>
+        <div class="job-meta">Oliver Insurance Software &middot; Greater Vancouver Metropolitan Area</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">26</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-virtual-workspace-engineering-at-scotiabank-4403968740" target="_blank" rel="noopener">Director, Virtual Workspace Engineering</a>
+        </div>
+        <div class="job-meta">Scotiabank &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: infrastructure-focused</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">27</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-wms-product-design-and-engineering-at-hellofresh-4457366872" target="_blank" rel="noopener">Director, WMS Product Design and Engineering</a>
+        </div>
+        <div class="job-meta">HelloFresh &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">28</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/directrice-directeur-ti-technologies-des-applications-d-entreprise-at-la-maison-simons-4434164499" target="_blank" rel="noopener">Directrice, Directeur TI - Technologies des applications d&#x27;entreprise</a>
+        </div>
+        <div class="job-meta">La Maison Simons &middot; Québec, Quebec, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">29</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/technical-director-is-business-enablement-client-experience-at-fidelity-canada-4434590797" target="_blank" rel="noopener">Technical Director IS Business Enablement, Client Experience</a>
+        </div>
+        <div class="job-meta">Fidelity Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">30</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-deposits-engineering-banking-at-questrade-financial-group-4456516905" target="_blank" rel="noopener">Director, Deposits Engineering (Banking)</a>
+        </div>
+        <div class="job-meta">Questrade Financial Group &middot; North York, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.1<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">31</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/directeur-technologies-de-l-information-directrice-technologies-de-l-information-at-hera-ressources-humaines-4448024744" target="_blank" rel="noopener">Directeur technologies de l&#x27;information/Directrice technologies de l&#x27;information</a>
+        </div>
+        <div class="job-meta">Hera Ressources Humaines &middot; Boucherville, Quebec, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">32</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/directeur-technologies-de-l-information-directrice-technologies-de-l-information-at-barrette-structural-4460118031" target="_blank" rel="noopener">Directeur technologies de l&#x27;information/Directrice technologies de l&#x27;information</a>
+        </div>
+        <div class="job-meta">Barrette Structural &middot; Trois-Rivières, Quebec, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">33</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50116644" target="_blank" rel="noopener">Director Of Technology Management</a>
+        </div>
+        <div class="job-meta">Medavie &middot; Moncton (NB)</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge salary">$43.75 to $103.37 hourly</span><span class="badge date">Posted August 20, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li></ol>
+    </section>
+  
+    <section class="section" style="--accent:#0b6e4f;">
+      <h2>Manager — IT / Technology / Enterprise Applications <span class="count">84</span></h2>
+      <ol class="jobs">
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">1</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-enterprise-technology-service-delivery-at-parkinson-canada-4450757466" target="_blank" rel="noopener">Manager, Enterprise Technology &amp; Service Delivery</a>
+        </div>
+        <div class="job-meta">Parkinson Canada &middot; Greater Toronto Area, Canada</div>
+        <div class="job-badges"><span class="score high">8.5<i>/10</i></span><span class="badge scoretag">Strong</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications, service management</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">2</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/technology-development-and-innovation-manager-at-bmo-4401551599" target="_blank" rel="noopener">Technology Development and Innovation Manager</a>
+        </div>
+        <div class="job-meta">BMO &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score high">8.0<i>/10</i></span><span class="badge scoretag">Strong</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: AI/innovation</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">3</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-senior-manager-enterprise-architecture-at-saputo-inc-4441672169" target="_blank" rel="noopener">IT Senior Manager, Enterprise Architecture</a>
+        </div>
+        <div class="job-meta">Saputo Inc. &middot; Georgetown, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.6<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">4</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-technical-solutions-cloud-applied-ai-at-google-4458645582" target="_blank" rel="noopener">Manager, Technical Solutions, Cloud Applied AI</a>
+        </div>
+        <div class="job-meta">Google &middot; Waterloo, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: AI/innovation, SaaS/cloud</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">5</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/sr-manager-enterprise-system-at-allied-gold-corporation-4458282141" target="_blank" rel="noopener">Sr. Manager, Enterprise System</a>
+        </div>
+        <div class="job-meta">Allied Gold Corporation &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">6</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-platform-technology-at-goeasy-ltd-4429874128" target="_blank" rel="noopener">Manager, Platform Technology</a>
+        </div>
+        <div class="job-meta">goeasy Ltd. &middot; Pickering, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.3<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">7</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/sr-manager-enterprise-applications-at-opentext-4456961315" target="_blank" rel="noopener">Sr. Manager, Enterprise Applications</a>
+        </div>
+        <div class="job-meta">OpenText &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.1<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">8</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-it-production-operations-at-fidelity-canada-4448048565" target="_blank" rel="noopener">Manager IT Production Operations</a>
+        </div>
+        <div class="job-meta">Fidelity Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.0<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: service management</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">9</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-engineering-and-data-platform-at-minto-group-4437604595" target="_blank" rel="noopener">Manager, Engineering and Data Platform</a>
+        </div>
+        <div class="job-meta">Minto Group &middot; Ottawa, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.0<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: data/analytics</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">10</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-global-supply-chain-process-systems-at-ssr-mining-inc-4428410371" target="_blank" rel="noopener">Manager, Global Supply Chain Process &amp; Systems</a>
+        </div>
+        <div class="job-meta">SSR Mining Inc. &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">7.0<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">11</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-epm-analytics-applications-at-metrolinx-4451959043" target="_blank" rel="noopener">Manager, EPM &amp; Analytics Applications</a>
+        </div>
+        <div class="job-meta">Metrolinx &middot; Greater Toronto Area, Canada</div>
+        <div class="job-badges"><span class="score good">6.8<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications, data/analytics</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">12</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/information-technology-it-service-delivery-manager-at-techvest-global-solutions-inc-4419159514" target="_blank" rel="noopener">information technology (IT) service delivery manager</a>
+        </div>
+        <div class="job-meta">TechVest Global Solutions Inc. &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.6<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: service management</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">13</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-business-systems-manager-at-atlantic-industries-limited-4448996835" target="_blank" rel="noopener">IT &amp; Business Systems Manager</a>
+        </div>
+        <div class="job-meta">Atlantic Industries Limited &middot; Cambridge, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.6<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">14</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-business-operations-manager-at-jeld-wen-of-canada-4456940958" target="_blank" rel="noopener">IT Business Operations Manager</a>
+        </div>
+        <div class="job-meta">JELD-WEN of Canada &middot; Woodbridge, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.6<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: service management</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">15</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-it-business-systems-at-east-penn-canada-4445731280" target="_blank" rel="noopener">Manager, IT Business Systems</a>
+        </div>
+        <div class="job-meta">East Penn Canada &middot; Courtice, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.6<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">16</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/information-technology-manager-at-esbe-scientific-4457168733" target="_blank" rel="noopener">Information Technology Manager</a>
+        </div>
+        <div class="job-meta">ESBE Scientific &middot; Greater Toronto Area, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">17</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-manager-at-exacare-ai-4457626952" target="_blank" rel="noopener">IT Manager</a>
+        </div>
+        <div class="job-meta">exacare ai &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">18</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-manager-at-the-hidi-group-4447142114" target="_blank" rel="noopener">IT Manager</a>
+        </div>
+        <div class="job-meta">The HIDI Group &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">19</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-manager-at-byd-canada-4458627409" target="_blank" rel="noopener">IT Manager</a>
+        </div>
+        <div class="job-meta">BYD Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">20</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-operations-manager-at-rival-technologies-4432436800" target="_blank" rel="noopener">IT Operations Manager</a>
+        </div>
+        <div class="job-meta">Rival Technologies &middot; Vancouver, British Columbia, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: service management</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">21</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50048614" target="_blank" rel="noopener">Manager, Computer Applications</a>
+        </div>
+        <div class="job-meta">CommerceBear &middot; Toronto (ON)</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge hybrid">Hybrid</span><span class="badge salary">$40.00 to $92.00 hourly</span><span class="badge date">Posted August 09, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">22</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50068231" target="_blank" rel="noopener">Manager, It (Information Technology) Implementation</a>
+        </div>
+        <div class="job-meta">AndrosEnterprise &middot; Toronto (ON)</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge hybrid">Hybrid</span><span class="badge salary">$75,000.00 to $120,000.00 annually</span><span class="badge date">Posted August 13, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">23</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50068238" target="_blank" rel="noopener">Manager, It (Information Technology) Implementation</a>
+        </div>
+        <div class="job-meta">Kablamo Pty Ltd &middot; Toronto (ON)</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge salary">$43.75 to $103.37 hourly</span><span class="badge date">Posted August 13, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">24</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-it-financial-systems-at-element-fleet-management-4427114083" target="_blank" rel="noopener">Manager, IT Financial Systems</a>
+        </div>
+        <div class="job-meta">Element Fleet Management &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">25</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-it-systems-at-clio-4417173872" target="_blank" rel="noopener">Manager, IT Systems</a>
+        </div>
+        <div class="job-meta">Clio &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">26</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-technology-workplace-services-at-eq-bank-4449680123" target="_blank" rel="noopener">Manager, Technology Workplace Services</a>
+        </div>
+        <div class="job-meta">EQ Bank &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">27</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-technology-manager-at-bmo-4434031650" target="_blank" rel="noopener">Senior Technology Manager</a>
+        </div>
+        <div class="job-meta">BMO &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">28</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/49834193" target="_blank" rel="noopener">Technical Delivery Manager - Information Technology (It)</a>
+        </div>
+        <div class="job-meta">Telna &middot; Toronto (ON)</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge salary">$200,000.00 to $210,000.00 annually (to be negotiated)</span><span class="badge date">Posted July 03, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">29</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-manager-data-platforms-at-scotiabank-4390758233" target="_blank" rel="noopener">Senior Manager - Data Platforms</a>
+        </div>
+        <div class="job-meta">Scotiabank &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.2<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: data/analytics</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">30</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-technology-manager-data-delivery-at-equitable-4442871751" target="_blank" rel="noopener">Senior Technology Manager, Data Delivery</a>
+        </div>
+        <div class="job-meta">Equitable &middot; Waterloo, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.2<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: data/analytics</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">31</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/business-systems-manager-logistics-at-charger-logistics-inc-4449505801" target="_blank" rel="noopener">Business Systems Manager - Logistics</a>
+        </div>
+        <div class="job-meta">Charger Logistics Inc. &middot; Brampton, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.1<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">32</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-associate-manager-at-huawei-canada-4440326645" target="_blank" rel="noopener">IT Associate Manager</a>
+        </div>
+        <div class="job-meta">Huawei Canada &middot; Markham, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.1<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">33</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-manager-at-mgi-construction-corp-4415808921" target="_blank" rel="noopener">IT Manager</a>
+        </div>
+        <div class="job-meta">MGI Construction Corp. &middot; Etobicoke, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.1<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">34</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50048082" target="_blank" rel="noopener">Manager, Computer Applications</a>
+        </div>
+        <div class="job-meta">Plum &middot; Waterloo (ON)</div>
+        <div class="job-badges"><span class="score mid">6.1<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge hybrid">Hybrid</span><span class="badge salary">$40.00 to $92.00 hourly</span><span class="badge date">Posted August 09, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">35</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50047699" target="_blank" rel="noopener">Manager, It (Information Technology) Implementation</a>
+        </div>
+        <div class="job-meta">Powerhouse Controls Limited &middot; Cambridge (ON)</div>
+        <div class="job-badges"><span class="score mid">6.1<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge hybrid">Hybrid</span><span class="badge salary">$40.00 to $92.00 hourly</span><span class="badge date">Posted August 09, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">36</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/sr-manager-microsoft-platforms-at-iko-north-america-4411187891" target="_blank" rel="noopener">Sr.Manager - Microsoft Platforms</a>
+        </div>
+        <div class="job-meta">IKO North America &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.1<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: collaboration tools</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">37</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50153331" target="_blank" rel="noopener">Enterprise Resource Planning (Erp) Manager</a>
+        </div>
+        <div class="job-meta">Muskoka Roastery Coffee Co &middot; Huntsville (ON)</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge salary">$82,500.00 annually</span><span class="badge date">Posted August 25, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: enterprise applications; caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">38</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/information-technology-it-manager-at-hospitality-newfoundland-and-labrador-4455777443" target="_blank" rel="noopener">Information Technology (IT) Manager</a>
+        </div>
+        <div class="job-meta">Hospitality Newfoundland and Labrador &middot; Paradise, Newfoundland and Labrador, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">39</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50175215" target="_blank" rel="noopener">Information Technology (It) Service Delivery Manager</a>
+        </div>
+        <div class="job-meta">Raymond Chabot Grant Thornton &middot; Montréal (QC)</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge hybrid">Hybrid</span><span class="badge salary">$111,300.00 annually</span><span class="badge date">Posted August 28, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: service management</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">40</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/information-technology-infrastructure-manager-at-resonaite-4453219426" target="_blank" rel="noopener">Information Technology Infrastructure Manager</a>
+        </div>
+        <div class="job-meta">Resonaite &middot; Belleville, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership; caveats: infrastructure-focused</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">41</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/information-technology-manager-at-reesink-canada-4455566103" target="_blank" rel="noopener">Information Technology Manager</a>
+        </div>
+        <div class="job-meta">Reesink Canada &middot; Saskatoon, Saskatchewan, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">42</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-manager-at-safe-fleet-4433098674" target="_blank" rel="noopener">IT Manager</a>
+        </div>
+        <div class="job-meta">Safe Fleet &middot; Montreal, Quebec, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">43</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-digital-products-sap-manager-financial-accounting-and-controlling-fico-13563-at-toronto-transit-commission-ttc-4459406575" target="_blank" rel="noopener">Manager Digital Products - SAP Manager Financial Accounting and Controlling (FICO) (13563)</a>
+        </div>
+        <div class="job-meta">Toronto Transit Commission (TTC) &middot; Greater Toronto Area, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">44</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-product-engineering-development-at-deloitte-4460506197" target="_blank" rel="noopener">Manager Product Engineering &amp; Development</a>
+        </div>
+        <div class="job-meta">Deloitte &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">45</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-dynamics-365-finance-operations-at-deloitte-4460505265" target="_blank" rel="noopener">Manager, Dynamics 365 Finance &amp; Operations</a>
+        </div>
+        <div class="job-meta">Deloitte &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: collaboration tools, service management; caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">46</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-finance-systems-and-processes-at-viral-nation-4460359561" target="_blank" rel="noopener">Manager, Finance Systems and Processes</a>
+        </div>
+        <div class="job-meta">Viral Nation &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">47</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-it-infrastructure-and-security-at-university-of-toronto-4454998872" target="_blank" rel="noopener">Manager, IT Infrastructure and Security</a>
+        </div>
+        <div class="job-meta">University of Toronto &middot; Greater Toronto Area, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership; caveats: security-heavy, infrastructure-focused</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">48</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-learning-systems-at-doane-grant-thornton-llp-4404310971" target="_blank" rel="noopener">Manager, Learning Systems</a>
+        </div>
+        <div class="job-meta">Doane Grant Thornton LLP &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">49</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-p-c-systems-at-ontario-teachers-%E2%80%8B-pension-plan-4430754106" target="_blank" rel="noopener">Manager, P&amp;C Systems</a>
+        </div>
+        <div class="job-meta">Ontario Teachers&#x27; Pension Plan &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">50</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-technology-infrastructure-at-toronto-catholic-district-school-board-4458259822" target="_blank" rel="noopener">Manager, Technology Infrastructure</a>
+        </div>
+        <div class="job-meta">Toronto Catholic District School Board &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership; caveats: infrastructure-focused</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">51</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-workplace-technology-management-at-greenshield-4455364554" target="_blank" rel="noopener">Manager, Workplace Technology Management</a>
+        </div>
+        <div class="job-meta">GreenShield &middot; Windsor, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">52</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-application-manager-at-flyover-4449317156" target="_blank" rel="noopener">Senior Application Manager</a>
+        </div>
+        <div class="job-meta">Flyover &middot; Vancouver, British Columbia, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">53</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-manager-product-engineering-development-at-deloitte-4460510195" target="_blank" rel="noopener">Senior Manager Product Engineering &amp; Development</a>
+        </div>
+        <div class="job-meta">Deloitte &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">54</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-manager-engineering-at-td-4437463758" target="_blank" rel="noopener">Senior Manager, Engineering</a>
+        </div>
+        <div class="job-meta">TD &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">55</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-manager-financial-systems-operate-at-deloitte-4460397518" target="_blank" rel="noopener">Senior Manager, Financial Systems - Operate</a>
+        </div>
+        <div class="job-meta">Deloitte &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">56</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/systems-manager-financial-systems-functional-analysis-at-spotify-4418040057" target="_blank" rel="noopener">Systems Manager - Financial Systems Functional Analysis</a>
+        </div>
+        <div class="job-meta">Spotify &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">57</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/business-systems-manager-at-federal-signal-corporation-4450675493" target="_blank" rel="noopener">Business Systems Manager</a>
+        </div>
+        <div class="job-meta">Federal Signal Corporation &middot; Innisfil, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.8<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">58</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-it-manager-erp-data-and-systems-at-chatters-limited-partnership-4448027944" target="_blank" rel="noopener">Senior IT Manager, ERP, Data and Systems</a>
+        </div>
+        <div class="job-meta">Chatters Limited Partnership &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.8<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: data/analytics; caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">59</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/digital-solutions-manager-at-plan-group-inc-4444600537" target="_blank" rel="noopener">Digital Solutions Manager</a>
+        </div>
+        <div class="job-meta">Plan Group Inc. &middot; Vaughan, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.6<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">60</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/yyz-manager-hris-ft-at-cargojet-4455311472" target="_blank" rel="noopener">YYZ - Manager, HRIS - FT</a>
+        </div>
+        <div class="job-meta">Cargojet &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.6<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">61</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/gestionnaire-technologies-de-l-information-at-lg2-4457039089" target="_blank" rel="noopener">Gestionnaire, Technologies de l&#x27;information</a>
+        </div>
+        <div class="job-meta">LG2 &middot; Montreal, Quebec, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">general technology leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">62</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50179577" target="_blank" rel="noopener">Information Technology (It) Implementation Manager</a>
+        </div>
+        <div class="job-meta">Surrey Police Service &middot; Surrey (BC)</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge salary">$59.84 hourly</span><span class="badge date">Posted August 28, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">63</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50162545" target="_blank" rel="noopener">Information Technology (It) Implementation Manager</a>
+        </div>
+        <div class="job-meta">City of Vancouver &middot; Vancouver (BC)</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge salary">$62.53 hourly</span><span class="badge date">Posted August 26, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">64</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-oracle-cloud-financials-at-ey-4444178204" target="_blank" rel="noopener">Manager - Oracle Cloud Financials</a>
+        </div>
+        <div class="job-meta">EY &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: SaaS/cloud; caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">65</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50108045" target="_blank" rel="noopener">Manager, It (Information Technology) Implementation</a>
+        </div>
+        <div class="job-meta">Mariner &middot; Moncton (NB)</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge salary">$43.75 to $103.37 hourly</span><span class="badge date">Posted August 19, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: IT leadership</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">66</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-sap-finance-public-cloud-at-kpmg-canada-4452146500" target="_blank" rel="noopener">Manager, SAP Finance Public Cloud</a>
+        </div>
+        <div class="job-meta">KPMG Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: SaaS/cloud; caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">67</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-sap-mm-public-cloud-at-kpmg-canada-4452131668" target="_blank" rel="noopener">Manager, SAP MM Public Cloud</a>
+        </div>
+        <div class="job-meta">KPMG Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: SaaS/cloud; caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">68</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-sap-sd-public-cloud-at-kpmg-canada-4452136577" target="_blank" rel="noopener">Manager, SAP SD Public Cloud</a>
+        </div>
+        <div class="job-meta">KPMG Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: SaaS/cloud; caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">69</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-workday-talent-acquisition-technology-at-rbc-4455531879" target="_blank" rel="noopener">Manager, Workday Talent Acquisition Technology</a>
+        </div>
+        <div class="job-meta">RBC &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership; caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">70</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-manager-erp-systems-at-searchlabs-4457055247" target="_blank" rel="noopener">Senior Manager, ERP Systems</a>
+        </div>
+        <div class="job-meta">SearchLabs &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">71</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/sr-manager-it-delivery-supply-chain-technology-sap-warehouse-systems-at-mckesson-4440584614" target="_blank" rel="noopener">Sr. Manager IT Delivery, Supply Chain Technology (SAP &amp; Warehouse Systems)</a>
+        </div>
+        <div class="job-meta">McKesson &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.1<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership; caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">72</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/digital-consulting-manager-workday-adaptive-planning-canada-at-huron-4357990846" target="_blank" rel="noopener">Digital Consulting Manager - Workday Adaptive Planning (Canada)</a>
+        </div>
+        <div class="job-meta">Huron &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">73</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/erp-manager-at-aplin-4460390697" target="_blank" rel="noopener">ERP Manager</a>
+        </div>
+        <div class="job-meta">Aplin &middot; Kingsville, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">74</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50048148" target="_blank" rel="noopener">Help Desk Manager - Information Technology (It)</a>
+        </div>
+        <div class="job-meta">Micromart &middot; Toronto (ON)</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge hybrid">Hybrid</span><span class="badge salary">$40.00 to $92.00 hourly</span><span class="badge date">Posted August 09, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">matches: IT leadership; caveats: below seniority (help desk)</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">75</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-end-user-support-manager-at-kpmg-canada-4450678831" target="_blank" rel="noopener">IT End User Support Manager</a>
+        </div>
+        <div class="job-meta">KPMG Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership; caveats: below seniority (help desk)</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">76</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-workday-hcm-at-canadian-tire-corporation-4404816585" target="_blank" rel="noopener">Manager, Workday &amp; HCM</a>
+        </div>
+        <div class="job-meta">Canadian Tire Corporation &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">77</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/responsable-axe-de-travail-oracle-hcm-at-accenture-4447188950" target="_blank" rel="noopener">Responsable, axe de travail Oracle HCM</a>
+        </div>
+        <div class="job-meta">Accenture &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config, narrow function</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">78</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/sap-project-systems-ps-and-eppm-manager-at-pwc-canada-4459693287" target="_blank" rel="noopener">SAP Project Systems (PS) and EPPM Manager</a>
+        </div>
+        <div class="job-meta">PwC Canada &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">79</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-manager-sap-finance-lead-at-ey-4457701985" target="_blank" rel="noopener">Senior Manager - SAP Finance Lead</a>
+        </div>
+        <div class="job-meta">EY &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">80</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-sap-manager-at-mohawk-medbuy-corporation-4438226549" target="_blank" rel="noopener">Senior SAP Manager</a>
+        </div>
+        <div class="job-meta">Mohawk Medbuy Corporation &middot; Greater Toronto Area, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">81</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-business-analyst-%E2%80%93-d365-f-o-crm-at-ellisdon-4440861837" target="_blank" rel="noopener">Manager, Business Analyst – D365 F&amp;O / CRM</a>
+        </div>
+        <div class="job-meta">EllisDon &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score low">4.6<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">82</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/cad-plm-manager-at-horizon-aircraft-4439051452" target="_blank" rel="noopener">CAD / PLM Manager</a>
+        </div>
+        <div class="job-meta">Horizon Aircraft &middot; Lindsay, Ontario, Canada</div>
+        <div class="job-badges"><span class="score low">4.5<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">83</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/sap-successfactors-performance-management-learning-manager-at-pwc-canada-4454562252" target="_blank" rel="noopener">SAP SuccessFactors Performance Management &amp; Learning, Manager</a>
+        </div>
+        <div class="job-meta">PwC Canada &middot; Calgary, Alberta, Canada</div>
+        <div class="job-badges"><span class="score low">4.5<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: specialist ERP/config</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">84</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-service-desk-at-mackenzie-health-4422657089" target="_blank" rel="noopener">Manager, Service Desk</a>
+        </div>
+        <div class="job-meta">Mackenzie Health &middot; Richmond Hill, Ontario, Canada</div>
+        <div class="job-badges"><span class="score low">4.1<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: below seniority (help desk)</div>
+      </li></ol>
+    </section>
+  
+    <section class="section" style="--accent:#b45309;">
+      <h2>Director — Software / Engineering (review fit) <span class="count">21</span></h2>
+      <ol class="jobs">
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">1</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-of-engineering-enterprise-systems-at-opentable-4459412669" target="_blank" rel="noopener">Director of Engineering, Enterprise Systems</a>
+        </div>
+        <div class="job-meta">OpenTable &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: enterprise applications; caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">2</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-of-engineering-exchange-platform-at-index-exchange-4439914023" target="_blank" rel="noopener">Director of Engineering, Exchange Platform</a>
+        </div>
+        <div class="job-meta">Index Exchange &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">3</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-of-engineering-internal-platform-at-clio-4442680487" target="_blank" rel="noopener">Director of Engineering, Internal Platform</a>
+        </div>
+        <div class="job-meta">Clio &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">4</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-engineering-operations-automation-at-manulife-4451950753" target="_blank" rel="noopener">Director, Engineering - Operations Automation</a>
+        </div>
+        <div class="job-meta">Manulife &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score good">6.5<i>/10</i></span><span class="badge scoretag">Good</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: AI/innovation, service management; caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">5</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/engineering-director-agentic-platform-at-ifs-4455757995" target="_blank" rel="noopener">Engineering Director, Agentic Platform</a>
+        </div>
+        <div class="job-meta">IFS &middot; Vancouver, British Columbia, Canada</div>
+        <div class="job-badges"><span class="score mid">6.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">6</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-of-engineering-at-relay-4322430738" target="_blank" rel="noopener">Director of Engineering</a>
+        </div>
+        <div class="job-meta">Relay &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">7</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-of-engineering-at-techblocks-4451197299" target="_blank" rel="noopener">Director of Engineering</a>
+        </div>
+        <div class="job-meta">TechBlocks &middot; Greater Toronto Area, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">8</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-of-engineering-developer-infrastructure-at-fullscript-4407896427" target="_blank" rel="noopener">Director of Engineering, Developer Infrastructure</a>
+        </div>
+        <div class="job-meta">Fullscript &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev, infrastructure-focused</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">9</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-of-engineering-operations-planning-at-hellofresh-4455783600" target="_blank" rel="noopener">Director of Engineering, Operations Planning</a>
+        </div>
+        <div class="job-meta">HelloFresh &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: service management; caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">10</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-of-software-engineering-canada-at-cognichip-4397776072" target="_blank" rel="noopener">Director of Software Engineering, Canada</a>
+        </div>
+        <div class="job-meta">Cognichip &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">11</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-software-engineering-at-loblaw-digital-4415392306" target="_blank" rel="noopener">Director, Software Engineering</a>
+        </div>
+        <div class="job-meta">Loblaw Digital &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">12</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-software-engineering-at-broadridge-4423069100" target="_blank" rel="noopener">Director, Software Engineering</a>
+        </div>
+        <div class="job-meta">Broadridge &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">13</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/head-of-engineering-at-parallelz-4419443430" target="_blank" rel="noopener">Head of Engineering</a>
+        </div>
+        <div class="job-meta">Parallelz &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">14</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-director-engineering-corporates-financial-institutions-sovereigns-at-fitch-ratings-4454780359" target="_blank" rel="noopener">Senior Director, Engineering - Corporates, Financial Institutions &amp; Sovereigns</a>
+        </div>
+        <div class="job-meta">Fitch Ratings &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">15</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/vice-president-of-software-engineering-at-tekrek-4449743983" target="_blank" rel="noopener">Vice President of Software Engineering</a>
+        </div>
+        <div class="job-meta">TekRek &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">16</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/vp-of-software-engineering-at-colab-4361659347" target="_blank" rel="noopener">VP of Software Engineering</a>
+        </div>
+        <div class="job-meta">CoLab &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">17</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-or-vp-of-engineering-at-birdseye-security-solutions-4427364727" target="_blank" rel="noopener">Director or VP of Engineering</a>
+        </div>
+        <div class="job-meta">Birdseye Security Solutions &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.1<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">18</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-software-engineering-at-pointclickcare-4451454031" target="_blank" rel="noopener">Director, Software Engineering</a>
+        </div>
+        <div class="job-meta">PointClickCare &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.1<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">19</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/director-software-engineering-at-homewood-health-centre-4454456206" target="_blank" rel="noopener">Director - Software Engineering</a>
+        </div>
+        <div class="job-meta">Homewood Health Centre &middot; Calgary, Alberta, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">20</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/head-of-software-engineering-at-onx-4450342347" target="_blank" rel="noopener">Head of Software Engineering</a>
+        </div>
+        <div class="job-meta">OnX &middot; Edmonton, Alberta, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">21</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50175627" target="_blank" rel="noopener">Director Of Software Engineering</a>
+        </div>
+        <div class="job-meta">Nord Quantique &middot; Sherbrooke (QC)</div>
+        <div class="job-badges"><span class="score low">4.5<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge salary">$200,000.00 to $245,000.00 annually (to be negotiated)</span><span class="badge date">Posted August 28, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li></ol>
+    </section>
+  
+    <section class="section" style="--accent:#b45309;">
+      <h2>Manager — Software / Engineering (review fit) <span class="count">14</span></h2>
+      <ol class="jobs">
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">1</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-software-engineering-platform-services-at-cleargov-4459868030" target="_blank" rel="noopener">Manager, Software Engineering - Platform Services</a>
+        </div>
+        <div class="job-meta">ClearGov &middot; Calgary, Alberta, Canada</div>
+        <div class="job-badges"><span class="score mid">5.5<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">2</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/wattpad-engineering-manager-at-wattpad-4453463436" target="_blank" rel="noopener">[Wattpad] Engineering Manager</a>
+        </div>
+        <div class="job-meta">Wattpad &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">3</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-software-engineering-at-emburse-4443434072" target="_blank" rel="noopener">Manager, Software Engineering</a>
+        </div>
+        <div class="job-meta">Emburse &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">4</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-software-engineering-at-ripple-4373054345" target="_blank" rel="noopener">Manager, Software Engineering</a>
+        </div>
+        <div class="job-meta">Ripple &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">5</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-software-engineering-at-kev-group-4449322459" target="_blank" rel="noopener">Manager, Software Engineering</a>
+        </div>
+        <div class="job-meta">KEV Group &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">6</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-software-engineering-general-at-jobber-4456538184" target="_blank" rel="noopener">Manager, Software Engineering, General</a>
+        </div>
+        <div class="job-meta">Jobber &middot; Toronto, Ontario, Canada</div>
+        <div class="job-badges"><span class="score mid">5.0<i>/10</i></span><span class="badge scoretag">Moderate</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">7</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/it-engineering-manager-at-tjx-canada-%E2%80%93-winners-marshalls-homesense-4457050145" target="_blank" rel="noopener">IT Engineering Manager</a>
+        </div>
+        <div class="job-meta">TJX Canada – Winners, Marshalls, HomeSense &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score low">4.6<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">matches: IT leadership; caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">8</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-software-engineering-at-pointclickcare-4437076599" target="_blank" rel="noopener">Manager Software Engineering</a>
+        </div>
+        <div class="job-meta">PointClickCare &middot; Mississauga, Ontario, Canada</div>
+        <div class="job-badges"><span class="score low">4.6<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">9</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-software-engineering-developer-environments-at-affirm-4413844699" target="_blank" rel="noopener">Manager, Software Engineering (Developer Environments)</a>
+        </div>
+        <div class="job-meta">Affirm &middot; Hamilton, Ontario, Canada</div>
+        <div class="job-badges"><span class="score low">4.6<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">10</span>
+          <a class="job-title" href="https://www.jobbank.gc.ca/jobsearch/jobposting/50101210" target="_blank" rel="noopener">Software Engineering Manager</a>
+        </div>
+        <div class="job-meta">Technology Force Company Ltd. &middot; Concord (ON)</div>
+        <div class="job-badges"><span class="score low">4.6<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge salary">$68.00 hourly</span><span class="badge date">Posted August 18, 2026</span><span class="badge jobbank">Job Bank</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">11</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-software-engineering-at-ultra-maritime-4411258026" target="_blank" rel="noopener">Manager Software Engineering</a>
+        </div>
+        <div class="job-meta">Ultra Maritime &middot; Dartmouth, Nova Scotia, Canada</div>
+        <div class="job-badges"><span class="score low">4.5<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">12</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/manager-software-engineering-at-altaml-4458216955" target="_blank" rel="noopener">Manager, Software Engineering</a>
+        </div>
+        <div class="job-meta">AltaML &middot; Calgary, Alberta, Canada</div>
+        <div class="job-badges"><span class="score low">4.5<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">13</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/software-engineering-manager-at-helcim-4450288387" target="_blank" rel="noopener">Software Engineering Manager</a>
+        </div>
+        <div class="job-meta">Helcim &middot; Calgary, Alberta, Canada</div>
+        <div class="job-badges"><span class="score low">4.5<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge remote">Remote</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev</div>
+      </li>
+      <li class="job">
+        <div class="job-head">
+          <span class="job-num">14</span>
+          <a class="job-title" href="https://ca.linkedin.com/jobs/view/senior-engineering-manager-erp-at-xplore-inc-4441559323" target="_blank" rel="noopener">Senior Engineering Manager - ERP</a>
+        </div>
+        <div class="job-meta">Xplore Inc. &middot; Markham, Ontario, Canada</div>
+        <div class="job-badges"><span class="score low">4.1<i>/10</i></span><span class="badge scoretag">Weak</span><span class="badge linkedin">LinkedIn</span></div>
+        <div class="job-why">caveats: leans hands-on dev, specialist ERP/config</div>
+      </li></ol>
+    </section>
+
+  <div class="notes" style="background:#fffaf0;border:1px solid #f0e2bd;">
+    <h2>How scores are derived</h2>
+    <ul>
+      <li><b>Seniority (0&ndash;3)</b> + <b>Domain fit (0.5&ndash;3)</b> + <b>Location (0&ndash;2)</b> + <b>Differentiators (0&ndash;2)</b>.</li>
+      <li>Domain rewards IT leadership, enterprise apps, SaaS/cloud, AI, collaboration, vendor/governance,
+          service management, data &amp; platform. Penalizes security-only, ERP-config, and help-desk roles.</li>
+      <li>"Software/Engineering" titles are capped (dev-lean) and listed separately for review.</li>
+      <li><b>Two passes:</b> every role gets a <b>title-score</b> (title + company + location);
+          the top matches also get a <b>deep-score</b> re-scored against the full job description
+          (requirement-theme coverage, penalized for hands-on-dev / help-desk / below-seniority signals).</li>
+      <li>Excluded per instruction: "Software Development Manager", "Development Manager", and hands-on
+          dev-team leadership. US-only "remote" postings were dropped.</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
