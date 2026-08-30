@@ -105,6 +105,24 @@
 .fclear:hover { background:#fbe9e9; }
 .filter-count { font-size:13px; color:var(--muted); margin-left:auto; font-weight:500; white-space:nowrap; }
 .filter-count b { color:var(--brand); }
+  .aggstats { background:var(--card); border:1px solid var(--line); border-radius:12px;
+            padding:14px 18px; margin:0 0 20px; }
+.aggstats summary { cursor:pointer; font-weight:700; font-size:14px; color:var(--ink);
+                    user-select:none; list-style:none; }
+.aggstats summary::-webkit-details-marker { display:none; }
+.aggstats summary::before { content:"\25B8\00a0\00a0"; color:var(--brand); font-weight:700; }
+.aggstats[open] summary::before { content:"\25BE\00a0\00a0"; }
+.agg-cards { display:flex; flex-wrap:wrap; gap:10px; margin:14px 0 6px; }
+.agg { background:#f2f6fc; border:1px solid var(--line); border-radius:10px;
+       padding:10px 14px; font-size:13px; color:var(--muted); }
+.agg b { display:block; font-size:20px; color:var(--brand); }
+.agg-cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+            gap:16px; margin-top:12px; }
+.agg-col h3 { margin:0 0 8px; font-size:13px; color:#7a5c12; }
+.kv { display:flex; justify-content:space-between; gap:8px; padding:2px 0;
+      border-bottom:1px dashed var(--line); font-size:12.5px; }
+.kv .k { color:var(--ink); }
+.kv .v { color:var(--muted); font-variant-numeric:tabular-nums; }
 </style>
 </head>
 <body>
@@ -117,10 +135,47 @@
       <div class="stat"><b>22</b> LLM-evaluated</div>
       <div class="stat"><b>2</b> VP/C-level excluded</div>
       <div class="stat"><b>1057</b> IT / Tech / Enterprise Apps</div>
+      <div class="stat"><b>151</b> unique companies</div>
+      <div class="stat"><b>1080</b> unique positions</div>
+      <div class="stat"><b>224</b> unique cities</div>
     </div>
     <div class="sub" style="margin-top:8px;">LLM evaluation is the <b>primary</b> ranking (top). Deterministic keyword scoring is a secondary pre-filter.</div>
     <div class="sub" style="margin-top:6px;">VP/C-level roles are excluded. A non-GTA role that requires in-office days is flagged and capped below 8.0 (max 7.9).</div>
   </header>
+
+  
+  <details class="aggstats">
+    <summary>Aggregate stats &mdash; 1111 roles &middot; 151 companies &middot; 1080 positions &middot; 224 cities</summary>
+    <div class="agg-cards">
+      <div class="agg"><b>1111</b> roles</div>
+      <div class="agg"><b>151</b> unique companies</div>
+      <div class="agg"><b>1080</b> unique positions</div>
+      <div class="agg"><b>224</b> unique cities</div>
+      <div class="agg"><b>4</b> sources</div>
+    </div>
+    <div class="agg-cols">
+      <div class="agg-col">
+        <h3>By level</h3>
+        <div class="kv"><span class="k">Manager</span><span class="v">761</span></div><div class="kv"><span class="k">Director</span><span class="v">350</span></div>
+      </div>
+      <div class="agg-col">
+        <h3>By city</h3>
+        <div class="kv"><span class="k">Toronto</span><span class="v">319</span></div><div class="kv"><span class="k">2 Locations</span><span class="v">70</span></div><div class="kv"><span class="k">Hong Kong</span><span class="v">45</span></div><div class="kv"><span class="k">New York</span><span class="v">44</span></div><div class="kv"><span class="k">3 Locations</span><span class="v">37</span></div><div class="kv"><span class="k">Hunghom</span><span class="v">32</span></div><div class="kv"><span class="k">Chicago</span><span class="v">24</span></div><div class="kv"><span class="k">4 Locations</span><span class="v">17</span></div><div class="kv"><span class="k">Mississauga</span><span class="v">16</span></div><div class="kv"><span class="k">Remote (United States | Canada)</span><span class="v">16</span></div><div class="kv"><span class="k">Singapore</span><span class="v">16</span></div><div class="kv"><span class="k">Quezon City</span><span class="v">16</span></div><div class="kv"><span class="k">5 Locations</span><span class="v">15</span></div><div class="kv"><span class="k">Boston</span><span class="v">11</span></div><div class="kv"><span class="k">Kuala Lumpur</span><span class="v">11</span></div>
+      </div>
+      <div class="agg-col">
+        <h3>By source</h3>
+        <div class="kv"><span class="k">Workday</span><span class="v">825</span></div><div class="kv"><span class="k">ATS</span><span class="v">135</span></div><div class="kv"><span class="k">LinkedIn</span><span class="v">134</span></div><div class="kv"><span class="k">Job Bank</span><span class="v">17</span></div>
+      </div>
+      <div class="agg-col">
+        <h3>Top companies</h3>
+        <div class="kv"><span class="k">TD Bank</span><span class="v">273</span></div><div class="kv"><span class="k">BMO</span><span class="v">195</span></div><div class="kv"><span class="k">Manulife</span><span class="v">168</span></div><div class="kv"><span class="k">Sun Life</span><span class="v">83</span></div><div class="kv"><span class="k">CIBC</span><span class="v">59</span></div><div class="kv"><span class="k">Cohere</span><span class="v">32</span></div><div class="kv"><span class="k">PointClickCare</span><span class="v">23</span></div><div class="kv"><span class="k">1Password</span><span class="v">19</span></div><div class="kv"><span class="k">CPP Investments</span><span class="v">18</span></div><div class="kv"><span class="k">OTPP (Ontario Teachers)</span><span class="v">16</span></div><div class="kv"><span class="k">Geotab</span><span class="v">16</span></div><div class="kv"><span class="k">OMERS</span><span class="v">14</span></div><div class="kv"><span class="k">Float</span><span class="v">11</span></div><div class="kv"><span class="k">Tulip Interfaces</span><span class="v">8</span></div><div class="kv"><span class="k">Mozilla</span><span class="v">7</span></div>
+      </div>
+      <div class="agg-col">
+        <h3>Top positions</h3>
+        <div class="kv"><span class="k">IT Manager</span><span class="v">4</span></div><div class="kv"><span class="k">Manager, It (Information Technology) Implementation</span><span class="v">4</span></div><div class="kv"><span class="k">Manager, Software Engineering</span><span class="v">4</span></div><div class="kv"><span class="k">Senior Relationship Manager</span><span class="v">3</span></div><div class="kv"><span class="k">Director of Engineering</span><span class="v">3</span></div><div class="kv"><span class="k">Director, Software Engineering</span><span class="v">3</span></div><div class="kv"><span class="k">IT Infrastructure Manager, Cloud Platform</span><span class="v">2</span></div><div class="kv"><span class="k">Information Technology Manager</span><span class="v">2</span></div><div class="kv"><span class="k">Manager, Computer Applications</span><span class="v">2</span></div><div class="kv"><span class="k">Manager, Business Management</span><span class="v">2</span></div><div class="kv"><span class="k">Manager, P&amp;C Systems</span><span class="v">2</span></div><div class="kv"><span class="k">Senior Portfolio Manager</span><span class="v">2</span></div><div class="kv"><span class="k">Senior Project Manager</span><span class="v">2</span></div><div class="kv"><span class="k">Relationship Manager</span><span class="v">2</span></div><div class="kv"><span class="k">Information Technology (It) Implementation Manager</span><span class="v">2</span></div>
+      </div>
+    </div>
+  </details>
 
   <div class="filter-bar" aria-label="Filters">
   <span class="flabel">Score</span>
