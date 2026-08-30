@@ -5,14 +5,14 @@ Generated : 2026-08-30
 Candidate : Radek Zajkowski — Toronto, ON, Canada
 Scoring   : 0-10 match vs. aggregate resume profile (all 4 resumes)
 Scale     : 8.0+ Strong | 6.5-7.9 Good | 5.0-6.4 Moderate | <5.0 Weak
-Sources   : LinkedIn (public jobs) + Government of Canada Job Bank
+Sources   : LinkedIn (public jobs) + Gov't of Canada Job Bank + targeted-employer ATS
 Scope     : Toronto / GTA (on-site & hybrid) + Canada remote
 
 SUMMARY
-  Total unique roles reviewed : 201
-  Management roles scored     : 143
-    - IT / Tech / Enterprise Apps (strong fit) : 102
-    - Software/Engineering (leans dev — review) : 41
+  Total unique roles reviewed : 916
+  Management roles scored     : 278
+    - IT / Tech / Enterprise Apps (strong fit) : 227
+    - Software/Engineering (leans dev — review) : 51
 
 ==============================================================================
 DEEP-DIVE — TOP MATCHES (scored against full job descriptions)
@@ -91,21 +91,28 @@ Top matches re-scored using actual job-description text, not just the title.
    Also mentions: Security/compliance
    (title-score 9.0 -> description-adjusted 7.9)
 
-11. Director, Platform Systems   [ 7.7/10 Good ]
+11. Director, Customer Success (Enterprise)   [ 7.8/10 Good ]
+   1Password | Remote (United States | Canada) | Remote
+   https://jobs.ashbyhq.com/1password/7a3d6f70-c45b-4579-912a-7876b7da2eeb
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
+   Also mentions: Security/compliance, ERP/CRM platforms
+   (title-score 7.5 -> description-adjusted 7.8)
+
+12. Director, Platform Systems   [ 7.7/10 Good ]
    OpenText | Richmond Hill, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-platform-systems-at-opentext-4442877059
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Agile/Scrum, Strategy & transformation
    Also mentions: Security/compliance, ERP/CRM platforms
    (title-score 7.3 -> description-adjusted 7.7)
 
-12. Technology Director   [ 7.6/10 Good ]
-   Qu Data Centres | Toronto, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/technology-director-at-qu-data-centres-4446101864
-   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
+13. Global Public Policy Manager, Compute, Infrastructure & Sovereign AI   [ 7.5/10 Good ]
+   Cohere | United States | Remote
+   https://jobs.ashbyhq.com/cohere/8ac3ed85-e315-443b-bc13-e7a0b900b922
+   Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Vendor/governance/budget, People leadership, Data & analytics, Strategy & transformation
    Also mentions: Security/compliance
-   (title-score 7.0 -> description-adjusted 7.6)
+   (title-score 8.0 -> description-adjusted 7.5)
 
-13. Senior Manager, IT - Global Procure to Pay   [ 7.2/10 Good ]
+14. Senior Manager, IT - Global Procure to Pay   [ 7.2/10 Good ]
    Kraft Heinz | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-manager-it-global-procure-to-pay-at-kraft-heinz-4454404099
    Matched: Enterprise/business applications, SaaS/cloud & modernization, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
@@ -113,7 +120,7 @@ Top matches re-scored using actual job-description text, not just the title.
    Watch: manages development/engineering team
    (title-score 7.5 -> description-adjusted 7.2)
 
-14. IT Infrastructure Manager, Cloud Platform   [ 7.1/10 Good ]
+15. IT Infrastructure Manager, Cloud Platform   [ 7.1/10 Good ]
    Confluence | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-confluence-4437086004
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
@@ -121,7 +128,7 @@ Top matches re-scored using actual job-description text, not just the title.
    Watch: hands-on coding expected
    (title-score 8.2 -> description-adjusted 7.1)
 
-15. IT Infrastructure Manager, Cloud Platform   [ 7.1/10 Good ]
+16. IT Infrastructure Manager, Cloud Platform   [ 7.1/10 Good ]
    Style Analytics | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-style-analytics-4450094914
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
@@ -129,29 +136,15 @@ Top matches re-scored using actual job-description text, not just the title.
    Watch: hands-on coding expected
    (title-score 8.2 -> description-adjusted 7.1)
 
-16. MIG Director of IT   [ 7.0/10 Good ]
-   McDougall Insurance & Financial | Greater Toronto Area, Canada
-   https://ca.linkedin.com/jobs/view/mig-director-of-it-at-mcdougall-insurance-financial-4453711671
-   Matched: Enterprise/business applications, SaaS/cloud & modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Data & analytics, Strategy & transformation
-   Also mentions: Security/compliance
-   (title-score 7.0 -> description-adjusted 7.0)
-
-17. IT Senior Manager, Data Governance   [ 6.9/10 Good ]
-   Saputo Inc. | Georgetown, Ontario, Canada
-   https://ca.linkedin.com/jobs/view/it-senior-manager-data-governance-at-saputo-inc-4441653975
-   Matched: Enterprise/business applications, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Data & analytics, Strategy & transformation
-   Also mentions: Security/compliance, ERP/CRM platforms
-   (title-score 6.8 -> description-adjusted 6.9)
-
-18. Manager, Engineering and Data Platform   [ 6.6/10 Good ]
-   Minto Group | Ottawa, Ontario, Canada | Remote
-   https://ca.linkedin.com/jobs/view/manager-engineering-and-data-platform-at-minto-group-4437604595
+17. Senior Marketing AI & Systems Manager   [ 6.8/10 Good ]
+   Geotab | Oakville, Ontario - Canada; Toronto, Ontario - Canada; Waterloo, Ontario - Canada
+   https://job-boards.greenhouse.io/geotab/jobs/5238491008
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Agile/Scrum, Data & analytics, Strategy & transformation
-   Also mentions: Security/compliance
+   Also mentions: Security/compliance, ERP/CRM platforms
    Watch: hands-on coding expected
-   (title-score 7.0 -> description-adjusted 6.6)
+   (title-score 7.5 -> description-adjusted 6.8)
 
-19. Technology Development and Innovation Manager   [ 6.0/10 Moderate ]
+18. Technology Development and Innovation Manager   [ 6.0/10 Moderate ]
    BMO | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/technology-development-and-innovation-manager-at-bmo-4401551599
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, People leadership, Strategy & transformation
@@ -159,7 +152,7 @@ Top matches re-scored using actual job-description text, not just the title.
    Watch: hands-on coding expected
    (title-score 8.0 -> description-adjusted 6.0)
 
-20. Director, Platform Engineering   [ 5.9/10 Moderate ]
+19. Director, Platform Engineering   [ 5.9/10 Moderate ]
    Maple | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-platform-engineering-at-maple-4443057408
    Matched: SaaS/cloud & modernization, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
@@ -167,7 +160,7 @@ Top matches re-scored using actual job-description text, not just the title.
    Watch: hands-on coding expected, manages development/engineering team
    (title-score 7.8 -> description-adjusted 5.9)
 
-21. Director, Platform Engineering   [ 5.9/10 Moderate ]
+20. Director, Platform Engineering   [ 5.9/10 Moderate ]
    RBC | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-platform-engineering-at-rbc-4454051093
    Matched: Enterprise/business applications, SaaS/cloud & modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Strategy & transformation
@@ -175,14 +168,7 @@ Top matches re-scored using actual job-description text, not just the title.
    Watch: hands-on coding expected
    (title-score 7.8 -> description-adjusted 5.9)
 
-22. Information Technology (It) Director   [ 5.9/10 Moderate ]
-   University of Toronto | Toronto (ON)
-   https://www.jobbank.gc.ca/jobsearch/jobposting/50028579
-   Matched: Enterprise/business applications, Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Strategy & transformation
-   Also mentions: Security/compliance
-   (title-score 7.0 -> description-adjusted 5.9)
-
-23. Application/Platform Director   [ 4.9/10 Weak ]
+21. Application/Platform Director   [ 4.9/10 Weak ]
    Amphenol Communications Solutions | Markham, Ontario, Canada
    https://ca.linkedin.com/jobs/view/application-platform-director-at-amphenol-communications-solutions-4451197731
    Matched: Enterprise/business applications, AI & automation, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
@@ -190,7 +176,7 @@ Top matches re-scored using actual job-description text, not just the title.
    Watch: hands-on coding expected, help-desk/deskside scope
    (title-score 7.8 -> description-adjusted 4.9)
 
-24. Manager, Technical Solutions, Cloud Applied AI   [ 4.7/10 Weak ]
+22. Manager, Technical Solutions, Cloud Applied AI   [ 4.7/10 Weak ]
    Google | Waterloo, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-technical-solutions-cloud-applied-ai-at-google-4458645582
    Matched: Enterprise/business applications, SaaS/cloud & modernization, AI & automation, Vendor/governance/budget, People leadership, Strategy & transformation
@@ -198,7 +184,15 @@ Top matches re-scored using actual job-description text, not just the title.
    Watch: hands-on coding expected, manages development/engineering team
    (title-score 7.5 -> description-adjusted 4.7)
 
-25. Director, IT Infrastructure   [ 4.1/10 Weak ]
+23. Director of Product, Gaming (New Products)   [ 4.4/10 Weak ]
+   Mozilla | Remote US | Remote
+   https://job-boards.greenhouse.io/mozilla/jobs/8039910
+   Matched: AI & automation, Vendor/governance/budget, People leadership, Data & analytics, Strategy & transformation
+   Also mentions: Security/compliance
+   Watch: help-desk/deskside scope
+   (title-score 7.0 -> description-adjusted 4.4)
+
+24. Director, IT Infrastructure   [ 4.1/10 Weak ]
    Beanfield | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-it-infrastructure-at-beanfield-4439472250
    Matched: Enterprise/business applications, SaaS/cloud & modernization, Collaboration tools (Atlassian/M365), Vendor/governance/budget, Service management (ITIL/SLA), People leadership, Data & analytics, Strategy & transformation
@@ -220,129 +214,284 @@ SECTION 1 — DIRECTOR: IT / TECHNOLOGY / ENTERPRISE APPS
    https://ca.linkedin.com/jobs/view/director-enterprise-technology-products-at-brock-university-4454740799
    Why: matches: enterprise applications
 
-3. Director, Business Technology and AI   [ 8.0/10 Strong ]
+3. Sr. Director, HR Technology and AI Enablement   [ 8.1/10 Strong ]
+   PointClickCare | Mississauga, Ontario | hybrid | At PointClickCare, base salary is one of the many components that make up our total rewards package. The Canada base salary range for this position is $163,000 - $181,000 + bonus + equity + benefits, non-overtime eligible. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all Canada locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. | Posted 2026-08-26
+   https://jobs.lever.co/pointclickcare/f949e9b0-23dc-4f31-8e46-79eeb79bb79b
+   Why: matches: AI/innovation
+
+4. Director, Business Technology and AI   [ 8.0/10 Strong ]
    The North West Company | Winnipeg, Manitoba, Canada | Remote
    https://ca.linkedin.com/jobs/view/director-business-technology-and-ai-at-the-north-west-company-4450335353
    Why: matches: AI/innovation
 
-4. Application/Platform Director   [ 7.8/10 Good ]
+5. Application/Platform Director   [ 7.8/10 Good ]
    Amphenol Communications Solutions | Markham, Ontario, Canada
    https://ca.linkedin.com/jobs/view/application-platform-director-at-amphenol-communications-solutions-4451197731
    Why: matches: enterprise applications
 
-5. Director, Platform Engineering   [ 7.8/10 Good ]
+6. Director, Platform Engineering   [ 7.8/10 Good ]
    Maple | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-platform-engineering-at-maple-4443057408
    Why: general technology leadership
 
-6. Director, Platform Engineering   [ 7.8/10 Good ]
+7. Director, Platform Engineering   [ 7.8/10 Good ]
    RBC | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-platform-engineering-at-rbc-4454051093
    Why: general technology leadership
 
-7. Director, Enterprise Business Applications   [ 7.6/10 Good ]
+8. Director, Enterprise Business Applications   [ 7.6/10 Good ]
    Hammond Power Solutions | Guelph, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-enterprise-business-applications-at-hammond-power-solutions-4413345016
    Why: matches: enterprise applications
 
-8. Director, Virtual Care Technology Applications   [ 7.5/10 Good ]
+9. Director, Customer Success (Enterprise)   [ 7.5/10 Good ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-07-21
+   https://jobs.ashbyhq.com/1password/7a3d6f70-c45b-4579-912a-7876b7da2eeb
+   Why: matches: enterprise applications
+
+10. Director, Virtual Care Technology Applications   [ 7.5/10 Good ]
    Loblaw Companies Limited | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-virtual-care-technology-applications-at-loblaw-companies-limited-4448143121
    Why: matches: enterprise applications
 
-9. Director, Platform Systems   [ 7.3/10 Good ]
+11. Director, Platform Systems   [ 7.3/10 Good ]
    OpenText | Richmond Hill, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-platform-systems-at-opentext-4442877059
    Why: general technology leadership
 
-10. Director, Information Technology   [ 7.0/10 Good ]
+12. Director of Product, Gaming (New Products)   [ 7.0/10 Good ]
+   Mozilla | Remote US | Remote | Posted 2026-08-10
+   https://job-boards.greenhouse.io/mozilla/jobs/8039910
+   Why: general technology leadership
+
+13. Director, Information Technology   [ 7.0/10 Good ]
    International Business University | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-information-technology-at-international-business-university-4447008839
    Why: matches: IT leadership
 
-11. Director, IT Infrastructure   [ 7.0/10 Good ]
+14. Director, IT Infrastructure   [ 7.0/10 Good ]
    Beanfield | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-it-infrastructure-at-beanfield-4439472250
    Why: matches: IT leadership; caveats: infrastructure-focused
 
-12. Information Technology (It) Director   [ 7.0/10 Good ]
+15. Information Technology (It) Director   [ 7.0/10 Good ]
    University of Toronto | Toronto (ON) | $145,219.00 to $242,032.00 annually (to be negotiated) | Posted August 07, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50028579
    Why: matches: IT leadership
 
-13. MIG Director of IT   [ 7.0/10 Good ]
+16. MIG Director of IT   [ 7.0/10 Good ]
    McDougall Insurance & Financial | Greater Toronto Area, Canada
    https://ca.linkedin.com/jobs/view/mig-director-of-it-at-mcdougall-insurance-financial-4453711671
    Why: matches: IT leadership
 
-14. Technology Director   [ 7.0/10 Good ]
+17. Technology Director   [ 7.0/10 Good ]
    Qu Data Centres | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/technology-director-at-qu-data-centres-4446101864
    Why: matches: IT leadership
 
-15. Technology Director - Developer Excellence   [ 6.8/10 Good ]
+18. Technology Director - Developer Excellence   [ 6.8/10 Good ]
    lululemon | Vancouver, British Columbia, Canada | Remote
    https://ca.linkedin.com/jobs/view/technology-director-developer-excellence-at-lululemon-4458420929
    Why: matches: IT leadership
 
-16. Director Of Technology   [ 6.6/10 Good ]
+19. Director Of Technology   [ 6.6/10 Good ]
    Hexaware Technologies Canada Ltd. | Mississauga (ON) | $250,000.00 annually | Posted August 17, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50096312
    Why: matches: IT leadership
 
-17. Director, Technology Delivery and Enablement   [ 6.6/10 Good ]
+20. Director, Technology Delivery and Enablement   [ 6.6/10 Good ]
    Lifemark Health Group | Brampton, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-technology-delivery-and-enablement-at-lifemark-health-group-4458454000
    Why: matches: IT leadership
 
-18. Division IT Manager (Director Level)   [ 6.6/10 Good ]
+21. Division IT Manager (Director Level)   [ 6.6/10 Good ]
    Parker Hannifin | Milton, Ontario, Canada
    https://ca.linkedin.com/jobs/view/division-it-manager-director-level-at-parker-hannifin-4452867448
    Why: matches: IT leadership
 
-19. IT Director, Warehouse and Inventory Management   [ 6.6/10 Good ]
+22. IT Director, Warehouse and Inventory Management   [ 6.6/10 Good ]
    Saputo Inc. | Georgetown, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-director-warehouse-and-inventory-management-at-saputo-inc-4441668500
    Why: matches: IT leadership
 
-20. Director, Technology   [ 6.5/10 Good ]
+23. Corporate Strategy Director   [ 6.5/10 Good ]
+   PagerDuty | San Francisco | Posted 2026-08-17
+   https://job-boards.greenhouse.io/pagerduty/jobs/5831906004
+   Why: general technology leadership
+
+24. Director, Commercial FP&A   [ 6.5/10 Good ]
+   PointClickCare | Toronto, Ontario | hybrid | At PointClickCare, base salary is one of the many components that make up our total rewards package. The Canada base salary range for this position is $162,000 - $180,000 + bonus + equity + benefits, non-overtime eligible. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all Canada locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. | Posted 2026-06-11
+   https://jobs.lever.co/pointclickcare/2c5b9b65-9ed0-4c3e-aa13-ff8bf46855de
+   Why: general technology leadership
+
+25. Director, Technology   [ 6.5/10 Good ]
    Oliver Insurance Software | Greater Vancouver Metropolitan Area | Remote
    https://ca.linkedin.com/jobs/view/director-technology-at-oliver-insurance-software-4453255307
    Why: matches: IT leadership
 
-21. Director, Virtual Workspace Engineering   [ 6.5/10 Good ]
+26. Director, Virtual Workspace Engineering   [ 6.5/10 Good ]
    Scotiabank | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-virtual-workspace-engineering-at-scotiabank-4403968740
    Why: caveats: infrastructure-focused
 
-22. Director, WMS Product Design and Engineering   [ 6.5/10 Good ]
+27. Director, WMS Product Design and Engineering   [ 6.5/10 Good ]
    HelloFresh | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-wms-product-design-and-engineering-at-hellofresh-4457366872
    Why: general technology leadership
 
-23. Director, Deposits Engineering (Banking)   [ 6.1/10 Moderate ]
+28. Field Chief Technology Officer - North America East   [ 6.5/10 Good ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-08-13
+   https://jobs.ashbyhq.com/1password/79957caf-90b6-447b-ae7a-5eeaeb3d43e4
+   Why: matches: IT leadership
+
+29. Field Chief Technology Officer - North America West   [ 6.5/10 Good ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-08-13
+   https://jobs.ashbyhq.com/1password/ebfa5bff-dc82-4125-a178-ce1e23e90dd3
+   Why: matches: IT leadership
+
+30. Director Analytics Engineering   [ 6.2/10 Moderate ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-08-20
+   https://jobs.ashbyhq.com/1password/32eb8288-f53a-40f6-9c90-1a0063bcabca
+   Why: matches: data/analytics
+
+31. Director, Deposits Engineering (Banking)   [ 6.1/10 Moderate ]
    Questrade Financial Group | North York, Ontario, Canada
    https://ca.linkedin.com/jobs/view/director-deposits-engineering-banking-at-questrade-financial-group-4456516905
    Why: general technology leadership
 
-24. Directeur·trice du développement logiciel, plateforme   [ 6.0/10 Moderate ]
+32. Head of Tax & Asset Compliance   [ 6.1/10 Moderate ]
+   Geotab | Oakville, Ontario - Canada | Posted 2026-08-20
+   https://job-boards.greenhouse.io/geotab/jobs/5388936008
+   Why: matches: vendor/governance; caveats: narrow function
+
+33. Chief of Staff   [ 6.0/10 Moderate ]
+   Cohere | New York | Remote | Remote | Posted 2026-05-11
+   https://jobs.ashbyhq.com/cohere/5139acd7-3429-483e-9984-040bd799e8a0
+   Why: general technology leadership
+
+34. Chief of Staff, GTM   [ 6.0/10 Moderate ]
+   Float | Toronto, Canada | Remote | Hybrid | Posted 2026-07-24
+   https://jobs.ashbyhq.com/float/0d12770d-0cc9-447c-95c1-18b17fc6e75d
+   Why: general technology leadership
+
+35. Directeur·trice du développement logiciel, plateforme   [ 6.0/10 Moderate ]
    MaintainX | Montreal, Quebec, Canada | Remote
    https://ca.linkedin.com/jobs/view/directeur%C2%B7trice-du-d%C3%A9veloppement-logiciel-plateforme-at-maintainx-4434183166
    Why: general technology leadership
 
-25. Director Of Technology Management   [ 6.0/10 Moderate ]
+36. Director Of Technology Management   [ 6.0/10 Moderate ]
    Medavie | Moncton (NB) | $43.75 to $103.37 hourly | Posted August 20, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50116644
    Why: matches: IT leadership
 
-26. Director, Rapid Execution Delivery (RED)   [ 6.0/10 Moderate ]
+37. Director, GTM Engineering   [ 6.0/10 Moderate ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-07-02
+   https://jobs.ashbyhq.com/1password/c59e8aab-b2b2-458f-9cda-514a6e41b457
+   Why: general technology leadership
+
+38. Director, Rapid Execution Delivery (RED)   [ 6.0/10 Moderate ]
    Government of Alberta | Edmonton, Alberta, Canada | Remote
    https://ca.linkedin.com/jobs/view/director-rapid-execution-delivery-red-at-government-of-alberta-4450638248
    Why: general technology leadership
 
-27. Technical Director II, Player and Quality Insights   [ 6.0/10 Moderate ]
+39. Head of Editorial + Platforms, Mozilla Ecosystem   [ 6.0/10 Moderate ]
+   Mozilla | Remote US | Remote | Posted 2026-05-07
+   https://job-boards.greenhouse.io/mozilla/jobs/7901861
+   Why: general technology leadership
+
+40. Head of Impact & Sustainability   [ 6.0/10 Moderate ]
+   Cohere | Toronto | Remote | Remote | Posted 2026-08-12
+   https://jobs.ashbyhq.com/cohere/04a50498-eefa-43db-b6d8-0aea8064d186
+   Why: general technology leadership
+
+41. Head of Investor Relations   [ 6.0/10 Moderate ]
+   Cohere | San Francisco | Remote | Remote | Posted 2026-07-06
+   https://jobs.ashbyhq.com/cohere/d82b9edf-f2d9-489b-b1f0-b65d976348ab
+   Why: general technology leadership
+
+42. PR Director, APAC   [ 6.0/10 Moderate ]
+   Cohere | Singapore | Remote | Remote | Posted 2026-07-15
+   https://jobs.ashbyhq.com/cohere/fee0951d-8f8a-41ad-a7d5-4b0083bbe777
+   Why: general technology leadership
+
+43. PR Director, EMEA   [ 6.0/10 Moderate ]
+   Cohere | United Kingdom | Remote | Remote | Posted 2026-07-15
+   https://jobs.ashbyhq.com/cohere/16fb6df4-a1ca-43e4-aabe-5e409fe9ede8
+   Why: general technology leadership
+
+44. Pricing & Packaging Director   [ 6.0/10 Moderate ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-07-30
+   https://jobs.ashbyhq.com/1password/cb567789-3bec-4b5b-8ce9-e7ddbf56e37d
+   Why: general technology leadership
+
+45. Senior Director, Solutions Architecture — Americas   [ 6.0/10 Moderate ]
+   Cohere | United States | Remote | Remote | Posted 2026-08-28
+   https://jobs.ashbyhq.com/cohere/1e6c4acf-d98a-46ac-bacb-d609ca1326c1
+   Why: general technology leadership
+
+46. Senior Director, Solutions Architecture, APAC   [ 6.0/10 Moderate ]
+   Cohere | Singapore | Remote | Remote | Posted 2026-08-18
+   https://jobs.ashbyhq.com/cohere/14a286d9-e415-4198-8d3b-8e0a7882a5b6
+   Why: general technology leadership
+
+47. Senior Director, Solutions Consulting   [ 6.0/10 Moderate ]
+   PagerDuty | Remote (USA) | Remote | Posted 2026-08-25
+   https://job-boards.greenhouse.io/pagerduty/jobs/6147906004
+   Why: general technology leadership
+
+48. Senior Vice President & General Manager, Acute & Payer   [ 6.0/10 Moderate ]
+   PointClickCare | Remote or Mississauga | Remote | remote | Posted 2026-07-17
+   https://jobs.lever.co/pointclickcare/8ac21a82-5846-4188-846f-42ab6c51e7d7
+   Why: general technology leadership
+
+49. Senior Vice President & General Manager, Senior Living   [ 6.0/10 Moderate ]
+   PointClickCare | Remote or Mississauga | Remote | hybrid | Posted 2026-07-02
+   https://jobs.lever.co/pointclickcare/0fde392d-cc61-4cef-8a6c-8e2d4a644fc8
+   Why: general technology leadership
+
+50. Technical Director II, Player and Quality Insights   [ 6.0/10 Moderate ]
    Electronic Arts (EA) | Vancouver, British Columbia, Canada | Remote
    https://ca.linkedin.com/jobs/view/technical-director-ii-player-and-quality-insights-at-electronic-arts-ea-4411533314
+   Why: general technology leadership
+
+51. VP, Design & User Experience   [ 6.0/10 Moderate ]
+   PointClickCare | Remote or Mississauga | Remote | hybrid | Posted 2026-07-02
+   https://jobs.lever.co/pointclickcare/4d31800e-9822-477e-9de6-41442afaee18
+   Why: general technology leadership
+
+52. Head of Asset Lifecycle Planning   [ 5.6/10 Moderate ]
+   Geotab | Oakville, Ontario - Canada | Posted 2026-08-20
+   https://job-boards.greenhouse.io/geotab/jobs/5388925008
+   Why: caveats: narrow function
+
+53. [WEBTOON] Head of US Tax   [ 5.5/10 Moderate ]
+   Wattpad | El Segundo, California | onsite | Posted 2026-07-29
+   https://jobs.lever.co/wattpad/b2a48ced-83f2-4577-a6ea-4a56ab171349
+   Why: general technology leadership
+
+54. Chief Information Security Officer (CISO)   [ 5.5/10 Moderate ]
+   Cohere | Toronto | Remote | Hybrid | Posted 2026-05-28
+   https://jobs.ashbyhq.com/cohere/e0c86d1a-ee3a-4da6-9244-53f0909ab236
+   Why: caveats: security-heavy
+
+55. Chief of Staff   [ 5.5/10 Moderate ]
+   Tulip Interfaces | Somerville, MA | Posted 2026-08-10
+   https://tulip.co/careers/job-posting/?gh_jid=7840617003
+   Why: general technology leadership
+
+56. Director of Pricing & Monetization   [ 5.5/10 Moderate ]
+   PagerDuty | San Francisco | Posted 2026-08-26
+   https://job-boards.greenhouse.io/pagerduty/jobs/5841387004
+   Why: general technology leadership
+
+57. Head of Tax & Asset Compliance NA   [ 5.5/10 Moderate ]
+   Geotab | Atlanta, Georgia - USA | Posted 2026-08-20
+   https://job-boards.greenhouse.io/geotab/jobs/5388938008
+   Why: matches: vendor/governance; caveats: narrow function
+
+58. VP Engineering   [ 5.5/10 Moderate ]
+   Lightspeed Commerce | Northbrook, IL | OnSite | Posted 2026-07-23
+   https://jobs.ashbyhq.com/lightspeed/855de84e-0350-49ec-84f8-ff2b5ec909ab
    Why: general technology leadership
 ==============================================================================
 SECTION 2 — MANAGER: IT / TECHNOLOGY / ENTERPRISE APPLICATIONS
@@ -358,370 +507,840 @@ SECTION 2 — MANAGER: IT / TECHNOLOGY / ENTERPRISE APPLICATIONS
    https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-style-analytics-4450094914
    Why: matches: SaaS/cloud; caveats: infrastructure-focused
 
-3. Technology Development and Innovation Manager   [ 8.0/10 Strong ]
+3. Global Public Policy Manager, Compute, Infrastructure & Sovereign AI   [ 8.0/10 Strong ]
+   Cohere | United States | Remote | Remote | Posted 2026-08-06
+   https://jobs.ashbyhq.com/cohere/8ac3ed85-e315-443b-bc13-e7a0b900b922
+   Why: matches: AI/innovation; caveats: infrastructure-focused
+
+4. Technology Development and Innovation Manager   [ 8.0/10 Strong ]
    BMO | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/technology-development-and-innovation-manager-at-bmo-4401551599
    Why: matches: AI/innovation
 
-4. IT Senior Manager, Enterprise Architecture   [ 7.6/10 Good ]
+5. IT Senior Manager, Enterprise Architecture   [ 7.6/10 Good ]
    Saputo Inc. | Georgetown, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-senior-manager-enterprise-architecture-at-saputo-inc-4441672169
    Why: matches: enterprise applications
 
-5. Manager, Technical Solutions, Cloud Applied AI   [ 7.5/10 Good ]
+6. Manager, Technical Solutions, Cloud Applied AI   [ 7.5/10 Good ]
    Google | Waterloo, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-technical-solutions-cloud-applied-ai-at-google-4458645582
    Why: matches: AI/innovation, SaaS/cloud
 
-6. Senior Manager, IT - Global Procure to Pay   [ 7.5/10 Good ]
+7. Senior Manager, IT - Global Procure to Pay   [ 7.5/10 Good ]
    Kraft Heinz | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-manager-it-global-procure-to-pay-at-kraft-heinz-4454404099
    Why: matches: IT leadership
 
-7. Sr. Manager, Enterprise System   [ 7.5/10 Good ]
+8. Senior Marketing AI & Systems Manager   [ 7.5/10 Good ]
+   Geotab | Oakville, Ontario - Canada; Toronto, Ontario - Canada; Waterloo, Ontario - Canada | Posted 2026-08-20
+   https://job-boards.greenhouse.io/geotab/jobs/5238491008
+   Why: matches: AI/innovation
+
+9. Sr. Manager, Enterprise System   [ 7.5/10 Good ]
    Allied Gold Corporation | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/sr-manager-enterprise-system-at-allied-gold-corporation-4458282141
    Why: matches: enterprise applications
 
-8. Manager, Platform Technology   [ 7.2/10 Good ]
+10. Manager, Platform Technology   [ 7.2/10 Good ]
    goeasy Ltd. | Pickering, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-platform-technology-at-goeasy-ltd-4429874128
    Why: matches: IT leadership
 
-9. Sr. Manager, Enterprise Applications   [ 7.1/10 Good ]
+11. Sr. Manager, Enterprise Applications   [ 7.1/10 Good ]
    OpenText | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/sr-manager-enterprise-applications-at-opentext-4456961315
    Why: matches: enterprise applications
 
-10. Manager, Engineering and Data Platform   [ 7.0/10 Good ]
+12. Finance Systems and Automation Manager   [ 7.0/10 Good ]
+   Cohere | United States | Remote | Remote | Posted 2026-07-16
+   https://jobs.ashbyhq.com/cohere/afd7e838-bd5e-4697-94ea-5d31fe1b00fd
+   Why: matches: AI/innovation
+
+13. Global Indirect Tax Manager   [ 7.0/10 Good ]
+   Achievers | Toronto | hybrid | Posted 2026-07-30
+   https://jobs.lever.co/achievers/bbd35480-2562-4913-b6e4-1fa8032723fc
+   Why: general technology leadership
+
+14. Manager, Engineering and Data Platform   [ 7.0/10 Good ]
    Minto Group | Ottawa, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-engineering-and-data-platform-at-minto-group-4437604595
    Why: matches: data/analytics
 
-11. IT Senior Manager, Data Governance   [ 6.8/10 Good ]
+15. People Systems and Automation Manager   [ 7.0/10 Good ]
+   Cohere | United States | Remote | Remote | Posted 2026-08-27
+   https://jobs.ashbyhq.com/cohere/8a7b1381-bd0b-444e-8605-faca526d4700
+   Why: matches: AI/innovation
+
+16. Principal Product Manager - AI Models   [ 7.0/10 Good ]
+   PointClickCare | Remote or Mississauga | Remote | hybrid | Posted 2026-08-06
+   https://jobs.lever.co/pointclickcare/41506f40-0383-49f3-9c2f-5ea29a39562c
+   Why: matches: AI/innovation
+
+17. Principal Product Manager – Health Data Platform   [ 7.0/10 Good ]
+   PointClickCare | Remote - US | Remote | remote | At PointClickCare, base salary is one of the many components that make up our total rewards package. The USD base salary range for this position is $170,000 - $189,000 + bonus or commission + equity + benefits. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all USD locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. Why PointClickCare · Market leader: #1 EHR platform for long-term and post-acute care in North America · Massive data advantage: Decades of real-world insights from millions of resident journeys · Mission-driven: Our technology helps caregivers deliver better outcomes for seniors · Growth stage: Senior Living is a strategic priority with significant investment and executive sponsorship · Culture: Collaborative, customer-obsessed, and committed to continuous improvement | Posted 2026-03-30
+   https://jobs.lever.co/pointclickcare/05e832aa-eebc-4ab8-8862-b739dfe00d1a
+   Why: matches: data/analytics
+
+18. Product Manager - Data Platform   [ 7.0/10 Good ]
+   PointClickCare | Remote, USA | Remote | remote | Posted 2026-06-25
+   https://jobs.lever.co/pointclickcare/708c41cf-816e-4e06-8528-e33ed111aeaf
+   Why: matches: data/analytics
+
+19. Senior Product Manager, Revenue Cycle Management AI   [ 7.0/10 Good ]
+   PointClickCare | Remote, USA | Remote | remote | Posted 2026-05-26
+   https://jobs.lever.co/pointclickcare/2030e765-aefb-4ac3-9187-dd87a9c325eb
+   Why: matches: AI/innovation
+
+20. Senior Staff Product Marketing Manager - Enterprise Password Manager   [ 7.0/10 Good ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-07-10
+   https://jobs.ashbyhq.com/1password/88aa605e-60a9-4a41-8879-23cb2f634d73
+   Why: matches: enterprise applications
+
+21. Senior Technical Program Manager, Machine Learning Infrastructure   [ 7.0/10 Good ]
+   Cohere | Canada | Remote | Remote | Posted 2026-07-31
+   https://jobs.ashbyhq.com/cohere/582c4a60-14a2-49d5-b4d3-24c4ec50508d
+   Why: matches: AI/innovation; caveats: infrastructure-focused
+
+22. Technical Program Manager, AI Delivery for Public Sector & Defence, Canada   [ 7.0/10 Good ]
+   Cohere | Ottawa | Remote | Hybrid | Posted 2026-08-28
+   https://jobs.ashbyhq.com/cohere/01a34bc3-6421-4af2-bf5b-f42e98155dda
+   Why: matches: AI/innovation
+
+23. Technical Program Manager, AI Delivery for Public Sector & Defence, UK   [ 7.0/10 Good ]
+   Cohere | London | Remote | Hybrid | Posted 2026-07-21
+   https://jobs.ashbyhq.com/cohere/10306789-4fd5-4f1d-90aa-8132c2df2848
+   Why: matches: AI/innovation
+
+24. Technical Program Manager, AI Delivery, Korea   [ 7.0/10 Good ]
+   Cohere | Korea | Remote | Remote | Posted 2026-07-20
+   https://jobs.ashbyhq.com/cohere/cd987666-aeda-4da6-a23c-d84d4231d33b
+   Why: matches: AI/innovation
+
+25. IT Senior Manager, Data Governance   [ 6.8/10 Good ]
    Saputo Inc. | Georgetown, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-senior-manager-data-governance-at-saputo-inc-4441653975
    Why: matches: vendor/governance, data/analytics
 
-12. Senior Manager, IT Business Systems & Analytics   [ 6.8/10 Good ]
+26. Senior Manager, IT Business Systems & Analytics   [ 6.8/10 Good ]
    Fusion Homes | Guelph, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-manager-it-business-systems-analytics-at-fusion-homes-4458640026
    Why: matches: enterprise applications, data/analytics
 
-13. Information Technology (It) Service Delivery Manager   [ 6.6/10 Good ]
+27. Senior Product Manager – Platform Services   [ 6.8/10 Good ]
+   PointClickCare | Remote- Canada | Remote | remote | Posted 2026-05-26
+   https://jobs.lever.co/pointclickcare/9b4f3dd9-2e55-475e-8130-b9db0cd19831
+   Why: general technology leadership
+
+28. Information Technology (It) Service Delivery Manager   [ 6.6/10 Good ]
    TechVest Global Solutions Inc. | Mississauga (ON) | $175,000.00 annually | Posted May 25, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/49584538
    Why: matches: service management
 
-14. IT & Business Systems Manager   [ 6.6/10 Good ]
+29. IT & Business Systems Manager   [ 6.6/10 Good ]
    Atlantic Industries Limited | Cambridge, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-business-systems-manager-at-atlantic-industries-limited-4448996835
    Why: matches: enterprise applications
 
-15. IT Business Operations Manager   [ 6.6/10 Good ]
+30. IT Business Operations Manager   [ 6.6/10 Good ]
    JELD-WEN of Canada | Woodbridge, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-business-operations-manager-at-jeld-wen-of-canada-4456940958
    Why: matches: service management
 
-16. IT Manager - Service Delivery   [ 6.6/10 Good ]
+31. IT Manager - Service Delivery   [ 6.6/10 Good ]
    Pathway Communications | Markham, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-manager-service-delivery-at-pathway-communications-4454652247
    Why: matches: service management
 
-17. Financial Connections TechOps Manager   [ 6.5/10 Good ]
+32. Collections & Recoveries Strategy Manager   [ 6.5/10 Good ]
+   Koho | KOHO (CAN) | Remote | Remote | Posted 2026-06-29
+   https://jobs.ashbyhq.com/koho/e42f96b1-4b25-4735-8d4f-a467e5d91ce9
+   Why: general technology leadership
+
+33. Digital Transformation Project Manager   [ 6.5/10 Good ]
+   Tulip Interfaces | Somerville, MA | Posted 2026-07-06
+   https://tulip.co/careers/job-posting/?gh_jid=7622619003
+   Why: matches: AI/innovation
+
+34. Digital Transformation Project Manager - Life Sciences   [ 6.5/10 Good ]
+   Tulip Interfaces | Somerville, MA | Posted 2026-06-30
+   https://tulip.co/careers/job-posting/?gh_jid=7622610003
+   Why: matches: AI/innovation
+
+35. Financial Connections TechOps Manager   [ 6.5/10 Good ]
    Stripe | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/financial-connections-techops-manager-at-stripe-4454549325
    Why: matches: service management
 
-18. Information Technology Manager   [ 6.5/10 Good ]
+36. Information Technology Manager   [ 6.5/10 Good ]
    ESBE Scientific | Greater Toronto Area, Canada
    https://ca.linkedin.com/jobs/view/information-technology-manager-at-esbe-scientific-4457168733
    Why: matches: IT leadership
 
-19. IT and Compliance Manager   [ 6.5/10 Good ]
+37. IT and Compliance Manager   [ 6.5/10 Good ]
    Jonas Software | Halifax, Nova Scotia, Canada | Remote
    https://ca.linkedin.com/jobs/view/it-and-compliance-manager-at-jonas-software-4454346327
    Why: matches: vendor/governance
 
-20. IT Manager   [ 6.5/10 Good ]
+38. IT Manager   [ 6.5/10 Good ]
    exacare ai | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-manager-at-exacare-ai-4457626952
    Why: matches: IT leadership
 
-21. IT Manager   [ 6.5/10 Good ]
+39. IT Manager   [ 6.5/10 Good ]
    The HIDI Group | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-manager-at-the-hidi-group-4447142114
    Why: matches: IT leadership
 
-22. IT Manager   [ 6.5/10 Good ]
+40. IT Manager   [ 6.5/10 Good ]
    BYD Canada | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-manager-at-byd-canada-4458627409
    Why: matches: IT leadership
 
-23. Manager, Computer Applications   [ 6.5/10 Good ]
+41. Manager, Computer Applications   [ 6.5/10 Good ]
    CommerceBear | Toronto (ON) | Hybrid | $40.00 to $92.00 hourly | Posted August 09, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50048614
    Why: matches: enterprise applications
 
-24. Manager, Information Technology   [ 6.5/10 Good ]
+42. Manager, Information Technology   [ 6.5/10 Good ]
    SPE - Serruya Private Equity | Greater Toronto Area, Canada
    https://ca.linkedin.com/jobs/view/manager-information-technology-at-spe-serruya-private-equity-4453144123
    Why: matches: IT leadership
 
-25. Manager, It (Information Technology) Implementation   [ 6.5/10 Good ]
+43. Manager, It (Information Technology) Implementation   [ 6.5/10 Good ]
    AndrosEnterprise | Toronto (ON) | Hybrid | $75,000.00 to $120,000.00 annually | Posted August 13, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50068231
    Why: matches: IT leadership
 
-26. Manager, It (Information Technology) Implementation   [ 6.5/10 Good ]
+44. Manager, It (Information Technology) Implementation   [ 6.5/10 Good ]
    Kablamo Pty Ltd | Toronto (ON) | $43.75 to $103.37 hourly | Posted August 13, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50068238
    Why: matches: IT leadership
 
-27. Manager, IT Business Systems   [ 6.5/10 Good ]
+45. Manager, IT Business Systems   [ 6.5/10 Good ]
    East Penn Canada | Courtice, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-it-business-systems-at-east-penn-canada-4445731280
    Why: matches: enterprise applications
 
-28. Manager, IT Systems   [ 6.5/10 Good ]
+46. Manager, IT Systems   [ 6.5/10 Good ]
    Clio | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-it-systems-at-clio-4417173872
    Why: matches: IT leadership
 
-29. Manager, Technology Infrastructure   [ 6.5/10 Good ]
+47. Manager, Technology Infrastructure   [ 6.5/10 Good ]
    Toronto Catholic District School Board | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-technology-infrastructure-at-toronto-catholic-district-school-board-4458259822
    Why: matches: IT leadership; caveats: infrastructure-focused
 
-30. Senior Manager, IT Business Partner   [ 6.5/10 Good ]
+48. Senior Event Operations Manager   [ 6.5/10 Good ]
+   Geotab | Oakville, Ontario - Canada; Toronto, Ontario - Canada; Waterloo, Ontario - Canada | Posted 2026-08-24
+   https://job-boards.greenhouse.io/geotab/jobs/5383516008
+   Why: matches: service management
+
+49. Senior Manager, IT Business Partner   [ 6.5/10 Good ]
    Celestica | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-manager-it-business-partner-at-celestica-4447983220
    Why: matches: IT leadership
 
-31. Technical Delivery Manager - Information Technology (It)   [ 6.5/10 Good ]
+50. Technical Delivery Manager - Information Technology (It)   [ 6.5/10 Good ]
    Telna | Toronto (ON) | $200,000.00 to $210,000.00 annually (to be negotiated) | Posted July 03, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/49834193
    Why: matches: IT leadership
 
-32. Senior Manager - Data Platforms   [ 6.2/10 Moderate ]
+51. Technical Program Manager, AI Delivery   [ 6.5/10 Good ]
+   Cohere | United States | OnSite | Posted 2026-08-19
+   https://jobs.ashbyhq.com/cohere/41cb2a12-e33a-4368-a9f8-0ae0d19c023e
+   Why: matches: AI/innovation
+
+52. Technical Program Manager, AI Delivery for Public Sector & Defense, France   [ 6.5/10 Good ]
+   Cohere | France | FullTime | Posted 2026-07-20
+   https://jobs.ashbyhq.com/cohere/fc5cb642-23df-430e-ae84-67215384be1c
+   Why: matches: AI/innovation
+
+53. Vendor Relations Manager   [ 6.5/10 Good ]
+   Achievers | Toronto | hybrid | Posted 2026-08-25
+   https://jobs.lever.co/achievers/1f8fceb0-0b64-44a5-9684-03d945756b5f
+   Why: matches: vendor/governance
+
+54. People Operations Manager, Data & Reporting   [ 6.2/10 Moderate ]
+   Cohere | Toronto | Remote | Remote | Posted 2026-08-25
+   https://jobs.ashbyhq.com/cohere/5476ce62-13bd-497b-b988-0a8f85cf6262
+   Why: matches: service management, data/analytics
+
+55. Senior Manager - Data Platforms   [ 6.2/10 Moderate ]
    Scotiabank | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-manager-data-platforms-at-scotiabank-4390758233
    Why: matches: data/analytics
 
-33. Senior Technology Manager, Data Delivery   [ 6.2/10 Moderate ]
+56. Senior Technology Manager, Data Delivery   [ 6.2/10 Moderate ]
    Equitable | Waterloo, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/senior-technology-manager-data-delivery-at-equitable-4442871751
    Why: matches: data/analytics
 
-34. IT Associate Manager   [ 6.1/10 Moderate ]
+57. IT Associate Manager   [ 6.1/10 Moderate ]
    Huawei Canada | Markham, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-associate-manager-at-huawei-canada-4440326645
    Why: matches: IT leadership
 
-35. IT Manager   [ 6.1/10 Moderate ]
+58. IT Manager   [ 6.1/10 Moderate ]
    MGI Construction Corp. | Etobicoke, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-manager-at-mgi-construction-corp-4415808921
    Why: matches: IT leadership
 
-36. Manager, Computer Applications   [ 6.1/10 Moderate ]
+59. Manager, Computer Applications   [ 6.1/10 Moderate ]
    Plum | Waterloo (ON) | Hybrid | $40.00 to $92.00 hourly | Posted August 09, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50048082
    Why: matches: enterprise applications
 
-37. Manager, It (Information Technology) Implementation   [ 6.1/10 Moderate ]
+60. Manager, It (Information Technology) Implementation   [ 6.1/10 Moderate ]
    Powerhouse Controls Limited | Cambridge (ON) | Hybrid | $40.00 to $92.00 hourly | Posted August 09, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50047699
    Why: matches: IT leadership
 
-38. Manager, IT Endpoint Engineering & Operations   [ 6.1/10 Moderate ]
+61. Manager, IT Endpoint Engineering & Operations   [ 6.1/10 Moderate ]
    Toromont Cat | Vaughan, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-it-endpoint-engineering-operations-at-toromont-cat-4459070334
    Why: matches: service management; caveats: infrastructure-focused
 
-39. Enterprise Resource Planning (Erp) Manager   [ 6.0/10 Moderate ]
+62. [WEBTOON] Senior Manager, Global Corporate Development   [ 6.0/10 Moderate ]
+   Wattpad | El Segundo, California | onsite | Please note, the above range is listed in USD. | Posted 2026-07-06
+   https://jobs.lever.co/wattpad/c264ebd5-1d05-456c-9c93-8bcf3a7a0af8
+   Why: general technology leadership
+
+63. Business Affairs Manager (Contract Manager)   [ 6.0/10 Moderate ]
+   Geotab | Oakville, Ontario - Canada; Toronto, Ontario - Canada; Waterloo, Ontario - Canada | Posted 2026-08-20
+   https://job-boards.greenhouse.io/geotab/jobs/5293970008
+   Why: general technology leadership
+
+64. Enterprise Resource Planning (Erp) Manager   [ 6.0/10 Moderate ]
    Muskoka Roastery Coffee Co | Huntsville (ON) | $82,500.00 annually | Posted August 25, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50153331
    Why: matches: enterprise applications; caveats: specialist ERP/config
 
-40. Information Technology (IT) Manager   [ 6.0/10 Moderate ]
+65. Information Technology (IT) Manager   [ 6.0/10 Moderate ]
    Hospitality Newfoundland and Labrador | Paradise, Newfoundland and Labrador, Canada | Remote
    https://ca.linkedin.com/jobs/view/information-technology-it-manager-at-hospitality-newfoundland-and-labrador-4455777443
    Why: matches: IT leadership
 
-41. Information Technology (It) Service Delivery Manager   [ 6.0/10 Moderate ]
+66. Information Technology (It) Service Delivery Manager   [ 6.0/10 Moderate ]
    Raymond Chabot Grant Thornton | Montréal (QC) | Hybrid | $111,300.00 annually | Posted August 28, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50175215
    Why: matches: service management
 
-42. Information Technology Manager   [ 6.0/10 Moderate ]
+67. Information Technology Manager   [ 6.0/10 Moderate ]
    PrecisionERP / PrecisionIT | Montreal, Quebec, Canada | Remote
    https://ca.linkedin.com/jobs/view/information-technology-manager-at-precisionerp-precisionit-4455359333
    Why: matches: IT leadership
 
-43. IT Manager   [ 6.0/10 Moderate ]
+68. Internal Audit and SOX Compliance Manager   [ 6.0/10 Moderate ]
+   Cohere | United States | Remote | Remote | Posted 2026-07-16
+   https://jobs.ashbyhq.com/cohere/5518df67-10f6-43c4-ad1e-c886745a8ad2
+   Why: matches: vendor/governance
+
+69. IT Manager   [ 6.0/10 Moderate ]
    Techo-Bloc | Saint-Hubert, Quebec, Canada | Remote
    https://ca.linkedin.com/jobs/view/it-manager-at-techo-bloc-4451227162
    Why: matches: IT leadership
 
-44. IT Manager   [ 6.0/10 Moderate ]
+70. IT Manager   [ 6.0/10 Moderate ]
    Nakisa | Montreal, Quebec, Canada | Remote
    https://ca.linkedin.com/jobs/view/it-manager-at-nakisa-4417154989
    Why: matches: IT leadership
 
-45. IT Manager   [ 6.0/10 Moderate ]
+71. IT Manager   [ 6.0/10 Moderate ]
    Safe Fleet | Montreal, Quebec, Canada | Remote
    https://ca.linkedin.com/jobs/view/it-manager-at-safe-fleet-4433098674
    Why: matches: IT leadership
 
-46. Manager Product Engineering & Development   [ 6.0/10 Moderate ]
+72. Manager Product Engineering & Development   [ 6.0/10 Moderate ]
    Deloitte | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-product-engineering-development-at-deloitte-4460506197
    Why: general technology leadership
 
-47. Manager, IT Financial Systems   [ 6.0/10 Moderate ]
+73. Manager, IT Financial Systems   [ 6.0/10 Moderate ]
    Element Fleet Management | Toronto, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-it-financial-systems-at-element-fleet-management-4427114083
    Why: matches: IT leadership
 
-48. Manager, IT Infrastructure and Security   [ 6.0/10 Moderate ]
+74. Manager, IT Infrastructure and Security   [ 6.0/10 Moderate ]
    University of Toronto | Greater Toronto Area, Canada
    https://ca.linkedin.com/jobs/view/manager-it-infrastructure-and-security-at-university-of-toronto-4454998872
    Why: matches: IT leadership; caveats: security-heavy, infrastructure-focused
 
-49. Manager, Workplace Technology Management   [ 6.0/10 Moderate ]
+75. Manager, Workplace Technology Management   [ 6.0/10 Moderate ]
    GreenShield | Windsor, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-workplace-technology-management-at-greenshield-4455364554
    Why: matches: IT leadership
 
-50. OpenText Lead/Manager   [ 6.0/10 Moderate ]
+76. OpenText Lead/Manager   [ 6.0/10 Moderate ]
    Deloitte | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/opentext-lead-manager-at-deloitte-4460508229
    Why: general technology leadership
 
-51. Responsable informatique   [ 6.0/10 Moderate ]
+77. Pilot Success Manager   [ 6.0/10 Moderate ]
+   Geotab | Oakville, Ontario - Canada; Toronto, Ontario - Canada; Waterloo, Ontario - Canada | Posted 2026-08-20
+   https://job-boards.greenhouse.io/geotab/jobs/5301322008
+   Why: general technology leadership
+
+78. Product & Technology Communications Manager   [ 6.0/10 Moderate ]
+   Cohere | San Francisco | Remote | Remote | Posted 2026-07-14
+   https://jobs.ashbyhq.com/cohere/1c011283-34f3-4461-bb65-455d65a3ec84
+   Why: matches: IT leadership
+
+79. Product Operations Manager, Cards & Spend Management   [ 6.0/10 Moderate ]
+   Float | Toronto, Canada | Remote | Hybrid | Posted 2026-08-18
+   https://jobs.ashbyhq.com/float/a0438a03-2952-4e38-9c72-ee132d344437
+   Why: matches: service management
+
+80. Program Manager III   [ 6.0/10 Moderate ]
+   Achievers | Toronto | hybrid | Posted 2026-08-27
+   https://jobs.lever.co/achievers/a69e7404-f4ee-4902-a69f-5ba9b79e9685
+   Why: general technology leadership
+
+81. Responsable informatique   [ 6.0/10 Moderate ]
    Planiform | Terrebonne, Quebec, Canada | Remote
    https://ca.linkedin.com/jobs/view/responsable-informatique-at-planiform-4450763334
    Why: matches: IT leadership
 
-52. Senior Application Manager   [ 6.0/10 Moderate ]
+82. Senior .NET Developer, SaaS Manager   [ 6.0/10 Moderate ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-08-24
+   https://jobs.ashbyhq.com/1password/c6933be3-80a6-41f0-8e37-e70f72cae134
+   Why: matches: SaaS/cloud
+
+83. Senior Application Manager   [ 6.0/10 Moderate ]
    Flyover | Vancouver, British Columbia, Canada | Remote
    https://ca.linkedin.com/jobs/view/senior-application-manager-at-flyover-4449317156
    Why: matches: enterprise applications
 
-53. Senior Manager Product Engineering & Development   [ 6.0/10 Moderate ]
+84. Senior Manager Product Engineering & Development   [ 6.0/10 Moderate ]
    Deloitte | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-manager-product-engineering-development-at-deloitte-4460510195
    Why: general technology leadership
 
-54. Systems Manager - Financial Systems Functional Analysis   [ 6.0/10 Moderate ]
+85. Senior Product Manager ⭐   [ 6.0/10 Moderate ]
+   Achievers | Toronto | hybrid | Posted 2026-06-26
+   https://jobs.lever.co/achievers/33b4e5e0-f9ca-4ff6-972a-eb6c4e879472
+   Why: general technology leadership
+
+86. Senior Product Manager, Risk Operations   [ 6.0/10 Moderate ]
+   Wave | Canada | Remote | remote | Final compensation is determined based on experience, expertise, and role alignment. Most candidates are hired within the middle of the range, with the upper end reserved for those bringing exceptional depth, impact, and immediate autonomy. We also offer: - Bonus Structure - Employer-paid Benefits Plan - Health & Wellness Flex Account - Wellness Days - Holiday Shutdown - Wave Days (extra vacation days in the summer) Visit our site to find out more about life at Wave! | Posted 2026-07-08
+   https://jobs.lever.co/waveapps/255fcedc-169a-4452-a774-72a1e4aadebd
+   Why: matches: service management
+
+87. Staff Product Manager, SaaS Manager   [ 6.0/10 Moderate ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-08-24
+   https://jobs.ashbyhq.com/1password/0b37fa60-5cbc-4b9a-84c9-4afe50634db7
+   Why: matches: SaaS/cloud
+
+88. Systems Manager - Financial Systems Functional Analysis   [ 6.0/10 Moderate ]
    Spotify | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/systems-manager-financial-systems-functional-analysis-at-spotify-4418040057
    Why: general technology leadership
 
-55. Manager, Data Engineering   [ 5.8/10 Moderate ]
+89. Manager, Data Engineering   [ 5.8/10 Moderate ]
    Staples Canada | Richmond Hill, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-data-engineering-at-staples-canada-4393951115
    Why: matches: data/analytics
 
-56. Senior IT Manager, ERP, Data and Systems   [ 5.8/10 Moderate ]
+90. Marketing Data Science Manager   [ 5.8/10 Moderate ]
+   Mozilla | Remote US | Remote | Posted 2026-08-25
+   https://job-boards.greenhouse.io/mozilla/jobs/8139403
+   Why: matches: data/analytics
+
+91. Senior IT Manager, ERP, Data and Systems   [ 5.8/10 Moderate ]
    Chatters Limited Partnership | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-it-manager-erp-data-and-systems-at-chatters-limited-partnership-4448027944
    Why: matches: data/analytics; caveats: specialist ERP/config
 
-57. Cyber Engineering and Technology Manager   [ 5.6/10 Moderate ]
+92. Strategic Finance Analytics Manager (Canada)   [ 5.8/10 Moderate ]
+   PointClickCare | Remote or Mississauga | Remote | remote | At PointClickCare, base salary is one of the many components that make up our total rewards package. The Canada base salary range for this position is $108,000 - $120,000 + bonus + benefits, non-overtime eligible. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all Canada locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. Corp - C Professional - 4 | Posted 2026-07-06
+   https://jobs.lever.co/pointclickcare/344a98be-f2db-484d-90c9-6073dd0fb341
+   Why: matches: data/analytics
+
+93. Strategic Finance Analytics Manager (USA)   [ 5.8/10 Moderate ]
+   PointClickCare | Remote, USA | Remote | remote | At PointClickCare, base salary is one of the many components that make up our total rewards package. The US base salary range for this position is $133,000 - $147,000 + bonus + benefits, non-overtime eligible. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all US locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. Corp - C Professional - 4 | Posted 2026-07-06
+   https://jobs.lever.co/pointclickcare/b72d088d-155e-44ca-9e56-e7582659fc0e
+   Why: matches: data/analytics
+
+94. Cyber Engineering and Technology Manager   [ 5.6/10 Moderate ]
    Maple Leaf Foods Inc | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/cyber-engineering-and-technology-manager-at-maple-leaf-foods-inc-4454405868
    Why: matches: IT leadership; caveats: security-heavy
 
-58. Digital Solutions Manager   [ 5.6/10 Moderate ]
+95. Digital Solutions Manager   [ 5.6/10 Moderate ]
    Plan Group Inc. | Vaughan, Ontario, Canada
    https://ca.linkedin.com/jobs/view/digital-solutions-manager-at-plan-group-inc-4444600537
    Why: general technology leadership
 
-59. ITS Assistant Manager   [ 5.6/10 Moderate ]
+96. Facilities Manager (6-month contract)   [ 5.6/10 Moderate ]
+   Geotab | Oakville, Ontario - Canada | Posted 2026-08-27
+   https://job-boards.greenhouse.io/geotab/jobs/5381026008
+   Why: general technology leadership
+
+97. ITS Assistant Manager   [ 5.6/10 Moderate ]
    Pacific Smoke International Inc. | Markham, Ontario, Canada
    https://ca.linkedin.com/jobs/view/its-assistant-manager-at-pacific-smoke-international-inc-4418492048
    Why: general technology leadership
 
-60. Regional IT License Manager   [ 5.6/10 Moderate ]
+98. Regional IT License Manager   [ 5.6/10 Moderate ]
    Giesecke+Devrient | Markham, Ontario, Canada
    https://ca.linkedin.com/jobs/view/regional-it-license-manager-at-giesecke%2Bdevrient-4442926059
    Why: matches: IT leadership
 
-61. Information Technology (It) Implementation Manager   [ 5.5/10 Moderate ]
+99. Bilingual Customer Activation Manager   [ 5.5/10 Moderate ]
+   Float | Toronto, Canada | Remote | Hybrid | Posted 2026-08-17
+   https://jobs.ashbyhq.com/float/7c7e38cf-3606-4e80-99c1-2efcb248fe85
+   Why: general technology leadership
+
+100. Canada- Outbound Product Manager (PEO)   [ 5.5/10 Moderate ]
+   PointClickCare | Remote or Mississauga | Remote | hybrid | The Canada base salary range for this position is $115,000 - $135,000 and fulltime benefits. The range displayed on each job posting reflects the target for new hire salaries for the position across all CAD locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. | Posted 2026-07-15
+   https://jobs.lever.co/pointclickcare/d1ced7ca-305d-4e40-b8ae-755a37c41de0
+   Why: general technology leadership
+
+101. Continuous Improvement Project Manager   [ 5.5/10 Moderate ]
+   Tulip Interfaces | US - Remote | Remote | Posted 2026-06-30
+   https://tulip.co/careers/job-posting/?gh_jid=7742831003
+   Why: general technology leadership
+
+102. Contract Manager   [ 5.5/10 Moderate ]
+   Cohere | Toronto | Remote | Remote | Posted 2026-07-28
+   https://jobs.ashbyhq.com/cohere/f57ae62a-791b-43d9-b59f-91f338ca61f4
+   Why: general technology leadership
+
+103. Customer Activation Manager   [ 5.5/10 Moderate ]
+   Float | Toronto, Canada | Remote | Hybrid | Posted 2026-08-14
+   https://jobs.ashbyhq.com/float/6b5b28fa-f48a-4852-811b-cfddd4addced
+   Why: general technology leadership
+
+104. Deal Desk Manager (Remote)   [ 5.5/10 Moderate ]
+   Geotab | Remote - Canada | Remote | Posted 2026-08-20
+   https://job-boards.greenhouse.io/geotab/jobs/5375671008
+   Why: general technology leadership
+
+105. Digital Customer Success Campaign Manager   [ 5.5/10 Moderate ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-08-18
+   https://jobs.ashbyhq.com/1password/c54f62fe-8a85-44c1-81ea-f3d1c1d3d060
+   Why: general technology leadership
+
+106. Group Product Manager - Core Services   [ 5.5/10 Moderate ]
+   Wave | Toronto, Ontario | Remote | remote | Final compensation is determined based on experience, expertise, and role alignment. Most candidates are hired within the middle of the range, with the upper end reserved for those bringing exceptional depth, impact, and immediate autonomy. We also offer: - Bonus Structure - Employer-paid Benefits Plan - Health & Wellness Flex Account - Wellness Days - Holiday Shutdown - Wave Days (extra vacation days in the summer) Visit our site to find out more about life at Wave! | Posted 2026-08-11
+   https://jobs.lever.co/waveapps/0a531bcc-dbdb-44b0-bfa0-385e080dc2b2
+   Why: general technology leadership
+
+107. Growth Product Manager   [ 5.5/10 Moderate ]
+   Float | Canada | Remote | Remote | Posted 2026-08-17
+   https://jobs.ashbyhq.com/float/031e0489-3580-4bf0-b5f2-77e5166dd729
+   Why: general technology leadership
+
+108. Information Technology (It) Implementation Manager   [ 5.5/10 Moderate ]
    Surrey Police Service | Surrey (BC) | $59.84 hourly | Posted August 28, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50179577
    Why: matches: IT leadership
 
-62. Information Technology (It) Implementation Manager   [ 5.5/10 Moderate ]
+109. Information Technology (It) Implementation Manager   [ 5.5/10 Moderate ]
    City of Vancouver | Vancouver (BC) | $62.53 hourly | Posted August 26, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50162545
    Why: matches: IT leadership
 
-63. IT Asset Manager   [ 5.5/10 Moderate ]
+110. IT Asset Manager   [ 5.5/10 Moderate ]
    BNP Paribas | Montreal, Quebec, Canada | Remote
    https://ca.linkedin.com/jobs/view/it-asset-manager-at-bnp-paribas-4434599466
    Why: matches: IT leadership
 
-64. Manager, It (Information Technology) Implementation   [ 5.5/10 Moderate ]
+111. IT Product Manager - Billing and Revenue Systems   [ 5.5/10 Moderate ]
+   PagerDuty | San Francisco | Posted 2026-08-24
+   https://job-boards.greenhouse.io/pagerduty/jobs/5988608004
+   Why: matches: IT leadership
+
+112. Manager, Customer Activation   [ 5.5/10 Moderate ]
+   Float | Toronto, Canada | Remote | Hybrid | Posted 2026-07-08
+   https://jobs.ashbyhq.com/float/c356c28d-1d34-4432-bc27-26c589f4bc08
+   Why: general technology leadership
+
+113. Manager, Deal Desk (Remote)   [ 5.5/10 Moderate ]
+   Geotab | Remote - Canada | Remote | Posted 2026-08-20
+   https://job-boards.greenhouse.io/geotab/jobs/5383147008
+   Why: general technology leadership
+
+114. Manager, It (Information Technology) Implementation   [ 5.5/10 Moderate ]
    Mariner | Moncton (NB) | $43.75 to $103.37 hourly | Posted August 19, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50108045
    Why: matches: IT leadership
 
-65. Senior Manager, ERP Systems   [ 5.5/10 Moderate ]
+115. Manager, Solutions Engineering, MM   [ 5.5/10 Moderate ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-08-20
+   https://jobs.ashbyhq.com/1password/9c8f1dda-e951-4e15-a9e1-0f254736e0a3
+   Why: general technology leadership
+
+116. Manager/Senior Manager, Operational Risk & Controls   [ 5.5/10 Moderate ]
+   Koho | KOHO (CAN) | Remote | Remote | Posted 2026-06-05
+   https://jobs.ashbyhq.com/koho/035ba237-b203-4859-a85d-9d8358eba3ca
+   Why: general technology leadership
+
+117. Partner Manager, Aerospace and Defense   [ 5.5/10 Moderate ]
+   Tulip Interfaces | US - Remote | Remote | Posted 2026-08-24
+   https://tulip.co/careers/job-posting/?gh_jid=7711581003
+   Why: general technology leadership
+
+118. Partner Manager, MSP   [ 5.5/10 Moderate ]
+   1Password | United States | Remote | Remote | Posted 2026-08-10
+   https://jobs.ashbyhq.com/1password/2a81499d-bfda-4de9-8897-a8ebcec29a65
+   Why: general technology leadership
+
+119. Partner Success Manager   [ 5.5/10 Moderate ]
+   Float | Toronto, Canada | Remote | Hybrid | Posted 2026-08-27
+   https://jobs.ashbyhq.com/float/af888874-7f61-4a2c-8037-91ada6157a1d
+   Why: general technology leadership
+
+120. People Projects Manager   [ 5.5/10 Moderate ]
+   Cohere | United Kingdom | Remote | Remote | Posted 2026-08-20
+   https://jobs.ashbyhq.com/cohere/9ea34f05-be1d-4630-8994-b80faca8cdb0
+   Why: general technology leadership
+
+121. Product Manager - Asset Inspections   [ 5.5/10 Moderate ]
+   Geotab | Oakville, Ontario - Canada; Toronto, Ontario - Canada; Waterloo, Ontario - Canada | Posted 2026-08-27
+   https://job-boards.greenhouse.io/geotab/jobs/5398479008
+   Why: general technology leadership
+
+122. Product Manager – Orders Management (Senior Care)   [ 5.5/10 Moderate ]
+   PointClickCare | Remote, USA | Remote | remote | Posted 2026-07-30
+   https://jobs.lever.co/pointclickcare/7f7d507d-2c1e-40fa-b4b1-88556c62a3f8
+   Why: general technology leadership
+
+123. Product Manager, Agent Harness & Modelling   [ 5.5/10 Moderate ]
+   Cohere | Toronto | Remote | Remote | Posted 2026-03-18
+   https://jobs.ashbyhq.com/cohere/1d1b300d-254b-48c4-958f-99c6b907f295
+   Why: general technology leadership
+
+124. Product Manager, Credit & Risk Engineering   [ 5.5/10 Moderate ]
+   Float | Toronto, Canada | Remote | Hybrid | Posted 2026-07-30
+   https://jobs.ashbyhq.com/float/8ce1894e-38b1-4283-9f26-e40614401f2d
+   Why: general technology leadership
+
+125. Product Manager, Integrations   [ 5.5/10 Moderate ]
+   Cohere | Toronto | Remote | Remote | Posted 2026-06-16
+   https://jobs.ashbyhq.com/cohere/87e9fd4e-49ac-4242-97be-7da6f718020d
+   Why: general technology leadership
+
+126. Product Manager, Mid-Market Activation   [ 5.5/10 Moderate ]
+   Float | Toronto, Canada | Remote | Hybrid | Posted 2026-08-11
+   https://jobs.ashbyhq.com/float/dcef24ef-db50-4b43-8fd1-293881fe485b
+   Why: general technology leadership
+
+127. Proposal Manager (18 months contract)   [ 5.5/10 Moderate ]
+   Geotab | Remote - Canada | Remote | Posted 2026-08-20
+   https://job-boards.greenhouse.io/geotab/jobs/5287262008
+   Why: general technology leadership
+
+128. Senior Business Affairs Manager - Contract Manager (Remote)   [ 5.5/10 Moderate ]
+   Geotab | Remote - Canada | Remote | Posted 2026-08-26
+   https://job-boards.greenhouse.io/geotab/jobs/5293985008
+   Why: general technology leadership
+
+129. Senior Deal Desk Manager (Remote)   [ 5.5/10 Moderate ]
+   Geotab | Remote - Canada | Remote | Posted 2026-08-20
+   https://job-boards.greenhouse.io/geotab/jobs/5375567008
+   Why: general technology leadership
+
+130. Senior Manager Implementation and Onboarding   [ 5.5/10 Moderate ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-05-21
+   https://jobs.ashbyhq.com/1password/c1002e41-2b98-43b4-9e21-a082abee2b32
+   Why: general technology leadership
+
+131. Senior Manager, ERP Systems   [ 5.5/10 Moderate ]
    SearchLabs | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/senior-manager-erp-systems-at-searchlabs-4457055247
    Why: caveats: specialist ERP/config
 
-66. Manager, Information Security   [ 5.1/10 Moderate ]
+132. Senior Product Manager, Machine Identity   [ 5.5/10 Moderate ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-06-29
+   https://jobs.ashbyhq.com/1password/c6fc16b0-bb5b-48f1-994d-d69e07846bc8
+   Why: general technology leadership
+
+133. Senior Product Manager, Mobile   [ 5.5/10 Moderate ]
+   Mozilla | Remote Germany | Remote | Posted 2026-08-27
+   https://job-boards.greenhouse.io/mozilla/jobs/7931363
+   Why: general technology leadership
+
+134. Senior Product Manager, Scaled Spend Control   [ 5.5/10 Moderate ]
+   Float | Toronto, Canada | Remote | Hybrid | Posted 2026-08-26
+   https://jobs.ashbyhq.com/float/ce021dd3-32c8-4802-8cdc-ab9fe9fcc80e
+   Why: general technology leadership
+
+135. Senior Program Manager, Corporate Affairs   [ 5.5/10 Moderate ]
+   Cohere | Toronto | Remote | Hybrid | Posted 2026-08-06
+   https://jobs.ashbyhq.com/cohere/a3981a28-9f41-48a7-9ffe-2e7f9675e486
+   Why: general technology leadership
+
+136. Senior Tax Associate / Tax Manager, Indirect Tax   [ 5.5/10 Moderate ]
+   Cohere | San Francisco | Remote | Hybrid | Posted 2026-08-07
+   https://jobs.ashbyhq.com/cohere/43943c73-6640-443d-9b24-df510fce7499
+   Why: general technology leadership
+
+137. Senior Technical Account Manager   [ 5.5/10 Moderate ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-08-19
+   https://jobs.ashbyhq.com/1password/8a51778c-a965-4f42-b2ba-dbfdffbea883
+   Why: general technology leadership
+
+138. Sr. Partner Manager, Strategic Partnerships (Senior Care) (Canada)   [ 5.5/10 Moderate ]
+   PointClickCare | Remote or Mississauga | Remote | remote | At PointClickCare, base salary is one of the many components that make up our total rewards package. The Canada base salary range for this position is $135,000 - $166,000 + bonus + benefits, non-overtime eligible. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all Canada locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. | Posted 2026-07-07
+   https://jobs.lever.co/pointclickcare/411a4315-7d40-47ca-b342-b793c051def3
+   Why: general technology leadership
+
+139. Sr. Partner Manager, Strategic Partnerships (Senior Care) (US)   [ 5.5/10 Moderate ]
+   PointClickCare | Remote, USA | Remote | remote | At PointClickCare, base salary is one of the many components that make up our total rewards package. The US base salary range for this position is $144,000 - $177,000 + bonus + benefits, non-overtime eligible. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all US locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. | Posted 2026-07-07
+   https://jobs.lever.co/pointclickcare/ee21af32-14a0-49d9-ae58-f6bba7ac2237
+   Why: general technology leadership
+
+140. Staff Product Manager (Agentic)   [ 5.5/10 Moderate ]
+   Loopio | Toronto, ON Hub | Remote | Remote | Posted 2026-08-20
+   https://jobs.ashbyhq.com/loopio/df8dcafa-83ed-42b7-b807-7743f4244738
+   Why: general technology leadership
+
+141. Staff Product Manager, Search Experiences   [ 5.5/10 Moderate ]
+   Mozilla | Remote US | Remote | Posted 2026-08-27
+   https://job-boards.greenhouse.io/mozilla/jobs/8155198
+   Why: general technology leadership
+
+142. Staff Technical Account Manager   [ 5.5/10 Moderate ]
+   1Password | United Kingdom | Remote | Remote | Posted 2026-05-22
+   https://jobs.ashbyhq.com/1password/60ac73ea-5019-40a6-8140-612bd168c51a
+   Why: general technology leadership
+
+143. Staff Technical Account Manager (German)   [ 5.5/10 Moderate ]
+   1Password | United Kingdom | Remote | Remote | Posted 2026-06-25
+   https://jobs.ashbyhq.com/1password/b7fb4d5d-9053-4e70-b17a-8d401fd5b86b
+   Why: general technology leadership
+
+144. US- Outbound Product Manager (PEO)   [ 5.5/10 Moderate ]
+   PointClickCare | Remote, USA | Remote | remote | The US base salary range for this position is $120,000 - $142,000 and fulltime benefits. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all US locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. | Posted 2026-07-15
+   https://jobs.lever.co/pointclickcare/501d471e-1afb-4246-8b9f-9e7eeb34cab4
+   Why: general technology leadership
+
+145. Manager, Information Security   [ 5.1/10 Moderate ]
    FirstOntario Credit Union | Hamilton, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-information-security-at-firstontario-credit-union-4457095057
    Why: caveats: security-heavy
 
-67. ERP Manager   [ 5.0/10 Moderate ]
+146. [WEBTOON] International Senior Tax Manager   [ 5.0/10 Moderate ]
+   Wattpad | El Segundo, California | onsite | Posted 2026-08-19
+   https://jobs.lever.co/wattpad/fac681cd-988c-4619-a362-d2ab431c9e37
+   Why: general technology leadership
+
+147. [WEBTOON] Office & Facilities Manager   [ 5.0/10 Moderate ]
+   Wattpad | El Segundo, California | onsite | Posted 2026-07-16
+   https://jobs.lever.co/wattpad/5bb743ba-d146-4bd8-aeb5-a112470c72a1
+   Why: general technology leadership
+
+148. [WEBTOON] Project Manager - D Comics   [ 5.0/10 Moderate ]
+   Wattpad | El Segundo, California | onsite | Posted 2026-07-29
+   https://jobs.lever.co/wattpad/ddc94b03-484b-4c17-bf99-d66b66fc492c
+   Why: general technology leadership
+
+149. ERP Manager   [ 5.0/10 Moderate ]
    Aplin | Kingsville, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/erp-manager-at-aplin-4460390697
    Why: caveats: specialist ERP/config
 
-68. Help Desk Manager - Information Technology (It)   [ 5.0/10 Moderate ]
+150. Help Desk Manager - Information Technology (It)   [ 5.0/10 Moderate ]
    Micromart | Toronto (ON) | Hybrid | $40.00 to $92.00 hourly | Posted August 09, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50048148
    Why: matches: IT leadership; caveats: below seniority (help desk)
 
-69. Manager, SAP SD Public Cloud   [ 5.0/10 Moderate ]
+151. Installation Project Manager   [ 5.0/10 Moderate ]
+   Geotab | Atlanta, Georgia - USA; Las Vegas, Nevada - USA | Posted 2026-08-22
+   https://job-boards.greenhouse.io/geotab/jobs/5394358008
+   Why: general technology leadership
+
+152. Manager, SAP SD Public Cloud   [ 5.0/10 Moderate ]
    KPMG Canada | Toronto, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-sap-sd-public-cloud-at-kpmg-canada-4452136577
    Why: matches: SaaS/cloud; caveats: specialist ERP/config
 
-70. Manager, Workday Talent Acquisition Technology   [ 5.0/10 Moderate ]
+153. Manager, Workday Talent Acquisition Technology   [ 5.0/10 Moderate ]
    RBC | Toronto, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-workday-talent-acquisition-technology-at-rbc-4455531879
    Why: matches: IT leadership; caveats: specialist ERP/config
 
-71. CAD / PLM Manager   [ 4.5/10 Weak ]
+154. Partner Manager, Regulated Manufacturing   [ 5.0/10 Moderate ]
+   Tulip Interfaces | Somerville, MA | Posted 2026-08-24
+   https://tulip.co/careers/job-posting/?gh_jid=7711579003
+   Why: general technology leadership
+
+155. Product Manager   [ 5.0/10 Moderate ]
+   Geotab | Dubai - Dubai | Posted 2026-08-20
+   https://job-boards.greenhouse.io/geotab/jobs/5110656008
+   Why: general technology leadership
+
+156. Senior Competitive Intelligence Manager   [ 5.0/10 Moderate ]
+   PagerDuty | San Francisco | Posted 2026-08-17
+   https://job-boards.greenhouse.io/pagerduty/jobs/6132073004
+   Why: general technology leadership
+
+157. Senior Product Manager   [ 5.0/10 Moderate ]
+   PagerDuty | Atlanta; San Francisco | Posted 2026-08-17
+   https://job-boards.greenhouse.io/pagerduty/jobs/5990194004
+   Why: general technology leadership
+
+158. Senior Staff Product Manager, Device Security   [ 5.0/10 Moderate ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-08-14
+   https://jobs.ashbyhq.com/1password/99eb8a4c-81e1-413b-822f-dd27598207e0
+   Why: caveats: security-heavy
+
+159. Technical Account Manager   [ 5.0/10 Moderate ]
+   Tulip Interfaces | Somerville, MA | Posted 2026-08-10
+   https://tulip.co/careers/job-posting/?gh_jid=7537636003
+   Why: general technology leadership
+
+160. CAD / PLM Manager   [ 4.5/10 Weak ]
    Horizon Aircraft | Lindsay, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/cad-plm-manager-at-horizon-aircraft-4439051452
    Why: caveats: specialist ERP/config
 
-72. IT Support Manager   [ 4.5/10 Weak ]
+161. IT Support Manager   [ 4.5/10 Weak ]
    People Can Fly Studio | Montreal, Quebec, Canada | Remote
    https://ca.linkedin.com/jobs/view/it-support-manager-at-people-can-fly-studio-4459853685
    Why: matches: IT leadership; caveats: below seniority (help desk)
 
-73. Manager, Business Analyst – D365 F&O / CRM   [ 4.5/10 Weak ]
+162. Manager, Business Analyst – D365 F&O / CRM   [ 4.5/10 Weak ]
    EllisDon | Mississauga, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-business-analyst-%E2%80%93-d365-f-o-crm-at-ellisdon-4440861837
    Why: caveats: specialist ERP/config
 
-74. Manager, Workday & HCM   [ 4.5/10 Weak ]
+163. Manager, Security Engineering   [ 4.5/10 Weak ]
+   Cohere | United States | OnSite | Posted 2026-05-27
+   https://jobs.ashbyhq.com/cohere/1599cc22-313e-49c9-ac69-b365f5f8f227
+   Why: caveats: security-heavy
+
+164. Manager, Workday & HCM   [ 4.5/10 Weak ]
    Canadian Tire Corporation | Toronto, Ontario, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-workday-hcm-at-canadian-tire-corporation-4404816585
    Why: caveats: specialist ERP/config
 
-75. SAP SuccessFactors Performance Management & Learning, Manager   [ 4.5/10 Weak ]
+165. SAP SuccessFactors Performance Management & Learning, Manager   [ 4.5/10 Weak ]
    PwC Canada | Calgary, Alberta, Canada | Remote
    https://ca.linkedin.com/jobs/view/sap-successfactors-performance-management-learning-manager-at-pwc-canada-4454562252
    Why: caveats: specialist ERP/config
+
+166. Canada -Manager, Customer Support (Senior Care)   [ 4.0/10 Weak ]
+   PointClickCare | Remote or Mississauga | Remote | remote | At PointClickCare, base salary is one of the many components that make up our total rewards package. The Canadian base salary range for this position is $85,000 - $105,000 and fulltime benefits. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all Canadian locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. | Posted 2026-04-10
+   https://jobs.lever.co/pointclickcare/fc5d90c8-8623-4ab7-a98f-5f76e8f90d06
+   Why: caveats: below seniority (help desk)
+
+167. Canada- Escalation Manager (Customer Support)   [ 4.0/10 Weak ]
+   PointClickCare | Remote or Mississauga | Remote | remote | Canada: At PointClickCare, base salary is one of the many components that make up our total rewards package. The Canada base salary range for this position is $100,000 - $110,000 and Fulltime Benefits. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all Canada locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. | Posted 2026-07-30
+   https://jobs.lever.co/pointclickcare/a62f17fd-7a1b-4f7a-aa1a-a5f71476ff52
+   Why: caveats: below seniority (help desk)
+
+168. US -Manager, Customer Support (Senior Care)   [ 4.0/10 Weak ]
+   PointClickCare | Remote - US | Remote | remote | At PointClickCare, base salary is one of the many components that make up our total rewards package. The US base salary range for this position is $90,000 - $105,000 and fulltime benefits. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all US locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. | Posted 2026-08-07
+   https://jobs.lever.co/pointclickcare/d5324867-071b-4502-bc77-88b4aeb64c7c
+   Why: caveats: below seniority (help desk)
+
+169. US- Escalation Manager (Customer Support)   [ 4.0/10 Weak ]
+   PointClickCare | Remote - US | Remote | remote | US: At PointClickCare, base salary is one of the many components that make up our total rewards package. The US base salary range for this position is $95,000 - $105,000 and fulltime benefits. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all US locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. | Posted 2026-07-30
+   https://jobs.lever.co/pointclickcare/d3c03840-66fc-4749-ac4f-ec77c8a82ac4
+   Why: caveats: below seniority (help desk)
 ==============================================================================
 SECTION 3 — DIRECTOR: SOFTWARE / ENGINEERING (review fit)
 ==============================================================================
@@ -854,84 +1473,134 @@ SECTION 4 — MANAGER: SOFTWARE / ENGINEERING (review fit)
    https://ca.linkedin.com/jobs/view/engineering-manager-partner-platform-at-opentable-4452999286
    Why: caveats: leans hands-on dev
 
-2. Manager, Software Engineering - Platform Services   [ 5.5/10 Moderate ]
+2. Engineering Manager, FDE Agentic Platform   [ 5.5/10 Moderate ]
+   Cohere | Toronto | Remote | Remote | Posted 2026-08-28
+   https://jobs.ashbyhq.com/cohere/e906188a-e089-4b86-85b9-aad0d4413c68
+   Why: caveats: leans hands-on dev
+
+3. Manager, Software Engineering - Platform Services   [ 5.5/10 Moderate ]
    ClearGov | Calgary, Alberta, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-software-engineering-platform-services-at-cleargov-4459868030
    Why: caveats: leans hands-on dev
 
-3. Engineering Manager, Ads   [ 5.0/10 Moderate ]
+4. [Wattpad] Engineering Manager   [ 5.0/10 Moderate ]
+   Wattpad | Toronto, Ontario | hybrid | Posted 2026-08-19
+   https://jobs.lever.co/wattpad/da811487-88c8-440b-b6c2-5da90eb80ca1
+   Why: caveats: leans hands-on dev
+
+5. Engineering Manager, Ads   [ 5.0/10 Moderate ]
    Mozilla | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/engineering-manager-ads-at-mozilla-4441314982
    Why: caveats: leans hands-on dev
 
-4. Engineering Manager, Billing Configuration   [ 5.0/10 Moderate ]
+6. Engineering Manager, Billing Configuration   [ 5.0/10 Moderate ]
    Stripe | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/engineering-manager-billing-configuration-at-stripe-4460856176
    Why: caveats: leans hands-on dev
 
-5. Engineering Manager, Metronome (Billing)   [ 5.0/10 Moderate ]
+7. Engineering Manager, Metronome (Billing)   [ 5.0/10 Moderate ]
    Stripe | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/engineering-manager-metronome-billing-at-stripe-4454537421
    Why: caveats: leans hands-on dev
 
-6. Engineering Manager, New User Experience   [ 5.0/10 Moderate ]
+8. Engineering Manager, New User Experience   [ 5.0/10 Moderate ]
    DoorDash | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/engineering-manager-new-user-experience-at-doordash-4447180583
    Why: caveats: leans hands-on dev
 
-7. Manager, Software Engineering   [ 5.0/10 Moderate ]
+9. Manager, Software Engineering   [ 5.0/10 Moderate ]
    Emburse | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-software-engineering-at-emburse-4443434072
    Why: caveats: leans hands-on dev
 
-8. Software Engineering Manager   [ 5.0/10 Moderate ]
+10. Software Engineering Manager   [ 5.0/10 Moderate ]
    Thornhill Medical | Toronto, Ontario, Canada
    https://ca.linkedin.com/jobs/view/software-engineering-manager-at-thornhill-medical-4439878541
    Why: caveats: leans hands-on dev
 
-9. IT Engineering Manager   [ 4.6/10 Weak ]
+11. IT Engineering Manager   [ 4.6/10 Weak ]
    TJX Canada – Winners, Marshalls, HomeSense | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/it-engineering-manager-at-tjx-canada-%E2%80%93-winners-marshalls-homesense-4457050145
    Why: matches: IT leadership; caveats: leans hands-on dev
 
-10. Manager Software Engineering   [ 4.6/10 Weak ]
+12. Manager Software Engineering   [ 4.6/10 Weak ]
    PointClickCare | Mississauga, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-software-engineering-at-pointclickcare-4437076599
    Why: caveats: leans hands-on dev
 
-11. Manager, Software Engineering   [ 4.6/10 Weak ]
+13. Manager, Software Engineering   [ 4.6/10 Weak ]
    Mastercard | North York, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-software-engineering-at-mastercard-4454673272
    Why: caveats: leans hands-on dev
 
-12. Manager, Software Engineering (Resilience Engineering)   [ 4.6/10 Weak ]
+14. Manager, Software Engineering (Resilience Engineering)   [ 4.6/10 Weak ]
    Affirm | Hamilton, Ontario, Canada
    https://ca.linkedin.com/jobs/view/manager-software-engineering-resilience-engineering-at-affirm-4409033978
    Why: caveats: leans hands-on dev
 
-13. Software Engineering Manager   [ 4.6/10 Weak ]
+15. Software Engineering Manager   [ 4.6/10 Weak ]
    Randstad Digital | Greater Guelph Metropolitan Area
    https://ca.linkedin.com/jobs/view/software-engineering-manager-at-randstad-digital-4457964710
    Why: caveats: leans hands-on dev
 
-14. Software Engineering Manager   [ 4.6/10 Weak ]
+16. Software Engineering Manager   [ 4.6/10 Weak ]
    Technology Force Company Ltd. | Concord (ON) | $68.00 hourly | Posted August 18, 2026
    https://www.jobbank.gc.ca/jobsearch/jobposting/50101210
    Why: caveats: leans hands-on dev
 
-15. Manager Software Engineering   [ 4.5/10 Weak ]
+17. Engineering Manager & Product Lead, Float Intelligence   [ 4.5/10 Weak ]
+   Float | Canada | Remote | Remote | Posted 2026-08-18
+   https://jobs.ashbyhq.com/float/e79f13fb-b32a-414e-800b-c332f8c263a2
+   Why: caveats: leans hands-on dev
+
+18. Engineering Manager, Authentication Services   [ 4.5/10 Weak ]
+   1Password | Remote (United States | Canada) | Remote | Remote | Posted 2026-06-12
+   https://jobs.ashbyhq.com/1password/dff03ad3-cb30-49e3-90b7-0fa0b397cdbb
+   Why: caveats: leans hands-on dev
+
+19. Engineering Manager, FDE Infrastructure (NORAM)   [ 4.5/10 Weak ]
+   Cohere | Canada | Remote | Remote | Posted 2026-08-28
+   https://jobs.ashbyhq.com/cohere/6a6120d5-5e02-4811-99d9-6baf0b910e37
+   Why: caveats: leans hands-on dev, infrastructure-focused
+
+20. Engineering Manager, FDE Infrastructure (UK)   [ 4.5/10 Weak ]
+   Cohere | United Kingdom | Remote | Remote | Posted 2026-04-21
+   https://jobs.ashbyhq.com/cohere/9bdbb821-6536-4090-8faa-a2b04a70bbf1
+   Why: caveats: leans hands-on dev, infrastructure-focused
+
+21. Front End Engineering Manager, Firefox Desktop   [ 4.5/10 Weak ]
+   Mozilla | Remote Canada | Remote | Posted 2026-08-26
+   https://job-boards.greenhouse.io/mozilla/jobs/7947405
+   Why: caveats: leans hands-on dev
+
+22. Manager Software Engineering   [ 4.5/10 Weak ]
    Ultra Maritime | Dartmouth, Nova Scotia, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-software-engineering-at-ultra-maritime-4411258026
    Why: caveats: leans hands-on dev
 
-16. Manager, Software Engineering   [ 4.5/10 Weak ]
+23. Manager, Software Engineering   [ 4.5/10 Weak ]
    AltaML | Calgary, Alberta, Canada | Remote
    https://ca.linkedin.com/jobs/view/manager-software-engineering-at-altaml-4458216955
    Why: caveats: leans hands-on dev
 
-17. Software Engineering Manager   [ 4.5/10 Weak ]
+24. Software Engineering Manager   [ 4.5/10 Weak ]
    Helcim | Calgary, Alberta, Canada | Remote
    https://ca.linkedin.com/jobs/view/software-engineering-manager-at-helcim-4450288387
+   Why: caveats: leans hands-on dev
+
+25. Engineering Manager   [ 4.0/10 Weak ]
+   Cohere | Germany | OnSite | Posted 2026-06-29
+   https://jobs.ashbyhq.com/cohere/335a6fe6-c857-4c5e-866a-4163496e1254
+   Why: caveats: leans hands-on dev
+
+26. Engineering Manager, GPU Infrastructure   [ 4.0/10 Weak ]
+   Cohere | United States | OnSite | Posted 2026-08-20
+   https://jobs.ashbyhq.com/cohere/28239d75-5dd9-41fb-ba43-cb08b491be2b
+   Why: caveats: leans hands-on dev, infrastructure-focused
+
+27. Senior Engineering Manager, Identity & Access Management   [ 4.0/10 Weak ]
+   Tulip Interfaces | Somerville, MA | Posted 2026-08-26
+   https://tulip.co/careers/job-posting/?gh_jid=7813174003
    Why: caveats: leans hands-on dev
 
 ==============================================================================
