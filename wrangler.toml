@@ -7,7 +7,7 @@ compatibility_flags = ["nodejs_compat"]
 binding = "DB"
 database_name = "job-search-2026"
 # Set this after running: wrangler d1 create job-search-2026
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "1e7b0c40-4e79-4326-9b52-80d85f204d80"
 
 [vars]
 # Non-secret env vars
