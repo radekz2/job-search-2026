@@ -1,13 +1,16 @@
 {
-  "generated_at": "2026-08-31T01:18:06.260479+00:00",
+  "generated_at": "2026-08-31T01:47:13.362167+00:00",
   "sources": [
-    "Meetup (curated Toronto groups)",
+    "Meetup (curated + vendor groups)",
     "Luma discover",
-    "Career Fair Canada"
+    "Vendor (Bevy)",
+    "Vendor (BMC)",
+    "Career Fair Canada",
+    "Search"
   ],
-  "total_raw": 47,
-  "total_kept": 17,
-  "total_dropped": 13,
+  "total_raw": 72,
+  "total_kept": 21,
+  "total_dropped": 34,
   "errors": [],
   "events": [
     {
@@ -95,6 +98,20 @@
       "focus": "networking"
     },
     {
+      "title": "CNCF Toronto Q3 Meetup - Hosted by Index Exchange",
+      "url": "https://community.cncf.io/cloud-native-toronto/",
+      "date_utc": "2026-09-16T21:00:00+00:00",
+      "has_time": true,
+      "location": "Index Exchange, 8 Spadina Avenue, Toronto, ON",
+      "location_type": "in-person",
+      "cost": "Free",
+      "cost_num": 0.0,
+      "is_free": true,
+      "organizer": "Cloud Native Toronto (CNCF)",
+      "source": "Search",
+      "focus": "cloud"
+    },
+    {
       "title": "Toronto Agentic: Opening Social",
       "url": "https://lu.ma/4mr12dls",
       "date_utc": "2026-09-17T21:00:00+00:00",
@@ -135,6 +152,34 @@
       "organizer": "Hustle Fund Events",
       "source": "Luma",
       "focus": "networking"
+    },
+    {
+      "title": "Control-M Lunch & Learn: AI-Powered Orchestration - Toronto, Canada",
+      "url": "https://www.bmc.com/events/control-m-lunch-learn-toronto-canada.html",
+      "date_utc": "2026-09-29T12:00:00+00:00",
+      "has_time": false,
+      "location": "Toronto, ON",
+      "location_type": "in-person",
+      "cost": "Free",
+      "cost_num": 0.0,
+      "is_free": true,
+      "organizer": "BMC",
+      "source": "Vendor (BMC)",
+      "focus": "vendor"
+    },
+    {
+      "title": "Toronto Databricks User Group - Spooktober Edition",
+      "url": "https://usergroups.databricks.com/events/details/databricks-user-groups-toronto-databricks-user-group-presents-toronto-databricks-user-group-spooktober-edition/",
+      "date_utc": "2026-10-23T21:30:00+00:00",
+      "has_time": true,
+      "location": "Toronto, ON",
+      "location_type": "in-person",
+      "cost": "Free",
+      "cost_num": 0.0,
+      "is_free": true,
+      "organizer": "Databricks User Group Toronto",
+      "source": "Vendor (Bevy)",
+      "focus": "data-ai"
     },
     {
       "title": "FOST Conference Toronto (Free Tickets)",
@@ -246,6 +291,20 @@
       "is_free": true,
       "organizer": "Toronto Business Startups",
       "source": "Meetup",
+      "focus": "networking"
+    },
+    {
+      "title": "Toronto Professionals & Entrepreneurs Social Mixer",
+      "url": "https://lu.ma/kad2pxvo",
+      "date_utc": null,
+      "has_time": false,
+      "location": "642 King St W, Toronto, ON",
+      "location_type": "in-person",
+      "cost": "Free",
+      "cost_num": 0.0,
+      "is_free": true,
+      "organizer": "Toronto Professionals & Entrepreneurs",
+      "source": "Search",
       "focus": "networking"
     }
   ]
