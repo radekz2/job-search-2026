@@ -133,3 +133,5 @@ The dev server uses `nitro-cloudflare-dev` which injects the Cloudflare bindings
 | `job-scrape.yml` | Daily 10:00 UTC | Full scrape → score → write to D1 |
 | `events-monitor.yml` | Monday 07:00 UTC | Scrape GTA networking events |
 | `deploy.yml` | On push to `main` | Build + deploy to Cloudflare Pages |
+
+trigger build
