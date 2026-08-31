@@ -6,6 +6,10 @@ export default defineEventHandler(async (event) => {
   const db = useDB(event)
   const id = getRouterParam(event, 'id')
 
+  if (!id) {
+    throw createError({ statusCode: 400, message: 'Missing job id' })
+  }
+
   const row = await db
     .prepare(
       `SELECT j.*,

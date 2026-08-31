@@ -10,10 +10,10 @@ Director of Technology / Enterprise Applications. Excludes hands-on development-
 | Layer | Technology |
 |---|---|
 | Frontend + API | **Nuxt 3** (SSR, Nuxt UI components) |
-| Database | **Cloudflare D1** (SQLite at the edge) |
-| Hosting | **Cloudflare Pages + Workers** |
+| Database | **PostgreSQL** (Netlify-managed connection) |
+| Hosting | **Netlify** |
 | Background pipeline | **GitHub Actions** (Node.js) |
-| LLM scoring | **OpenAI GPT-4o-mini** (or Cloudflare Workers AI) |
+| LLM scoring | **OpenAI GPT-4o-mini** |
 
 See [`SETUP.md`](SETUP.md) for deployment instructions.
 
@@ -30,7 +30,7 @@ The `pipeline/` directory contains Node.js scripts that run daily via GitHub Act
 2. **Filter** — Deduplication + candidate filter (keeps management/leadership roles, drops IC, dev-manager, intern titles)
 3. **Deep-dive** — Fetch full job descriptions for top-N candidates
 4. **LLM scoring** — GPT-4o-mini scores each job 0–10 against the candidate profile with recommendation, strengths, and concerns
-5. **Write to D1** — Upsert all records into Cloudflare D1
+5. **Write to database** — Upsert all records into PostgreSQL
 
 ### Workday boards
 
@@ -56,15 +56,14 @@ Mozilla, Nylas, PagerDuty, PointClickCare, Ritual, Top Hat, Tulip Retail, Wattpa
 |---|---|---|
 | `job-scrape.yml` | Daily 10:00 UTC | Full scrape → score → write |
 | `events-monitor.yml` | Monday 07:00 UTC | GTA networking events |
-| `deploy.yml` | Push to `main` | Build + deploy to Cloudflare Pages |
+| `deploy.yml` | Push to `main` | Build + deploy to Netlify |
 
 ## Development
 
 ```bash
 npm install
-npm run dev        # local dev server
-npm run build      # production build (Cloudflare Pages preset)
+npm run dev
+npm run build
 ```
 
 *Generated automatically. See [`original-code/`](original-code/) for the original Python/Hermes agent implementation.*
-

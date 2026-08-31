@@ -22,7 +22,7 @@ export default defineEventHandler(async (event) => {
   const offset = (page - 1) * perPage
 
   const conditions: string[] = []
-  const params: (string | number)[] = []
+  const params: (string | number | boolean)[] = []
 
   if (q.source) {
     conditions.push('j.source = ?')
@@ -38,7 +38,7 @@ export default defineEventHandler(async (event) => {
   }
   if (q.remote !== undefined) {
     conditions.push('j.remote = ?')
-    params.push(q.remote === '1' ? 1 : 0)
+    params.push(q.remote === '1')
   }
   if (q.score_min) {
     conditions.push('j.score >= ?')

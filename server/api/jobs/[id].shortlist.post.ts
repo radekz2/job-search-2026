@@ -6,6 +6,10 @@
 export default defineEventHandler(async (event) => {
   const db = useDB(event)
   const id = getRouterParam(event, 'id')
+  if (!id) {
+    throw createError({ statusCode: 400, message: 'Missing job id' })
+  }
+
   const body = await readBody(event) as { notes?: string, status?: string }
 
   const exists = await db.prepare('SELECT id FROM jobs WHERE id = ?').bind(id).first()
@@ -23,7 +27,7 @@ export default defineEventHandler(async (event) => {
        ON CONFLICT(job_id) DO UPDATE SET
          status = excluded.status,
          notes = excluded.notes,
-         date_updated = datetime('now')`
+         date_updated = NOW()`
     )
     .bind(id, status, notes)
     .run()

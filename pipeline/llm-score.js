@@ -2,12 +2,12 @@
  * LLM scoring — sends each job's title + description to an LLM and gets back
  * a 0-10 fit score, recommendation, strengths, and concerns.
  *
- * Uses OpenAI-compatible API (works with OpenAI, Cloudflare AI via REST,
+ * Uses an OpenAI-compatible API endpoint.
  * or any OpenAI-compatible endpoint).
  *
  * Required environment variables:
  *   OPENAI_API_KEY   – API key
- *   OPENAI_BASE_URL  – optional; defaults to OpenAI. Set to Cloudflare AI endpoint for free tier.
+ *   OPENAI_BASE_URL  – optional; defaults to OpenAI-compatible API URL.
  *   OPENAI_MODEL     – optional; defaults to gpt-4o-mini
  */
 

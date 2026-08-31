@@ -7,7 +7,7 @@
  *   2. Deduplicate + filter candidates
  *   3. Fetch full descriptions for top-N candidates (deep-dive)
  *   4. Score top candidates with LLM
- *   5. Write all records (with scores for top-N, null score for the rest) to D1
+ *   5. Write all records (with scores for top-N, null score for the rest) to PostgreSQL
  *   6. Log the run
  *
  * Run:
@@ -15,9 +15,7 @@
  *
  * Environment variables:
  *   OPENAI_API_KEY           – LLM scoring (or OPENAI_BASE_URL + OPENAI_MODEL for alternatives)
- *   CLOUDFLARE_ACCOUNT_ID    – D1 write
- *   CLOUDFLARE_D1_DATABASE_ID
- *   CLOUDFLARE_API_TOKEN
+ *   NETLIFY_DATABASE_URL     – PostgreSQL connection string
  *   DEEP_DIVE_N              – how many jobs to fetch descriptions + score (default 40)
  */
 
@@ -172,8 +170,8 @@ async function main() {
   const scoredCount = finalCandidates.filter(c => c.score != null).length
   log(`  Scored: ${scoredCount}/${finalCandidates.length}`)
 
-  // 5. Write to D1
-  log('\n[5/5] Writing to D1...')
+  // 5. Write to database
+  log('\n[5/5] Writing to database...')
   const { written } = await writeJobs(finalCandidates, TODAY)
 
   // 6. Log run
@@ -186,7 +184,7 @@ async function main() {
   })
 
   log(`\nPipeline complete: ${new Date().toISOString()}`)
-  log(`Written to D1: ${written} records`)
+  log(`Written to database: ${written} records`)
 }
 
 main().catch((e) => {
