@@ -1,0 +1,14 @@
+name = "job-search-2026"
+pages_build_output_dir = ".output/public"
+compatibility_date = "2026-06-30"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "job-search-2026"
+# Set this after running: wrangler d1 create job-search-2026
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[vars]
+# Non-secret env vars
+# Secrets go in: wrangler secret put OPENAI_API_KEY

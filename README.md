@@ -1,66 +1,64 @@
-# Job Search 2026
+# Nuxt Starter Template
 
-Automated technology job search for **Radek Zajkowski** (Toronto, ON, Canada).
+[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
 
-Target: **Technology Manager / Director** roles — Software Manager, IT Manager,
-Director of Technology / Enterprise Applications. Excludes hands-on development-manager roles.
+Use this template to get started with [Nuxt UI](https://ui.nuxt.com) quickly.
 
-## Files (in `docs/`)
+- [Live demo](https://starter-template.nuxt.dev/)
+- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
 
-- [`docs/index.html`](docs/index.html) — styled HTML report
-- [`docs/job-search-2026-08-30.html`](docs/job-search-2026-08-30.html) — dated HTML snapshot
+<a href="https://starter-template.nuxt.dev/" target="_blank">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png">
+    <img alt="Nuxt Starter Template" src="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png" width="830" height="466">
+  </picture>
+</a>
 
-## Sources
+> The starter template for Vue is on https://github.com/nuxt-ui-templates/starter-vue.
 
-| Source | Method |
-|---|---|
-| **LinkedIn** | public guest jobs API |
-| **Government of Canada Job Bank** | public HTML search |
-| **Targeted tech employers** | Greenhouse / Lever / Ashby public JSON boards |
-| **Banks / insurers / pensions** | Workday public JSON boards |
+## Quick Start
 
-### Workday boards (8 institutions)
+```bash [Terminal]
+npm create nuxt@latest -- -t ui
+```
 
-TD Bank, BMO, CIBC, Manulife, Sun Life, OMERS, CPP Investments, OTPP (Ontario Teachers').
+## Deploy your own
 
-### Greenhouse/Lever/Ashby boards (16 tech employers)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=starter&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fstarter&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fstarter-dark.png&demo-url=https%3A%2F%2Fstarter-template.nuxt.dev%2F&demo-title=Nuxt%20Starter%20Template&demo-description=A%20minimal%20template%20to%20get%20started%20with%20Nuxt%20UI.)
 
-1Password, Achievers, BenchSci, Cohere, Float, Geotab, Koho, Lightspeed, Loopio,
-Mozilla, PagerDuty, PointClickCare, Ritual, Tulip Retail, Wattpad, Wave.
+## Setup
 
-## Report contents
+Make sure to install the dependencies:
 
-- **Curated roles** scored 0–10 against the aggregate resume profile
-- Scope: Toronto / Greater Toronto Area (on-site & hybrid) + Canada remote
-- **Two-pass scoring**:
-  1. **Title-score** — every role ranked from title + company + location
-  2. **Deep-score** — top matches re-scored against their full job descriptions
-- Sub-8.0 matches are collapsed behind an expandable section in the HTML
-- Filters: excludes dev-manager titles, individual contributors, and non-tech
-  function managers (sales / marketing / HR / finance / customer success)
+```bash
+pnpm install
+```
 
-### Score scale
+## Development Server
 
-| Score | Verdict |
-|-------|---------|
-| 8.0+  | Strong  |
-| 6.5–7.9 | Good  |
-| 5.0–6.4 | Moderate |
-| <5.0  | Weak    |
+Start the development server on `http://localhost:3000`:
 
-## Networking events (in-person)
+```bash
+pnpm dev
+```
 
-A weekly monitor scrapes curated Toronto tech Meetup groups, Luma discover, and
-Career Fair Canada, and filters to free / low-cost **in-person & hybrid** events in
-the Greater Toronto Area relevant to a technology leader's job search.
+## Production
 
-- [`events/events-gta-2026-08-31.html`](events/events-gta-2026-08-31.html) — styled HTML report
-- [`events/events-gta-2026-08-31.json`](events/events-gta-2026-08-31.json) — structured data
+Build the application for production:
 
-## Automation
+```bash
+pnpm build
+```
 
-A scheduled job regenerates this report daily at **6:00 AM EDT (10:00 UTC)** and
-pushes the result to this repo. A second scheduled job regenerates the
-networking-events report weekly.
+Locally preview production build:
 
-*Generated automatically by Hermes Agent (Nous Research).*
+```bash
+pnpm preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Renovate integration
+
+Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
