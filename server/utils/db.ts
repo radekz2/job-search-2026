@@ -63,7 +63,7 @@ class QueryBuilder {
 }
 
 /**
- * Database helper compatible with the existing D1-style route usage.
+ * Database helper compatible with existing route query usage.
  */
 export function useDB(_event?: unknown) {
   return {
