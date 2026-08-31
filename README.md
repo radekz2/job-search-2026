@@ -48,9 +48,19 @@ Mozilla, PagerDuty, PointClickCare, Ritual, Tulip Retail, Wattpad, Wave.
 | 5.0–6.4 | Moderate |
 | <5.0  | Weak    |
 
+## Networking events (in-person)
+
+A weekly monitor scrapes curated Toronto tech Meetup groups, Luma discover, and
+Career Fair Canada, and filters to free / low-cost **in-person & hybrid** events in
+the Greater Toronto Area relevant to a technology leader's job search.
+
+- [`events/events-gta-2026-08-31.html`](events/events-gta-2026-08-31.html) — styled HTML report
+- [`events/events-gta-2026-08-31.json`](events/events-gta-2026-08-31.json) — structured data
+
 ## Automation
 
 A scheduled job regenerates this report daily at **6:00 AM EDT (10:00 UTC)** and
-pushes the result to this repo.
+pushes the result to this repo. A second scheduled job regenerates the
+networking-events report weekly.
 
 *Generated automatically by Hermes Agent (Nous Research).*
