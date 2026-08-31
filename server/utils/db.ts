@@ -2,6 +2,8 @@ import postgres from 'postgres'
 
 let sqlClient: postgres.Sql | null = null
 
+type QueryParam = postgres.ParameterOrJSON<never>
+
 function getSqlClient() {
   if (sqlClient) {
     return sqlClient
@@ -31,26 +33,26 @@ function convertPlaceholders(query: string) {
 class QueryBuilder {
   private readonly query: string
 
-  private params: unknown[] = []
+  private params: QueryParam[] = []
 
   constructor(query: string) {
     this.query = query
   }
 
-  bind(...params: unknown[]) {
+  bind(...params: QueryParam[]) {
     this.params = params
     return this
   }
 
-  async all<T = unknown>() {
+  async all() {
     const sql = getSqlClient()
     const rows = await sql.unsafe(convertPlaceholders(this.query), this.params)
-    return { results: rows as T[] }
+    return { results: rows as Record<string, unknown>[] }
   }
 
   async first<T = Record<string, unknown>>() {
-    const { results } = await this.all<T>()
-    return results[0] ?? null
+    const { results } = await this.all()
+    return (results[0] as T | undefined) ?? null
   }
 
   async run() {
