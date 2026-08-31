@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T01:47:13.362167+00:00",
+  "generated_at": "2026-08-31T13:08:35.711700+00:00",
   "sources": [
     "Meetup (curated + vendor groups)",
     "Luma discover",
@@ -8,9 +8,9 @@
     "Career Fair Canada",
     "Search"
   ],
-  "total_raw": 72,
-  "total_kept": 21,
-  "total_dropped": 34,
+  "total_raw": 78,
+  "total_kept": 26,
+  "total_dropped": 35,
   "errors": [],
   "events": [
     {
@@ -112,6 +112,20 @@
       "focus": "cloud"
     },
     {
+      "title": "AI & Tech Networking Event in Toronto by Ascent Valley",
+      "url": "https://ascentvalley.com/events/tech-networking-event-ascent-sep",
+      "date_utc": "2026-09-16T23:00:00+00:00",
+      "has_time": true,
+      "location": "Blood Brothers Brewing, Toronto, ON",
+      "location_type": "in-person",
+      "cost": "Free",
+      "cost_num": 0.0,
+      "is_free": true,
+      "organizer": "Ascent Valley",
+      "source": "Search",
+      "focus": "networking"
+    },
+    {
       "title": "Toronto Agentic: Opening Social",
       "url": "https://lu.ma/4mr12dls",
       "date_utc": "2026-09-17T21:00:00+00:00",
@@ -154,6 +168,20 @@
       "focus": "networking"
     },
     {
+      "title": "AI & Tech Networking Event in Toronto by Ascent Valley",
+      "url": "https://ascentvalley.com/events/ai-tech-networking-toronto-sep",
+      "date_utc": "2026-09-23T23:00:00+00:00",
+      "has_time": true,
+      "location": "Toronto, ON",
+      "location_type": "in-person",
+      "cost": "Free",
+      "cost_num": 0.0,
+      "is_free": true,
+      "organizer": "Ascent Valley",
+      "source": "Search",
+      "focus": "networking"
+    },
+    {
       "title": "Control-M Lunch & Learn: AI-Powered Orchestration - Toronto, Canada",
       "url": "https://www.bmc.com/events/control-m-lunch-learn-toronto-canada.html",
       "date_utc": "2026-09-29T12:00:00+00:00",
@@ -168,6 +196,20 @@
       "focus": "vendor"
     },
     {
+      "title": "Career Fair Canada \u2014 Toronto Career Fair & Training Expo",
+      "url": "https://www.eventbrite.ca/e/toronto-career-fair-and-training-expo-canada-september-29-2026-tickets-1979394757002",
+      "date_utc": "2026-09-29T12:00:00+00:00",
+      "has_time": false,
+      "location": "MTCC North Building, 255 Front Street West, Toronto, ON",
+      "location_type": "in-person",
+      "cost": "Free",
+      "cost_num": 0.0,
+      "is_free": true,
+      "organizer": "Career Fair Canada",
+      "source": "Search",
+      "focus": "networking"
+    },
+    {
       "title": "Toronto Databricks User Group - Spooktober Edition",
       "url": "https://usergroups.databricks.com/events/details/databricks-user-groups-toronto-databricks-user-group-presents-toronto-databricks-user-group-spooktober-edition/",
       "date_utc": "2026-10-23T21:30:00+00:00",
@@ -180,6 +222,48 @@
       "organizer": "Databricks User Group Toronto",
       "source": "Vendor (Bevy)",
       "focus": "data-ai"
+    },
+    {
+      "title": "ServiceNow World Forum 2026 \u2014 Toronto",
+      "url": "https://www.servicenow.com/events/world-forum.html",
+      "date_utc": "2026-11-03T12:00:00+00:00",
+      "has_time": false,
+      "location": "Metro Toronto Convention Centre (MTCC), Toronto, ON",
+      "location_type": "in-person",
+      "cost": "Free",
+      "cost_num": 0.0,
+      "is_free": true,
+      "organizer": "ServiceNow",
+      "source": "Search",
+      "focus": "vendor"
+    },
+    {
+      "title": "Toronto Physical AI Workshop and Meetup",
+      "url": "https://lu.ma/toronto-physical-ai-workshop-and-meetup-nov-2026",
+      "date_utc": "2026-11-11T22:30:00+00:00",
+      "has_time": true,
+      "location": "University of Toronto Parking - 89 Chestnut St., Toronto, ON",
+      "location_type": "in-person",
+      "cost": "Free",
+      "cost_num": null,
+      "is_free": true,
+      "organizer": "Voxel51 Events",
+      "source": "Luma",
+      "focus": "networking"
+    },
+    {
+      "title": "Toronto Career Fair (Career Fair Connection)",
+      "url": "https://www.eventbrite.com/e/toronto-career-fair-tickets-238798882887",
+      "date_utc": "2027-03-12T14:30:00+00:00",
+      "has_time": true,
+      "location": "Hilton, Toronto, ON",
+      "location_type": "in-person",
+      "cost": "Free",
+      "cost_num": 0.0,
+      "is_free": true,
+      "organizer": "Career Fair Connection",
+      "source": "Search",
+      "focus": "networking"
     },
     {
       "title": "FOST Conference Toronto (Free Tickets)",
@@ -291,20 +375,6 @@
       "is_free": true,
       "organizer": "Toronto Business Startups",
       "source": "Meetup",
-      "focus": "networking"
-    },
-    {
-      "title": "Toronto Professionals & Entrepreneurs Social Mixer",
-      "url": "https://lu.ma/kad2pxvo",
-      "date_utc": null,
-      "has_time": false,
-      "location": "642 King St W, Toronto, ON",
-      "location_type": "in-person",
-      "cost": "Free",
-      "cost_num": 0.0,
-      "is_free": true,
-      "organizer": "Toronto Professionals & Entrepreneurs",
-      "source": "Search",
       "focus": "networking"
     }
   ]
