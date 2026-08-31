@@ -5,62 +5,66 @@ Automated technology job search for **Radek Zajkowski** (Toronto, ON, Canada).
 Target: **Technology Manager / Director** roles — Software Manager, IT Manager,
 Director of Technology / Enterprise Applications. Excludes hands-on development-manager roles.
 
-## Files (in `docs/`)
+## Architecture
 
-- [`docs/index.html`](docs/index.html) — styled HTML report
-- [`docs/job-search-2026-08-30.html`](docs/job-search-2026-08-30.html) — dated HTML snapshot
-
-## Sources
-
-| Source | Method |
+| Layer | Technology |
 |---|---|
-| **LinkedIn** | public guest jobs API |
-| **Government of Canada Job Bank** | public HTML search |
-| **Targeted tech employers** | Greenhouse / Lever / Ashby public JSON boards |
-| **Banks / insurers / pensions** | Workday public JSON boards |
+| Frontend + API | **Nuxt 3** (SSR, Nuxt UI components) |
+| Database | **Cloudflare D1** (SQLite at the edge) |
+| Hosting | **Cloudflare Pages + Workers** |
+| Background pipeline | **GitHub Actions** (Node.js) |
+| LLM scoring | **OpenAI GPT-4o-mini** (or Cloudflare Workers AI) |
 
-### Workday boards (8 institutions)
+See [`SETUP.md`](SETUP.md) for deployment instructions.
 
-TD Bank, BMO, CIBC, Manulife, Sun Life, OMERS, CPP Investments, OTPP (Ontario Teachers').
+## Application
 
-### Greenhouse/Lever/Ashby boards (16 tech employers)
+- **`/`** — Jobs board: filter by source, bucket, level, remote, score range, recommendation. Click any row to open a detail drawer with full description and LLM rationale. Star jobs to save them.
+- **`/shortlist`** — Saved jobs with status tracking (Saved → Applied → Interviewing → Rejected / Offer), notes per job, and CSV export.
 
-1Password, Achievers, BenchSci, Cohere, Float, Geotab, Koho, Lightspeed, Loopio,
-Mozilla, PagerDuty, PointClickCare, Ritual, Tulip Retail, Wattpad, Wave.
+## Pipeline
 
-## Report contents
+The `pipeline/` directory contains Node.js scripts that run daily via GitHub Actions:
 
-- **Curated roles** scored 0–10 against the aggregate resume profile
-- Scope: Toronto / Greater Toronto Area (on-site & hybrid) + Canada remote
-- **Two-pass scoring**:
-  1. **Title-score** — every role ranked from title + company + location
-  2. **Deep-score** — top matches re-scored against their full job descriptions
-- Sub-8.0 matches are collapsed behind an expandable section in the HTML
-- Filters: excludes dev-manager titles, individual contributors, and non-tech
-  function managers (sales / marketing / HR / finance / customer success)
+1. **Scrape** — LinkedIn, Government of Canada Job Bank, Greenhouse/Lever/Ashby ATS boards, Workday boards (TD, BMO, CIBC, Manulife, Sun Life, OMERS, CPP, OTPP, Clio), Adzuna, BuiltIn Toronto, RemoteOK
+2. **Filter** — Deduplication + candidate filter (keeps management/leadership roles, drops IC, dev-manager, intern titles)
+3. **Deep-dive** — Fetch full job descriptions for top-N candidates
+4. **LLM scoring** — GPT-4o-mini scores each job 0–10 against the candidate profile with recommendation, strengths, and concerns
+5. **Write to D1** — Upsert all records into Cloudflare D1
 
-### Score scale
+### Workday boards
+
+TD Bank, BMO, CIBC, Manulife, Sun Life, OMERS, CPP Investments, OTPP (Ontario Teachers'), Clio
+
+### Greenhouse / Lever / Ashby boards
+
+1Password, Achievers, BenchSci, Cohere, Float, Geotab, Jobber, Koho, Lightspeed, Loopio,
+Mozilla, Nylas, PagerDuty, PointClickCare, Ritual, Top Hat, Tulip Retail, Wattpad, Wave, Wealthsimple
+
+## Score scale
 
 | Score | Verdict |
 |-------|---------|
-| 8.0+  | Strong  |
-| 6.5–7.9 | Good  |
+| 8.0+  | Strong — Apply |
+| 6.5–7.9 | Good — Review |
 | 5.0–6.4 | Moderate |
-| <5.0  | Weak    |
+| <5.0  | Weak — Skip |
 
-## Networking events (in-person)
+## Schedule
 
-A weekly monitor scrapes curated Toronto tech Meetup groups, Luma discover, and
-Career Fair Canada, and filters to free / low-cost **in-person & hybrid** events in
-the Greater Toronto Area relevant to a technology leader's job search.
+| Workflow | When | Action |
+|---|---|---|
+| `job-scrape.yml` | Daily 10:00 UTC | Full scrape → score → write |
+| `events-monitor.yml` | Monday 07:00 UTC | GTA networking events |
+| `deploy.yml` | Push to `main` | Build + deploy to Cloudflare Pages |
 
-- [`events/events-gta-2026-08-31.html`](events/events-gta-2026-08-31.html) — styled HTML report
-- [`events/events-gta-2026-08-31.json`](events/events-gta-2026-08-31.json) — structured data
+## Development
 
-## Automation
+```bash
+npm install
+npm run dev        # local dev server
+npm run build      # production build (Cloudflare Pages preset)
+```
 
-A scheduled job regenerates this report daily at **6:00 AM EDT (10:00 UTC)** and
-pushes the result to this repo. A second scheduled job regenerates the
-networking-events report weekly.
+*Generated automatically. See [`original-code/`](original-code/) for the original Python/Hermes agent implementation.*
 
-*Generated automatically by Hermes Agent (Nous Research).*
