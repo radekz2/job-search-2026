@@ -83,7 +83,7 @@ function filterCandidates(records) {
   for (const r of records) {
     const t = (r.title || '').trim();
     if (!t) continue;
-    if ('linkedin.com/jobs/view/' in r) {
+    if (r.link?.includes('linkedin.com/jobs/view/')) {
       r.link = r.link.replace(/\?.*$/, '');
     }
     if (BELOW_SENIORITY.test(t) || DEV_EXCLUDE.test(t)) continue;

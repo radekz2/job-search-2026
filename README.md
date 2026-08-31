@@ -1,64 +1,70 @@
-# Nuxt Starter Template
+# Job Search 2026
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+Automated technology job search for **Radek Zajkowski** (Toronto, ON, Canada).
 
-Use this template to get started with [Nuxt UI](https://ui.nuxt.com) quickly.
+Target: **Technology Manager / Director** roles — Software Manager, IT Manager,
+Director of Technology / Enterprise Applications. Excludes hands-on development-manager roles.
 
-- [Live demo](https://starter-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
+## Architecture
 
-<a href="https://starter-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png">
-    <img alt="Nuxt Starter Template" src="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png" width="830" height="466">
-  </picture>
-</a>
+| Layer | Technology |
+|---|---|
+| Frontend + API | **Nuxt 3** (SSR, Nuxt UI components) |
+| Database | **Cloudflare D1** (SQLite at the edge) |
+| Hosting | **Cloudflare Pages + Workers** |
+| Background pipeline | **GitHub Actions** (Node.js) |
+| LLM scoring | **OpenAI GPT-4o-mini** (or Cloudflare Workers AI) |
 
-> The starter template for Vue is on https://github.com/nuxt-ui-templates/starter-vue.
+See [`SETUP.md`](SETUP.md) for deployment instructions.
 
-## Quick Start
+## Application
 
-```bash [Terminal]
-npm create nuxt@latest -- -t ui
-```
+- **`/`** — Jobs board: filter by source, bucket, level, remote, score range, recommendation. Click any row to open a detail drawer with full description and LLM rationale. Star jobs to save them.
+- **`/shortlist`** — Saved jobs with status tracking (Saved → Applied → Interviewing → Rejected / Offer), notes per job, and CSV export.
 
-## Deploy your own
+## Pipeline
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=starter&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fstarter&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fstarter-dark.png&demo-url=https%3A%2F%2Fstarter-template.nuxt.dev%2F&demo-title=Nuxt%20Starter%20Template&demo-description=A%20minimal%20template%20to%20get%20started%20with%20Nuxt%20UI.)
+The `pipeline/` directory contains Node.js scripts that run daily via GitHub Actions:
 
-## Setup
+1. **Scrape** — LinkedIn, Government of Canada Job Bank, Greenhouse/Lever/Ashby ATS boards, Workday boards (TD, BMO, CIBC, Manulife, Sun Life, OMERS, CPP, OTPP, Clio), Adzuna, BuiltIn Toronto, RemoteOK
+2. **Filter** — Deduplication + candidate filter (keeps management/leadership roles, drops IC, dev-manager, intern titles)
+3. **Deep-dive** — Fetch full job descriptions for top-N candidates
+4. **LLM scoring** — GPT-4o-mini scores each job 0–10 against the candidate profile with recommendation, strengths, and concerns
+5. **Write to D1** — Upsert all records into Cloudflare D1
 
-Make sure to install the dependencies:
+### Workday boards
+
+TD Bank, BMO, CIBC, Manulife, Sun Life, OMERS, CPP Investments, OTPP (Ontario Teachers'), Clio
+
+### Greenhouse / Lever / Ashby boards
+
+1Password, Achievers, BenchSci, Cohere, Float, Geotab, Jobber, Koho, Lightspeed, Loopio,
+Mozilla, Nylas, PagerDuty, PointClickCare, Ritual, Top Hat, Tulip Retail, Wattpad, Wave, Wealthsimple
+
+## Score scale
+
+| Score | Verdict |
+|-------|---------|
+| 8.0+  | Strong — Apply |
+| 6.5–7.9 | Good — Review |
+| 5.0–6.4 | Moderate |
+| <5.0  | Weak — Skip |
+
+## Schedule
+
+| Workflow | When | Action |
+|---|---|---|
+| `job-scrape.yml` | Daily 10:00 UTC | Full scrape → score → write |
+| `events-monitor.yml` | Monday 07:00 UTC | GTA networking events |
+| `deploy.yml` | Push to `main` | Build + deploy to Cloudflare Pages |
+
+## Development
 
 ```bash
-pnpm install
+npm install
+npm run dev        # local dev server
+npm run build      # production build (Cloudflare Pages preset)
 ```
 
-## Development Server
+*Generated automatically. See [`original-code/`](original-code/) for the original Python/Hermes agent implementation.*
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-pnpm dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-pnpm build
-```
-
-Locally preview production build:
-
-```bash
-pnpm preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-## Renovate integration
-
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.

@@ -107,9 +107,10 @@ export async function scoreJobs(jobs, concurrency = 3) {
   }
 
   let done = 0;
+  let batchStart = 0;
   for (const batch of batches) {
     const scored = await Promise.all(
-      batch.map(async (job, idx) => {
+      batch.map(async (job) => {
         try {
           const s = await scoreJob(job);
           done++;
@@ -123,8 +124,9 @@ export async function scoreJobs(jobs, concurrency = 3) {
       })
     );
     for (let i = 0; i < batch.length; i++) {
-      results[batches.flat().indexOf(batch[i])] = scored[i];
+      results[batchStart + i] = scored[i];
     }
+    batchStart += batch.length;
     // brief pause between batches to respect rate limits
     await new Promise(r => setTimeout(r, 500));
   }
