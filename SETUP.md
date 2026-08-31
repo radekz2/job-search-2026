@@ -80,8 +80,9 @@ Connect your GitHub repository to Cloudflare Pages:
 1. Go to Cloudflare Dashboard → **Workers & Pages** → **Create**
 2. Select **Pages** → connect your GitHub repo
 3. Set build command: `npm run build`
-4. Set output directory: `dist`
+4. Set output directory: `.output/public`
 5. Add environment variables: bind your D1 database as `DB`
+6. Confirm the project appears in the **Pages** list (not a Workers-only deploy flow)
 
 ### Option B: Manual deploy via GitHub Actions
 
@@ -91,8 +92,18 @@ Push to `main` — the `deploy.yml` workflow runs automatically.
 
 ```bash
 npm run build
-npx wrangler pages deploy dist --project-name=job-search-2026
+npx wrangler pages deploy .output/public --project-name=job-search-2026
 ```
+
+> Use `wrangler pages deploy` for this repository.  
+> Do **not** use `wrangler deploy` (that command targets Workers and fails here without a Worker entrypoint).
+
+### Verify deployment mode
+
+After deploy, check the deployment logs in Cloudflare:
+
+- It should show a **Pages deployment**.
+- It should **not** ask for a Worker `main` entrypoint.
 
 ---
 
