@@ -1,4 +1,6 @@
 <script setup lang="ts">
+type FilterField = 'bucket' | 'level' | 'rec' | 'remote' | 'score_max' | 'score_min' | 'search' | 'source'
+
 const props = defineProps<{
   modelValue: {
     source: string
@@ -18,8 +20,8 @@ const emit = defineEmits<{
 
 const sources = ['LinkedIn', 'Job Bank', 'Greenhouse', 'Lever', 'Ashby', 'Workday', 'Adzuna', 'BuiltIn', 'RemoteOK']
 
-function update(field: string, value: string) {
-  emit('update:modelValue', { ...props.modelValue, [field]: value })
+function update(field: FilterField, value: string | number | boolean | bigint | null | undefined) {
+  emit('update:modelValue', { ...props.modelValue, [field]: value == null ? '' : String(value) })
 }
 
 function clear() {
@@ -42,47 +44,47 @@ function clear() {
 
     <USelect
       :model-value="modelValue.source"
-      :options="[{ label: 'All sources', value: '' }, ...sources.map(s => ({ label: s, value: s }))]"
+      :items="[{ label: 'All sources', value: '' }, ...sources.map(s => ({ label: s, value: s }))]"
       @update:model-value="update('source', $event)"
     />
 
     <USelect
       :model-value="modelValue.bucket"
-      :options="[
+      :items="[
         { label: 'All buckets', value: '' },
         { label: 'IT / Technology', value: 'it' },
-        { label: 'Software / Engineering', value: 'sw' },
+        { label: 'Software / Engineering', value: 'sw' }
       ]"
       @update:model-value="update('bucket', $event)"
     />
 
     <USelect
       :model-value="modelValue.level"
-      :options="[
+      :items="[
         { label: 'All levels', value: '' },
         { label: 'Director', value: 'director' },
-        { label: 'Manager', value: 'manager' },
+        { label: 'Manager', value: 'manager' }
       ]"
       @update:model-value="update('level', $event)"
     />
 
     <USelect
       :model-value="modelValue.remote"
-      :options="[
+      :items="[
         { label: 'On-site & Remote', value: '' },
         { label: 'Remote only', value: '1' },
-        { label: 'On-site only', value: '0' },
+        { label: 'On-site only', value: '0' }
       ]"
       @update:model-value="update('remote', $event)"
     />
 
     <USelect
       :model-value="modelValue.rec"
-      :options="[
+      :items="[
         { label: 'All recommendations', value: '' },
         { label: 'Apply', value: 'Apply' },
         { label: 'Review', value: 'Review' },
-        { label: 'Skip', value: 'Skip' },
+        { label: 'Skip', value: 'Skip' }
       ]"
       @update:model-value="update('rec', $event)"
     />
@@ -91,7 +93,10 @@ function clear() {
       <span class="text-sm text-muted">Score</span>
       <UInput
         :model-value="modelValue.score_min"
-        type="number" min="0" max="10" step="0.5"
+        type="number"
+        min="0"
+        max="10"
+        step="0.5"
         placeholder="Min"
         class="w-20"
         @update:model-value="update('score_min', $event)"
@@ -99,14 +104,21 @@ function clear() {
       <span class="text-muted">–</span>
       <UInput
         :model-value="modelValue.score_max"
-        type="number" min="0" max="10" step="0.5"
+        type="number"
+        min="0"
+        max="10"
+        step="0.5"
         placeholder="Max"
         class="w-20"
         @update:model-value="update('score_max', $event)"
       />
     </div>
 
-    <UButton variant="ghost" icon="i-lucide-x" @click="clear">
+    <UButton
+      variant="ghost"
+      icon="i-lucide-x"
+      @click="clear"
+    >
       Clear
     </UButton>
   </div>

@@ -10,7 +10,10 @@ export default defineEventHandler(async (event) => {
   const conditions: string[] = []
   const params: (string | number)[] = []
 
-  if (q.status) { conditions.push('s.status = ?'); params.push(String(q.status)) }
+  if (q.status) {
+    conditions.push('s.status = ?')
+    params.push(String(q.status))
+  }
 
   const where = conditions.length ? `WHERE ${conditions.join(' AND ')}` : ''
 

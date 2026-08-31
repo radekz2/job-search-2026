@@ -6,7 +6,7 @@
 export default defineEventHandler(async (event) => {
   const db = useDB(event)
   const id = getRouterParam(event, 'id')
-  const body = await readBody(event) as { notes?: string; status?: string }
+  const body = await readBody(event) as { notes?: string, status?: string }
 
   const exists = await db.prepare('SELECT id FROM jobs WHERE id = ?').bind(id).first()
   if (!exists) {

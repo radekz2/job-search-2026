@@ -12,11 +12,11 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  compatibilityDate: '2026-06-30',
+
   nitro: {
     preset: 'cloudflare-pages'
   },
-
-  compatibilityDate: '2026-06-30',
 
   eslint: {
     config: {

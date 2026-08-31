@@ -2,11 +2,38 @@
 useSeoMeta({ title: 'Jobs — Job Search 2026' })
 
 interface Job {
-  id: string; title: string; company: string; location: string; link: string
-  source: string; remote: 0|1; salary: string; date_posted: string; date_scraped: string
-  bucket: string; level: string; score: number|null; score_rationale: string
-  recommendation: string; strengths: string; concerns: string
-  shortlisted: 0|1; shortlist_status: string|null; shortlist_notes: string|null
+  id: string
+  title: string
+  company: string
+  location: string
+  link: string
+  source: string
+  remote: 0 | 1
+  salary: string
+  date_posted: string
+  date_scraped: string
+  telework: string
+  bucket: string
+  level: string
+  score: number | null
+  score_rationale: string
+  recommendation: string
+  strengths: string
+  concerns: string
+  description?: string
+  shortlisted: 0 | 1
+  shortlist_status: string | null
+  shortlist_notes: string | null
+}
+
+interface JobsResponse {
+  data: Job[]
+  meta: {
+    total: number
+    page: number
+    per_page: number
+    pages: number
+  }
 }
 
 const filters = ref({
@@ -25,15 +52,17 @@ const queryParams = computed(() => {
   return p
 })
 
-const { data, pending, refresh } = useFetch('/api/jobs', {
+const { data, pending, refresh } = useFetch<JobsResponse>('/api/jobs', {
   query: queryParams,
-  watch: [queryParams],
+  watch: [queryParams]
 })
 
-const jobs = computed(() => (data.value?.data ?? []) as Job[])
+const jobs = computed(() => data.value?.data ?? [])
 const meta = computed(() => data.value?.meta ?? { total: 0, page: 1, per_page: 25, pages: 1 })
 
-watch(filters, () => { page.value = 1 }, { deep: true })
+watch(filters, () => {
+  page.value = 1
+}, { deep: true })
 
 function openJob(job: Job) {
   selectedJob.value = job
@@ -65,10 +94,15 @@ async function updateShortlist(job: Job) {
   <UContainer class="py-6 space-y-6">
     <div class="flex items-center justify-between">
       <div>
-        <h1 class="text-2xl font-bold">Job Board</h1>
+        <h1 class="text-2xl font-bold">
+          Job Board
+        </h1>
         <p class="text-muted text-sm mt-1">
           {{ meta.total }} roles found
-          <span v-if="pending" class="ml-2 text-xs">Loading…</span>
+          <span
+            v-if="pending"
+            class="ml-2 text-xs"
+          >Loading…</span>
         </p>
       </div>
     </div>
