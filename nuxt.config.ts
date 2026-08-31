@@ -2,8 +2,7 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxt/ui',
-    'nitro-cloudflare-dev'
+    '@nuxt/ui'
   ],
 
   devtools: {
@@ -15,7 +14,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2026-06-30',
 
   nitro: {
-    preset: 'cloudflare-pages'
+    preset: 'netlify'
   },
 
   eslint: {

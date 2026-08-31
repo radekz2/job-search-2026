@@ -23,7 +23,7 @@ export default defineEventHandler(async (event) => {
        ON CONFLICT(job_id) DO UPDATE SET
          status = excluded.status,
          notes = excluded.notes,
-         date_updated = datetime('now')`
+         date_updated = NOW()`
     )
     .bind(id, status, notes)
     .run()

@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Netlify
 
 on:
   push:
@@ -12,7 +12,9 @@ jobs:
     timeout-minutes: 20
     permissions:
       contents: read
-      deployments: write
+
+    env:
+      NITRO_PRESET: netlify
 
     steps:
       - name: Checkout
@@ -29,12 +31,14 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          NITRO_PRESET: cloudflare-pages
 
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v3.0
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy .output/public --project-name=job-search-2026 --commit-dirty=true
+          publish-dir: '.output/public'
+          functions-dir: '.netlify/functions-internal'
+          production-deploy: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

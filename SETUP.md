@@ -1,128 +1,104 @@
 # Setup Guide — Job Search 2026
 
-This guide covers how to stand up the full Cloudflare stack from scratch.
+This guide covers how to run and deploy the project on Netlify.
 
 ---
 
 ## Prerequisites
 
 - [Node.js 22+](https://nodejs.org/)
-- [Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/): `npm install -g wrangler`
-- A [Cloudflare account](https://dash.cloudflare.com/) (free tier is sufficient)
-- An OpenAI API key (or Cloudflare AI — see below)
+- A [Netlify account](https://app.netlify.com/)
+- A PostgreSQL database and connection string (store as `NETLIFY_DATABASE_URL`)
+- An OpenAI API key
 
 ---
 
-## 1. Create the D1 database
+## 1. Create the database schema
+
+Run the SQL in `migrations/0001_initial.sql` against your PostgreSQL database.
+
+Examples:
 
 ```bash
-wrangler login
-wrangler d1 create job-search-2026
-```
-
-Copy the `database_id` from the output and paste it into `wrangler.toml`:
-
-```toml
-[[d1_databases]]
-binding = "DB"
-database_name = "job-search-2026"
-database_id = "PASTE_YOUR_ID_HERE"
-```
-
-Run the schema migration:
-
-```bash
-wrangler d1 execute job-search-2026 --file migrations/0001_initial.sql
+# psql example
+psql "$NETLIFY_DATABASE_URL" -f migrations/0001_initial.sql
 ```
 
 ---
 
-## 2. Configure secrets
+## 2. Configure Netlify environment variables
 
-Set the required secrets in your Cloudflare Workers/Pages project **and** in your GitHub repository:
+In Netlify site settings, add:
 
-### GitHub Actions secrets (`Settings > Secrets and variables > Actions`):
+| Variable | Description |
+|---|---|
+| `NETLIFY_DATABASE_URL` | PostgreSQL connection string |
+| `OPENAI_API_KEY` | OpenAI API key for LLM scoring |
+| `OPENAI_MODEL` *(optional)* | Defaults to `gpt-4o-mini` |
+| `OPENAI_BASE_URL` *(optional)* | Defaults to `https://api.openai.com/v1` |
+| `DEEP_DIVE_N` *(optional)* | Defaults to `40` |
+
+---
+
+## 3. Configure GitHub Actions secrets
+
+In GitHub (`Settings > Secrets and variables > Actions`), add:
 
 | Secret | Description |
 |---|---|
-| `CLOUDFLARE_ACCOUNT_ID` | Your Cloudflare account ID |
-| `CLOUDFLARE_API_TOKEN` | Cloudflare API token with D1 write + Pages deploy permissions |
-| `CLOUDFLARE_D1_DATABASE_ID` | The D1 database ID from step 1 |
-| `OPENAI_API_KEY` | OpenAI API key for LLM scoring |
+| `NETLIFY_AUTH_TOKEN` | Netlify personal access token |
+| `NETLIFY_SITE_ID` | Netlify site ID |
+| `NETLIFY_DATABASE_URL` | PostgreSQL connection string |
+| `OPENAI_API_KEY` | OpenAI API key |
 | `ADZUNA_APP_ID` *(optional)* | Adzuna API credentials |
 | `ADZUNA_APP_KEY` *(optional)* | Adzuna API credentials |
 
-### GitHub Actions variables (optional overrides):
+Optional GitHub Actions variables:
 
 | Variable | Default | Description |
 |---|---|---|
 | `OPENAI_MODEL` | `gpt-4o-mini` | LLM model to use |
-| `OPENAI_BASE_URL` | `https://api.openai.com/v1` | Change to use Cloudflare AI or other compatible API |
+| `OPENAI_BASE_URL` | `https://api.openai.com/v1` | OpenAI-compatible endpoint |
 | `DEEP_DIVE_N` | `40` | Number of jobs to fetch descriptions + score |
-
-### Using Cloudflare Workers AI instead of OpenAI (free):
-
-Set in GitHub Actions variables:
-```
-OPENAI_BASE_URL = https://api.cloudflare.com/client/v4/accounts/YOUR_ACCOUNT_ID/ai/v1
-OPENAI_MODEL    = @cf/meta/llama-3.1-8b-instruct
-OPENAI_API_KEY  = YOUR_CLOUDFLARE_API_TOKEN
-```
 
 ---
 
-## 3. Deploy to Cloudflare Pages
+## 4. Deploy to Netlify
 
 ### Option A: Automatic deploy on push (recommended)
 
-Connect your GitHub repository to Cloudflare Pages:
+Push to `main` — `deploy.yml` builds and deploys to Netlify.
 
-1. Go to Cloudflare Dashboard → **Workers & Pages** → **Create**
-2. Select **Pages** → connect your GitHub repo
-3. Set build command: `npm run build`
-4. Set output directory: `dist`
-5. Add environment variables: bind your D1 database as `DB`
+### Option B: Deploy from Netlify UI
 
-### Option B: Manual deploy via GitHub Actions
-
-Push to `main` — the `deploy.yml` workflow runs automatically.
-
-### Option C: Local deploy
-
-```bash
-npm run build
-npx wrangler pages deploy dist --project-name=job-search-2026
-```
+1. Connect this repository to a Netlify site
+2. Build command: `npm run build`
+3. Publish directory: `.output/public`
+4. Add env vars from step 2
 
 ---
 
-## 4. Run the pipeline manually
+## 5. Run the pipeline manually
 
 ```bash
-# Set environment variables
+export NETLIFY_DATABASE_URL=postgres://...
 export OPENAI_API_KEY=sk-...
-export CLOUDFLARE_ACCOUNT_ID=...
-export CLOUDFLARE_D1_DATABASE_ID=...
-export CLOUDFLARE_API_TOKEN=...
 
-# Run
-node pipeline/run-pipeline.js
+node --experimental-vm-modules pipeline/run-pipeline.js
 ```
 
 Or trigger via GitHub Actions: **Actions → Job Search Pipeline → Run workflow**
 
 ---
 
-## 5. Local development
+## 6. Local development
 
 ```bash
 npm install
-
-# Start local dev server (connects to remote D1 or local sqlite via wrangler)
 npm run dev
 ```
 
-The dev server uses `nitro-cloudflare-dev` which injects the Cloudflare bindings locally via wrangler. You need a D1 database configured in `wrangler.toml`.
+Set `NETLIFY_DATABASE_URL` locally before calling APIs that query the database.
 
 ---
 
@@ -130,8 +106,6 @@ The dev server uses `nitro-cloudflare-dev` which injects the Cloudflare bindings
 
 | Workflow | Schedule | What it does |
 |---|---|---|
-| `job-scrape.yml` | Daily 10:00 UTC | Full scrape → score → write to D1 |
+| `job-scrape.yml` | Daily 10:00 UTC | Full scrape → score → write to PostgreSQL |
 | `events-monitor.yml` | Monday 07:00 UTC | Scrape GTA networking events |
-| `deploy.yml` | On push to `main` | Build + deploy to Cloudflare Pages |
-
-trigger build
+| `deploy.yml` | On push to `main` | Build + deploy to Netlify |

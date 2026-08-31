@@ -53,7 +53,7 @@ useSeoMeta({
     <UFooter>
       <template #right>
         <span class="text-sm text-muted">
-          Powered by Nuxt + Cloudflare
+          Powered by Nuxt + Netlify
         </span>
       </template>
     </UFooter>
