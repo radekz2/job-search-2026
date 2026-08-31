@@ -13,7 +13,7 @@ useHead({
 
 useSeoMeta({
   title: 'Job Search 2026 — Radek Zajkowski',
-  description: 'Automated technology job search. Filter, score, and shortlist management roles.',
+  description: 'Automated technology job search. Filter, score, and shortlist management roles.'
 })
 </script>
 
@@ -21,15 +21,26 @@ useSeoMeta({
   <UApp>
     <UHeader>
       <template #left>
-        <NuxtLink to="/" class="font-bold text-lg text-primary">
+        <NuxtLink
+          to="/"
+          class="font-bold text-lg text-primary"
+        >
           Job Search 2026
         </NuxtLink>
       </template>
       <template #right>
-        <UButton to="/" variant="ghost" icon="i-lucide-briefcase">
+        <UButton
+          to="/"
+          variant="ghost"
+          icon="i-lucide-briefcase"
+        >
           Jobs
         </UButton>
-        <UButton to="/shortlist" variant="ghost" icon="i-lucide-star">
+        <UButton
+          to="/shortlist"
+          variant="ghost"
+          icon="i-lucide-star"
+        >
           Shortlist
         </UButton>
       </template>

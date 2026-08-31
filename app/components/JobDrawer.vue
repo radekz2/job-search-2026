@@ -1,4 +1,6 @@
 <script setup lang="ts">
+type BadgeColor = 'error' | 'neutral' | 'primary' | 'success' | 'warning'
+
 interface Job {
   id: string
   title: string
@@ -18,21 +20,21 @@ interface Job {
   recommendation: string
   strengths: string
   concerns: string
-  description: string
+  description?: string
   shortlisted: 0 | 1
   shortlist_status: string | null
   shortlist_notes: string | null
 }
 
-const props = defineProps<{
+defineProps<{
   job: Job | null
   open: boolean
 }>()
 
 const emit = defineEmits<{
   'update:open': [value: boolean]
-  shortlist: [job: Job]
-  removeShortlist: [job: Job]
+  'shortlist': [job: Job]
+  'removeShortlist': [job: Job]
 }>()
 
 const statusOptions = [
@@ -40,10 +42,10 @@ const statusOptions = [
   { label: 'Applied', value: 'applied' },
   { label: 'Interviewing', value: 'interviewing' },
   { label: 'Rejected', value: 'rejected' },
-  { label: 'Offer', value: 'offer' },
+  { label: 'Offer', value: 'offer' }
 ]
 
-function scoreColor(score: number | null): string {
+function scoreColor(score: number | null): BadgeColor {
   if (score === null) return 'neutral'
   if (score >= 8) return 'success'
   if (score >= 6.5) return 'primary'
@@ -51,10 +53,18 @@ function scoreColor(score: number | null): string {
   return 'error'
 }
 
-function recColor(rec: string): string {
+function recColor(rec: string): BadgeColor {
   if (rec === 'Apply') return 'success'
   if (rec === 'Review') return 'warning'
   return 'neutral'
+}
+
+function updateShortlistStatus(job: Job, status: string | number | boolean | bigint | null | undefined) {
+  emit('shortlist', { ...job, shortlist_status: status == null ? null : String(status) })
+}
+
+function updateShortlistNotes(job: Job, notes: string | number | null) {
+  emit('shortlist', { ...job, shortlist_notes: notes == null ? null : String(notes) })
 }
 </script>
 
@@ -64,18 +74,35 @@ function recColor(rec: string): string {
     :title="job?.title ?? ''"
     @update:open="emit('update:open', $event)"
   >
-    <template v-if="job" #body>
+    <template
+      v-if="job"
+      #body
+    >
       <div class="space-y-4 pb-6">
         <!-- Header meta -->
         <div class="flex flex-wrap gap-2 items-center">
-          <UBadge :color="scoreColor(job.score)" class="font-mono font-bold text-base">
+          <UBadge
+            :color="scoreColor(job.score)"
+            class="font-mono font-bold text-base"
+          >
             {{ job.score?.toFixed(1) ?? '—' }} / 10
           </UBadge>
-          <UBadge v-if="job.recommendation" :color="recColor(job.recommendation)">
+          <UBadge
+            v-if="job.recommendation"
+            :color="recColor(job.recommendation)"
+          >
             {{ job.recommendation }}
           </UBadge>
-          <UBadge variant="outline">{{ job.source }}</UBadge>
-          <UBadge v-if="job.remote" color="success" variant="soft">Remote</UBadge>
+          <UBadge variant="outline">
+            {{ job.source }}
+          </UBadge>
+          <UBadge
+            v-if="job.remote"
+            color="success"
+            variant="soft"
+          >
+            Remote
+          </UBadge>
         </div>
 
         <!-- Company / location -->
@@ -87,26 +114,48 @@ function recColor(rec: string): string {
           <div class="flex items-center gap-2">
             <UIcon name="i-lucide-map-pin" />
             <span>{{ job.location }}</span>
-            <span v-if="job.telework" class="text-xs">({{ job.telework }})</span>
+            <span
+              v-if="job.telework"
+              class="text-xs"
+            >({{ job.telework }})</span>
           </div>
-          <div v-if="job.salary" class="flex items-center gap-2">
+          <div
+            v-if="job.salary"
+            class="flex items-center gap-2"
+          >
             <UIcon name="i-lucide-banknote" />
             <span>{{ job.salary }}</span>
           </div>
-          <div v-if="job.date_posted" class="flex items-center gap-2">
+          <div
+            v-if="job.date_posted"
+            class="flex items-center gap-2"
+          >
             <UIcon name="i-lucide-calendar" />
             <span>Posted {{ job.date_posted }}</span>
           </div>
         </div>
 
         <!-- LLM Rationale -->
-        <div v-if="job.score_rationale" class="rounded-lg border border-primary/30 bg-primary/5 p-4 space-y-2">
-          <p class="font-semibold text-sm">LLM Assessment</p>
-          <p class="text-sm">{{ job.score_rationale }}</p>
-          <div v-if="job.strengths" class="text-sm">
+        <div
+          v-if="job.score_rationale"
+          class="rounded-lg border border-primary/30 bg-primary/5 p-4 space-y-2"
+        >
+          <p class="font-semibold text-sm">
+            LLM Assessment
+          </p>
+          <p class="text-sm">
+            {{ job.score_rationale }}
+          </p>
+          <div
+            v-if="job.strengths"
+            class="text-sm"
+          >
             <span class="font-medium text-success">Strengths: </span>{{ job.strengths }}
           </div>
-          <div v-if="job.concerns" class="text-sm">
+          <div
+            v-if="job.concerns"
+            class="text-sm"
+          >
             <span class="font-medium text-warning">Concerns: </span>{{ job.concerns }}
           </div>
         </div>
@@ -127,14 +176,14 @@ function recColor(rec: string): string {
           <div class="mt-3 space-y-2">
             <USelect
               :model-value="job.shortlist_status ?? 'saved'"
-              :options="statusOptions"
-              @update:model-value="emit('shortlist', { ...job, shortlist_status: $event })"
+              :items="statusOptions"
+              @update:model-value="updateShortlistStatus(job, $event)"
             />
             <UTextarea
               :model-value="job.shortlist_notes ?? ''"
               placeholder="Notes for this application…"
-              rows="3"
-              @update:model-value="emit('shortlist', { ...job, shortlist_notes: $event })"
+              :rows="3"
+              @update:model-value="updateShortlistNotes(job, $event)"
             />
             <UButton
               variant="outline"

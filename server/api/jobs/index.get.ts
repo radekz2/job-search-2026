@@ -24,19 +24,42 @@ export default defineEventHandler(async (event) => {
   const conditions: string[] = []
   const params: (string | number)[] = []
 
-  if (q.source) { conditions.push('j.source = ?'); params.push(String(q.source)) }
-  if (q.bucket) { conditions.push('j.bucket = ?'); params.push(String(q.bucket)) }
-  if (q.level) { conditions.push('j.level = ?'); params.push(String(q.level)) }
-  if (q.remote !== undefined) { conditions.push('j.remote = ?'); params.push(q.remote === '1' ? 1 : 0) }
-  if (q.score_min) { conditions.push('j.score >= ?'); params.push(Number(q.score_min)) }
-  if (q.score_max) { conditions.push('j.score <= ?'); params.push(Number(q.score_max)) }
-  if (q.rec) { conditions.push('j.recommendation = ?'); params.push(String(q.rec)) }
+  if (q.source) {
+    conditions.push('j.source = ?')
+    params.push(String(q.source))
+  }
+  if (q.bucket) {
+    conditions.push('j.bucket = ?')
+    params.push(String(q.bucket))
+  }
+  if (q.level) {
+    conditions.push('j.level = ?')
+    params.push(String(q.level))
+  }
+  if (q.remote !== undefined) {
+    conditions.push('j.remote = ?')
+    params.push(q.remote === '1' ? 1 : 0)
+  }
+  if (q.score_min) {
+    conditions.push('j.score >= ?')
+    params.push(Number(q.score_min))
+  }
+  if (q.score_max) {
+    conditions.push('j.score <= ?')
+    params.push(Number(q.score_max))
+  }
+  if (q.rec) {
+    conditions.push('j.recommendation = ?')
+    params.push(String(q.rec))
+  }
   if (q.search) {
     const term = `%${q.search}%`
     conditions.push('(j.title LIKE ? OR j.company LIKE ? OR j.location LIKE ?)')
     params.push(term, term, term)
   }
-  if (q.shortlisted === '1') { conditions.push('s.job_id IS NOT NULL') }
+  if (q.shortlisted === '1') {
+    conditions.push('s.job_id IS NOT NULL')
+  }
 
   const where = conditions.length ? `WHERE ${conditions.join(' AND ')}` : ''
 
@@ -67,7 +90,7 @@ export default defineEventHandler(async (event) => {
       total: countResult?.total ?? 0,
       page,
       per_page: perPage,
-      pages: Math.ceil((countResult?.total ?? 0) / perPage),
-    },
+      pages: Math.ceil((countResult?.total ?? 0) / perPage)
+    }
   }
 })
