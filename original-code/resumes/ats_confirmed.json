@@ -1,0 +1,62 @@
+[
+  {
+    "company": "Wealthsimple",
+    "ats": "lever",
+    "slug": "wealthsimple",
+    "jobs": 0
+  },
+  {
+    "company": "PointClickCare",
+    "ats": "lever",
+    "slug": "pointclickcare",
+    "jobs": 86
+  },
+  {
+    "company": "1Password",
+    "ats": "ashby",
+    "slug": "1password",
+    "jobs": 62
+  },
+  {
+    "company": "Loopio",
+    "ats": "ashby",
+    "slug": "loopio",
+    "jobs": 9
+  },
+  {
+    "company": "Wattpad",
+    "ats": "lever",
+    "slug": "wattpad",
+    "jobs": 25
+  },
+  {
+    "company": "TouchBistro",
+    "ats": "greenhouse",
+    "slug": "touchbistro",
+    "jobs": 0
+  },
+  {
+    "company": "Wave",
+    "ats": "lever",
+    "slug": "waveapps",
+    "jobs": 8
+  },
+  {
+    "company": "Cohere",
+    "ats": "ashby",
+    "slug": "cohere",
+    "jobs": 146
+  },
+  {
+    "company": "Lightspeed Commerce",
+    "ats": "ashby",
+    "slug": "lightspeed",
+    "jobs": 4
+  },
+  {
+    "company": "University of Toronto",
+    "ats": "greenhouse",
+    "slug": "uoft",
+    "jobs": 0
+  }
+]

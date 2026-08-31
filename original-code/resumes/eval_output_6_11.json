@@ -1,0 +1,148 @@
+[
+  {
+    "title": "Director AI Platform Engineering",
+    "company": "BMO",
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Chicago-IL-USA/Director-AI-Platform-Engineering_R260025294",
+    "location": "5 Locations",
+    "source": "Workday",
+    "llm_score": 4.0,
+    "verdict": "Weak",
+    "recommendation": "Skip",
+    "fit_summary": "Hands-on build-and-run platform engineering leadership owning BMO's AI control plane (AI Gateway, Policy Engine, Identity Fabric, AI Registry, Guardrails Runtime, Observability) — a specialized AI-platform infrastructure mandate well outside the candidate's enterprise-applications portfolio leadership and dated web-engineering background.",
+    "score_rationale": "Capped at 5.0 for hands-on dev-team delivery (explicit 'hands-on technical leader' build-and-run framing). Further reduced by a genuine domain gap: policy-as-code (Cedar/OPA), GitOps distribution, AI gateway/guardrails runtime, and developer-portal engineering are absent from his history. AI-governance authorship is tangential to platform engineering. Non-GTA (US/Chicago '5 locations') with implied in-office presence is also flagged, though the hands-on cap is the binding constraint.",
+    "strengths": [
+      "Enterprise AI governance experience (authored TVO GenAI use policy)",
+      "Technical leadership credibility and people leadership of engineering teams",
+      "Cloud (AWS) and DevOps/CI-CD strategy background"
+    ],
+    "concerns": [
+      "Hands-on build-and-run platform engineering role (hard cap <=5.0 applied)",
+      "No demonstrated AI gateway / policy-engine / guardrails-runtime engineering (Cedar/OPA, GitOps)",
+      "Deep platform/infrastructure engineering domain gap",
+      "Non-GTA (US/Chicago, 5 locations) with in-office build-and-run expectation"
+    ],
+    "hands_on_dev": true,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, AI Research & Ecosystems",
+    "company": "BMO",
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Director--AI-Research---Ecosystems_R260019583",
+    "location": "Toronto, ON, CAN",
+    "source": "Workday",
+    "llm_score": 3.5,
+    "verdict": "Weak",
+    "recommendation": "Skip",
+    "fit_summary": "Research and open-innovation strategy role accountable for AI/Data industry research, publications, and academic/government/startup ecosystem partnerships (incl. quantum AI) — a research-and-partnership mandate with no overlap with the candidate's enterprise-applications portfolio leadership.",
+    "score_rationale": "The core is AI industry research, publications, and ecosystem-building — a PhD-level AI research domain the candidate has not demonstrated (explicit negative signal). His AI-governance authorship and stakeholder skills are adjacent but do not substitute for a research/publication and academic-partnership track record. Toronto/GTA, so no location cap; the mismatch is functional.",
+    "strengths": [
+      "AI governance and responsible-AI authorship",
+      "Executive stakeholder and cross-functional engagement",
+      "Industry-trend awareness and strategy orientation"
+    ],
+    "concerns": [
+      "No AI research/publication or thought-leadership track record",
+      "No academic/government/startup partnership-building experience",
+      "Quantum AI / open-innovation domain gap",
+      "Role is research/ecosystem strategy, not technology leadership"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Senior Manager, Global Operations AI",
+    "company": "Manulife",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Manager--Responsible-AI-Governance--Global-Operations-AI-_JR26060020-1",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 5.5,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Responsible-AI governance and first-line Model Risk Management enablement role supporting Manulife's Global Operations AI mandate — a partial match on AI governance but a real gap on financial-services model-risk management, and below the candidate's Director-level target.",
+    "score_rationale": "Responsible-AI governance (reviews, evidence coordination, partnering with Risk/Legal/Compliance/Privacy) maps directly to the candidate's authorship of TVO's Generative AI Use Policy and his governed AI use-case approval process — a genuine strength. However, first-line Model Risk Management (model documentation, submissions, monitoring) under financial-services/OSFI regimes is an explicit domain gap, and the role is a supporting coordination manager across 14 countries rather than a portfolio-owning leadership position. Toronto/GTA, no location cap.",
+    "strengths": [
+      "Responsible-AI governance and policy authorship",
+      "Cross-functional coordination with risk/legal/compliance stakeholders",
+      "Regulatory/policy translation and executive reporting"
+    ],
+    "concerns": [
+      "Financial-services Model Risk Management / OSFI domain gap",
+      "Supporting manager-level coordination role (below Director target)",
+      "No demonstrated model documentation/submission/monitoring experience"
+    ],
+    "hands_on_dev": false,
+    "seniority": "manager"
+  },
+  {
+    "title": "Technical Director IS Business Enablement, Products & Innovation",
+    "company": "Fidelity Canada",
+    "link": "https://ca.linkedin.com/jobs/view/technical-director-is-business-enablement-products-innovation-at-fidelity-canada-4434583955",
+    "location": "Toronto, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 7.5,
+    "verdict": "Strong",
+    "recommendation": "Apply",
+    "fit_summary": "Business-facing technology leadership role owning technical delivery and the IS-business relationship for Fidelity's Products & Innovation portfolio — a near-ideal match to the candidate's enterprise-applications and business-systems portfolio leadership at TVO.",
+    "score_rationale": "Strongly aligned: the role is the primary technology lead and single point of contact between IS and business leadership, aligning technology strategy and delivery with business objectives — precisely the enterprise-applications/business-systems portfolio leadership the candidate has done (20+ apps, BSO team, vendor/RFP management, business-IT alignment). Not a hands-on coding role; delivery and relationship leadership is squarely in his demonstrated remit. Held below 8.0 by a genuine financial-services/asset-management domain gap. Toronto Bay St then Mississauga — both GTA, so no location cap.",
+    "strengths": [
+      "Enterprise applications / business-systems portfolio leadership (TVO, 20+ apps)",
+      "Business-IT alignment and relationship management as primary point of contact",
+      "Vendor/RFP/procurement and SaaS governance experience",
+      "Technology strategy, roadmap and delivery oversight"
+    ],
+    "concerns": [
+      "Financial-services / asset-management industry domain gap (stated financial-industry requirement)",
+      "Title 'Technical Director' implies some technical-delivery depth beyond his recent remit"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Domain Enterprise Architect (AI)",
+    "company": "Sun Life",
+    "link": "https://sunlife.wd3.myworkdayjobs.com/en-US/Experienced-Jobs/job/Waterloo-Ontario/Director--Domain-Enterprise-Architect--AI-_JR00126513",
+    "location": "2 Locations",
+    "source": "Workday",
+    "llm_score": 5.0,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Enterprise-architecture authority for Sun Life's AI domain (strategy, target-state architecture, standards, roadmaps, governance) — leverages the candidate's historical architecture background and AI governance, but demands enterprise AI/GenAI/agentic architecture depth he has not demonstrated and reads as a senior individual-contributor architect role.",
+    "score_rationale": "The candidate has genuine (if dated) enterprise architecture history (Sitecore, Solr, AWS, cloud) and AI-governance authorship, both relevant to setting AI standards and governance frameworks. But the role requires deep enterprise AI architecture (Generative AI, Agentic AI, LLM/orchestration) beyond his demonstrated scope, and is framed as a senior architecture authority rather than a people/portfolio-leadership position (an explicit exclusion). Non-GTA (Waterloo/multi-location) with unclear in-office expectation is flagged; the functional gap is the primary constraint.",
+    "strengths": [
+      "Historical enterprise/technical architecture (Sitecore, Solr, AWS, cloud)",
+      "AI governance and responsible-AI authorship",
+      "Standards, roadmap and target-state strategy experience"
+    ],
+    "concerns": [
+      "Enterprise AI/GenAI/agentic architecture domain depth gap",
+      "Reads as a senior individual-contributor architecture authority (no clear people/portfolio leadership)",
+      "Waterloo/multi-location posting (non-GTA if Waterloo-based; hybrid unclear)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director GHNW Strategy & Transformation",
+    "company": "Manulife",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Singapore/Director-GHNW-Strategy---Transformation_JR26070591",
+    "location": "2 Locations",
+    "source": "Workday",
+    "llm_score": 3.5,
+    "verdict": "Weak",
+    "recommendation": "Skip",
+    "fit_summary": "Business strategy and transformation program role for Manulife's Global High Net Worth insurance/wealth segment — a non-technology strategy/PMO function with no overlap to the candidate's technology-leadership mandate and no demonstrated wealth/insurance domain.",
+    "score_rationale": "The role is fundamentally business strategy and transformation program coordination (strategic planning, initiative sequencing, governance, KPI/benefit tracking) across Strategy/Transformation/IT/Operations/Finance/Data — a non-technology function, capped at <=5.0. The candidate is a technology leader; the transformation touches IT/Data only incidentally, and the GHNW insurance/wealth domain is foreign to his background. Non-GTA (Singapore/Hong Kong) with in-office expectation is also flagged.",
+    "strengths": [
+      "Transformation/program coordination and governance experience",
+      "Cross-functional stakeholder and executive communication",
+      "Roadmap, KPI and benefits-tracking familiarity"
+    ],
+    "concerns": [
+      "Non-technology business strategy/transformation function",
+      "Global High Net Worth insurance/wealth domain gap",
+      "Non-GTA (Singapore/Hong Kong) with in-office expectation"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  }
+]

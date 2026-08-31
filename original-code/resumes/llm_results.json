@@ -1,0 +1,870 @@
+[
+  {
+    "title": "Director, Enterprise Technology & Products",
+    "company": "Brock University",
+    "link": "https://ca.linkedin.com/jobs/view/director-enterprise-technology-products-at-brock-university-4454740799",
+    "location": "St. Catharines, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 7.9,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Near-perfect scope match \u2014 enterprise applications/platforms/solution-delivery portfolio leadership.",
+    "score_rationale": "One-to-one portfolio match; capped at 7.9 only for the St. Catharines commute.",
+    "strengths": [
+      "enterprise apps portfolio",
+      "platform strategy/roadmap",
+      "vendor/governance",
+      "service management",
+      "data & analytics"
+    ],
+    "concerns": [
+      "St. Catharines (Niagara) \u2014 100+ km commute; confirm remote/hybrid"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Managing Director, Technology Architecture & Governance",
+    "company": "CPP Investments | Investissements RPC",
+    "link": "https://ca.linkedin.com/jobs/view/managing-director-technology-architecture-governance-at-cpp-investments-investissements-rpc-4411549338",
+    "location": "Toronto, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 7.0,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Enterprise technology-architecture & governance leadership \u2014 good fit, but an influence role with no direct reports.",
+    "score_rationale": "Architecture/governance scope maps to his technical background, but 'no direct reports' is a people-leadership gap.",
+    "strengths": [
+      "technology architecture",
+      "governance",
+      "engineering excellence"
+    ],
+    "concerns": [
+      "no direct reports (influence-based)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Virtual Care Technology Applications",
+    "company": "Loblaw Companies Limited",
+    "link": "https://ca.linkedin.com/jobs/view/director-virtual-care-technology-applications-at-loblaw-companies-limited-4448143121",
+    "location": "Toronto, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 8.0,
+    "verdict": "Strong",
+    "recommendation": "Review",
+    "fit_summary": "Enterprise-applications modernization leadership for a digital-care program \u2014 strong enterprise-apps fit.",
+    "score_rationale": "Strategy + modernization of enterprise apps; strong fit, held at 8.0 by a 4-day in-office hybrid requirement (still GTA).",
+    "strengths": [
+      "enterprise applications",
+      "strategy/modernization",
+      "technical delivery leadership"
+    ],
+    "concerns": [
+      "4 days/week in-office hybrid"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Enterprise Architect, Portfolio Lead",
+    "company": "OTPP (Ontario Teachers)",
+    "link": "https://otppb.wd3.myworkdayjobs.com/en-US/OntarioTeachers_Careers/job/Toronto-Canada/Director--Enterprise-Architect--Portfolio-Lead_7218",
+    "location": "Toronto, Canada",
+    "source": "Workday",
+    "llm_score": 7.9,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Portfolio-level enterprise-architecture leadership \u2014 strong technical-leadership fit.",
+    "score_rationale": "Portfolio architecture + multi-year roadmaps align with his technical-architecture background; Toronto.",
+    "strengths": [
+      "enterprise architecture",
+      "portfolio leadership",
+      "strategy/roadmap"
+    ],
+    "concerns": [
+      "architecture-practice depth"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "AVP, AI Products & Innovation",
+    "company": "TD Bank",
+    "link": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Toronto-Ontario/AVP--AI-Products---Innovation_R_1507906",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 7.5,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Leads front-office AI products & innovation (AVP = director band) \u2014 strong AI-leadership fit.",
+    "score_rationale": "AI products/innovation leadership; $155-215k; front-office securities domain is a minor gap.",
+    "strengths": [
+      "AI products & innovation",
+      "strategy",
+      "front-office tech"
+    ],
+    "concerns": [
+      "TD Securities front-office domain"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Technology & Operations Business Management",
+    "company": "CPP Investments",
+    "link": "https://cppib.wd10.myworkdayjobs.com/en-US/cppinvestments/job/Toronto/Director--Technology---Operations-Business-Management_JR00756",
+    "location": "Toronto",
+    "source": "Workday",
+    "llm_score": 8.2,
+    "verdict": "Strong",
+    "recommendation": "Apply",
+    "fit_summary": "Strategic financial and business-planning leadership across technology and operations \u2014 strong match to his portfolio + budget governance.",
+    "score_rationale": "Leads strategic financial/business planning for technology & operations; his ~$2M budget, vendor governance, and enterprise-apps remit map directly. Toronto.",
+    "strengths": [
+      "technology & ops leadership",
+      "financial/business planning",
+      "strategy",
+      "enterprise apps"
+    ],
+    "concerns": [],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Data Platform Governance",
+    "company": "CIBC",
+    "link": "https://cibc.wd3.myworkdayjobs.com/en-US/search/job/Toronto-ON/Director--Data-Platform-Governance_2616666",
+    "location": "Toronto, ON",
+    "source": "Workday",
+    "llm_score": 8.2,
+    "verdict": "Strong",
+    "recommendation": "Apply",
+    "fit_summary": "Application delivery, production ops, and vendor governance over critical enterprise systems \u2014 a direct match to his TVO enterprise-apps portfolio.",
+    "score_rationale": "Leading delivery/ops of large critical applications, vendor governance, and operational standards maps one-to-one onto his 20+ app portfolio, ~$2M budget, and vendor/RFP work. Toronto.",
+    "strengths": [
+      "enterprise apps delivery",
+      "vendor/governance",
+      "service management",
+      "data platform",
+      "people leadership"
+    ],
+    "concerns": [
+      "production-support operations scope"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Head of Architecture and Technology Strategy",
+    "company": "Sun Life",
+    "link": "https://sunlife.wd3.myworkdayjobs.com/en-US/Experienced-Jobs/job/Hunghom-Kowloon-Hong-Kong/Head-of-Architecture-and-Technology-Strategy_JR00127082-1",
+    "location": "Hunghom, Kowloon, Hong Kong",
+    "source": "Workday",
+    "llm_score": 6.0,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Architecture & technology-strategy leadership \u2014 good fit but Hong Kong-based.",
+    "score_rationale": "Scope maps well, but international relocation to Hong Kong is a major practical barrier.",
+    "strengths": [
+      "architecture",
+      "technology strategy"
+    ],
+    "concerns": [
+      "Hong Kong location"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Business Technology and AI",
+    "company": "The North West Company",
+    "link": "https://ca.linkedin.com/jobs/view/director-business-technology-and-ai-at-the-north-west-company-4450335353",
+    "location": "Winnipeg, Manitoba, Canada",
+    "source": "LinkedIn",
+    "llm_score": 8.0,
+    "verdict": "Strong",
+    "recommendation": "Review",
+    "fit_summary": "Single enterprise interface between business and IT owning the technology demand lifecycle \u2014 strong portfolio/governance fit.",
+    "score_rationale": "Enterprise business-relationship + demand-lifecycle + AI governance maps well; remote-eligible Winnipeg.",
+    "strengths": [
+      "business/IT interface",
+      "technology demand lifecycle",
+      "governance",
+      "AI"
+    ],
+    "concerns": [
+      "Winnipeg-based (remote-eligible)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Program Manager, Technology & Operations Skills Development",
+    "company": "BMO",
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Program-Manager--Technology---Operations-Skills-Development_R260024328",
+    "location": "Toronto, ON, CAN",
+    "source": "Workday",
+    "llm_score": 6.5,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Leadership-skills-development program manager \u2014 HR-adjacent, not technology delivery.",
+    "score_rationale": "Technology & operations context but the role is HR/learning-delivery, not tech leadership.",
+    "strengths": [
+      "technology & operations",
+      "leadership development",
+      "AI in learning"
+    ],
+    "concerns": [
+      "HR/L&D function (not technology leadership)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "manager"
+  },
+  {
+    "title": "Director, AI Platform Engineering",
+    "company": "BMO",
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Director--AI-Platform-Engineering_R260019184",
+    "location": "Toronto, ON, CAN",
+    "source": "Workday",
+    "llm_score": 6.5,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "AI-governance platform leadership, but framed as hands-on build-and-run engineering.",
+    "score_rationale": "AI Gateway/Policy Engine/Guardrails maps to his governance work, but 'hands-on technical leader who builds and operates' leans engineering.",
+    "strengths": [
+      "AI governance",
+      "enterprise platform"
+    ],
+    "concerns": [
+      "build-and-run platform engineering; hands-on-technical-leader framing"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, AI Research & Ecosystems",
+    "company": "BMO",
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Director--AI-Research---Ecosystems_R260019583",
+    "location": "Toronto, ON, CAN",
+    "source": "Workday",
+    "llm_score": 6.3,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "AI strategy/partnerships, but centered on industry research and publications.",
+    "score_rationale": "Research + publications + quantum-AI emphasis sits outside his demonstrated depth.",
+    "strengths": [
+      "AI strategy",
+      "partnerships",
+      "governance"
+    ],
+    "concerns": [
+      "research/publications + quantum-AI emphasis"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Applications and Integrations Lead",
+    "company": "Braze",
+    "link": "https://ca.linkedin.com/jobs/view/applications-and-integrations-lead-at-braze-4444987464",
+    "location": "Toronto, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 5.5,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Applications & integrations lead \u2014 governance + roadmap but hands-on Salesforce.",
+    "score_rationale": "Architecture/governance signal is good, but 'direct, hands-on expertise in Salesforce' is a hands-on/ERP-specialist lean.",
+    "strengths": [
+      "applications & integrations",
+      "architecture/governance"
+    ],
+    "concerns": [
+      "hands-on Salesforce expertise"
+    ],
+    "hands_on_dev": true,
+    "seniority": "manager"
+  },
+  {
+    "title": "Head of Advisor Technology - Americas",
+    "company": "Vanguard",
+    "link": "https://ca.linkedin.com/jobs/view/head-of-advisor-technology-americas-at-vanguard-4435119854",
+    "location": "Toronto, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 6.8,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Technology leadership for advisor platforms \u2014 relevant but leans engineering-team + martech.",
+    "score_rationale": "Strategy + platform modernization map well; managing engineering teams + AEM/Marketo martech scope is a partial mismatch.",
+    "strengths": [
+      "technology leadership",
+      "strategy",
+      "platform modernization"
+    ],
+    "concerns": [
+      "engineering-team management + martech scope",
+      "multi-country"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Manager, AI Product & Governance \u2013 Commercial Banking",
+    "company": "BMO",
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Manager--AI-Product---Governance---Commercial-Banking_R260020051",
+    "location": "Toronto, ON, CAN",
+    "source": "Workday",
+    "llm_score": 7.2,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "AI product + governance (responsible-AI guardrails) \u2014 strong AI-governance fit.",
+    "score_rationale": "Operationalizing AI guardrails + product delivery maps to his GenAI policy; financial-services AI-risk is a minor gap.",
+    "strengths": [
+      "AI governance",
+      "product management",
+      "risk guardrails"
+    ],
+    "concerns": [
+      "financial-services AI risk domain"
+    ],
+    "hands_on_dev": false,
+    "seniority": "manager"
+  },
+  {
+    "title": "AVP, Global Operations AI",
+    "company": "Manulife",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/AVP--AI-Products---Delivery--Global-Operations-AI-_JR26060018-1",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 7.5,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Owns the full AI strategy/transformation/portfolio/people mandate for Global Operations AI \u2014 strong fit.",
+    "score_rationale": "AI strategy + portfolio + governance across 14 countries maps to his transformation + governance strengths; financial-services scope is a minor depth gap.",
+    "strengths": [
+      "AI strategy/transformation",
+      "portfolio",
+      "people strategy",
+      "governance"
+    ],
+    "concerns": [
+      "14-country financial-services scope"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Lead, AI & Automation Process",
+    "company": "OMERS",
+    "link": "https://omers.wd3.myworkdayjobs.com/en-US/OMERS_External/job/Toronto-Ontario/Lead--AI---Automation-Process_JR-8269",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 6.5,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "AI & automation process lead \u2014 relevant but manages an engineering team.",
+    "score_rationale": "AI/automation process leadership fits, but it manages a dev/engineering team (partial dev-management mismatch).",
+    "strengths": [
+      "AI & automation",
+      "process leadership"
+    ],
+    "concerns": [
+      "manages development/engineering team"
+    ],
+    "hands_on_dev": false,
+    "seniority": "manager"
+  },
+  {
+    "title": "IT Infrastructure Manager, Cloud Platform",
+    "company": "Confluence",
+    "link": "https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-confluence-4437086004",
+    "location": "Toronto, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 5.5,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Cloud-platform operations \u2014 relevant but hands-on technical lean.",
+    "score_rationale": "Cloud-migration + service-mgmt apply, but IaC/automation + 'Lead Cloud Engineer' framing is a hands-on mismatch.",
+    "strengths": [
+      "cloud migration",
+      "service management"
+    ],
+    "concerns": [
+      "hands-on IaC/automation ('Lead Cloud Engineer' signal)"
+    ],
+    "hands_on_dev": true,
+    "seniority": "manager"
+  },
+  {
+    "title": "Head, Responsible AI & Governance",
+    "company": "BMO",
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Chicago-IL-USA/Head--Responsible-AI---Governance_R260020984-1",
+    "location": "2 Locations",
+    "source": "Workday",
+    "llm_score": 7.9,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Responsible-AI and AI-governance standards leadership \u2014 near-exact match to his authored TVO GenAI policy.",
+    "score_rationale": "Directly matches his responsible-AI governance work; capped below 8.0 because the posting cites a Chicago address and is likely non-GTA in-office.",
+    "strengths": [
+      "AI governance",
+      "enterprise standards",
+      "compliance"
+    ],
+    "concerns": [
+      "posting cites Chicago address (2 locations) \u2014 confirm a Toronto seat"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "AVP, Data Products and Engineering",
+    "company": "TD Bank",
+    "link": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Toronto-Ontario/AVP--Data-Products-and-Engineering_R_1507917-1",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 7.2,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Leads Data Products & Engineering (AVP = director band) \u2014 data-platform fit with an engineering lean.",
+    "score_rationale": "Data platform + products leadership; $155-215k; engineering lean is a minor concern.",
+    "strengths": [
+      "data products",
+      "engineering leadership",
+      "governance"
+    ],
+    "concerns": [
+      "engineering-delivery lean"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Third Party Risk Management \u2013 Quality Assurance & Governance (Line 1B)",
+    "company": "Manulife",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Director--Third-Party-Risk-Management---Quality-Assurance---Governance--Line-1B-_JR26071321",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 7.0,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Vendor/third-party governance leadership \u2014 adjacent to his vendor management, but risk/compliance-heavy.",
+    "score_rationale": "Vendor governance maps to his vendor/RFP work, but OSFI/audit/RCSA depth is a genuine gap.",
+    "strengths": [
+      "vendor governance",
+      "third-party risk",
+      "QA/governance"
+    ],
+    "concerns": [
+      "OSFI/audit/RCSA depth not demonstrated"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Data Platform Engineering",
+    "company": "TD Bank",
+    "link": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Toronto-Ontario/Director--Data-Platform-Engineering_R_1506230",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 7.0,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Data-platform engineering leadership ($165-200k) \u2014 data-platform fit with engineering lean.",
+    "score_rationale": "Data platform at director level; engineering lean and no portfolio/enterprise-apps emphasis hold it at 7.0.",
+    "strengths": [
+      "data platform",
+      "engineering leadership"
+    ],
+    "concerns": [
+      "engineering-delivery lean"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Information Technology (It) Director",
+    "company": "University of Toronto",
+    "link": "https://www.jobbank.gc.ca/jobsearch/jobposting/50028579",
+    "location": "Toronto (ON)",
+    "source": "Job Bank",
+    "llm_score": 7.3,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "IT director (higher-ed) at U of T \u2014 solid fit.",
+    "score_rationale": "Higher-ed IT leadership; Job Bank description is terse so treat as lower bound.",
+    "strengths": [
+      "IT leadership",
+      "higher-ed systems"
+    ],
+    "concerns": [
+      "Job Bank description is terse"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Technology Delivery Lead",
+    "company": "TD Bank",
+    "link": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Toronto-Ontario/Technology-Delivery-Lead_R_1490235",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 6.8,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Technology delivery leadership (AML Technology) \u2014 relevant but manager-level.",
+    "score_rationale": "Delivery leadership fits, but the $96-136k band signals a manager (not director) level.",
+    "strengths": [
+      "technology delivery",
+      "AML technology"
+    ],
+    "concerns": [
+      "manager-level pay band ($96-136k)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "manager"
+  },
+  {
+    "title": "Manager, Technology Risk Governance, Compliance & Reporting",
+    "company": "Manulife",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Manager--Technology-Risk-Governance--Compliance---Reporting_JR26070242",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 6.3,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Technology risk governance & reporting \u2014 compliance-heavy, not portfolio leadership.",
+    "score_rationale": "Risk/governance/reporting is adjacent, but compliance-heavy and not enterprise-apps portfolio.",
+    "strengths": [
+      "technology risk",
+      "governance",
+      "reporting"
+    ],
+    "concerns": [
+      "risk/compliance-heavy; help-desk scope flag"
+    ],
+    "hands_on_dev": false,
+    "seniority": "manager"
+  },
+  {
+    "title": "Enterprise Risk Management, Technology Strategy Director",
+    "company": "Citigroup",
+    "link": "https://www.adzuna.ca/details/5856499569?utm_medium=api&utm_source=ca4d3b4e",
+    "location": "Mississauga, Peel region",
+    "source": "Adzuna",
+    "llm_score": 5.8,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Technology-strategy leadership in ERM \u2014 strategy transfer, domain gap.",
+    "score_rationale": "Strategy/analytics transfer, but ERM stress-testing/model-risk domain is not demonstrated.",
+    "strengths": [
+      "strategy/transformation",
+      "technology enablement"
+    ],
+    "concerns": [
+      "ERM/financial-risk domain depth",
+      "Mississauga"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Associate Director, Technology Strategy and Innovation",
+    "company": "OMERS",
+    "link": "https://omers.wd3.myworkdayjobs.com/en-US/OMERS_External/job/Toronto-Ontario/Associate-Director--Technology-Strategy-and-Innovation_JR-8004",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 7.8,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Strategy-to-execution bridge across data/AI/emerging tech \u2014 strong match.",
+    "score_rationale": "Translating strategy into measurable business value across data/AI/tech maps to his transformation strengths; Toronto.",
+    "strengths": [
+      "technology strategy",
+      "innovation",
+      "business enablement",
+      "data & AI"
+    ],
+    "concerns": [],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Business Systems & Technology Lead",
+    "company": "Robertson & Company Ltd.",
+    "link": "https://ca.linkedin.com/jobs/view/business-systems-technology-lead-at-robertson-company-ltd-4457679010",
+    "location": "Uxbridge, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 5.5,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Business-systems modernization \u2014 but the description reveals hands-on development.",
+    "score_rationale": "Title signals portfolio, but the posting requires developing applications/integrations/APIs \u2014 a hands-on dev role.",
+    "strengths": [
+      "business systems integration",
+      "ERP (Sage X3)",
+      "AI/automation"
+    ],
+    "concerns": [
+      "hands-on dev (develops applications/integrations/APIs)",
+      "Uxbridge (non-GTA)"
+    ],
+    "hands_on_dev": true,
+    "seniority": "manager"
+  },
+  {
+    "title": "Business Systems & Technology Lead - Manufacturing",
+    "company": "Robertson & Company Ltd.",
+    "link": "https://ca.linkedin.com/jobs/view/business-systems-technology-lead-manufacturing-at-robertson-company-ltd-4457963706",
+    "location": "Uxbridge, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 5.5,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Same as the base role \u2014 hands-on business-systems development.",
+    "score_rationale": "Hands-on dev requirement and non-GTA location.",
+    "strengths": [
+      "business systems",
+      "ERP",
+      "AI/automation"
+    ],
+    "concerns": [
+      "hands-on dev",
+      "Uxbridge (non-GTA)"
+    ],
+    "hands_on_dev": true,
+    "seniority": "manager"
+  },
+  {
+    "title": "Lead, Data Development, AI Platform | Chef(fe), D\u00e9veloppement des donn\u00e9es \u2013 Plateforme d\u2019IA",
+    "company": "Hootsuite",
+    "link": "https://job-boards.greenhouse.io/hootsuite/jobs/8036364",
+    "location": "Ottawa, Canada; Toronto, Canada; Waterloo, Canada, Montreal, Quebec, Canada",
+    "source": "Greenhouse",
+    "llm_score": 5.0,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Data/AI platform team lead \u2014 hands-on technical leadership.",
+    "score_rationale": "Hands-on 'stay close to the code' + French/bilingual posting; dev-lean.",
+    "strengths": [
+      "data platform",
+      "AI platform"
+    ],
+    "concerns": [
+      "hands-on technical leadership; French/bilingual"
+    ],
+    "hands_on_dev": true,
+    "seniority": "manager"
+  },
+  {
+    "title": "Associate Director, AI & Innovation Solutions",
+    "company": "BMO",
+    "link": "https://www.adzuna.ca/details/5840931612?utm_medium=api&utm_source=ca4d3b4e",
+    "location": "Toronto, Ontario",
+    "source": "Adzuna",
+    "llm_score": 7.8,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Strategic bridge between business and enterprise enablement for AI \u2014 mirrors his AI governance + enterprise-apps role.",
+    "score_rationale": "Business-to-technology translation + AI governance align strongly; Toronto; only the truncated Adzuna description limits confidence.",
+    "strengths": [
+      "AI enablement & governance",
+      "enterprise apps",
+      "business enablement"
+    ],
+    "concerns": [
+      "description truncated (Adzuna)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Associate Director, Technology Enablement",
+    "company": "Klick Health",
+    "link": "https://www.adzuna.ca/details/5851866094?utm_medium=api&utm_source=ca4d3b4e",
+    "location": "Toronto, Ontario",
+    "source": "Adzuna",
+    "llm_score": 7.0,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Technology-enablement leadership across web/CRM/omnichannel \u2014 good fit.",
+    "score_rationale": "Delivery + enablement bridge; truncated description limits confidence.",
+    "strengths": [
+      "technology delivery",
+      "CRM/omnichannel",
+      "business enablement"
+    ],
+    "concerns": [
+      "description truncated (Adzuna)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Information Technology",
+    "company": "International Business University",
+    "link": "https://www.adzuna.ca/details/5826528569?utm_medium=api&utm_source=ca4d3b4e",
+    "location": "Toronto, Ontario",
+    "source": "Adzuna",
+    "llm_score": 7.5,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "IT director with enterprise-technology accountability ($120-150k) \u2014 solid fit.",
+    "score_rationale": "Enterprise IT leadership, Toronto, $120-150k; truncated description limits confidence.",
+    "strengths": [
+      "IT leadership",
+      "enterprise technology",
+      "strategy"
+    ],
+    "concerns": [
+      "description truncated (Adzuna)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "PMO Manager, Portfolio Governance & Operations",
+    "company": "Spin Master International",
+    "link": "https://www.adzuna.ca/details/5850772412?utm_medium=api&utm_source=ca4d3b4e",
+    "location": "Toronto, Ontario",
+    "source": "Adzuna",
+    "llm_score": 6.8,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "PMO/portfolio-governance manager \u2014 decent fit.",
+    "score_rationale": "Portfolio governance + PMO; truncated description.",
+    "strengths": [
+      "portfolio governance",
+      "PMO/operations"
+    ],
+    "concerns": [
+      "description truncated (Adzuna)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "manager"
+  },
+  {
+    "title": "Director of Information Technology",
+    "company": "OSL Retail Services Corporation",
+    "link": "https://www.adzuna.ca/details/5860682066?utm_medium=api&utm_source=ca4d3b4e",
+    "location": "Etobicoke, Toronto",
+    "source": "Adzuna",
+    "llm_score": 7.3,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "IT director (Etobicoke) \u2014 solid fit.",
+    "score_rationale": "GTA IT-director role; truncated description.",
+    "strengths": [
+      "IT leadership"
+    ],
+    "concerns": [
+      "description truncated (Adzuna)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Global Data Platform Director, Deloitte Global Technology",
+    "company": "Deloitte",
+    "link": "https://www.adzuna.ca/details/5850164132?utm_medium=api&utm_source=ca4d3b4e",
+    "location": "Toronto, Ontario",
+    "source": "Adzuna",
+    "llm_score": 5.5,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Global data-platform leadership (remote) \u2014 relevant but under-described.",
+    "score_rationale": "Data/analytics modernization is relevant; truncated description caps confidence.",
+    "strengths": [
+      "data platform"
+    ],
+    "concerns": [
+      "description truncated; data-engineering depth uncertain"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, M&A Technology Integration & Transformation",
+    "company": "McKesson",
+    "link": "https://www.adzuna.ca/details/5842869694?utm_medium=api&utm_source=ca4d3b4e",
+    "location": "Mississauga, Peel region",
+    "source": "Adzuna",
+    "llm_score": 6.0,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Technology integration & transformation \u2014 relevant but M&A-specific.",
+    "score_rationale": "Transformation/integration leadership transfers, but M&A specialization is a gap and the description is truncated.",
+    "strengths": [
+      "transformation",
+      "integration"
+    ],
+    "concerns": [
+      "M&A integration specialization",
+      "description truncated"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Senior Director, Enterprise Technology Services",
+    "company": "Federation of Canadian Municipalities",
+    "link": "https://www.adzuna.ca/details/5860900951?utm_medium=api&utm_source=ca4d3b4e",
+    "location": "Canada",
+    "source": "Adzuna",
+    "llm_score": 7.8,
+    "verdict": "Good",
+    "recommendation": "Review",
+    "fit_summary": "Enterprise technology services leadership (remote, national federation) \u2014 strong fit.",
+    "score_rationale": "Enterprise tech-services leadership, remote Canada; truncated description limits confidence.",
+    "strengths": [
+      "enterprise technology services",
+      "leadership",
+      "remote"
+    ],
+    "concerns": [
+      "description truncated (Adzuna)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Lead, WFM Platform & Automation",
+    "company": "Wealthsimple",
+    "link": "https://jobs.ashbyhq.com/wealthsimple/52fb01c0-adf8-441f-9aa8-3b585253c0d4",
+    "location": "Remote (Canada)",
+    "source": "Ashby",
+    "llm_score": 5.0,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Workforce-management platform lead \u2014 hands-on/automation, below director.",
+    "score_rationale": "Hands-on automation platform work; below-director scope.",
+    "strengths": [
+      "platform",
+      "automation"
+    ],
+    "concerns": [
+      "hands-on coding; below-director seniority"
+    ],
+    "hands_on_dev": true,
+    "seniority": "manager"
+  },
+  {
+    "title": "Sr. Director, HR Technology and AI Enablement",
+    "company": "PointClickCare",
+    "link": "https://jobs.lever.co/pointclickcare/f949e9b0-23dc-4f31-8e46-79eeb79bb79b",
+    "location": "Mississauga, Ontario",
+    "source": "Lever",
+    "llm_score": 5.5,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "No description available for evaluation.",
+    "score_rationale": "Missing description; low-confidence score.",
+    "strengths": [],
+    "concerns": [
+      "no description available"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  }
+]

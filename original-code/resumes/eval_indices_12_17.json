@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Global Public Policy Manager, Compute, Infrastructure & Sovereign AI",
+    "company": "Cohere",
+    "link": "https://jobs.ashbyhq.com/cohere/8ac3ed85-e315-443b-bc13-e7a0b900b922",
+    "location": "United States",
+    "source": "Ashby",
+    "llm_score": 2.0,
+    "verdict": "Poor fit",
+    "recommendation": "Skip",
+    "fit_summary": "Public policy role focused on compute infrastructure, export controls and sovereign AI — a non-technology function with no alignment to the candidate's enterprise-applications and technology leadership background.",
+    "score_rationale": "Non-technology (public policy / government affairs) function with no people or portfolio technology leadership; the candidate has zero demonstrated public-policy, trade-policy, energy-policy, or national-security policy experience. Capped at 5.0 as a non-tech function and reduced further for the total experience gap. Location (US, remote-friendly) is informational only.",
+    "strengths": [
+      "Broad AI/compute industry context from enterprise AI governance and enablement work"
+    ],
+    "concerns": [
+      "Non-technology function (public policy / government affairs) — outside the candidate's mandate",
+      "No public-policy, trade, energy, or national-security policy experience",
+      "Individual-contributor-style scope with no technology portfolio ownership"
+    ],
+    "hands_on_dev": false,
+    "seniority": "manager"
+  },
+  {
+    "title": "IT Infrastructure Manager, Cloud Platform",
+    "company": "Confluence",
+    "link": "https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-confluence-4437086004",
+    "location": "Toronto, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 4.0,
+    "verdict": "Moderate-poor fit",
+    "recommendation": "Review",
+    "fit_summary": "Cloud platform operations leadership role anchored in hands-on Azure/AWS infrastructure engineering (Terraform IaC, CI/CD, production ops) — a hands-on engineering remit that diverges from the candidate's enterprise-applications portfolio leadership focus.",
+    "score_rationale": "Real overlap on cloud migration (on-prem to SaaS at TVO), AWS history (EC2/S3/CloudFront), DevOps/CI-CD strategy, team leadership, and change/incident management. But the role's primary job is hands-on infrastructure engineering (Terraform, Azure, IaC, production operations), which the candidate has not done recently. Hands-on technical-delivery cap of 5.0 applies, with a genuine Azure/Terraform depth gap lowering the score to 4.0. GTA location — no location cap.",
+    "strengths": [
+      "Cloud migration experience (on-premises to SaaS at TVO)",
+      "AWS platform history (EC2/S3/CloudFront) and DevOps/CI-CD strategy",
+      "Team leadership and change/incident management practice"
+    ],
+    "concerns": [
+      "Hands-on infrastructure engineering is the core of the role (Terraform/Azure IaC, CI/CD) — not recent experience",
+      "No demonstrated depth in Azure or Terraform/IaC tooling",
+      "Manager-level infrastructure ops remit narrower than enterprise-applications portfolio leadership"
+    ],
+    "hands_on_dev": true,
+    "seniority": "manager"
+  },
+  {
+    "title": "IT Infrastructure Manager, Cloud Platform",
+    "company": "Style Analytics",
+    "link": "https://ca.linkedin.com/jobs/view/it-infrastructure-manager-cloud-platform-at-style-analytics-4450094914",
+    "location": "Toronto, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 4.0,
+    "verdict": "Moderate-poor fit",
+    "recommendation": "Review",
+    "fit_summary": "Cloud platform operations leadership role anchored in hands-on Azure/AWS infrastructure engineering (Terraform IaC, CI/CD, production ops) — a hands-on engineering remit that diverges from the candidate's enterprise-applications portfolio leadership focus.",
+    "score_rationale": "Identical to the Confluence posting (the description text is copied from Confluence, suggesting a duplicate/aggregator artifact). Same assessment: overlap on cloud migration and AWS history, but the primary job is hands-on infrastructure engineering (Terraform/Azure/IaC), which the candidate has not done recently. Hands-on technical-delivery cap of 5.0 applies, reduced to 4.0 for the Azure/Terraform gap. GTA location — no location cap.",
+    "strengths": [
+      "Cloud migration experience (on-premises to SaaS at TVO)",
+      "AWS platform history (EC2/S3/CloudFront) and DevOps/CI-CD strategy",
+      "Team leadership and change/incident management practice"
+    ],
+    "concerns": [
+      "Hands-on infrastructure engineering is the core of the role (Terraform/Azure IaC, CI/CD) — not recent experience",
+      "No demonstrated depth in Azure or Terraform/IaC tooling",
+      "Posting text duplicates the Confluence listing (company/description mismatch)"
+    ],
+    "hands_on_dev": true,
+    "seniority": "manager"
+  },
+  {
+    "title": "Senior Director / Director AI & Data Strategy & Transformation Lead",
+    "company": "Manulife",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Hong-Kong/Senior-Director---Director-AI---Data-Strategy---Transformation-Lead_JR26071432",
+    "location": "Hong Kong",
+    "source": "Workday",
+    "llm_score": 7.9,
+    "verdict": "Strong fit (location-capped)",
+    "recommendation": "Review",
+    "fit_summary": "AI & Data strategy and portfolio transformation leadership that maps strongly to the candidate's enterprise portfolio, AI governance, data-modernization and executive-communication experience — but located in Hong Kong with a hybrid in-office requirement.",
+    "score_rationale": "Excellent experience fit: AI & data portfolio strategy, roadmap/prioritization, transformation orchestration, benefits realization, executive reporting and governance all mirror his TVO enterprise-apps portfolio, authored GenAI policy, Power BI/Fabric modernization and multi-year planning. The scope clarification (no engineering delivery or data-governance ownership) aligns with a management rather than hands-on profile. Non-GTA (Hong Kong) with hybrid in-office requirement triggers the below-8.0 cap (7.9). Financial-services preference is a minor gap.",
+    "strengths": [
+      "AI & data portfolio strategy and roadmap leadership",
+      "Transformation orchestration and executive communication",
+      "Responsible-AI governance (authored GenAI policy) and analytics modernization"
+    ],
+    "concerns": [
+      "Hong Kong location with hybrid in-office requirement — outside GTA",
+      "Financial-services experience preferred but not demonstrated"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Managing Director & Head, Commercial Banking (Technology & Innovation Group)",
+    "company": "BMO",
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Managing-Director---Head--Technology---Innovation-Group--Commercial-Banking-_R260021552",
+    "location": "Toronto, ON, CAN",
+    "source": "Workday",
+    "llm_score": 2.0,
+    "verdict": "Poor fit",
+    "recommendation": "Skip",
+    "fit_summary": "Executive commercial-banking leadership role (lending, sales, credit, relationship management for tech-company clients) — a non-technology function and executive head-of-business role far outside the candidate's enterprise-technology leadership.",
+    "score_rationale": "Non-technology function (commercial banking / sales / lending / credit) with no alignment to the candidate's experience; 'Technology & Innovation Group' denotes the banking sector (lending to tech firms), not a technology role. Executive head-of-business title outside the target manager/director remit. Capped as a non-tech function and reduced further for the total mismatch.",
+    "strengths": [
+      "None material — sector knowledge of technology companies is incidental"
+    ],
+    "concerns": [
+      "Non-technology function (commercial banking, lending, sales, credit)",
+      "Executive head-of-business (Managing Director & Head) role — outside target seniority/mandate",
+      "Requires banking relationship management, credit risk, and sales metrics experience the candidate lacks"
+    ],
+    "hands_on_dev": false,
+    "seniority": "chief"
+  },
+  {
+    "title": "Senior Manager, Digital Strategy & Transformation",
+    "company": "TD Bank",
+    "link": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Toronto-Ontario/Senior-Manager--Digital-Strategy---Transformation_R_1504208",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 6.0,
+    "verdict": "Moderate fit",
+    "recommendation": "Review",
+    "fit_summary": "Digital business strategy and transformation role emphasizing executive storytelling, competitive/market insights and customer-facing digital roadmaps — overlapping the candidate's transformation, roadmap and governance experience, but lighter on enterprise-technology delivery.",
+    "score_rationale": "Relevant overlap on strategy/roadmap, transformation, governance and executive reporting (cloud migration, AI adoption, multi-year planning). However, the role is business-strategy/consulting oriented (customer-facing Digital, competitive/market insights, executive narrative) rather than enterprise-applications/IT portfolio leadership, and it is a Senior Manager strategy mandate with no clear people/portfolio ownership — a partial, not strong, match. GTA location — no location cap.",
+    "strengths": [
+      "Strategy, roadmap and multi-year planning experience",
+      "Transformation delivery (cloud migration, AI/Atlassian/Copilot adoption)",
+      "Executive reporting and governance practice"
+    ],
+    "concerns": [
+      "Digital business-strategy/consulting emphasis (competitive insights, executive storytelling) — partial gap",
+      "Customer-facing Digital mandate differs from internal enterprise-applications focus",
+      "Senior Manager strategy role is narrower than portfolio/people leadership"
+    ],
+    "hands_on_dev": false,
+    "seniority": "manager"
+  }
+]

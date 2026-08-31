@@ -1,0 +1,151 @@
+[
+  {
+    "title": "Director AI Platform Engineering",
+    "company": "BMO",
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Chicago-IL-USA/Director-AI-Platform-Engineering_R260025294",
+    "location": "5 Locations",
+    "source": "Workday",
+    "llm_score": 3.5,
+    "verdict": "Weak",
+    "recommendation": "Skip",
+    "fit_summary": "Build-and-run hands-on engineering leadership for BMO's enterprise AI control-plane infrastructure (AI Gateway, policy engine, identity fabric, guardrails runtime, observability). The core daily work is deep platform engineering with financial-services model-risk/regulatory evidence, far beyond the candidate's enterprise-apps portfolio and AI-governance profile.",
+    "score_rationale": "Hard-capped at <=5.0 as a hands-on build-and-run dev-team delivery role. The candidate's only adjacency is AI governance (authored TVO's GenAI policy), which is strategy-level, not platform engineering. No demonstrated GenAI platform depth (policy-as-code Cedar/OPA, SPIFFE/SPIRE, OpenTelemetry, Kubernetes, agentic orchestration) and no OSFI E-23/OCC model-risk exposure — both are explicit fit gaps.",
+    "strengths": [
+      "Authored a Generative AI Use Policy and governed AI use-case approval at TVO",
+      "Deep technical literacy and historical architecture/engineering background",
+      "People leadership and team-building/scaling experience",
+      "Cloud/SaaS migration and vendor management at enterprise scale"
+    ],
+    "concerns": [
+      "Primarily hands-on build-and-run engineering delivery (daily platform engineering, hard cap)",
+      "No demonstrated GenAI platform engineering (Cedar/OPA policy-as-code, SPIFFE/SPIRE, OpenTelemetry, Kubernetes)",
+      "Financial-services model-risk / OSFI E-23 / OCC regulatory evidence gap",
+      "Multi-location incl. Chicago; role centered on regulated bank AI infrastructure"
+    ],
+    "hands_on_dev": true,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, AI Research & Ecosystems",
+    "company": "BMO",
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Director--AI-Research---Ecosystems_R260019583",
+    "location": "Toronto, ON, CAN",
+    "source": "Workday",
+    "llm_score": 3.0,
+    "verdict": "Weak",
+    "recommendation": "Skip",
+    "fit_summary": "AI industry research, publications, and open-innovation ecosystem leadership (quantum AI, academic/government partnerships, thought leadership) supporting the Chief AI and Data Officer. Requires PhD/master's-level AI research credentials and a publications track record the candidate does not have.",
+    "score_rationale": "This is a research/thought-leadership role requiring a Master's or PhD in AI and 10+ years as an AI research leader with industry publications — an explicit negative fit signal (PhD AI research) the candidate lacks. His AI experience is governance and adoption (authoring GenAI policy, evaluating use cases), not research, publications, or academic ecosystem building.",
+    "strengths": [
+      "AI governance and responsible-AI policy authorship",
+      "Stakeholder management and enterprise change leadership",
+      "Ability to translate technology strategy into business recommendations"
+    ],
+    "concerns": [
+      "Requires Master's/PhD in AI and 10+ years as an AI research leader — undemonstrated",
+      "No industry research/publication or academic-ecosystem track record",
+      "Research/thought-leadership mandate, not portfolio or platform ownership"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Senior Manager, Global Operations AI",
+    "company": "Manulife",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Manager--Responsible-AI-Governance--Global-Operations-AI-_JR26060020-1",
+    "location": "Toronto, Ontario",
+    "source": "Workday",
+    "llm_score": 5.0,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Global Operations AI governance and first-line Model Risk Management coordination supporting the AVP/Director across 14 countries. Strong match on responsible-AI governance and cross-functional coordination, but the core is model-risk/OSFI financial-services compliance and it is a coordination/support role below his portfolio-leadership level.",
+    "score_rationale": "The responsible-AI governance mandate (governance reviews, evidence coordination, AI use-case approval) directly matches his authored GenAI policy and governed AI adoption process at TVO — a genuine positive signal. However, first-line Model Risk Management, OSFI guidelines, and regulated financial-services compliance are explicit negative-fit gaps, and the role is a supporting/coordination Senior Manager position with limited team/portfolio ownership.",
+    "strengths": [
+      "Authored a Generative AI Use Policy and ran governed AI use-case evaluation",
+      "Cross-functional stakeholder and executive communication",
+      "Enterprise change management and process improvement",
+      "Leverages AI tools for reporting/documentation productivity"
+    ],
+    "concerns": [
+      "Core is first-line Model Risk Management + OSFI/regulated-FS compliance (undemonstrated)",
+      "Financial-services regulated environment experience gap",
+      "Senior Manager coordination/support role rather than people/portfolio leadership"
+    ],
+    "hands_on_dev": false,
+    "seniority": "manager"
+  },
+  {
+    "title": "Technical Director IS Business Enablement, Products & Innovation",
+    "company": "Fidelity Canada",
+    "link": "https://ca.linkedin.com/jobs/view/technical-director-is-business-enablement-products-innovation-at-fidelity-canada-4434583955",
+    "location": "Toronto, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 6.0,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Technical delivery and business-relationship leadership across Fidelity's Products & Innovation portfolio (product development, wealth, managed accounts, emerging technology), acting as the single point of contact between IS and business leadership. Strong technology-leadership and delivery match, offset by an absence of financial-services/asset-management domain experience.",
+    "score_rationale": "The role maps closely to the candidate's technical-delivery leadership, architecture background, business partnering, and enterprise-apps/vendor management. However, it requires 5+ years of IT/operations management specifically in the financial industry plus transfer-agency/asset-management domain knowledge, which the candidate has not demonstrated — a significant industry gap that holds the score to Moderate.",
+    "strengths": [
+      "20+ years technology delivery and architecture leadership",
+      "Business partnering and stakeholder/relationship management",
+      "Enterprise application portfolio and vendor management",
+      "Responsible-AI enablement and technology adoption leadership"
+    ],
+    "concerns": [
+      "No financial services / mutual fund / asset-management / transfer-agency domain experience (stated requirement)",
+      "Requires 5+ years IT/operations management in the financial industry",
+      "Business-enablement technical delivery role vs. pure enterprise-apps portfolio"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Domain Enterprise Architect (AI)",
+    "company": "Sun Life",
+    "link": "https://sunlife.wd3.myworkdayjobs.com/en-US/Experienced-Jobs/job/Waterloo-Ontario/Director--Domain-Enterprise-Architect--AI-_JR00126513",
+    "location": "2 Locations",
+    "source": "Workday",
+    "llm_score": 5.5,
+    "verdict": "Moderate",
+    "recommendation": "Review",
+    "fit_summary": "Enterprise AI architecture domain authority defining AI strategy, target-state architecture, standards, roadmaps, and governance across a regulated insurer. The candidate has real architecture leadership and AI-governance credibility, but lacks deep GenAI/agentic platform architecture expertise and regulated financial-services exposure.",
+    "score_rationale": "His historical architecture leadership (Sitecore, Solr, JAMstack, cloud) and recent AI-governance authorship (GenAI policy) and data/analytics modernization (Power BI/Fabric) are genuine positives. But the role's core demand is deep enterprise AI architecture (Generative AI, Agentic AI, LLM platforms, orchestration frameworks) and highly-regulated insurance/FS context, both of which are thin in his profile, capping the fit at Moderate.",
+    "strengths": [
+      "Architecture leadership history (Sitecore, Solr, JAMstack, AWS cloud)",
+      "Authored Generative AI policy and governed AI use cases",
+      "Enterprise standards, roadmaps, and data/analytics modernization (Power BI/Fabric)",
+      "Executive stakeholder engagement and governance"
+    ],
+    "concerns": [
+      "Deep GenAI/Agentic AI/LLM/orchestration architecture expertise is limited",
+      "No regulated insurance/financial-services architecture experience",
+      "Recent role is enterprise-apps portfolio management, not enterprise architecture practice"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director GHNW Strategy & Transformation",
+    "company": "Manulife",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Singapore/Director-GHNW-Strategy---Transformation_JR26070591",
+    "location": "2 Locations",
+    "source": "Workday",
+    "llm_score": 3.0,
+    "verdict": "Weak",
+    "recommendation": "Skip",
+    "fit_summary": "Global High Net Worth business strategy and transformation program delivery across Asia/Middle East insurance/wealth markets — a business-side (non-technology) transformation role requiring life-insurance/wealth-management domain and program delivery, outside the candidate's technology-leadership profile.",
+    "score_rationale": "This is a strategy/transformation program-delivery role in the insurance/wealth domain rather than a technology mandate — a non-technology-function mismatch per the fit rules. The candidate's transformation experience is technology-focused (ERP/SaaS/modernization), and he has no life-insurance, wealth-management, or HNW domain experience, so the score is low.",
+    "strengths": [
+      "Transformation and roadmap experience (technology modernization)",
+      "Cross-functional stakeholder coordination and governance",
+      "Data/AI fluency and executive-ready reporting"
+    ],
+    "concerns": [
+      "Non-technology strategy/transformation program-delivery role (insurance/wealth domain)",
+      "No life insurance / wealth management / HNW segment experience",
+      "Asia/Middle-East market context (Singapore/Hong Kong/Dubai) outside his profile"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  }
+]

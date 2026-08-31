@@ -1,0 +1,150 @@
+[
+  {
+    "title": "Director, Enterprise Technology & Products",
+    "company": "Brock University",
+    "link": "https://ca.linkedin.com/jobs/view/director-enterprise-technology-products-at-brock-university-4454740799",
+    "location": "St. Catharines, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 9.0,
+    "verdict": "Strong",
+    "recommendation": "Apply",
+    "fit_summary": "Enterprise leadership of the university's applications, platforms, and solution-delivery portfolio (SIS, ERP, HRIS, CRM, integration/API, data & analytics, identity/cloud, app-dev practice) — a near one-to-one match with his TVO enterprise-software-services portfolio leadership.",
+    "score_rationale": "Scores 9.0 because the role's core — owning a multi-system enterprise application portfolio, platform strategy/roadmaps, lifecycle management (evaluate → implement → optimize → retire), technical-debt reduction, and advising senior leaders — maps directly onto his current TVO scope (20+ apps, SaaS/cloud migration, Power BI/Fabric modernization, ~$2M budget). The only minor caveat is oversight of an application-development practice and the St. Catharines location, neither of which caps the experience fit.",
+    "strengths": [
+      "Enterprise application / business-systems portfolio leadership (20+ apps)",
+      "Platform strategy, roadmaps, and lifecycle management",
+      "SaaS/cloud migration and technical-debt reduction",
+      "Data & analytics modernization (Power BI, Fabric)",
+      "Vendor/RFP/procurement and budget governance",
+      "People leadership and cross-functional stakeholder management"
+    ],
+    "concerns": [
+      "Oversight of a dedicated application-development practice (engineering oversight, minor)",
+      "St. Catharines location (outside Toronto/GTA)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Vice President, Enterprise Data and AI Platforms",
+    "company": "Sun Life",
+    "link": "https://sunlife.wd3.myworkdayjobs.com/en-US/Experienced-Jobs/job/Toronto-Ontario/Vice-President--Enterprise-Data-and-AI-Platforms_JR00127544-1",
+    "location": "2 Locations",
+    "source": "Workday",
+    "llm_score": 7.5,
+    "verdict": "Good",
+    "recommendation": "Apply",
+    "fit_summary": "VP-level strategic leadership of enterprise data, analytics, and AI shared capabilities — overlaps his analytics modernization and responsible-AI governance, but requires leading engineering/delivery of enterprise-scale data and agentic-AI platform infrastructure beyond his demonstrated depth.",
+    "score_rationale": "Scores 7.5 because the data/analytics modernization (Power BI + Fabric), responsible-AI governance (authored GenAI policy), cloud/SaaS modernization, and vendor/budget leadership align with his profile at a large regulated enterprise. It is capped short of Strong by the mandate to lead engineering and delivery of enterprise-scale data and agentic-AI platforms (deep data/AI platform engineering he has not demonstrated), the insurance/financial-services domain, and a VP-level seniority step up from his recent Manager scope.",
+    "strengths": [
+      "Data platform and analytics modernization leadership",
+      "Responsible-AI enablement and governance (authored GenAI policy)",
+      "Cloud/SaaS modernization and platform strategy",
+      "Vendor, procurement, and budget governance",
+      "People leadership and executive stakeholder engagement"
+    ],
+    "concerns": [
+      "Leading engineering/delivery of enterprise-scale data and agentic-AI platform infrastructure (deeper engineering than his profile)",
+      "Insurance/financial-services domain depth not demonstrated",
+      "VP-level seniority stretch from recent Manager role"
+    ],
+    "hands_on_dev": false,
+    "seniority": "vp"
+  },
+  {
+    "title": "Director, IT & Data Transformation",
+    "company": "Nutrition International",
+    "link": "https://ca.linkedin.com/jobs/view/director-it-data-transformation-at-nutrition-international-4440960060",
+    "location": "Ottawa, Ontario, Canada",
+    "source": "LinkedIn",
+    "llm_score": 8.4,
+    "verdict": "Strong",
+    "recommendation": "Apply",
+    "fit_summary": "Senior-most technology leader role spanning a secure/reliable IT foundation, data architecture and governance, and responsible AI adoption for a global organization — a strong match for his enterprise-applications, data-modernization, and GenAI-governance leadership.",
+    "score_rationale": "Scores 8.4 because the role's core — keeping the technology foundation secure/reliable, building data architecture and governance, and scaling AI adoption responsibly — maps directly onto his TVO leadership (20+ apps, SLA/change management, Power BI/Fabric, authored GenAI policy) and fits his senior-most-technology-leader ambition. Minor caveats are the mention of 'hands-on AI experience,' the non-profit/global context, and the Ottawa location; none cap the experience fit.",
+    "strengths": [
+      "Enterprise IT foundation and service reliability leadership",
+      "Data architecture, governance, and analytics modernization",
+      "Responsible AI adoption and governance (authored GenAI policy)",
+      "Technology leadership as senior-most IT leader",
+      "Vendor, procurement, and budget management"
+    ],
+    "concerns": [
+      "Mentions 'hands-on AI experience' (some hands-on signal, minor)",
+      "Ottawa location (hybrid 2 days/week) — outside Toronto/GTA"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Enterprise Architect, Portfolio Lead",
+    "company": "OTPP (Ontario Teachers)",
+    "link": "https://otppb.wd3.myworkdayjobs.com/en-US/OntarioTeachers_Careers/job/Toronto-Canada/Director--Enterprise-Architect--Portfolio-Lead_7218",
+    "location": "Toronto, Canada",
+    "source": "Workday",
+    "llm_score": 4.5,
+    "verdict": "Weak",
+    "recommendation": "Skip",
+    "fit_summary": "Enterprise-architecture portfolio-lead role that leads through expertise, influence, and governance with no direct reports — an individual-contributor architect scope conflicting with his people/portfolio-leadership target, and requiring dedicated TOGAF/SAFe architecture practice.",
+    "score_rationale": "Scores 4.5 because the architecture-governance, modernization/technical-debt, and AI/roadmap agenda aligns with his strengths in a Toronto seat. It is capped Weak because this is an individual-contributor architect role (no reports, no platform ownership) — squarely his architect-without-reports exclusion — and it demands 10+ years of dedicated enterprise-architecture practice with TOGAF/SAFe certification he does not hold.",
+    "strengths": [
+      "Architecture governance and modernization/technical-debt agenda",
+      "AI adoption and multi-year capability roadmaps",
+      "Build-vs-buy and vendor decision influence"
+    ],
+    "concerns": [
+      "Individual-contributor architect role (no direct reports, no platform ownership)",
+      "Requires dedicated enterprise-architecture practice and TOGAF/SAFe certification (not his profile)"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, AI Platform Engineering",
+    "company": "BMO",
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Director--AI-Platform-Engineering_R260019184",
+    "location": "Toronto, ON, CAN",
+    "source": "Workday",
+    "llm_score": 4.0,
+    "verdict": "Weak",
+    "recommendation": "Skip",
+    "fit_summary": "Explicitly a hands-on, build-and-run platform-engineering leadership role (AI Gateway, policy-as-code Cedar/OPA, GitOps, Kubernetes, CI/CD) managing a team of engineers — squarely his hands-on dev-team-leadership exclusion despite the responsible-AI governance overlap.",
+    "score_rationale": "Scores 4.0 because the responsible-AI governance/guardrails scope, budgeting, and roadmap/vendor engagement overlap his authored GenAI policy and portfolio leadership. It is hard-capped Weak because the role is a hands-on build-and-run engineering leadership position requiring deep platform-engineering expertise (Cedar/OPA, GitOps, Kubernetes, CI/CD/MLOps) and 4+ years leading engineers — his explicit hands-on dev-team exclusion.",
+    "strengths": [
+      "Responsible-AI governance and guardrails (overlaps authored GenAI policy)",
+      "Budgeting, roadmap, and vendor engagement",
+      "People leadership of a technical team"
+    ],
+    "concerns": [
+      "Hands-on build-and-run platform engineering (Cedar/OPA, GitOps, K8s, CI/CD/MLOps)",
+      "Managing a team of engineers in sprints (hands-on dev-team leadership)",
+      "Requires deep platform-engineering credibility he no longer practices daily"
+    ],
+    "hands_on_dev": true,
+    "seniority": "director"
+  },
+  {
+    "title": "Director, Data Platform Governance",
+    "company": "CIBC",
+    "link": "https://cibc.wd3.myworkdayjobs.com/en-US/search/job/Toronto-ON/Director--Data-Platform-Governance_2616666",
+    "location": "Toronto, ON",
+    "source": "Workday",
+    "llm_score": 7.5,
+    "verdict": "Good",
+    "recommendation": "Apply",
+    "fit_summary": "Director-level application delivery, production support, and vendor-governance ownership in a Chief Data & AI Office — strong overlap with his enterprise-applications/service-management and budget/governance leadership, tempered by data-platform-governance depth and regulated-bank context.",
+    "score_rationale": "Scores 7.5 because the role's core — directing application delivery services, production support, vendor governance, change initiatives, and budget/finances for large critical applications — maps directly onto his TVO scope (20+ apps, SLAs, change management, ITIL4, ~$2M budget, vendor/RFP governance). It stays short of Strong because the 'data platform governance' framing in a bank's Chief Data & AI Office implies data-governance depth (lineage, metadata, data-quality frameworks) and a regulated financial-services context he has not demonstrated.",
+    "strengths": [
+      "Enterprise application delivery and production-support management",
+      "Service management, SLAs, and change management (ITIL4)",
+      "Vendor governance, procurement, and budget ownership",
+      "Leadership, coaching, and cross-functional stakeholder management"
+    ],
+    "concerns": [
+      "Data-platform-governance depth (lineage, metadata, data-quality) not demonstrated",
+      "Regulated financial-services (bank) context beyond his experience"
+    ],
+    "hands_on_dev": false,
+    "seniority": "director"
+  }
+]

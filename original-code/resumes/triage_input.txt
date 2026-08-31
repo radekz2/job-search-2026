@@ -1,0 +1,686 @@
+0	Director, IT Delivery – Data and AI, Wealth Management	iA Financial Group	Adzuna	Toronto, Ontario
+299	AVP, Data Products and Engineering	TD Bank	Workday	Toronto, Ontario
+13	Director, AI Platform Engineering	BMO	Workday	Toronto, ON, CAN
+32	Director, Data Platform Engineering	TD Bank	Workday	Toronto, Ontario
+34	Director, Enterprise Architect, Portfolio Lead	OTPP (Ontario Teachers)	Workday	Toronto, Canada
+14	Director, IT & Data Transformation	Nutrition International	LinkedIn	Ottawa, Ontario, Canada | REMOTE
+93	Director, Technology Delivery and Enablement	Lifemark Health Group	LinkedIn	Brampton, Ontario, Canada
+7	Global Data Platform Director, Deloitte Global Technology	Deloitte	Adzuna	Toronto, Ontario
+1000	Paradigm Salesforce Technical Director, Global Deloitte Technology	Deloitte	LinkedIn	Toronto, Ontario, Canada | REMOTE
+81	Principal Architect, AI Platform	BMO	Workday	Toronto, ON, CAN
+562	Principal Product Manager – Health Data Platform	PointClickCare	Lever	Remote - US | REMOTE | At PointClickCare, base salary is one of the many components that make up our total rewards package. The USD base salary range for this position is $170,000 - $189,000 + bonus or commission + equity + benefits. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all USD locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. Why PointClickCare · Market leader: #1 EHR platform for long-term and post-acute care in North America · Massive data advantage: Decades of real-world insights from millions of resident journeys · Mission-driven: Our technology helps caregivers deliver better outcomes for seniors · Growth stage: Senior Living is a strategic priority with significant investment and executive sponsorship · Culture: Collaborative, customer-obsessed, and committed to continuous improvement
+18	Sr. Director, HR Technology and AI Enablement	PointClickCare	Lever	Mississauga, Ontario | At PointClickCare, base salary is one of the many components that make up our total rewards package. The Canada base salary range for this position is $163,000 - $181,000 + bonus + equity + benefits, non-overtime eligible. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all Canada locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process.
+61	Technical Director IS Business Enablement, Products & Innovation	Fidelity Canada	LinkedIn	Toronto, Ontario, Canada
+66	Application/Platform Director	Amphenol Communications Solutions	LinkedIn	Markham, Ontario, Canada
+19	Associate Director, AI & Innovation Solutions	BMO	Adzuna	Toronto, Ontario
+20	Associate Director, Technology Enablement	Klick Health	Adzuna	Toronto, Ontario
+378	AVP, AI Domain Enterprise Architecture	Sun Life	Workday	3 Locations
+118	AVP, AI Products & Innovation	TD Bank	Workday	Toronto, Ontario
+12	Data and AI Policies & Enablement Senior Manager, Deloitte Global Technology	Deloitte	Adzuna	Toronto, Ontario
+412	Directeur.rice, Ingénierie produit (Technologie) | Director, Product Engineering (Technology)	Altitude Sports	Adzuna	Outremont, Montréal
+302	Director AI Platform Engineering	BMO	Workday	5 Locations
+303	Director Analytics Engineering	1Password	Ashby	Remote (United States | Canada) | REMOTE
+129	Director Insurance - Digital Strategy & Delivery	BMO	Workday	Toronto, ON, CAN
+69	Director of Data Architecture - BACKFILL	Insight Global	Adzuna	Toronto, Ontario
+843	Director of Engineering, Enterprise Systems	OpenTable	LinkedIn	Toronto, Ontario, Canada
+420	Director of Product, Gaming (New Products)	Mozilla	Greenhouse	Remote US | REMOTE
+30	Director of Sales (Technology Delivery)	Fulfillment IQ	Adzuna	Toronto, Ontario
+304	Director, Data Enablement	PricewaterhouseCoopers	Adzuna	Canada | REMOTE | $191,200 - $241,200
+70	Director, Data Enablement, Data Platforms	CPP Investments	Workday	Toronto
+33	Director, Data Platform Governance	Canadian Imperial Bank of Commerce	Adzuna	Canada | REMOTE
+146	Director, Domain Enterprise Architect (AI)	Sun Life	Workday	2 Locations
+16	Director, Enterprise Technology & Products	Brock University	LinkedIn	St. Catharines, Ontario, Canada
+36	Director, IT Infrastructure	Beanfield	LinkedIn	Toronto, Ontario, Canada
+73	Director, Platform Engineering	Maple	LinkedIn	Toronto, Ontario, Canada
+74	Director, Platform Engineering	RBC	LinkedIn	Toronto, Ontario, Canada
+297	Director, Platform Systems	OpenText	LinkedIn	Richmond Hill, Ontario, Canada
+159	Director, Product Enablement	OTPP (Ontario Teachers)	Workday	Toronto, Canada
+442	Director, Product Enablement	Ontario Teachers' Pension Plan	Adzuna	Canada | REMOTE
+444	Director, Security Architecture & Advisory	Mackenzie Investments	Adzuna	Toronto, Ontario
+1323	Director, Software Engineering (AI Workflows & Ecosystem)	Jobber	Ashby	Remote | REMOTE
+167	Director, Systems Engineering	Hydrostor	Adzuna	Toronto, Ontario
+6	Director, Virtual Care Technology Applications	Loblaw Companies Limited	LinkedIn	Toronto, Ontario, Canada
+175	Director, WMS Product Design and Engineering	HelloFresh	LinkedIn	Toronto, Ontario, Canada
+17	Enterprise Risk Management, Technology Strategy Director	Citigroup	Adzuna	Mississauga, Peel region
+41	Information Technology (It) Director	University of Toronto	Job Bank	Toronto (ON) | $145,219.00 to $242,032.00 annually (to be negotiated)
+470	Information Technology - Senior Director/Director, Solution Delivery, Finance Technology	Aritzia	Adzuna	Greater Vancouver, British Columbia
+15	IT Infrastructure Manager, Cloud Platform	Confluence	LinkedIn	Toronto, Ontario, Canada
+76	Lead Cloud Data Solutions Engineer – HR Systems (Banking)	Astra North Infoteck Inc.	Adzuna	Toronto, Ontario
+10	Managing Director, Technology Architecture & Governance	CPP Investments	Workday	Toronto
+560	Principal Architect - Digital Assets & Tokenization	TD Bank	Workday	Toronto, Ontario
+722	Principal Architect AI Platform	BMO	Workday	6 Locations
+82	Principal Engineer, AI Platform	BMO	Workday	Toronto, ON, CAN
+1011	Principal Engineer, Product Engineering	1Password	Ashby	Remote (United States | Canada) | REMOTE
+561	Principal Product Manager - AI Models	PointClickCare	Lever	Remote or Mississauga | REMOTE
+563	Principal Product Manager, Financial Products	Faire	Greenhouse	New York City, NY; San Francisco, CA; Toronto, ON
+723	Principal Software Engineer - Big Data & Java	PointClickCare	Lever	Remote, USA | REMOTE
+318	Senior Director / Director AI & Data Strategy & Transformation Lead	Manulife	Workday	Hong Kong
+601	Senior Director, Solutions Architecture — Americas	Cohere	Ashby	United States | REMOTE
+602	Senior Director, Solutions Architecture, APAC	Cohere	Ashby	Singapore | REMOTE
+60	Sr. Director, Application Delivery	CIBC	Workday	Toronto, ON
+1186	Sr. Manager IT Delivery, Supply Chain Technology (SAP & Warehouse Systems)	McKesson	LinkedIn	Mississauga, Ontario, Canada
+280	Sr. Manager, Digital Data Tagging & Platform Enablement	Rogers	Adzuna	Toronto, Ontario
+281	Sr. Manager, Digital Data Tagging & Platform Enablement	Rogers Communications	Adzuna	Toronto, Ontario
+284	Technical Delivery Manager - Information Technology (It)	Telna	Job Bank	Toronto (ON) | $200,000.00 to $210,000.00 annually (to be negotiated)
+285	Technical Product Owner - AI & Machine Learning Solutions	TD Bank	Workday	Toronto, Ontario
+105	Associate Director, Commercial National Accounts, Project & Infrastructure Finance	TD Bank	Workday	Toronto, Ontario
+698	Associate Director, Data & Analytics, HK Retirement	Manulife	Workday	Hong Kong
+11	Associate Director, Data Governance	Covenant House Toronto	Adzuna	Central Bay Street, City of Toronto | $114,000 - $140,000
+67	Associate Director, Integrated Marketing Analytics	Monks	Adzuna	Toronto, Ontario
+1	Associate Director, Internal Audit (Pensions Operations & Technology)	OMERS	Workday	Toronto, Ontario
+68	Associate Director, Investment Platform (Contract)	BMO	Workday	Toronto, ON, CAN
+2	Associate Director, Technology Strategy and Innovation	OMERS	Workday	Toronto, Ontario
+777	Associate Director/ Senior Manager, Product Proposition and Solutions	Manulife	Workday	Hong Kong
+110	Associate VP, Information Systems	Madison Homes Holdings	Adzuna	North York, Toronto | $180,000 - $200,000
+111	Associate VP, Information Systems	Madison Group	Adzuna	North York, Toronto
+117	AVP, AI	Manulife	Workday	Toronto, Ontario
+23	AVP, Global Operations AI	Manulife	Workday	Toronto, Ontario
+792	AVP, Human Resources, Global Technology and Solutions	TD Bank	Workday	2 Locations
+806	Chief Information Security Officer (CISO)	Cohere	Ashby	Toronto | REMOTE
+732	Cyber Engineering and Technology Manager	Maple Leaf Foods Inc	LinkedIn	Mississauga, Ontario, Canada
+406	Delivery Director, Global Regulatory Implementation and Transformation	TD Bank	Workday	New York, New York
+301	Digital Data Analytics Manager	Rogers	Adzuna	Toronto, Ontario
+1320	Director - Software Engineering	Homewood Health Centre	LinkedIn	Calgary, Alberta, Canada | REMOTE
+415	Director Industry Partnerships & Technology - Research Operations Service & Support	Centre for Addiction and Mental Health	Adzuna	Toronto, Ontario | $147,698 - $184,623
+842	Director of Engineering, Developer Infrastructure	Fullscript	LinkedIn	Toronto, Ontario, Canada
+844	Director of Engineering, Exchange Platform	Index Exchange	LinkedIn	Toronto, Ontario, Canada
+845	Director of Engineering, Internal Platform	Clio	LinkedIn	Toronto, Ontario, Canada
+28	Director of Finance & IT	Accounting Advantage	Adzuna	Toronto, Ontario
+29	Director of Information Technology	OSL Retail Services Corporation	Adzuna	Etobicoke, Toronto
+131	Director of Information Technology	OSL Retail Services	LinkedIn	Mississauga, Ontario, Canada | REMOTE
+850	Director of Software Engineering, Canada	Cognichip	LinkedIn	Toronto, Ontario, Canada
+89	Director Of Technology	Hexaware Technologies Canada Ltd.	Job Bank	Mississauga (ON) | $250,000.00 annually
+421	Director of Technology & Systems	Huron Tractor	Adzuna	Exeter, Huron
+31	Director, Broader Public Sector IT Staffing	Robertson & Company	Adzuna	Toronto, Ontario
+703	Director, Client Data Solutions	Sun Life	Workday	3 Locations
+141	Director, Customer Success (Enterprise)	1Password	Ashby	Remote (United States | Canada) | REMOTE
+143	Director, Customer Technology Advisor	Kyndryl	Adzuna	Canada | REMOTE
+704	Director, Data Engineering	Manulife	Workday	2 Locations
+71	Director, Data Scouting	CPP Investments	Workday	Toronto
+327	Director, Deposits Engineering (Banking)	Questrade Financial Group	LinkedIn	North York, Ontario, Canada
+305	Director, Developer Platform & Experience	Motive	LinkedIn	Vancouver, British Columbia, Canada | REMOTE
+144	Director, DevOps	CPP Investments	Workday	Toronto
+870	Director, Engineering - Operations Automation	Manulife	LinkedIn	Toronto, Ontario, Canada
+90	Director, Enterprise Business Applications	Hammond Power Solutions	LinkedIn	Guelph, Ontario, Canada
+91	Director, Event Technology II - Hilton Mississauga/Meadowvale	Encore	Adzuna	Mississauga, Peel region
+92	Director, Event Technology II - Hilton Mississauga/Meadowvale	Encore Global	Adzuna	Mississauga, Peel region | $65,000 - $80,000
+434	Director, GTM Engineering	1Password	Ashby	Remote (United States | Canada) | REMOTE
+3	Director, HRBP - Operations and Technology	Thomson Reuters	Adzuna	Toronto, Ontario
+4	Director, HRBP - Operations and Technology	PowerToFly	Adzuna	Toronto, Ontario
+35	Director, Information Technology	International Business University	LinkedIn	Toronto, Ontario, Canada
+148	Director, Information Technology	United Way Centraide Canada	LinkedIn	Ottawa, Ontario, Canada | REMOTE
+151	Director, IT & Cybersecurity	Azrieli Foundation	Adzuna	Deer Park, City of Toronto | $160,000 - $195,000
+437	Director, IT Solution Delivery	Calgary Co-operative Association	Adzuna	Calgary, Calgary region
+38	Director, Marketing Technology	Marketbridge	Adzuna	Toronto, Ontario
+72	Director, People Analytics & Insights	OTPP (Ontario Teachers)	Workday	Toronto, Canada
+157	Director, Product & Technology Operations	Lightspeed Commerce	Adzuna	Montréal, Québec
+158	Director, Product Commercialization & Adoption Product Readiness & Rollout (PRR) Transaction Banking Product	TD Bank	Workday	Toronto, Ontario
+443	Director, Product Marketing	1Password	Ashby	Remote (United States | Canada) | REMOTE
+306	Director, Reporting, Advanced Analytics and Automation	Manulife	Workday	Quezon City
+162	Director, Retail Distribution & Sales Enablement	BMO	Workday	Toronto, ON, CAN
+897	Director, Software Engineering	Loblaw Digital	LinkedIn	Toronto, Ontario, Canada
+898	Director, Software Engineering	Broadridge	LinkedIn	Toronto, Ontario, Canada
+1184	Director, Software Engineering	PointClickCare	LinkedIn	Mississauga, Ontario, Canada
+164	Director, Strategic Alignment & Portfolio Management	BMO	Workday	Toronto, ON, CAN
+171	Director, Technical Program Management	Prenuvo	Adzuna	Toronto, Ontario
+172	Director, Technology	Oliver Insurance Software	LinkedIn	Greater Vancouver Metropolitan Area | REMOTE
+5	Director, Technology & Operations Business Management	CPP Investments	Workday	Toronto
+173	Director, Virtual Workspace Engineering	Scotiabank	LinkedIn	Toronto, Ontario, Canada
+75	Director, Wealth Growth & Analytics	BMO	Workday	Toronto, ON, CAN
+1330	Engineering Director, Agentic Platform	IFS	LinkedIn	Vancouver, British Columbia, Canada | REMOTE
+706	Executive Director, Data Product Owner, Global Markets	CIBC	Workday	London, GBR
+179	Field Chief Technology Officer - North America East	1Password	Ashby	Remote (United States | Canada) | REMOTE
+180	Field Chief Technology Officer - North America West	1Password	Ashby	Remote (United States | Canada) | REMOTE
+455	Head of Architecture and Technology Strategy	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+707	Head of Data Architecture, Asia Data Office	Manulife	Workday	2 Locations
+709	Head of Finance Systems & Data	Faire	Greenhouse	New York City, NY; San Francisco, CA
+463	Head of Product Marketing	Float	Ashby	Toronto, Canada | REMOTE
+1357	Head of Software Engineering	OnX	LinkedIn	Edmonton, Alberta, Canada | REMOTE
+183	Head of Web Production (DTC Growth Technology)	Hyprwork	Adzuna	Canada | REMOTE | $80,000 - $110,000
+95	information technology (IT) service delivery manager	TechVest Global Solutions Inc.	LinkedIn	Mississauga, Ontario, Canada
+469	Information Technology - Senior Director/Director, Food and Beverage Technology	Aritzia	Adzuna	Greater Vancouver, British Columbia
+189	Investment Director, Infrastructure & Natural Resources	OTPP (Ontario Teachers)	Workday	Toronto, Canada
+198	JUMBO - IT Project Manager - Head Office (Yorkdale Mall)	Fox Group Canada Inc.	Adzuna	Roselawn, City of Toronto | $100,000 - $116,000
+77	Lead Data Engineer, Applied AI Data Ingestion & Integration	BMO	Workday	Toronto, ON, CAN
+308	Lead Integration Engineer, Platform Delivery	OTPP (Ontario Teachers)	Workday	Toronto, Canada
+78	Lead Platform Reliability Engineer, Global AI Platform & Solutions	Manulife	Workday	Toronto, Ontario
+488	Lead Solutions Architect, Enterprise Technology Services	Manulife	Workday	2 Locations
+46	Lead, Data Development, AI Platform | Chef(fe), Développement des données – Plateforme d’IA	Hootsuite	Greenhouse	Ottawa, Canada; Toronto, Canada; Waterloo, Canada, Montreal, Quebec, Canada
+1392	Manager Digital Products - SAP Manager Financial Accounting and Controlling (FICO) (13563)	Toronto Transit Commission (TTC)	LinkedIn	Greater Toronto Area, Canada
+8	Manager, Enterprise Technology & Service Delivery	Parkinson Canada	LinkedIn	Greater Toronto Area, Canada
+519	Manager, IT Infrastructure and Security	University of Toronto	LinkedIn	Greater Toronto Area, Canada
+9	Managing Director & Head, Commercial Banking (Technology & Innovation Group)	BMO	Workday	Toronto, ON, CAN
+236	Managing Director, Portfolio Value Creation	CPP Investments	Workday	Toronto
+50	MIG Director of IT	McDougall Insurance & Financial	LinkedIn	Greater Toronto Area, Canada
+996	Mobile Principal Software Engineer	Jobber	Ashby	Toronto | REMOTE
+338	Principal AI Engineer	PointClickCare	Lever	Mississauga | At PointClickCare, base salary is one of the many components that make up our total rewards package. The CAD base salary range for this position is $191,700-213,000 (not overtime eligible) + bonus + benefits. Compensation is assessed individually and aligned to experience, skills, and market context. The posted range reflects typical expectations for this role.
+240	Principal Cloud Engineer	BMO	Workday	Toronto, ON, CAN
+1458	Principal Cloud Security Engineer	BMO	Workday	4 Locations
+314	Principal Data Engineer	BMO	Workday	Toronto, ON, CAN
+315	Principal Data Scientist	BMO	Workday	Toronto, ON, CAN
+316	Principal Engineer - GTB Data and Platforms	TD Bank	Workday	Toronto, Ontario
+241	Principal Engineer, AI	BMO	Workday	Toronto, ON, CAN
+317	Principal Platform Engineer	TD Bank	Workday	Toronto, Ontario
+741	Principal Software Engineer	PointClickCare	Lever	Mississauga, Ontario | At PointClickCare, base salary is one of the many components that make up our total rewards package. The CAD base salary range for this position is $156,000-$174,000 + bonus + benefits. Compensation is assessed individually and aligned to experience, skills, and market context. The posted range reflects typical expectations for this role.
+1012	Principal Solutions Consultant	PagerDuty	Greenhouse	Remote (USA) | REMOTE
+1013	Principal Solutions Engineer, Emerging Technologies	1Password	Ashby	Remote (United States | Canada) | REMOTE
+565	Principal, Portfolio Value Creation	CPP Investments	Workday	Toronto
+742	Principal/Senior Software Engineer	PointClickCare	Lever	Mississauga, Ontario | At PointClickCare, base salary is one of the many components that make up our total rewards package. The CAD base salary range for this position is $142,000-$174,000 + bonus + benefits. Compensation is assessed individually and aligned to experience, skills, and market context. The posted range reflects typical expectations for this role.
+569	Product Manager - Data Platform	PointClickCare	Lever	Remote, USA | REMOTE
+1501	Salesforce Product & Delivery Lead	Altus Group	Adzuna	Toronto, Ontario | $100,000 - $120,000
+603	Senior Director, Solutions Consulting	PagerDuty	Greenhouse	Remote (USA) | REMOTE
+83	Senior I&IT Project Manager (Data & Integrations)	Metrolinx	Adzuna	CN Tower, City of Toronto
+269	Senior Principal AI Engineer	Questrade Financial Group	Adzuna	Toronto, Ontario
+270	Senior Product Manager - Hybrid IT Automation	Stonebranch	Adzuna	Canada | REMOTE
+660	Senior Technical Program Manager, Machine Learning Infrastructure	Cohere	Ashby	Canada | REMOTE
+670	Staff Product Manager, AI, Data, ML & Platform	Faire	Greenhouse	New York City, NY; San Francisco, CA
+679	Technical Cyber Risk Assessment Manager, Deloitte Global Technology	Deloitte	Adzuna	Toronto, Ontario
+680	Technical Program Manager, AI Delivery for Public Sector & Defence, Canada	Cohere	Ashby	Ottawa | REMOTE
+681	Technical Program Manager, AI Delivery for Public Sector & Defence, UK	Cohere	Ashby	London | REMOTE
+682	Technical Program Manager, AI Delivery, Korea	Cohere	Ashby	Korea | REMOTE
+63	Technology Director	Qu Data Centres	LinkedIn	Toronto, Ontario, Canada
+86	Technology Director - Developer Excellence	lululemon	LinkedIn	Vancouver, British Columbia, Canada | REMOTE
+1141	Vice President / Director, Corporate Banking, Treasury & Payment Solutions (Power, Utilities & Infrastructure)	BMO	Workday	2 Locations
+102	AI Product Owner	Constellation Payments	Adzuna	Toronto, Ontario | $85,000 - $90,000
+103	AI Product Owner	Jonas Software	Adzuna	Toronto, Ontario | $85,000 - $90,000
+697	Associate Director / Senior Manager, Data Scientist	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+352	Associate Director, Agency Transformation and Strategy	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+774	Associate Director, Portfolio Management	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+775	Associate Director, Product Proposition	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+356	Associate Vice President, Enterprise Data & Analytics Platform Capabilities, Enablement & Support	TD Bank	Workday	Toronto, Ontario
+115	Automation and Power Infrastructure Lead	Mondelez International	Adzuna	East York, Toronto
+1271	AVP & Counsel (Life Insurance Product Tax)	Manulife	Workday	2 Locations
+789	AVP, Accounting and Controls Transformation	Sun Life	Workday	3 Locations
+1272	AVP, Agency Digital Strategy & Development	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+793	AVP, Operational Risk Transformation	Sun Life	Workday	2 Locations
+1275	AVP, Protect, Customer Onboarding and Identity Management Product Executive	TD Bank	Workday	5 Locations
+794	AVP, Technology Resilience and Recover Risk Oversight	Sun Life	Workday	2 Locations
+1671	Bilingual AVP, Portfolio Manager-Asset Based Lending (ABL) Pacific Rim	BMO	Workday	3 Locations
+808	Chief Product Officer, High Net Worth	Sun Life	Workday	Sun Life Singapore SCO - Exec
+401	Corporate Transformation Director/Lead	Manulife	Workday	Singapore
+125	Customs Solutions, Technology Service Manager	Livingston International	Adzuna	Toronto, Ontario
+126	Data Governance Audit Senior Manager - IT Applications	BMO	Workday	2 Locations
+1315	Data Platform Engineering Manager	TD Bank	Workday	Toronto, Ontario
+1319	Digital Consulting Manager - Workday Adaptive Planning (Canada)	Huron	LinkedIn	Toronto, Ontario, Canada
+409	Digital Product Manager	Insight Global	Adzuna	Toronto, Ontario
+733	Digital Solutions Manager	Plan Group Inc.	LinkedIn	Vaughan, Ontario, Canada
+413	Director Event Technology II (DET II)- JW Marriott Ice District	Encore Global	Adzuna	Downtown, Edmonton
+414	Director GHNW Strategy & Transformation	Manulife	Workday	2 Locations
+416	Director of Applied AI/ML Science - Ads	Faire	Greenhouse	San Francisco, CA
+840	Director of Engineering	Relay	LinkedIn	Toronto, Ontario, Canada
+841	Director of Engineering	TTEC Digital	LinkedIn	Toronto, Ontario, Canada
+846	Director of Engineering, Operations Planning	HelloFresh	LinkedIn	Toronto, Ontario, Canada
+847	Director of Engineering, Trading	Alpaca	LinkedIn	Toronto, Ontario, Canada
+417	Director of Event Technology I- Winnipeg	Encore	Adzuna	Winnipeg region, Manitoba
+418	Director of Event Technology I- Winnipeg	Encore Global	Adzuna	Broadway, Winnipeg
+1675	Director Of Software Engineering	Nord Quantique	Job Bank	Sherbrooke (QC) | $200,000.00 to $245,000.00 annually (to be negotiated)
+422	Director Of Technology Management	Medavie	Job Bank	Moncton (NB) | $43.75 to $103.37 hourly
+1183	Director or VP of Engineering	Birdseye Security Solutions	LinkedIn	Mississauga, Ontario, Canada
+853	Director Product Control	TD Bank	Workday	Dublin, Ireland
+702	Director – Global Lead, Financial Crime Analytics	Manulife	Workday	3 Locations
+856	Director, Change Enablement, Global Change Enablement CoE	Manulife	Workday	Hong Kong
+137	Director, Commercial Banking (Technology & Innovation Group)	BMO	Workday	3 Locations
+138	Director, Commercial Banking (Technology & Innovation Group)	Bank of Montreal	Adzuna	Greater Vancouver, British Columbia | $86,000 - $160,000
+860	Director, Commercial Portfolio Manager	BMO	Workday	Phoenix, AZ, USA
+705	Director, Data Science	Sun Life	Workday	8 Locations
+145	Director, Digitization & Automation, GWAM & GA Asia Operations	Manulife	Workday	Hong Kong
+428	Director, Distribution Transformation	Manulife	Workday	Hong Kong
+868	Director, Engineering	Scotiabank	LinkedIn	Toronto, Ontario, Canada
+869	Director, Engineering (Commercial Lending)	Scotiabank	LinkedIn	Toronto, Ontario, Canada
+429	Director, Enterprise Sales	Clio	Workday	New York
+890	Director, Portfolio Management	Manulife	Workday	Singapore
+891	Director, Product Development	Manulife	Workday	Singapore
+895	Director, Rewards Program Strategy & Product Management	BMO	Workday	Chicago, IL, USA
+445	Director, Technology Investment Banking	TD Bank	Workday	London, United Kingdom
+900	Director, US IT Asset Management	CIBC	Workday	3 Locations
+94	Division IT Manager (Director Level)	Parker Hannifin	LinkedIn	Milton, Ontario, Canada
+1332	Engineering Manager – Data Platform, Lakehouse Foundation	Lyft	LinkedIn	Toronto, Ontario, Canada
+905	Engineering Technical Account Manager (Cloud)	BMO	Workday	Virtual, IL, USA
+1339	Enterprise Application Support Lead	Berkley Canada (a Berkley Company)	LinkedIn	Toronto, Ontario, Canada
+1343	Executive Director, Digital Asset Platforms	CIBC	Workday	New York, NY
+447	Finance Systems and Automation Manager	Cohere	Ashby	United States | REMOTE
+451	Global Public Policy Manager, Compute, Infrastructure & Sovereign AI	Cohere	Ashby	United States | REMOTE
+708	Head of Data Management – Europe and Asia Pacific	TD Bank	Workday	Dublin, Ireland
+710	Head of Japan Data Office	Manulife	Workday	Tokyo
+927	Head of Retailer Product Marketing	Faire	Greenhouse	San Francisco, CA
+182	Head of Revenue Operations & AI	Faire	Greenhouse	San Francisco, CA
+1359	Help Desk Manager - Information Technology (It)	Micromart	Job Bank	Toronto (ON) | $40.00 to $92.00 hourly
+467	Information Technology (IT) Manager	Hospitality Newfoundland and Labrador	LinkedIn	Paradise, Newfoundland and Labrador, Canada | REMOTE
+468	Information Technology (It) Service Delivery Manager	Raymond Chabot Grant Thornton	Job Bank	Montréal (QC) | $111,300.00 annually
+98	IT Director, Warehouse and Inventory Management	Saputo Inc.	LinkedIn	Georgetown, Ontario, Canada
+943	IT Product Manager - Billing and Revenue Systems	PagerDuty	Greenhouse	San Francisco
+99	IT Senior Manager, Enterprise Architecture	Saputo Inc.	LinkedIn	Georgetown, Ontario, Canada
+481	IWAâForest Industry Pension Plan & LTD Plan Director, Information Technology	Boyden	Adzuna	Burnaby, Greater Vancouver
+712	Lead Data Engineer, Applied AI Data Ingestion & Integration (DII)	BMO	Workday	Chicago, IL, USA
+307	Lead Engineer, Data Enablement, Data Platforms	CPP Investments	Workday	Toronto
+947	Lead Member of Technical Staff, Inference Infrastructure	Cohere	Ashby	San Francisco | REMOTE
+203	Lead Product Manager, Enterprise Platforms & Common Capabilities	Manulife	Workday	Toronto, Ontario
+487	Lead Software Engineer, AI & Emerging Tech	CPP Investments	Workday	2 Locations
+204	Lead Solution Architect - GWAM Institutional and General Accounts Investments Technology	Manulife	Workday	Toronto, Ontario
+205	Lead, AI & Automation Process	OMERS	Workday	Toronto, Ontario
+206	Lead, AI/Machine Learning Engineer	OMERS	Workday	Toronto, Ontario
+207	Lead, Automation Developer (Agentic AI & Automation)	OMERS	Workday	Toronto, Ontario
+1382	Lead, Site Reliability Engineering (Application Support)	OMERS	Workday	Toronto, Ontario
+309	Lead, WFM Platform & Automation	Wealthsimple	Ashby	Remote (Canada) | REMOTE
+952	Manager - Oracle Cloud Financials	EY	LinkedIn	Toronto, Ontario, Canada
+953	Manager - Oracle Cloud Supply Chain	EY	LinkedIn	Toronto, Ontario, Canada
+47	Manager - Tax AI & Emerging Technology Lab	KPMG	Adzuna	Toronto, Ontario
+209	Manager - Technology Risk Services - IT Assurance	KPMG	Adzuna	Toronto, Ontario
+954	Manager / Senior Manager / Associate Director, Product Proposition	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+49	Manager, AI Product & Governance – Commercial Banking	BMO	Workday	Toronto, ON, CAN
+310	Manager, Data Analytics	BMO	Workday	Toronto, ON, CAN
+716	Manager, Data Engineering	Staples Canada	LinkedIn	Richmond Hill, Ontario, Canada
+717	Manager, Data Engineering	Arc'teryx Equipment	LinkedIn	North Vancouver, British Columbia, Canada | REMOTE
+79	Manager, Data Science, AI Risk	BMO	Workday	Toronto, ON, CAN
+100	Manager, Enterprise Integration Operations	McKesson	LinkedIn	Mississauga, Ontario, Canada
+311	Manager, Finance Data Analytics & Insights	OTPP (Ontario Teachers)	Workday	Toronto, Canada
+967	Manager, HR Technology (Workday)	OMERS	Workday	Toronto, Ontario
+224	Manager, It (Information Technology) Implementation	AndrosEnterprise	Job Bank	Toronto (ON) | $75,000.00 to $120,000.00 annually
+225	Manager, It (Information Technology) Implementation	Kablamo Pty Ltd	Job Bank	Toronto (ON) | $43.75 to $103.37 hourly
+337	Manager, IT Endpoint Engineering & Operations	Toromont Cat	LinkedIn	Vaughan, Ontario, Canada
+226	Manager, IT Financial Systems	Element Fleet Management	LinkedIn	Toronto, Ontario, Canada
+227	Manager, IT Systems	Clio	LinkedIn	Toronto, Ontario, Canada
+298	Manager, Platform Technology	goeasy Ltd.	LinkedIn	Pickering, Ontario, Canada
+979	Manager, SAP Finance Public Cloud	KPMG Canada	LinkedIn	Toronto, Ontario, Canada
+980	Manager, SAP MM Public Cloud	KPMG Canada	LinkedIn	Toronto, Ontario, Canada
+981	Manager, SAP SD Public Cloud	KPMG Canada	LinkedIn	Toronto, Ontario, Canada
+1690	Manager, Software Engineering - Platform Services	ClearGov	LinkedIn	Calgary, Alberta, Canada | REMOTE
+983	Manager, Solutions Engineering, MM	1Password	Ashby	Remote (United States | Canada) | REMOTE
+536	Manager, Systems Engineering	ServiceNow	LinkedIn	Toronto, Ontario, Canada
+230	Manager, Technology Infrastructure	Toronto Catholic District School Board	LinkedIn	Toronto, Ontario, Canada
+537	Manager, Technology Risk Management, Information & Corporate Security (12 Month Contract)	CPP Investments	Workday	Toronto
+540	Manager, Value Proposition (Digital Product Manager)	BMO	Workday	Toronto, ON, CAN
+989	Manager, Workday Talent Acquisition Technology	RBC	LinkedIn	Toronto, Ontario, Canada
+993	Managing Director, US Origination, Government Solutions Group	CIBC	Workday	New York, NY
+552	People Systems and Automation Manager	Cohere	Ashby	United States | REMOTE
+1007	Principal Account Executive, Enterprise vLex, AM Law 150	Clio	Workday	New York
+1009	Principal Cloud Engineer Azure	BMO	Workday	5 Locations
+1010	Principal Engineer AI	BMO	Workday	6 Locations
+566	Product & Technology Communications Manager	Cohere	Ashby	San Francisco | REMOTE
+567	Product Delivery Manager, Contract	BIMM	Adzuna	Toronto, Ontario
+1022	Product Manager, Credit & Risk Engineering	Float	Ashby	Toronto, Canada | REMOTE
+1023	Product Manager, Integrations	Cohere	Ashby	Toronto | REMOTE
+1693	SAP FICO Manager (ERP Transformation)	Tarkett	Adzuna	Montréal, Québec
+250	Senior Development Lead - (Cloud /Payment Systems)	BMO	Workday	Toronto, ON, CAN
+1056	Senior Director NAREFG Portfolio Management	Manulife	Workday	2 Locations
+1057	Senior Director of Engineering, International	Clio	Workday	Toronto
+1061	Senior Director, Engineering - Corporates, Financial Institutions & Sovereigns	Fitch Ratings	LinkedIn	Toronto, Ontario, Canada
+319	Senior Manager Data Engineering	BMO	Workday	Toronto, ON, CAN
+320	Senior Manager, Borrowing Solutions Analytics & Insights	CIBC	Workday	Toronto, ON
+257	Senior Manager, Campaign Design, Execution and AI Enablement	BMO	Workday	Toronto, ON, CAN
+258	Senior Manager, Digital Strategy & Transformation	TD Bank	Workday	Toronto, Ontario
+623	Senior Manager, Engineering - Mainframe Systems	TD Bank	Workday	Toronto, Ontario
+628	Senior Manager, Information Security & IT	TalentMinded	Adzuna	Toronto, Ontario
+85	Senior Manager, IT Business Systems & Analytics	Fusion Homes	LinkedIn	Guelph, Ontario, Canada
+641	Senior Manager, Tokenized Deposits Off-Chain Orchestration / Integration Layer Delivery	TD Bank	Workday	Toronto, Ontario
+642	Senior Manager, Tokenized Deposits On-Chain Orchestration / Integration Layer Delivery	TD Bank	Workday	Toronto, Ontario
+644	Senior Manager/Associate Director, Benefits Realisation, Change Mangement & Portfolio Governance (1-year contract)	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+268	Senior Marketing AI & Systems Manager	Geotab	Greenhouse	Oakville, Ontario - Canada; Toronto, Ontario - Canada; Waterloo, Ontario - Canada
+726	Senior Product Manager – Platform Services	PointClickCare	Lever	Remote- Canada | REMOTE
+649	Senior Product Manager, Revenue Cycle Management AI	PointClickCare	Lever	Remote, USA | REMOTE
+1572	Senior Staff Product Manager, Device Security	1Password	Ashby	Remote (United States | Canada) | REMOTE
+656	Senior Staff Product Marketing Manager - Enterprise Password Manager	1Password	Ashby	Remote (United States | Canada) | REMOTE
+339	Sr. Manager, Enterprise Applications	OpenText	LinkedIn	Mississauga, Ontario, Canada
+672	Staff Product Manager, SaaS Manager	1Password	Ashby	Remote (United States | Canada) | REMOTE
+676	Systems Infrastructure Manager	Targeted Talent	Adzuna	Toronto, Ontario
+1129	Technical Director, MarTech	Manulife	Workday	Hong Kong
+1130	Technical Program Manager, AI Delivery	Cohere	Ashby	United States
+1131	Technical Program Manager, AI Delivery for Public Sector & Defense, France	Cohere	Ashby	France
+288	Technology Delivery Lead	TD Bank	Workday	Toronto, Ontario
+1140	Vice President / Director, Corporate Banking, Treasury & Payment Solutions (Energy)	BMO	Workday	Calgary, AB, CAN
+1158	VP Engineering	Lightspeed Commerce	Ashby	Northbrook, IL
+1161	VP, Commercial Banking Portfolio Manager	BMO	Workday	Salt Lake City, UT, USA
+295	VP, Compliance & Surveillance Technology Lead Developer	TD Bank	Workday	New York, New York
+296	VP, Compliance Transformation Program Manager	TD Bank	Workday	New York, New York
+695	VP, TDS U.S. Enterprise & Operational Risk Management	TD Bank	Workday	New York, New York
+113	Audit Manager II, Quality Assurance and Improvement Program- IT Audit (1094)	TD Bank	Workday	Toronto, Ontario
+114	Audit Manager, Applications Audit	BMO	Workday	Toronto, ON, CAN
+375	Audit Manager, IT Applications	BMO	Workday	2 Locations
+326	Business Systems Manager - Logistics	Charger Logistics Inc.	LinkedIn	Brampton, Ontario, Canada
+801	Canada- Outbound Product Manager (PEO)	PointClickCare	Lever	Remote or Mississauga | REMOTE | The Canada base salary range for this position is $115,000 - $135,000 and fulltime benefits. The range displayed on each job posting reflects the target for new hire salaries for the position across all CAD locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process.
+809	Client Application Product Owner	Sun Life	Workday	Taguig City, National Capital Region (Manila)
+405	DACH Regional Sales Lead – Enterprise Manufacturing	Tulip Interfaces	Greenhouse	EMEA - Remote | REMOTE
+300	Data Science Manager, Liquidity and Funding Management	BMO	Workday	Toronto, ON, CAN
+700	Data Technology Lead - C360	Sun Life	Workday	Taguig City, National Capital Region (Manila)
+407	Delivery Lead - Operations and Health Technology	Manulife	Workday	Makati City
+408	Delivery Manager	Insight Global	Adzuna	Toronto, Ontario
+827	Digital Customer Success Campaign Manager	1Password	Ashby	Remote (United States | Canada) | REMOTE
+828	Digital Marketing Automation Manager	Manulife	Workday	Boston, Massachusetts
+829	Digital Transformation Project Manager	Tulip Interfaces	Greenhouse	Somerville, MA
+830	Digital Transformation Project Manager - Life Sciences	Tulip Interfaces	Greenhouse	Somerville, MA
+1676	Engineering Manager & Product Lead, Float Intelligence	Float	Ashby	Canada | REMOTE
+1331	Engineering Manager - Partner Platform	OpenTable	LinkedIn	Toronto, Ontario, Canada
+1678	Engineering Manager, FDE Agentic Platform	Cohere	Ashby	Toronto | REMOTE
+1679	Engineering Manager, FDE Infrastructure (NORAM)	Cohere	Ashby	Canada | REMOTE
+1680	Engineering Manager, FDE Infrastructure (UK)	Cohere	Ashby	United Kingdom | REMOTE
+177	Enterprise Customer Success Manager	MaintainX	Adzuna	Toronto, Ontario
+1340	Enterprise Resource Planning (Erp) Manager	Muskoka Roastery Coffee Co	Job Bank	Huntsville (ON) | $82,500.00 annually
+1341	ERP Manager	Aplin	LinkedIn	Kingsville, Ontario, Canada | REMOTE
+450	Global Product Owner, Observability	BMO	Workday	Toronto, ON, CAN
+919	Group Product Manager - Core Services	Wave	Lever	Toronto, Ontario | REMOTE | Final compensation is determined based on experience, expertise, and role alignment. Most candidates are hired within the middle of the range, with the upper end reserved for those bringing exceptional depth, impact, and immediate autonomy. We also offer: - Bonus Structure - Employer-paid Benefits Plan - Health & Wellness Flex Account - Wellness Days - Holiday Shutdown - Wave Days (extra vacation days in the summer) Visit our site to find out more about life at Wave!
+453	Group Product Manager - Home Financing	BMO	Workday	Toronto, ON, CAN
+454	Group Product Manager - Transaction Banking Payment Product (Everyday Payments)	CIBC	Workday	Toronto, ON
+920	Growth Product Manager	Float	Ashby	Canada | REMOTE
+931	Information Technology (It) Implementation Manager	Surrey Police Service	Job Bank	Surrey (BC) | $59.84 hourly
+932	Information Technology (It) Implementation Manager	City of Vancouver	Job Bank	Vancouver (BC) | $62.53 hourly
+185	Information Technology Audit Manager	Sun Life	Workday	Toronto, Ontario
+186	Information Technology Manager	ESBE Scientific	LinkedIn	Greater Toronto Area, Canada
+471	Information Technology Manager	PrecisionERP / PrecisionIT	LinkedIn	Montreal, Quebec, Canada | REMOTE
+96	IT & Business Systems Manager	Atlantic Industries Limited	LinkedIn	Cambridge, Ontario, Canada
+190	IT and Compliance Manager	Jonas Software	LinkedIn	Halifax, Nova Scotia, Canada | REMOTE
+937	IT Asset Manager	BNP Paribas	LinkedIn	Montreal, Quebec, Canada | REMOTE
+330	IT Associate Manager	Huawei Canada	LinkedIn	Markham, Ontario, Canada
+191	IT Audit Manager I (ATH 1057)	TD Bank	Workday	TD Centre - West - 100 Wellington Street West, Toronto, Ontario
+97	IT Business Operations Manager	JELD-WEN of Canada	LinkedIn	Woodbridge, Ontario, Canada
+1368	IT End User Support Manager	KPMG Canada	LinkedIn	Toronto, Ontario, Canada
+1664	IT Engineering Manager	TJX Canada – Winners, Marshalls, HomeSense	LinkedIn	Mississauga, Ontario, Canada
+193	IT Manager	BYD Canada	LinkedIn	Toronto, Ontario, Canada
+194	IT Manager	exacare ai	LinkedIn	Toronto, Ontario, Canada
+195	IT Manager	The HIDI Group	Adzuna	Toronto, Ontario
+196	IT Manager	MetCap Living Management Inc	Adzuna	Toronto, Ontario
+331	IT Manager	MGI Construction Corp.	LinkedIn	Etobicoke, Ontario, Canada
+475	IT Manager	Techo-Bloc	LinkedIn	Saint-Hubert, Quebec, Canada | REMOTE
+476	IT Manager	Nakisa	LinkedIn	Montreal, Quebec, Canada | REMOTE
+477	IT Manager	Safe Fleet	LinkedIn	Montreal, Quebec, Canada | REMOTE
+197	IT Project Manager	Manulife	Workday	Toronto, Ontario
+478	IT Project Manager (Canada) - North American Service Delivery Group	Canadian Bank Note Company	Adzuna	Ottawa, Ottawa region
+944	IT Project Manager( New Product Implementation Project )	Manulife	Workday	Tokyo
+1369	IT Security Manager	Sun Life	Workday	Jakarta Selatan, Jakarta Raya
+480	IT Service Delivery Lead	Manulife	Workday	Quezon City
+1682	IT Support Manager	People Can Fly Studio	LinkedIn	Montreal, Quebec, Canada | REMOTE
+483	Lead Business Analyst, Public Markets Technology	CPP Investments	Workday	Toronto
+199	Lead Contact Center Technology Engineer	Shift4 Payments	Adzuna	Toronto, Ontario
+713	Lead Data Scientist	Cohere	Ashby	United States | REMOTE
+736	Lead Developer, Embedded Engineering	Geotab	Greenhouse	Oakville, Ontario - Canada; Waterloo, Ontario - Canada
+484	Lead Embedded Software in the Loop Developer	Geotab	Greenhouse	Oakville, Ontario - Canada; Toronto, Ontario - Canada; Waterloo, Ontario - Canada
+200	Lead Engineer, Credit Investments, Alternative Investments Technology	CPP Investments	Workday	Toronto
+201	Lead Engineer, Total Fund Management Financing, Public Markets Technology	CPP Investments	Workday	Toronto
+1683	Lead Infrastructure Support Engineer	CIBC	Workday	Toronto, ON
+714	Lead Platform Engineer	Royal Bank of Canada	Adzuna	Canada | REMOTE
+1174	Lead Power Platform Solutions Engineer	Manulife	Workday	CAN, Quebec - Full Time Remote
+486	Lead Software Developer	Geotab	Greenhouse	Oakville, Ontario - Canada; Toronto, Ontario - Canada; Waterloo, Ontario - Canada
+1381	Lead Software Engineer, API Integrations	CIBC	Workday	Chicago, IL
+208	Lead, Enterprise Employee Resource Group Program	BMO	Workday	Toronto, ON, CAN
+949	Lead, Motion & Product Marketing Design	Wealthsimple	Ashby	Remote (Canada) | REMOTE
+950	Lead, People Systems - Payroll, Absence and Time-Tracking	Wealthsimple	Ashby	Remote (Canada) | REMOTE
+491	Lead, Reliability Engineering	BMO	Workday	Toronto, ON, CAN
+957	Manager / Senior Manager, Technology Delivery	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+48	Manager IT Production Operations	Fidelity Canada	LinkedIn	Toronto, Ontario, Canada
+1665	Manager Software Engineering	PointClickCare	LinkedIn	Mississauga, Ontario, Canada
+1684	Manager Software Engineering	Ultra Maritime	LinkedIn	Dartmouth, Nova Scotia, Canada | REMOTE
+212	Manager, Computer Applications	CommerceBear	Job Bank	Toronto (ON) | $40.00 to $92.00 hourly
+213	Manager, Credit Risk Automation, TD Auto Finance (ATH 5028)	TD Bank	Workday	Toronto, Ontario
+715	Manager, Customer Analytics (Sales & Marketing)	Jobber	Ashby	Toronto | REMOTE
+80	Manager, Data Vendor Management	OTPP (Ontario Teachers)	Workday	Toronto, Canada
+507	Manager, Embedded Credit Card Insurance Products	BMO	Workday	Toronto, ON, CAN
+215	Manager, Employee and Community Giving Enablement and Operations	BMO	Workday	Toronto, ON, CAN
+738	Manager, Energy and Technical Services	OMERS	Workday	Mississauga, Ontario
+508	Manager, Engineering (iOS)	TD Bank	Workday	Toronto, Ontario
+216	Manager, Enterprise Capital Management	TD Bank	Workday	Toronto, Ontario
+217	Manager, Enterprise Operational Risk (24-month Contract)	OMERS	Workday	Toronto, Ontario
+218	Manager, Enterprise Resilience	CPP Investments	Workday	Toronto
+963	Manager, Facilities & Security / Gestionnaire, Installations et sécurité	CDEV	Adzuna	Toronto, Ontario
+510	Manager, Finance Systems and Processes	Viral Nation	LinkedIn	Toronto, Ontario, Canada
+511	Manager, Finance Systems and Processes	Viral Nation Inc.	Adzuna	Toronto, Ontario
+220	Manager, Global Markets Operations- Derivatives & Cash Products	OTPP (Ontario Teachers)	Workday	Toronto, Canada
+513	Manager, Healthcare Solutions	Deloitte	Adzuna	Toronto, Ontario
+514	Manager, Innovation and Transformation/Gestionnaire, Innovation et Transformation	Kitco Metals Inc.	LinkedIn	Montreal, Quebec, Canada | REMOTE
+336	Manager, It (Information Technology) Implementation	Powerhouse Controls Limited	Job Bank	Cambridge (ON) | $40.00 to $92.00 hourly
+969	Manager, It (Information Technology) Implementation	Mariner	Job Bank	Moncton (NB) | $43.75 to $103.37 hourly
+101	Manager, IT Business Systems	East Penn Canada	LinkedIn	Courtice, Ontario, Canada
+520	Manager, Learning Systems	Doane Grant Thornton LLP	LinkedIn	Toronto, Ontario, Canada
+971	Manager, Machine Learning Engineering	Clio	Workday	4 Locations
+229	Manager, Marketing Strategy & Transformation	Manulife	Workday	Toronto, Ontario
+523	Manager, P&C Systems	Ontario Teachers' Pension Plan	LinkedIn	Toronto, Ontario, Canada
+524	Manager, P&C Systems	OTPP (Ontario Teachers)	Workday	Toronto, Canada
+526	Manager, Portfolio Management Group	BMO	Workday	Toronto, ON, CAN
+975	Manager, Product Delivery & Governance	Manulife	Workday	Hong Kong
+528	Manager, Product Marketing	Geotab	Greenhouse	Oakville, Ontario - Canada; Toronto, Ontario - Canada; Waterloo, Ontario - Canada
+718	Manager, Reporting, Advanced Analytics and Automation	Manulife	Workday	2 Locations
+719	Manager, Reporting, Advanced Analytics and Automation ( Financial Risk )	Manulife	Workday	2 Locations
+312	Manager, Sales Compensation & Analytics	BMO	Workday	Toronto, ON, CAN
+1185	Manager, Security and Emergency Management	OMERS	Workday	Mississauga, Ontario
+1686	Manager, Security Engineering	Cohere	Ashby	United States
+531	Manager, Site Reliability Engineering	Northbridge Financial Corporation	Adzuna	Toronto, Ontario
+982	Manager, Software Developer - Quantitative Market Risk	Wealthsimple	Ashby	Remote (Canada) | REMOTE
+1428	Manager, Software Engineering	Emburse	LinkedIn	Toronto, Ontario, Canada
+1667	Manager, Software Engineering	Mastercard	LinkedIn	North York, Ontario, Canada
+1687	Manager, Software Engineering	AltaML	LinkedIn	Calgary, Alberta, Canada | REMOTE
+1688	Manager, Software Engineering	Pacific Blue Cross	LinkedIn	Burnaby, British Columbia, Canada | REMOTE
+1689	Manager, Software Engineering	Top Hat	Ashby	Canada | REMOTE
+1429	Manager, Software Engineering, General	Jobber	LinkedIn	Toronto, Ontario, Canada
+1431	Manager, Systems Engineering	Clio	Workday	2 Locations
+1432	Manager, Systems Engineering, Production	Clio	Workday	4 Locations
+231	Manager, Technology Risk & Controls	OMERS	Workday	Toronto, Ontario
+232	Manager, Technology Workplace Services	EQ Bank	LinkedIn	Toronto, Ontario, Canada
+1434	Manager, Workday & HCM	Canadian Tire Corporation	LinkedIn	Toronto, Ontario, Canada
+720	Marketing Data Manager	Jobber	Ashby	Edmonton | REMOTE
+721	Marketing Data Science Manager	Mozilla	Greenhouse	Remote US | REMOTE
+547	National Manager, Sales Excellence & Enablement	BMO	Workday	Toronto, ON, CAN
+1176	People Analytics Data & Reporting Lead	Manulife	Workday	Quezon City
+313	People Operations Manager, Data & Reporting	Cohere	Ashby	Toronto | REMOTE
+51	PMO Manager, Portfolio Governance & Operations	Spin Master International	Adzuna	Toronto, Ontario | $95,000 - $105,000
+554	Portfolio Manager, Dynamic Portfolio Management	CPP Investments	Workday	Toronto
+555	Portfolio Manager, Portfolio Construction & Risk	CPP Investments	Workday	Toronto
+1017	Product Design Manager, Enterprise	Clio	Workday	3 Locations
+568	Product Manager	The Home Depot Canada	Adzuna	East York, Toronto
+1018	Product Manager	Nylas	Ashby	Remote - Toronto, Ontario | REMOTE
+1019	Product Manager - Asset Inspections	Geotab	Greenhouse	Oakville, Ontario - Canada; Toronto, Ontario - Canada; Waterloo, Ontario - Canada
+1020	Product Manager – Orders Management (Senior Care)	PointClickCare	Lever	Remote, USA | REMOTE
+1021	Product Manager, Agent Harness & Modelling	Cohere	Ashby	Toronto | REMOTE
+570	Product Manager, Chequing	BMO	Workday	Toronto, ON, CAN
+1024	Product Manager, Mid-Market Activation	Float	Ashby	Toronto, Canada | REMOTE
+571	Product Manager, Retail Investments	BMO	Workday	Toronto, ON, CAN
+1025	Product Marketing Manager	Nylas	Ashby	Remote - Canada | REMOTE
+1026	Product Marketing Manager (Partnerships)	Jobber	Ashby	Toronto | REMOTE
+572	Product Operations Manager, Cards & Spend Management	Float	Ashby	Toronto, Canada | REMOTE
+1466	Product Owner Digital Operation	Sun Life	Workday	Taguig City, National Capital Region (Manila)
+573	Product Owner I	TD Bank	Adzuna	Toronto, Ontario
+575	Program Manager, Program Management & Delivery	OMERS	Workday	Toronto, Ontario
+52	Program Manager, Technology & Operations Skills Development	BMO	Workday	Toronto, ON, CAN
+242	Project Manager, Technology	Ontario Medical Association	Adzuna	Toronto, Ontario
+584	Revenue Enablement Manager, Sales	Hootsuite	Greenhouse	Toronto, Ontario, Canada, Vancouver, New York, Texas, North Carolina
+1177	Revenue Strategy & Data Analytics Lead	Tulip Interfaces	Greenhouse	Somerville, MA
+586	Revenue Technology Manager	Jobber	Ashby	Toronto | REMOTE
+245	RevOps Workflow Automation Manager	Sage	Adzuna	Toronto, Ontario
+1694	SAP SuccessFactors Performance Management & Learning, Manager	PwC Canada	LinkedIn	Vancouver, British Columbia, Canada | REMOTE
+590	Senior .NET Developer, SaaS Manager	1Password	Ashby	Remote (United States | Canada) | REMOTE
+591	Senior Application Manager	Flyover	LinkedIn	Vancouver, British Columbia, Canada | REMOTE
+1506	Senior Cloud Security Manager	Manulife	Workday	Quezon City
+724	Senior Customer Analytics Manager	Jobber	Ashby	Toronto | REMOTE
+725	Senior Customer Analytics Manager (Sales & Partnerships)	Jobber	Ashby	Toronto | REMOTE
+606	Senior Information Security Specialist / Audit & Operational Security Compliance Lead	TD Bank	Workday	Toronto, Ontario
+608	Senior IT Service Delivery Lead (Manager)	Manulife	Workday	Quezon City
+609	Senior Lead, Enterprise Partnerships & Strategy	Mozilla	Greenhouse	Remote Canada | REMOTE
+611	Senior Manager, Actuarial - Life & Health Product Development & Strategic Initiatives	TD Bank	Workday	Toronto, Ontario
+321	Senior Manager, Capital Markets Controllership Business Initiatives & Analytics	CIBC	Workday	Toronto, ON
+84	Senior Manager, Data Governance Implementation	Aviso Wealth	Adzuna	Toronto, Ontario
+322	Senior Manager, Data, Reporting & Insights	TD Bank	Workday	Toronto, Ontario
+620	Senior Manager, DI Education Delivery and Strategic Initiatives	TD Bank	Workday	Toronto, Ontario
+622	Senior Manager, Engineering	TD Bank	Workday	Toronto, Ontario
+627	Senior Manager, Financial Systems - Operate	Deloitte	Adzuna	Toronto, Ontario
+260	Senior Manager, Future of Work & Emerging Technology (Strategy Lead) (18 Month Contract)	Deloitte	Adzuna	Toronto, Ontario
+57	Senior Manager, Global Operations AI	Manulife	Workday	Toronto, Ontario
+1089	Senior Manager, Information Security, CSIRT	TD Bank	Workday	Toronto, Ontario
+262	Senior Manager, Internal Audit - IT & Payments	Metrolinx	Adzuna	Railway Lands, City of Toronto
+263	Senior Manager, IT - Global Procure to Pay	Kraft Heinz	LinkedIn	Toronto, Ontario, Canada
+264	Senior Manager, IT Business Partner	Celestica	LinkedIn	Toronto, Ontario, Canada
+323	Senior Manager, Marketing Analytics	Heart & Stroke	Adzuna	Davisville, City of Toronto
+58	Senior Manager, Model & AI Governance	BMO	Workday	Toronto, ON, CAN
+631	Senior Manager, Network Services & Delivery	Great Canadian Casinos	Adzuna	Etobicoke, Toronto
+635	Senior Manager, Product Control	TD Bank	Workday	Toronto, Ontario
+1090	Senior Manager, Product Lifecycle Marketing	Wave	Lever	Toronto, Ontario | REMOTE | Final compensation is determined based on experience, expertise, and role alignment. Most candidates are hired within the middle of the range, with the upper end reserved for those bringing exceptional depth, impact, and immediate autonomy. We also offer: - Bonus Structure - Employer-paid Benefits Plan - Health & Wellness Flex Account - Wellness Days - Holiday Shutdown - Wave Days (extra vacation days in the summer) Visit our site to find out more about life at Wave!
+636	Senior Manager, Product Management	CIBC	Workday	Toronto, ON
+637	Senior Manager, Product Owner II	TD Bank	Workday	Toronto, Ontario
+266	Senior Manager, Transformation and Change Management	BMO	Workday	Toronto, ON, CAN
+324	Senior Manager, Wealth Growth & Analytics	BMO	Workday	Toronto, ON, CAN
+267	Senior Manager, Wealth Management Technology Development	BMO	Workday	Toronto, ON, CAN
+647	Senior Product Manager ⭐	Achievers	Lever	Toronto
+1550	Senior Product Manager, Billing Systems	Clio	Workday	6 Locations
+648	Senior Product Manager, Client Onboarding	BMO	Workday	Toronto, ON, CAN
+1096	Senior Product Manager, Franchise	Jobber	Ashby	Toronto | REMOTE
+1097	Senior Product Manager, Machine Identity	1Password	Ashby	Remote (United States | Canada) | REMOTE
+1098	Senior Product Manager, Mobile	Mozilla	Greenhouse	Remote Germany | REMOTE
+650	Senior Product Manager, Risk Operations	Wave	Lever	Canada | REMOTE | Final compensation is determined based on experience, expertise, and role alignment. Most candidates are hired within the middle of the range, with the upper end reserved for those bringing exceptional depth, impact, and immediate autonomy. We also offer: - Bonus Structure - Employer-paid Benefits Plan - Health & Wellness Flex Account - Wellness Days - Holiday Shutdown - Wave Days (extra vacation days in the summer) Visit our site to find out more about life at Wave!
+1099	Senior Product Manager, Scaled Spend Control	Float	Ashby	Toronto, Canada | REMOTE
+1100	Senior Product Manager, Social & Community	Wealthsimple	Ashby	Remote (Canada) | REMOTE
+1101	Senior Product Marketing Manager	Float	Ashby	Toronto, Canada | REMOTE
+271	Senior Project Manager, Service Delivery	SS&C	Adzuna	Toronto, Ontario | $120,000 - $170,000
+658	Senior Technical Account Manager	Air-tek	Adzuna	Toronto, Ontario | $150,000 - $180,000
+1109	Senior Technical Account Manager	1Password	Ashby	Remote (United States | Canada) | REMOTE
+659	Senior Technical Program Manager (Auth0)	Okta	Adzuna	Toronto, Ontario | $108,000 - $148,500
+273	Senior Technology Manager	BMO	Workday	Toronto, ON, CAN
+274	Senior Technology Manager, Loan Servicing Technology	BMO	Workday	Toronto, ON, CAN
+276	Service Delivery Manager	J M Group Inc	Adzuna	Toronto, Ontario
+277	Service Delivery Manager	TekWissen LLC	Adzuna	Toronto, Ontario | $115,273 - $115,273
+1696	Software Engineering Manager	Helcim	LinkedIn	Calgary, Alberta, Canada | REMOTE
+278	Sr Manager - AI Assurance & Audit	BMO	Workday	Toronto, ON, CAN
+282	Sr. Manager, Enterprise Business Continuity Risk Management	BMO	Workday	Toronto, ON, CAN
+667	Sr. Manager, Process Engineering	CIBC	Workday	Toronto, ON
+727	Sr. Manager, US Data & AI Risk Management Operational Risk	CIBC	Workday	Chicago, IL
+1120	Staff and Senior Product Manager (Multiple Roles, Multiple Teams)	Wealthsimple	Ashby	Remote (Canada) | REMOTE
+1121	Staff Product Manager (Agentic)	Loopio	Ashby	Toronto, ON Hub | REMOTE
+671	Staff Product Manager, Marketplace Quality	Faire	Greenhouse	New York City, NY; San Francisco, CA; Toronto, ON
+1122	Staff Product Manager, Search Experiences	Mozilla	Greenhouse	Remote US | REMOTE
+1123	Staff Product Manager, Vincent Enterprise	Clio	Workday	5 Locations
+1124	Staff Technical Account Manager	1Password	Ashby	United Kingdom | REMOTE
+1125	Staff Technical Account Manager (German)	1Password	Ashby	United Kingdom | REMOTE
+728	Strategic Finance Analytics Manager (Canada)	PointClickCare	Lever	Remote or Mississauga | REMOTE | At PointClickCare, base salary is one of the many components that make up our total rewards package. The Canada base salary range for this position is $108,000 - $120,000 + bonus + benefits, non-overtime eligible. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all Canada locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. Corp - C Professional - 4
+729	Strategic Finance Analytics Manager (USA)	PointClickCare	Lever	Remote, USA | REMOTE | At PointClickCare, base salary is one of the many components that make up our total rewards package. The US base salary range for this position is $133,000 - $147,000 + bonus + benefits, non-overtime eligible. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all US locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process. Corp - C Professional - 4
+283	Strategic Sourcing Manager - Technology	BMO	Workday	Toronto, ON, CAN
+677	Systems Manager - Financial Systems Functional Analysis	Spotify	LinkedIn	Toronto, Ontario, Canada
+1128	Talent Acquisition Program Manager - Strategy, Technology & Enablement	Sun Life	Workday	3 Locations
+62	Technology Development and Innovation Manager	BMO	Workday	Toronto, ON, CAN
+1134	US- Outbound Product Manager (PEO)	PointClickCare	Lever	Remote, USA | REMOTE | The US base salary range for this position is $120,000 - $142,000 and fulltime benefits. Our salary ranges are determined by job and level. The range displayed on each job posting reflects the target for new hire salaries for the position across all US locations. Within the range, individual compensation is determined by job-related skills and knowledge, relevant experience including professional and lived experience, and/or work location. Your recruiter can share more information about our total rewards package during the hiring process.
+696	Water Treatment Engineering Lead	True Environmental	Adzuna	Toronto, Ontario | $130,000 - $170,000
+1188	(Assistant) Manager, Product Marketing, Asia	Manulife	Workday	Hong Kong
+1190	[Wattpad] Engineering Manager	Wattpad	Lever	Toronto, Ontario
+1217	Agile Product Owner Manager/Assistant Manager	Manulife	Workday	Hatsudai Head Office
+752	AI Adoption Manager, Asia	Manulife	Workday	Hong Kong
+1219	Alternatives Client Portfolio Manager	CIBC	Workday	Boston, MA
+1171	Asia Group Functions Lead Data Engineer	Manulife	Workday	Hong Kong
+1229	Assistant Manager, Full Stack Software Engineer	Manulife	Workday	MITDC office, Vietnam
+1230	Assistant Manager, Portfolio Operations & Fund Reporting, Asia Asset Management	Sun Life	Workday	Taikoo Shing, Hong Kong Island
+759	Assistant Vice-President, Technology Lead, Health	Sun Life	Workday	3 Locations
+1261	Associate Portfolio Manager	BMO	Workday	Scottsdale, AZ, USA
+781	Audit Manager I (US) - Technology Audit	TD Bank	Workday	Mount Laurel, New Jersey
+788	Audit Manager, Technology	CIBC	Workday	2 Locations
+1286	Brand & Product Marketing Manager	Manulife	Workday	Myanmar, Kantharyar OfficeTower
+699	Business Systems Manager	Federal Signal Corporation	LinkedIn	Innisfil, Ontario, Canada
+1294	Client Portfolio Manager	Manulife	Workday	Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
+1674	Commercial Real Estate Asset Manager - Portfolio Manager/Underwriting	CIBC	Workday	Chicago, IL
+399	Compliance Transformation Program Manager	TD Bank	Workday	New York, New York
+1303	Credit Portfolio Manager I - RCB	TD Bank	Workday	Glassboro, New Jersey
+1304	Credit Portfolio Manager I - Regional Commercial Banking	TD Bank	Workday	2 Locations
+1305	Credit Portfolio Manager I - State & Municipal	TD Bank	Workday	6 Locations
+1328	eGRC Product Owner II (US) - Laws, Rules, and Regulations	TD Bank	Workday	13024 Ballantyne Corporate Place, Charlotte, North Carolina
+1329	Emerging Middle Market Portfolio Manager	BMO	Workday	3 Locations
+1333	Engineering Manager, Ads	Mozilla	LinkedIn	Toronto, Ontario, Canada
+1334	Engineering Manager, API Development	CIBC	Workday	Toronto, ON
+1677	Engineering Manager, Authentication Services	1Password	Ashby	Remote (United States | Canada) | REMOTE
+1335	Engineering Manager, Billing Configuration	Stripe	LinkedIn	Toronto, Ontario, Canada
+1704	Engineering Manager, GPU Infrastructure	Cohere	Ashby	United States
+1336	Engineering Manager, Metronome (Billing)	Stripe	LinkedIn	Toronto, Ontario, Canada
+1337	Engineering Manager, New User Experience	DoorDash	LinkedIn	Toronto, Ontario, Canada
+1338	Engineering Manager, Quality Engineering	AutoTrader.ca	Adzuna	Toronto, Ontario | $249,600 - $312,000
+1681	Front End Engineering Manager, Firefox Desktop	Mozilla	Greenhouse	Remote Canada | REMOTE
+1706	Gestionnaire du soutien TI/ IT Support Manager	People Can Fly	Adzuna	Montréal, Québec
+1355	Group Product and Pricing Senior Manager	Manulife	Workday	Makati City
+938	IT Associate Manager	Huawei Technologies Canada Co., Ltd.	Adzuna	Unionville, York region
+939	IT Audit Manager	BMO	Workday	2 Locations
+1374	ITAM Delivery Manager	Sun Life	Workday	Taguig City, National Capital Region (Manila)
+1376	Lead DevOps Engineer	Tulip Interfaces	Greenhouse	Somerville, MA
+946	Lead Engineer, Alternative Investments Technology	CPP Investments	Workday	Mumbai
+1377	Lead Full Stack Software Engineer	Manulife	Workday	3 Locations
+1173	Lead Power Platform Reliability Engineer	Manulife	Workday	3 Locations
+956	Manager / Senior Manager, AI	Manulife	Workday	Hong Kong
+1393	Manager I, Digital Marketing	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+1399	Manager, AI Business Analyst	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+958	Manager, AI Engineer	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+1175	Manager, Analytics and Insights (Financial Crimes Network Analytics)	TD Bank	Workday	2 Locations
+335	Manager, Computer Applications	Plum	Job Bank	Waterloo (ON) | $40.00 to $92.00 hourly
+964	Manager, Finance Technology	Cooke Aquaculture Inc.	Adzuna	Saint John, Saint John region
+1416	Manager, Financial Systems and Control	Manulife	Workday	Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
+1419	Manager, IS Program Delivery	AltaLink	Adzuna	Calgary, Calgary region
+1420	Manager, Legal Architecture, SMB	Clio	Workday	2 Locations
+970	Manager, Machine Learning Engineer (US)	Clio	Workday	Remote - USA
+972	Manager, Operational Resilience & Technology Currency	BMO	Workday	Virtual, IL, USA
+1423	Manager, Product Marketing (17 Month Contract)	Clio	Workday	4 Locations
+1427	Manager, Software Design Engineer	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+1668	Manager, Software Engineering (Infra Foundations)	Affirm	LinkedIn	Oshawa, Ontario, Canada
+1450	MIMJ Portfolio Manager	Manulife	Workday	MIM-JP
+1455	Portfolio Manager	BMO	Workday	4 Locations
+1456	Portfolio Manager - Commercial Banking (Middle Market)	CIBC	Workday	Miami, FL
+1457	Portfolio Manager - Specialty Finance	CIBC	Workday	Chicago, IL
+1461	Product Go To Market (GTM) Lead	Manulife	Workday	Jakarta
+1462	Product Manager	Geotab	Greenhouse	Dubai - Dubai
+1463	Product Marketing Launch Manager	PagerDuty	Greenhouse	Atlanta
+1464	Product Marketing Manager	Tulip Interfaces	Greenhouse	Somerville, MA
+1465	Product Marketing Manager, Financial Services	Clio	Workday	4 Locations
+1467	Product Pricing, Pricing Manager	Manulife	Workday	Tokyo
+1719	Production Support Engineering Lead (OpenText)	CIBC	Workday	Chicago, IL
+1475	Project Manager – Business/Ops Planning & Integrated Delivery Lead	TD Bank	Workday	New York, New York
+1029	Project Manager, IT and RIM (2-year Contract)	Haisla Nation	Adzuna	Haisla, Kitimat-Stikine | $73,000 - $85,000
+1480	Quality Engineering Lead	Manulife	Workday	Makati City
+1497	Sales Enablement Lead (Remote)	Geotab	Greenhouse	Atlanta, Georgia - USA; Las Vegas, Nevada - USA
+1498	Sales Enablement Manager, Strategic & Mid-Market	Clio	Workday	4 Locations
+1500	Sales Strategic Initiatives Lead (Project Delivery & Execution)	Manulife	Workday	3 Locations
+1516	Senior Investment Portfolio Manager	BMO	Workday	Hinsdale, IL, USA
+1068	Senior IT Project Manager	Manulife	Workday	Makati City
+1518	Senior Manager / Manager, Product Management	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+1519	Senior Manager / Manager, Product Management (Product Day 2 Items)	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+1074	Senior Manager GenAI Scientist (Global Marketing AI)	Manulife	Workday	2 Locations
+1521	Senior Manager of Product Design, Clio Work: Drafting & Courts	Clio	Workday	5 Locations
+1178	Senior Manager, Analytics & Insights (US)- Finance-Decision Science	TD Bank	Workday	2 Locations
+1078	Senior Manager, Application Development (.Net, React, Databricks)	CIBC	Workday	Chicago, IL
+1083	Senior Manager, Customer Success Applications	Clio	Workday	4 Locations
+1526	Senior Manager, Customer Success Enablement	Clio	Workday	2 Locations
+1085	Senior Manager, Distribution Transformation	Manulife	Workday	Hong Kong
+1534	Senior Manager, Portfolio Management	Sun Life	Workday	Hunghom, Kowloon, Hong Kong
+1535	Senior Manager, Sales Enablement	Clio	Workday	2 Locations
+1545	Senior Portfolio Manager	BMO	Workday	New York, NY, USA
+1546	Senior Portfolio Manager	Manulife	Workday	Tokyo
+1548	Senior Product Manager	PagerDuty	Greenhouse	Atlanta; San Francisco
+1549	Senior Product Manager - Deposits	CIBC	Workday	Chicago, IL
+1551	Senior Product Manager, Certification	Clio	Workday	6 Locations
+1552	Senior Product Manager, Ex-Lawyers and Attorneys	Clio	Workday	5 Locations
+1553	Senior Product Manager, Intake	Clio	Workday	6 Locations
+1554	Senior Product Manager, Legal	Clio	Workday	3 Locations
+1555	Senior Product Manager, Onboarding and Activation	Clio	Workday	4 Locations
+1556	Senior Product Manager, Search Algorithms	Faire	Greenhouse	New York City, NY; San Francisco, CA
+1557	Senior Product Marketing Manager	Faire	Greenhouse	San Francisco, CA
+1573	Senior Technical Program Manager	Manulife	Workday	Hong Kong
+1575	Senior Wealth Brokerage Product Manager-NYC, NY	TD Bank	Workday	New York, New York
+1669	Software Engineering Manager	Technology Force Company Ltd.	Job Bank	Concord (ON) | $68.00 hourly
+1714	Sr Manager, Software Engineering	CIBC	Workday	Chicago, IL
+1585	Staff Product Manager, Inspire & App	Faire	Greenhouse	New York City, NY; San Francisco, CA
+1179	Strategy & Analytics Lead	Faire	Greenhouse	New York City, NY; San Francisco, CA
+1180	Strategy & Analytics Senior Lead	Faire	Greenhouse	New York City, NY; San Francisco, CA
+1181	Strategy & Analytics Senior Lead, Fulfillment	Faire	Greenhouse	San Francisco, CA
+1648	Technical Account Manager	Tulip Interfaces	Greenhouse	Somerville, MA
+1649	Technical Account Manager (12 Month Contract)	Hootsuite	Greenhouse	Maharashtra
+1650	Technical Supervisor -Calgary Telus Convention Center	Encore	Adzuna	Calgary, Calgary region
+1651	Technical Supervisor -Calgary Telus Convention Center	Encore Global	Adzuna	Downtown, Calgary
+1722	Technical Support Supervisor	Bath Fitter Corporate	Adzuna	Deux-Montagnes, Laurentides
+1133	Technology Audit Manager	TD Bank	Workday	Dublin, Ireland
+1654	US Digital Account Manager	BMO	Workday	Chicago, IL, USA
+1182	US Region Cybersecurity Platform Service Governance Owner	CIBC	Workday	Chicago, IL
+730	Vice President , Investment Banking - Vertical Software, Data and Analytics	TD Bank	Workday	New York, New York
+690	Vice President, Digital Product Management & Transformation	TD Bank	Workday	New York, New York
+88	Vice President, Enterprise Data and AI Platforms	Sun Life	Workday	2 Locations
+387	Cheffe, Chef d’équipe TI - Technologies des applications d’entreprise	La Maison Simons	LinkedIn	Québec, Quebec, Canada | REMOTE
+25	Directeur - Technologie et transformation numérique	Foliot Furniture / Meubles	LinkedIn	St-Jérôme, Quebec, Canada | REMOTE
+26	Directeur(trice), Technologie et Transformation numérique	Linen Chest	LinkedIn	Laval, Quebec, Canada | REMOTE
+176	Directrice, Directeur TI - Technologies des applications d'entreprise	La Maison Simons	LinkedIn	Québec, Quebec, Canada | REMOTE
+1663	Engineering Manager	Sun Life	Workday	Waterloo, Ontario
+1703	Engineering Manager	Cohere	Ashby	Germany
+1705	Engineering Manager, Manulife Bank	Manulife	Workday	2 Locations
+1496	Responsable, axe de travail Oracle HCM	Accenture	LinkedIn	Toronto, Ontario, Canada
+1711	Senior Engineering Manager - Discovery	Faire	Greenhouse	San Francisco, CA
+1712	Senior Engineering Manager, Identity & Access Management	Tulip Interfaces	Greenhouse	Somerville, MA
+688	Vice President - Transaction Banking Business & Product Transformation - Transaction Banking Product, TD Securities	TD Bank	Workday	2 Locations
+64	Vice President, AI Engineer	BMO	Workday	Toronto, ON, CAN
+87	Vice President, Data Scientist	BMO	Workday	Toronto, ON, CAN
+292	Vice President, Engineering	PSD	Adzuna	Toronto, Ontario
+1148	Vice President, Investment Banking - Communications & Media / Digital Infrastructure	TD Bank	Workday	New York, New York
+1145	Vice President, Business Initiatives Delivery - Capital Markets	BMO	Workday	New York, NY, USA

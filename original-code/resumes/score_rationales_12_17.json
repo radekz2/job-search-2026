@@ -1,0 +1,32 @@
+[
+  {
+    "link": "https://ca.linkedin.com/jobs/view/directeur-technologie-et-transformation-num%C3%A9rique-at-foliot-furniture-meubles-4456202996",
+    "title": "Directeur - Technologie et transformation numérique",
+    "score_rationale": "Scored 5.5 because the core mandate — a Director-of-Technology role with a ~$7M budget, ~10-person team, IT operations, vendor/governance and an AI/automation and data-governance roadmap — lines up well with Radek's enterprise-apps and people-leadership profile. The score is capped by it being a French-primary, bilingual-required posting in Quebec (St-Jérôme), and by the strongly-desired SAP/MES manufacturing background Radek does not have."
+  },
+  {
+    "link": "https://ca.linkedin.com/jobs/view/director-ai-native-sdlc-at-scotiabank-4438371090",
+    "title": "Director, AI Native SDLC",
+    "score_rationale": "Held at 5.0 because the enterprise SDLC policy/standards/governance ownership and responsible-AI alignment in Toronto echo Radek's authored GenAI policy work. The number is kept moderate because this is fundamentally a hands-on dev-team leader role requiring daily TypeScript/JavaScript/Python coding, code reviews and building production-grade RAG/MCP systems plus GitHub Actions — squarely against Radek's no-hands-on-coding preference."
+  },
+  {
+    "link": "https://bmo.wd3.myworkdayjobs.com/en-US/External/job/Toronto-ON-CAN/Director--AI-Research---Ecosystems_R260019583",
+    "title": "Director, AI Research & Ecosystems",
+    "score_rationale": "Graded 5.0 because it overlaps Radek's responsible-AI governance and enterprise strategy/partnership strengths at the right seniority and location (Toronto, Director). It is held down by the requirement for a Master's/PhD and 10+ years as an AI research leader with publications, and by the core scope being industry research and thought leadership rather than enterprise-applications or service-management leadership."
+  },
+  {
+    "link": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Toronto-Ontario/Director--Data-Platform-Engineering_R_1506230",
+    "title": "Director, Data Platform Engineering",
+    "score_rationale": "Scored 5.0 because the strategy, budget, vendor and governance ownership of a data/analytics platform matches Radek's data-platform and portfolio leadership. It is capped by the mandate to lead multiple engineering teams building Databricks/Spark/Delta Lake systems and by the expected deep hands-on Java/Python, distributed-systems and CI/CD/Kubernetes depth — engineering-team leadership that sits outside Radek's profile."
+  },
+  {
+    "link": "https://sunlife.wd3.myworkdayjobs.com/en-US/Experienced-Jobs/job/Waterloo-Ontario/Director--Domain-Enterprise-Architect--AI-_JR00126513",
+    "title": "Director, Domain Enterprise Architect (AI)",
+    "score_rationale": "Graded 5.0 because responsible-AI governance, enterprise standards/roadmap and executive engagement overlap Radek's AI-governance work, with Director-level architecture leadership in a regulated insurer. The score is capped by the demand for 10+ years of architecture leadership and deep GenAI/Agentic-AI/LLM and orchestration technical-architecture expertise Radek lacks, plus the Waterloo (non-Toronto) location."
+  },
+  {
+    "link": "https://otppb.wd3.myworkdayjobs.com/en-US/OntarioTeachers_Careers/job/Toronto-Canada/Director--Enterprise-Architect--Portfolio-Lead_7218",
+    "title": "Director, Enterprise Architect, Portfolio Lead",
+    "score_rationale": "Scored 4.5 because architecture governance, modernization/technical-debt and build-vs-buy/vendor decisions echo Radek's roadmap strengths, but only weakly. It is lowered by being an individual-contributor architect role that leads through expertise and influence with no direct reports — conflicting with Radek's people-leadership target — and by the requirement for 10+ years of dedicated enterprise-architecture practice with TOGAF/SAFe certification."
+  }
+]
